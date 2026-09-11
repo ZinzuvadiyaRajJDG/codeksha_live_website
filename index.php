@@ -1,0 +1,1015 @@
+<?php @include __DIR__ . '/inc/tracker.php'; /* analytics */ ?>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IT Training Institute in Rajkot | Codeksha</title>
+    <meta
+      name="description"
+      content="Codeksha is an IT training institute in Rajkot teaching full stack, backend, frontend, Laravel and WordPress through classroom, project-based courses."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://codeksha.com/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Codeksha" />
+    <meta property="og:title" content="IT Training Institute in Rajkot | Codeksha" />
+    <meta
+      property="og:description"
+      content="Classroom, project-based IT training in Rajkot - Full Stack Development, Backend Programming, Frontend Design, Laravel and WordPress, taught by working developers."
+    />
+    <meta property="og:url" content="https://codeksha.com/" />
+    <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta property="og:locale" content="en_IN" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="IT Training Institute in Rajkot | Codeksha" />
+    <meta
+      name="twitter:description"
+      content="Classroom, project-based IT training in Rajkot - Full Stack Development, Backend Programming, Frontend Design, Laravel and WordPress."
+    />
+    <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+
+    <?php require __DIR__ . '/inc/partials/head.php'; ?>
+
+    <!-- Organization + EducationalOrganization schema (verified NAP only) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "Codeksha",
+      "url": "https://codeksha.com/",
+      "logo": "https://codeksha.com/Images/Codeksha-Logo.png",
+      "email": "info@codeksha.com",
+      "telephone": "+91-6355559016",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "A-1110, RK Iconic, Near Sheetal Park, 150 Feet Ring Rd",
+        "addressLocality": "Rajkot",
+        "addressRegion": "Gujarat",
+        "postalCode": "360006",
+        "addressCountry": "IN"
+      },
+      "sameAs": [
+        "https://www.instagram.com/codeksha_official",
+        "https://www.linkedin.com/company/codeksha/",
+        "https://x.com/TeamCodeksha"
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Codeksha",
+      "url": "https://codeksha.com/"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Which IT courses does Codeksha offer in Rajkot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Codeksha offers classroom courses in Full Stack Development, Backend Programming, Frontend Design, Laravel and WordPress & CMS Tools at our Rajkot training centre."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the training classroom-based or online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Codeksha runs on-premise classroom training at our Rajkot location, so you learn in a real-world training environment alongside other students."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who teaches the courses at Codeksha?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Courses are taught by developers who work on real client projects, not traditional classroom teachers, so you learn current, practical techniques from people actively building software."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Codeksha provide live-project training?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every course includes hands-on, live project assignments alongside classroom instruction, so you apply what you learn to real-world scenarios rather than isolated exercises."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Codeksha suitable for beginners?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Our Full Stack Development, Backend Programming, Frontend Design, Laravel and WordPress & CMS Tools courses are all offered at a beginner level, with no entrance exam required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Laravel and WordPress training available in Rajkot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, both are taught as dedicated courses at our Rajkot centre: a Laravel course covering PHP-based web application development, and a WordPress & CMS Tools course covering theme customisation and WooCommerce store setup."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is Codeksha located?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Codeksha is located at A-1110, RK Iconic, Near Sheetal Park, 150 Feet Ring Rd, Rajkot, Gujarat 360006. You can reach us at +91 6355559016 or info@codeksha.com."
+          }
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <!-- TOP BANNER -->
+    <div class="top-banner">
+      <p>
+        Brand new Course Package released! Get 10% off your first purchase with
+        code “CK-10OFF”. <a href="#">Find out more!</a>
+      </p>
+    </div>
+
+    <!-- HEADER -->
+    <?php $ck_active = 'home'; require __DIR__ . '/inc/partials/nav.php'; ?>
+
+    <!-- HERO BANNER SECTION -->
+    <section class="hero-banner-section">
+      <div class="container hero-container">
+        
+        <!-- Left Column: Branding Text, CTA & Metrics -->
+        <div class="hero-left">
+          <h1 class="hero-title">
+            Learn From <span class="highlight-blue">Real Developers</span> at Codeksha's <span class="highlight-dark">IT Training Institute in Rajkot</span>
+          </h1>
+          <p class="hero-subtitle">
+            Classroom, project-based courses in Full Stack Development, Backend Programming, Frontend Design, Laravel and WordPress - taught by working developers, not traditional teachers.
+          </p>
+
+          <div class="hero-cta-wrapper">
+            <a href="#courses" class="hero-enroll-btn">
+              <span>Enroll Now</span>
+              <div class="arrow-btn-circle">
+                <i data-lucide="arrow-right"></i>
+              </div>
+            </a>
+          </div>
+
+          <!-- Hero Footer Metrics Grid -->
+          <div class="hero-metrics-grid">
+            <div class="metric-box skill-cert-box">
+              <div class="badge-icon">
+                <i data-lucide="award"></i>
+              </div>
+              <div class="metric-info">
+                <strong>Codeksha</strong>
+                <span>Skill Certified</span>
+              </div>
+            </div>
+
+            <div class="metric-divider"></div>
+
+            <div class="metric-box exp-box">
+              <span class="wreath-leaf-icon">
+                <svg width="22" height="32" viewBox="0 0 24 36" fill="#f59e0b">
+                  <path d="M14 34C9 28 8 18 15 6C17 3 19 1 20 0C19 4 18 8 19 12C16 9 12 9 10 11C14 13 16 15 17 18C12 17 9 18 8 20C12 21 14 23 15 25C11 25 9 27 9 29C13 29 15 28 17 26C15 29 14 32 14 34Z"/>
+                </svg>
+              </span>
+              <div class="metric-info">
+                <strong>10+</strong>
+                <span>Years of Experience</span>
+              </div>
+              <span class="wreath-leaf-icon flip">
+                <svg width="22" height="32" viewBox="0 0 24 36" fill="#f59e0b">
+                  <path d="M14 34C9 28 8 18 15 6C17 3 19 1 20 0C19 4 18 8 19 12C16 9 12 9 10 11C14 13 16 15 17 18C12 17 9 18 8 20C12 21 14 23 15 25C11 25 9 27 9 29C13 29 15 28 17 26C15 29 14 32 14 34Z"/>
+                </svg>
+              </span>
+            </div>
+
+            <div class="metric-divider"></div>
+
+            <div class="metric-box rating-box">
+              <div class="metric-info">
+                <div class="rating-top">
+                  <strong class="rating-num">4.85</strong>
+                  <div class="stars-gold">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <span class="student-count">10,000+ Students</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Full Container Slider -->
+        <div class="hero-right" id="heroRightContainer">
+          <div class="spotlight-circle"></div>
+
+          <div class="hero-full-slider-wrapper">
+            <div class="hero-full-slider-track" id="heroFullTrack">
+              
+              <!-- Full Slide 1: Harmi -->
+              <div class="hero-full-slide">
+                <div class="hero-mentor-box">
+                  <img src="/Images/review1.webp" alt="Harmi - Codeksha Review 1" class="hero-big-student-img" width="1536" height="1024">
+                </div>
+                <div class="hero-quote-card">
+                  <p class="card-quote">
+                    "I'm currently taking training from Codeksha and it's been a great experience! The supportive environment helps me stay focused on learning and gaining hands-on exposure to backend fundamentals & APIs."
+                  </p>
+                  <div class="card-author">
+                    <div class="author-details">
+                      <strong class="author-name">Harmi</strong>
+                      <span class="author-role">Backend Trainee @ Codeksha</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Full Slide 2: Nensi -->
+              <div class="hero-full-slide">
+                <div class="hero-mentor-box">
+                  <img src="/Images/review2.webp" alt="Nensi Patel - Codeksha Review 2" class="hero-big-student-img" width="1536" height="1024">
+                </div>
+                <div class="hero-quote-card">
+                  <p class="card-quote">
+                    "Codeksha stands out as a leading institute in Rajkot for gaining real-world IT industry exposure. I'm proud to be a part of Codeksha, where continuous learning opens doors to hands-on experience."
+                  </p>
+                  <div class="card-author">
+                    <div class="author-details">
+                      <strong class="author-name">Nensi Patel</strong>
+                      <span class="author-role">Frontend Engineer @ IT Industry</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Full Slide 3: Shivraj -->
+              <div class="hero-full-slide">
+                <div class="hero-mentor-box">
+                  <img src="/Images/review3.webp" alt="Shivraj Vala - Codeksha Review 3" class="hero-big-student-img" width="1536" height="1024">
+                </div>
+                <div class="hero-quote-card">
+                  <p class="card-quote">
+                    "With a curriculum focused on real-world skills, Codeksha provides students with the practical tools they need to succeed in today's tech industry."
+                  </p>
+                  <div class="card-author">
+                    <div class="author-details">
+                      <strong class="author-name">Shivraj Vala</strong>
+                      <span class="author-role">Backend Developer @ IT Solutions</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Full Slide 4: Foram -->
+              <div class="hero-full-slide">
+                <div class="hero-mentor-box">
+                  <img src="/Images/review4.webp" alt="Foram Joshi - Codeksha Review 4" class="hero-big-student-img" width="1536" height="1024">
+                </div>
+                <div class="hero-quote-card">
+                  <p class="card-quote">
+                    "Every day at Codeksha is a step closer to the future I dream of. The support and exposure here are unmatched. From zero confidence to building real projects, Codeksha helped me grow!"
+                  </p>
+                  <div class="card-author">
+                    <div class="author-details">
+                      <strong class="author-name">Foram Joshi</strong>
+                      <span class="author-role">Full Stack Developer</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Feature section -->
+    <section class="features-section">
+      <div class="container">
+        <div class="features-grid">
+          <!-- Feature Item 1 -->
+          <div class="feature-item">
+            <div class="feature-icon-wrapper">
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#0084ff"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+                <path d="M6 8h.01M10 8h.01M14 8h.01"></path>
+                <path d="M12 11l-3 1.8 3 1.8 3-1.8z"></path>
+              </svg>
+            </div>
+            <div class="feature-content">
+              <h3>Skill Boosters</h3>
+              <p>
+                Learn hands-on, at your own pace - guided by real developers.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature Item 2 -->
+          <div class="feature-item">
+            <div class="feature-icon-wrapper">
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#0084ff"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                ></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="8" y1="13" x2="16" y2="13"></line>
+                <line x1="8" y1="17" x2="12" y2="17"></line>
+                <path d="M16 16s1 1 2 0 2-1 2-1v3s-1 1-2 1-2-1-2-1v-3z"></path>
+              </svg>
+            </div>
+            <div class="feature-content">
+              <h3>Career Tracks</h3>
+              <p>
+                Level up with focused, real-world training paths built for tech
+                careers.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature Item 3 -->
+          <div class="feature-item">
+            <div class="feature-icon-wrapper">
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#0084ff"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z"
+                ></path>
+                <rect x="8" y="10" width="8" height="8" rx="1"></rect>
+                <circle cx="12" cy="14" r="2"></circle>
+              </svg>
+            </div>
+            <div class="feature-content">
+              <h3>Internship Certificates</h3>
+              <p>
+                Earn recognized proof of practical skills through live project
+                work.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COURSES section  -->
+  <section class="courses-section">
+  <div class="container">
+    
+    <!-- SECTION HEADER -->
+    <div class="section-header">
+      <span class="sub-title">OUR COURSES</span>
+      <h2>Explore top <span>courses</span></h2>
+    </div>
+
+    <!-- COURSES SLIDER WRAPPER -->
+    <div class="slider-wrapper">
+      <div class="courses-track" id="coursesTrack">
+
+        <div class="course-card">
+          <div class="card-inner">
+            <div class="card-banner">
+              <span class="category-tag">Web Development</span>
+              <img src="/Images/Full-Stack-Development.jpg" alt="Full Stack Web Development" class="card-banner-img" loading="lazy" width="666" height="450">
+            </div>
+            <div class="card-body">
+              <div class="tags">
+                <span class="tag live-tag">Live class</span>
+                <span class="tag level-tag">Beginner</span>
+              </div>
+              <h3 class="course-title">Full Stack Web Development</h3>
+              <div class="meta-info">
+                <span><i data-lucide="users"></i> 271 Students</span>
+                <span><i data-lucide="book-open"></i> 30 lessons</span>
+              </div>
+            </div>
+            <div class="card-hover-overlay">
+              <div class="tags">
+                <span class="tag live-tag">Live class</span>
+                <span class="tag level-tag">Beginner</span>
+              </div>
+              <h3 class="course-title">Full Stack Web Development</h3>
+              <div class="meta-info">
+                <span><i data-lucide="users"></i> 271 Students</span>
+                <span><i data-lucide="book-open"></i> 30 lessons</span>
+              </div>
+              <p class="hover-description">Learn to build complete web applications from frontend to backend.</p>
+              <div class="btn-wrapper">
+                <a href="/course/full-stack-web-development/" class="view-detail-btn">View Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="course-card">
+          <div class="card-inner">
+            <div class="card-banner">
+              <span class="category-tag">Web Development</span>
+              <img src="/Images/Frontend-Design.jpg" alt="Frontend Development" class="card-banner-img" loading="lazy" width="666" height="450">
+            </div>
+            <div class="card-body">
+              <div class="tags">
+                <span class="tag live-tag">Live class</span>
+                <span class="tag level-tag">Beginner</span>
+              </div>
+              <h3 class="course-title">Frontend Development</h3>
+              <div class="meta-info">
+                <span><i data-lucide="users"></i> 273 Students</span>
+                <span><i data-lucide="book-open"></i> 30 lessons</span>
+              </div>
+            </div>
+            <div class="card-hover-overlay">
+              <div class="tags">
+                <span class="tag live-tag">Live class</span>
+                <span class="tag level-tag">Beginner</span>
+              </div>
+              <h3 class="course-title">Frontend Development</h3>
+              <div class="meta-info">
+                <span><i data-lucide="users"></i> 273 Students</span>
+                <span><i data-lucide="book-open"></i> 30 lessons</span>
+              </div>
+              <p class="hover-description">Learn how to create modern, responsive and interactive websites.</p>
+              <div class="btn-wrapper">
+                <a href="/course/frontend-development/" class="view-detail-btn">View Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="course-card">
+          <div class="card-inner">
+            <div class="card-banner">
+              <span class="category-tag">Web Development</span>
+              <img src="/Images/Backend-Development.jpg" alt="Backend Development" class="card-banner-img" loading="lazy" width="666" height="450">
+            </div>
+            <div class="card-body">
+              <div class="tags">
+                <span class="tag live-tag">Live class</span>
+                <span class="tag level-tag">Beginner</span>
+              </div>
+              <h3 class="course-title">Backend Development</h3>
+              <div class="meta-info">
+                <span><i data-lucide="users"></i> 274 Students</span>
+                <span><i data-lucide="book-open"></i> 30 lessons</span>
+              </div>
+            </div>
+            <div class="card-hover-overlay">
+              <div class="tags">
+                <span class="tag live-tag">Live class</span>
+                <span class="tag level-tag">Beginner</span>
+              </div>
+              <h3 class="course-title">Backend Development</h3>
+              <div class="meta-info">
+                <span><i data-lucide="users"></i> 274 Students</span>
+                <span><i data-lucide="book-open"></i> 30 lessons</span>
+              </div>
+              <p class="hover-description">Learn server-side development, databases, APIs and application logic.</p>
+              <div class="btn-wrapper">
+                <a href="/course/backend-development/" class="view-detail-btn">View Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="course-card">
+          <div class="card-inner">
+            <div class="card-banner">
+              <span class="category-tag">Digital Marketing</span>
+              <img src="/Images/Digital-Marketing-Course.jpg" alt="Digital Marketing &amp; SEO" class="card-banner-img" loading="lazy" width="666" height="450">
+            </div>
+            <div class="card-body">
+              <div class="tags">
+                <span class="tag live-tag">Live class</span>
+                <span class="tag level-tag">Beginner</span>
+              </div>
+              <h3 class="course-title">Digital Marketing &amp; SEO</h3>
+              <div class="meta-info">
+                <span><i data-lucide="users"></i> 273 Students</span>
+                <span><i data-lucide="book-open"></i> 30 lessons</span>
+              </div>
+            </div>
+            <div class="card-hover-overlay">
+              <div class="tags">
+                <span class="tag live-tag">Live class</span>
+                <span class="tag level-tag">Beginner</span>
+              </div>
+              <h3 class="course-title">Digital Marketing &amp; SEO</h3>
+              <div class="meta-info">
+                <span><i data-lucide="users"></i> 273 Students</span>
+                <span><i data-lucide="book-open"></i> 30 lessons</span>
+              </div>
+              <p class="hover-description">Learn SEO, digital marketing, content, analytics and online growth strategies.</p>
+              <div class="btn-wrapper">
+                <a href="/course/digital-marketing-seo/" class="view-detail-btn">View Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="course-card">
+          <div class="card-inner">
+            <div class="card-banner">
+              <span class="category-tag">CMS &amp; Builders</span>
+              <img src="/Images/Wordpress-CMS-Tools.jpg" alt="WordPress Development" class="card-banner-img" loading="lazy" width="666" height="450">
+            </div>
+            <div class="card-body">
+              <div class="tags">
+                <span class="tag live-tag">Live class</span>
+                <span class="tag level-tag">Beginner</span>
+              </div>
+              <h3 class="course-title">WordPress Development</h3>
+              <div class="meta-info">
+                <span><i data-lucide="users"></i> 273 Students</span>
+                <span><i data-lucide="book-open"></i> 30 lessons</span>
+              </div>
+            </div>
+            <div class="card-hover-overlay">
+              <div class="tags">
+                <span class="tag live-tag">Live class</span>
+                <span class="tag level-tag">Beginner</span>
+              </div>
+              <h3 class="course-title">WordPress Development</h3>
+              <div class="meta-info">
+                <span><i data-lucide="users"></i> 273 Students</span>
+                <span><i data-lucide="book-open"></i> 30 lessons</span>
+              </div>
+              <p class="hover-description">Learn to build professional websites using WordPress and modern development.</p>
+              <div class="btn-wrapper">
+                <a href="/course/wordpress-development/" class="view-detail-btn">View Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="course-card">
+          <div class="card-inner">
+            <div class="card-banner">
+              <span class="category-tag">AI &amp; Automation</span>
+              <img src="/Images/ai_automation.png" alt="AI &amp; Automation" class="card-banner-img" loading="lazy" width="666" height="450">
+            </div>
+            <div class="card-body">
+              <div class="tags">
+                <span class="tag live-tag">Live class</span>
+                <span class="tag level-tag">Beginner</span>
+              </div>
+              <h3 class="course-title">AI &amp; Automation</h3>
+              <div class="meta-info">
+                <span><i data-lucide="users"></i> 64 Students</span>
+                <span><i data-lucide="book-open"></i> 30 lessons</span>
+              </div>
+            </div>
+            <div class="card-hover-overlay">
+              <div class="tags">
+                <span class="tag live-tag">Live class</span>
+                <span class="tag level-tag">Beginner</span>
+              </div>
+              <h3 class="course-title">AI &amp; Automation</h3>
+              <div class="meta-info">
+                <span><i data-lucide="users"></i> 64 Students</span>
+                <span><i data-lucide="book-open"></i> 30 lessons</span>
+              </div>
+              <p class="hover-description">Learn how AI tools &amp; automation are used to improve modern business workflows.</p>
+              <div class="btn-wrapper">
+                <a href="/course/ai-automation/" class="view-detail-btn">View Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- SLIDER CONTROLS -->
+    <div class="slider-controls">
+      <div class="nav-arrows">
+        <button class="arrow-btn left-arrow" id="prevBtn"><i data-lucide="arrow-left"></i></button>
+        <button class="arrow-btn right-arrow" id="nextBtn"><i data-lucide="arrow-right"></i></button>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+      <a href="/courses/" class="view-all-btn">View All Courses</a>
+    </div>
+
+  </div>
+</section>
+
+    <!-- CATEGORIES SECTION (CHOOSE YOUR PATH) -->
+    <section class="categories-section">
+      <div class="container">
+        <div class="categories-box">
+          <span class="sub-title">CHOOSE YOUR PATH</span>
+          <h2 class="categories-title">
+            Courses Categories Built for Today’s <span>Digital World</span>
+          </h2>
+          <div class="category-pills">
+            <button class="pill-btn active">Web Development</button>
+            <button class="pill-btn">CMS & Builders</button>
+            <button class="pill-btn">Digital Marketing</button>
+            <button class="pill-btn">AI & Automation</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PREMIUM LEARNING SECTION -->
+    <section class="premium-section" id="premiumSection">
+      <div class="container">
+        
+        <div class="premium-content">
+          <!-- Accordion Left Column -->
+          <div class="accordion-column">
+            <!-- Left Aligned Section Header -->
+            <div class="premium-header">
+              <span class="sub-title">PREMIUM LEARNING</span>
+              <h2 class="premium-title">
+                A modern way to learn, guided by <span>real devs</span>. Build skills Codeksha.
+              </h2>
+            </div>
+
+            <div class="accordion-item active">
+              <button class="accordion-header">
+                <span>Who will be teaching these courses?</span>
+                <i class="fa-solid fa-minus icon"></i>
+              </button>
+              <div class="accordion-body">
+                <p>Not typical teachers - you’ll be learning from actual <strong>industry developers</strong> who work on real client projects daily.</p>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <button class="accordion-header">
+                <span>Will I work on real-time projects?</span>
+                <i class="fa-solid fa-plus icon"></i>
+              </button>
+              <div class="accordion-body">
+                <p>Yes! Every course includes hands-on live project assignments and real-world code reviews.</p>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <button class="accordion-header">
+                <span>Do I get internship opportunities?</span>
+                <i class="fa-solid fa-plus icon"></i>
+              </button>
+              <div class="accordion-body">
+                <p>Top performers earn recognized internship completion certificates and live project experience.</p>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <button class="accordion-header">
+                <span>Is there a community to connect with?</span>
+                <i class="fa-solid fa-plus icon"></i>
+              </button>
+              <div class="accordion-body">
+                <p>Access our developer Discord community to ask questions, share code, and network with mentors.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Illustration & Floating Animated Logos Right Column -->
+          <div class="illustration-column" id="parallaxBox">
+            <!-- Official Premium Learning Graphic (question.webp) -->
+            <div class="character-wrapper">
+              <img src="/Images/question.webp" alt="Codeksha Real Developer Mentor" class="character-img" loading="lazy" width="1024" height="1536">
+            </div>
+
+            <!-- Floating Animated Logos with Mouse Cursor Parallax -->
+            <div class="floating-logo float-wp" data-speed="28" title="WordPress">
+              <i class="fa-brands fa-wordpress"></i>
+            </div>
+
+            <div class="floating-logo float-shopify" data-speed="-24" title="Shopify">
+              <i class="fa-brands fa-shopify"></i>
+            </div>
+
+            <div class="floating-logo float-react" data-speed="20" title="Node.js">
+              <i class="fa-brands fa-node-js"></i>
+            </div>
+
+            <div class="floating-shape float-triangle" data-speed="16">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2">
+                <polygon points="12 2 22 20 2 20"></polygon>
+              </svg>
+            </div>
+
+            <div class="sparkle sparkle-1" data-speed="-14">✦</div>
+            <div class="sparkle sparkle-2" data-speed="30">✦</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRAINING HIGHLIGHTS SECTION -->
+    <section class="highlights-section">
+      <div class="container">
+        <div class="highlights-grid">
+          <div class="highlight-card">
+            <div class="highlight-icon"><i class="fa-solid fa-building-columns"></i></div>
+            <h3>On premise classroom Training</h3>
+            <p>Real-Time Learning, Real-World Environment</p>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+            <h3>Developer Turned Teachers</h3>
+            <p>Taught by Doers, Not Just Talkers</p>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon"><i class="fa-solid fa-diagram-project"></i></div>
+            <h3>Live Project Exposure</h3>
+            <p>Work on Real Projects, Not Just Assignments</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SLIDER SECTION -->
+    <section class="testimonials-section">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="testimonials-header">
+          <span class="sub-title">STUDENTS SAY</span>
+          <h2 class="testimonials-title">
+            <span>Satisfaction</span> is always present
+          </h2>
+        </div>
+
+        <!-- Testimonials Slider Wrapper -->
+        <div class="testimonial-slider-wrapper">
+          <div class="testimonial-track" id="testimonialTrack">
+            <!-- Testimonial Card 1: Harmi -->
+            <div class="testimonial-card">
+              <div class="testimonial-card-header">
+                <img src="/Images/Harmi.png" alt="Harmi" class="testimonial-avatar" loading="lazy" width="60" height="60">
+                <span class="author-name">Harmi</span>
+              </div>
+              <div class="testimonial-card-body">
+                <p>Codeksha is a great place to grow and learn. The team is supportive, the environment is positive, and the leadership truly values your efforts. Highly recommend it for anyone looking to build a strong career in the digital space.</p>
+                <div class="star-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial Card 2: Mathan -->
+            <div class="testimonial-card">
+              <div class="testimonial-card-header">
+                <img src="/Images/Manthan.png" alt="Mathan" class="testimonial-avatar" loading="lazy" width="60" height="60">
+                <span class="author-name">Mathan</span>
+              </div>
+              <div class="testimonial-card-body">
+                <p>I'm currently taking training from Codeksha and it's been a great experience so far. The supportive, politics-free environment helps me stay focused on learning and doing quality work. I'm gaining hands-on exposure to backend fundamentals like APIs, databases, and server-side logic - a perfect place to start my tech journey!</p>
+                <div class="star-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial Card 3: Nensi -->
+            <div class="testimonial-card">
+              <div class="testimonial-card-header">
+                <img src="/Images/Nensi.png" alt="Nensi" class="testimonial-avatar" loading="lazy" width="60" height="60">
+                <span class="author-name">Nensi</span>
+              </div>
+              <div class="testimonial-card-body">
+                <p>Codeksha stands out as a leading institute in Rajkot for gaining real-world IT industry exposure. I'm proud to be a part of Codeksha, where continuous learning opens doors to hands-on, practical experience.</p>
+                <div class="star-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial Card 4: Shivraj -->
+            <div class="testimonial-card">
+              <div class="testimonial-card-header">
+                <img src="/Images/Shivraj.png" alt="Shivraj" class="testimonial-avatar" loading="lazy" width="60" height="60">
+                <span class="author-name">Shivraj</span>
+              </div>
+              <div class="testimonial-card-body">
+                <p>With a curriculum focused on real-world skills, Codeksha provides students with the tools they need to succeed in today's tech industry.</p>
+                <div class="star-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial Card 5: Foram -->
+            <div class="testimonial-card">
+              <div class="testimonial-card-header">
+                <img src="/Images/Foram.png" alt="Foram" class="testimonial-avatar" loading="lazy" width="60" height="60">
+                <span class="author-name">Foram</span>
+              </div>
+              <div class="testimonial-card-body">
+                <p>Every day at Codeksha is a step closer to the future I dream of. The support and exposure here are unmatched.From zero confidence to building real projects, Codeksha helped me grow into someone ready to face the tech world.</p>
+                <div class="star-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slider Controls -->
+        <div class="testimonial-controls">
+          <button class="arrow-btn left-arrow" id="testiPrevBtn" aria-label="Previous Testimonial">
+            <i data-lucide="arrow-left"></i>
+          </button>
+          <button class="arrow-btn right-arrow" id="testiNextBtn" aria-label="Next Testimonial">
+            <i data-lucide="arrow-right"></i>
+          </button>
+        </div>
+
+        <!-- Trust Footer Banner -->
+        <div class="trust-banner">
+          <span class="trust-badge">Trust</span>
+          <span class="trust-text">More than 10,000 students trust and study at Codeksha</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="faq-section" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <span class="sub-title">FAQS</span>
+          <h2>Frequently Asked <span>Questions</span></h2>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item active">
+            <button class="faq-question">
+              <span>Which IT courses does Codeksha offer in Rajkot?</span>
+              <i class="fa-solid fa-minus icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Codeksha offers classroom courses in Full Stack Development, Backend Programming, Frontend Design, Laravel and WordPress &amp; CMS Tools at our Rajkot training centre.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Is the training classroom-based or online?</span>
+              <i class="fa-solid fa-plus icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Codeksha runs on-premise classroom training at our Rajkot location, so you learn in a real-world training environment alongside other students.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Who teaches the courses at Codeksha?</span>
+              <i class="fa-solid fa-plus icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Courses are taught by developers who work on real client projects, not traditional classroom teachers - so you learn current, practical techniques from people actively building software.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Does Codeksha provide live-project training?</span>
+              <i class="fa-solid fa-plus icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. Every course includes hands-on, live project assignments alongside classroom instruction, so you apply what you learn to real-world scenarios rather than isolated exercises.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Is Codeksha suitable for beginners?</span>
+              <i class="fa-solid fa-plus icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. Our Full Stack Development, Backend Programming, Frontend Design, Laravel and WordPress &amp; CMS Tools courses are all offered at a beginner level, with no entrance exam required.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Is Laravel and WordPress training available in Rajkot?</span>
+              <i class="fa-solid fa-plus icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Yes, both are taught as dedicated courses at our Rajkot centre - a Laravel course covering PHP-based web application development, and a WordPress &amp; CMS Tools course covering theme customisation and WooCommerce store setup.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Where is Codeksha located?</span>
+              <i class="fa-solid fa-plus icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Codeksha is located at A-1110, RK Iconic, Near Sheetal Park, 150 Feet Ring Rd, Rajkot, Gujarat 360006. You can reach us at +91 6355559016 or info@codeksha.com.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA BANNER SECTION -->
+    <section class="cta-banner-section">
+      <div class="container">
+        <div class="cta-banner-box">
+          <div class="cta-banner-content">
+            <span class="cta-subtitle">
+              Codeksha Course
+              <svg class="brush-stroke" viewBox="0 0 120 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 5 C30 2, 90 2, 118 5" stroke="#3b82f6" stroke-width="3" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <h2 class="cta-title">Not just tutorials, real training that shapes you.</h2>
+          </div>
+          <div class="cta-banner-graphic">
+            <div class="curvy-arrow-wrapper">
+              <img src="/Images/app-animation.png" alt="Arrow animation" class="curvy-arrow-img" loading="lazy" width="78" height="57">
+            </div>
+            <img src="/Images/Codeksha-Logo.png" alt="Codeksha" class="cta-logo-img" loading="lazy" width="1432" height="564">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <?php require __DIR__ . '/inc/partials/site-footer.php'; ?>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        if (window.lucide) {
+          lucide.createIcons();
+        }
+      });
+    </script>
+    <script src="/script.js"></script>
+  </body>
+</html>

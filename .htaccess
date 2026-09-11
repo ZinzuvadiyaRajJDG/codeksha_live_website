@@ -1,0 +1,99 @@
+# ==========================================================================
+# Codeksha — clean URLs, trailing-slash canonicalisation, basic hardening.
+# Portable for shared hosting (Apache 2.2/2.4 or LiteSpeed; PHP-FPM or CGI).
+#
+# The first-party analytics tracker is enabled via  .user.ini
+# (auto_prepend_file) — NOT here.  php_value / php_flag lines in .htaccess
+# cause a 500 error on PHP-FPM / CGI / LiteSpeed hosts.
+# ==========================================================================
+
+DirectoryIndex index.php
+
+<IfModule mod_dir.c>
+  DirectorySlash Off
+</IfModule>
+
+Options -Indexes
+
+# ---------- Block direct web access to private files ----------
+<FilesMatch "\.(sql|md|log|sh)$|^(\.user\.ini|_.*\.(js|json|php))$">
+  Require all denied
+</FilesMatch>
+
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+  # Enable once the domain is served only over HTTPS:
+  # Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Never expose the include / db folders over HTTP
+  RewriteRule ^(inc|db)(/|$) - [F]
+
+  # Pass admin panel, tracker endpoint and static assets straight through
+  RewriteRule ^(admin|track|assets)/ - [L]
+  RewriteRule ^submit/?$ submit.php [L]
+
+  # Generated text/xml files
+  RewriteRule ^robots\.txt$  robots.php  [L]
+  RewriteRule ^sitemap\.xml$ sitemap.php [L]
+  RewriteRule ^llms\.txt$    llms.php    [L]
+
+  # 1) Direct .php request -> extension-less, trailing-slash URL
+  RewriteCond %{REQUEST_URI} !^/(admin|track|assets|inc)/
+  RewriteCond %{THE_REQUEST} \s/+([a-zA-Z0-9_/-]+)\.php[\s?] [NC]
+  RewriteRule ^ /%1/ [R=301,L]
+
+  # 1b) Legacy .html requests -> clean URL
+  RewriteCond %{THE_REQUEST} \s/+([a-zA-Z0-9_/-]+)\.html[\s?] [NC]
+  RewriteRule ^ /%1/ [R=301,L]
+
+  # 2) Legacy FLAT course/blog URLs -> new NESTED URLs (301)
+  RewriteRule ^course-([a-zA-Z0-9_-]+)/?$ /course/$1/ [R=301,L]
+  RewriteRule ^blog-([a-zA-Z0-9_-]+)/?$   /blog/$1/   [R=301,L]
+
+  # 2b) Portfolio module removed -> home (301)
+  RewriteRule ^portfolio(-[a-zA-Z0-9_-]+)?/?$ / [R=301,L]
+
+  # 2c) Course catalog trimmed to 6 - remap old course URLs (301)
+  RewriteRule ^course/full-stack-development/?$   /course/full-stack-web-development/ [R=301,L]
+  RewriteRule ^course/frontend-design/?$          /course/frontend-development/       [R=301,L]
+  RewriteRule ^course/backend-programming/?$      /course/backend-development/        [R=301,L]
+  RewriteRule ^course/digital-marketing-course/?$ /course/digital-marketing-seo/      [R=301,L]
+  RewriteRule ^course/wordpress-course/?$         /course/wordpress-development/      [R=301,L]
+  RewriteRule ^course/(php-course|laravel-course|node-js-course|web-hosting-devops)/?$ /course/backend-development/ [R=301,L]
+  RewriteRule ^course/(react-course|bootstrap-course)/?$ /course/frontend-development/ [R=301,L]
+  RewriteRule ^course/(web-builders|wordpress-cms-tools|ecommerce-course)/?$ /course/wordpress-development/ [R=301,L]
+  RewriteRule ^course/freelancing-portfolio-building/?$ /courses/ [R=301,L]
+
+  # 3) Listing pages (before the nested rules and the directory check)
+  RewriteRule ^courses/?$ courses.php [L]
+  RewriteRule ^blog/?$    blog.php    [L]
+
+  # 4) Enforce trailing slash on nested course/blog URLs
+  RewriteRule ^(course|blog)/([a-zA-Z0-9_-]+)$ /$1/$2/ [R=301,L]
+
+  # 5) Internally serve the .php file for a nested clean URL
+  RewriteCond %{DOCUMENT_ROOT}/course/$1.php -f
+  RewriteRule ^course/([a-zA-Z0-9_-]+)/?$ course/$1.php [L]
+  RewriteCond %{DOCUMENT_ROOT}/blog/$1.php -f
+  RewriteRule ^blog/([a-zA-Z0-9_-]+)/?$ blog/$1.php [L]
+
+  # 6) Enforce a trailing slash on every other clean URL (except the homepage)
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}\.php -f
+  RewriteCond %{REQUEST_URI} !/$
+  RewriteRule ^(.*[^/])$ /$1/ [R=301,L]
+
+  # 7) Internally serve the matching .php file for a clean, trailing-slash URL
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+  RewriteRule ^([a-zA-Z0-9_-]+)/?$ $1.php [L]
+</IfModule>
