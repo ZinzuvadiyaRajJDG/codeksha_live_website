@@ -95,7 +95,7 @@
             <p>React, Vue, and Angular - the three most widely used frontend frameworks - are all built on JavaScript. Learning JavaScript fundamentals well is what makes learning any of these frameworks dramatically easier.</p>
             <h2 id="it-s-a-practical-skill-regardless-of-specialization">It's a Practical Skill Regardless of Specialization</h2>
             <p>Even backend developers working primarily in PHP, Python, or Java will regularly need to understand and write JavaScript, since almost every modern web application needs some client-side interactivity.</p>
-            <div class="post-callout">JavaScript fundamentals are a core module in Codeksha's <a href="/course/frontend-development/">Frontend Design</a> and <a href="/course/full-stack-web-development/">Full Stack Development</a> courses, with dedicated deep-dives available in our <a href="/course/frontend-development/">React</a> and <a href="/course/backend-development/">Node.js</a> courses.</div>
+            <div class="post-callout">JavaScript fundamentals are a core module in Codeksha's <a href="/course/frontend-development/">Frontend Design</a> and <a href="/course/full-stack-web-development/">Full Stack Development</a> courses, with a dedicated deep-dive in our <a href="/course/javascript/">JavaScript course</a>. New to the language? Start with our <a href="/blog/javascript-roadmap-for-beginners-what-to-learn-step-by-step/">JavaScript Roadmap for Beginners</a>.</div>
             <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
             <h3>Is JavaScript hard to learn for a complete beginner?</h3>
             <p>Its basics (variables, functions, loops) are approachable for beginners, though some concepts like asynchronous programming take more practice to fully understand - which is exactly why structured, project-based learning helps.</p>
@@ -205,13 +205,13 @@
               <div class="blog-card-meta"><span>7 min read</span><span>Read more &rarr;</span></div>
             </div>
           </a>
-          <a href="/blog/freelance-web-development-how-to-get-started-and-succeed/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/freelance-web-development-how-to-get-started-and-succeed.png" alt="" loading="lazy" width="1200" height="630"></div>
+          <a href="/blog/javascript-roadmap-for-beginners-what-to-learn-step-by-step/" class="blog-card" style="text-decoration:none;">
+            <div class="blog-card-img"><img src="/Images/blog/live/the-power-of-javascript-why-every-developer-needs-it.png" alt="" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
-              <span class="blog-card-cat">Career</span>
-              <h3>Freelance Web Development: How to Get Started and Succeed</h3>
-              <p>A practical, realistic guide to starting a freelance web development career - from your first client to sustainable, repeat business.</p>
-              <div class="blog-card-meta"><span>7 min read</span><span>Read more &rarr;</span></div>
+              <span class="blog-card-cat">Web Development</span>
+              <h3>JavaScript Roadmap for Beginners: What to Learn Step by Step</h3>
+              <p>A practical JavaScript roadmap for beginners - what to learn first, in what order, and which mistakes to avoid, from the basics to your first real project.</p>
+              <div class="blog-card-meta"><span>9 min read</span><span>Read more &rarr;</span></div>
             </div>
           </a>
         </div>

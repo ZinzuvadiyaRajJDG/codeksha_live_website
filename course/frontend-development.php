@@ -225,7 +225,21 @@
           <span class="sub-title">KEEP EXPLORING</span>
           <h2>Related <span>Courses</span></h2>
         </div>
-        <div class="courses-static-grid" style="grid-template-columns:repeat(3,1fr);">
+        <div class="courses-static-grid" style="grid-template-columns:repeat(4,1fr);">
+          <div class="course-tile">
+            <div class="course-tile-icon"><i class="fa-brands fa-square-js"></i></div>
+            <span class="course-tile-cat">Web Development</span>
+            <h3>JavaScript</h3>
+            <div class="course-tile-meta">
+              <span><i class="fa-solid fa-users"></i> 63 Students</span>
+              <span><i class="fa-solid fa-book"></i> 16 lessons</span>
+            </div>
+            <p>Go deeper on core JavaScript, DOM manipulation, async programming and APIs.</p>
+            <div class="course-tile-footer">
+              <span class="course-tile-tag">Beginner</span>
+              <a href="/course/javascript/" class="course-tile-link">View course &rarr;</a>
+            </div>
+          </div>
           <div class="course-tile">
             <div class="course-tile-icon"><i class="fa-solid fa-layer-group"></i></div>
             <span class="course-tile-cat">Web Development</span>

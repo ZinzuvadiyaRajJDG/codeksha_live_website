@@ -229,6 +229,48 @@
         </div>
         <div class="courses-static-grid" style="grid-template-columns:repeat(3,1fr);">
           <div class="course-tile">
+            <div class="course-tile-icon"><i class="fa-solid fa-bullseye"></i></div>
+            <span class="course-tile-cat">Digital Marketing &amp; SEO</span>
+            <h3>Google Ads</h3>
+            <div class="course-tile-meta">
+              <span><i class="fa-solid fa-users"></i> 47 Students</span>
+              <span><i class="fa-solid fa-book"></i> 12 lessons</span>
+            </div>
+            <p>Plan, launch and optimize Search, Display and Performance Max campaigns.</p>
+            <div class="course-tile-footer">
+              <span class="course-tile-tag">Beginner</span>
+              <a href="/course/google-ads/" class="course-tile-link">View course &rarr;</a>
+            </div>
+          </div>
+          <div class="course-tile">
+            <div class="course-tile-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+            <span class="course-tile-cat">Digital Marketing &amp; SEO</span>
+            <h3>SEO</h3>
+            <div class="course-tile-meta">
+              <span><i class="fa-solid fa-users"></i> 52 Students</span>
+              <span><i class="fa-solid fa-book"></i> 12 lessons</span>
+            </div>
+            <p>Rank websites higher on Google with on-page, technical and off-page SEO.</p>
+            <div class="course-tile-footer">
+              <span class="course-tile-tag">Beginner</span>
+              <a href="/course/seo/" class="course-tile-link">View course &rarr;</a>
+            </div>
+          </div>
+          <div class="course-tile">
+            <div class="course-tile-icon"><i class="fa-solid fa-hashtag"></i></div>
+            <span class="course-tile-cat">Digital Marketing &amp; SEO</span>
+            <h3>Social Media Marketing</h3>
+            <div class="course-tile-meta">
+              <span><i class="fa-solid fa-users"></i> 39 Students</span>
+              <span><i class="fa-solid fa-book"></i> 12 lessons</span>
+            </div>
+            <p>Plan, create and run paid and organic campaigns across social platforms.</p>
+            <div class="course-tile-footer">
+              <span class="course-tile-tag">Beginner</span>
+              <a href="/course/social-media-marketing/" class="course-tile-link">View course &rarr;</a>
+            </div>
+          </div>
+          <div class="course-tile">
             <div class="course-tile-icon"><i class="fa-brands fa-wordpress"></i></div>
             <span class="course-tile-cat">CMS &amp; Builders</span>
             <h3>WordPress Development</h3>

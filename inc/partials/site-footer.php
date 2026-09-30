@@ -62,3 +62,132 @@
         </div>
       </div>
     </footer>
+
+    <!-- PROMO POPUP — shown once per visitor site-wide (localStorage-gated) -->
+    <div class="promo-popup-overlay" id="ckPromoOverlay">
+      <div class="promo-popup" role="dialog" aria-modal="true" aria-labelledby="ckPromoTitle">
+        <button type="button" class="promo-popup-close" id="ckPromoClose" aria-label="Close">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="promo-popup-head">
+          <span class="promo-popup-badge"><i class="fa-solid fa-gift"></i> New Course Package</span>
+          <h3 id="ckPromoTitle">Get 10% off your first course</h3>
+          <p>Use code <strong>CK-10OFF</strong> — or leave your number and we'll call you back with the details.</p>
+        </div>
+        <div class="promo-popup-body">
+          <a href="tel:+916355559016" class="promo-popup-call-btn">
+            <i class="fa-solid fa-phone"></i> Call Us: +91 63555 59016
+          </a>
+          <div class="promo-popup-divider"><span>or request a callback</span></div>
+          <form id="ckPromoForm" novalidate>
+            <?php $ck_form_type = 'popup'; require __DIR__ . '/../form-fields.php'; ?>
+            <div class="contact-form-group">
+              <label for="ckPromoPhone">Your phone number</label>
+              <input type="tel" id="ckPromoPhone" name="phone" required inputmode="tel" autocomplete="tel"
+                     maxlength="20" minlength="8" pattern="[+0-9()\-\s]{8,20}"
+                     placeholder="e.g. +91 98765 43210" />
+            </div>
+            <button type="submit" class="promo-popup-submit" id="ckPromoSubmit">
+              <span>Claim My 10% Off</span>
+              <i data-lucide="arrow-right"></i>
+            </button>
+            <p class="promo-popup-note" id="ckPromoNote" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      (function () {
+        var SEEN_KEY = 'ck_promo_popup_seen_v1';
+        var overlay = document.getElementById('ckPromoOverlay');
+        if (!overlay) return;
+
+        var closeBtn = document.getElementById('ckPromoClose');
+        var form = document.getElementById('ckPromoForm');
+        var phoneInput = document.getElementById('ckPromoPhone');
+        var submitBtn = document.getElementById('ckPromoSubmit');
+        var note = document.getElementById('ckPromoNote');
+
+        function openPopup() {
+          overlay.classList.add('active');
+          document.body.classList.add('promo-popup-lock');
+          if (window.lucide) lucide.createIcons();
+        }
+        function closePopup() {
+          overlay.classList.remove('active');
+          document.body.classList.remove('promo-popup-lock');
+        }
+        function markSeen() {
+          try { localStorage.setItem(SEEN_KEY, '1'); } catch (e) {}
+        }
+        function hasBeenSeen() {
+          try { return localStorage.getItem(SEEN_KEY) === '1'; } catch (e) { return false; }
+        }
+
+        if (!hasBeenSeen()) {
+          window.setTimeout(function () {
+            openPopup();
+            markSeen();
+          }, 1800);
+        }
+
+        closeBtn.addEventListener('click', closePopup);
+        overlay.addEventListener('click', function (e) {
+          if (e.target === overlay) closePopup();
+        });
+        document.addEventListener('keydown', function (e) {
+          if (e.key === 'Escape' && overlay.classList.contains('active')) closePopup();
+        });
+
+        // Manually reopen it from the sitewide top banner link.
+        document.querySelectorAll('.top-banner a').forEach(function (a) {
+          a.addEventListener('click', function (e) {
+            e.preventDefault();
+            openPopup();
+          });
+        });
+
+        if (form) {
+          form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            note.className = 'promo-popup-note';
+            note.textContent = '';
+
+            if (!phoneInput.checkValidity()) {
+              note.textContent = 'Please enter a valid Indian phone number.';
+              note.classList.add('error');
+              phoneInput.focus();
+              return;
+            }
+
+            submitBtn.disabled = true;
+            submitBtn.querySelector('span').textContent = 'Sending…';
+
+            fetch('/submit', {
+              method: 'POST',
+              headers: { 'Accept': 'application/json' },
+              body: new FormData(form),
+            })
+              .then(function (res) { return res.json(); })
+              .then(function (data) {
+                note.textContent = data.message || (data.ok ? 'Thanks!' : 'Something went wrong.');
+                note.classList.add(data.ok ? 'success' : 'error');
+                if (data.ok) {
+                  form.reset();
+                  window.setTimeout(closePopup, 2200);
+                } else {
+                  submitBtn.disabled = false;
+                  submitBtn.querySelector('span').textContent = 'Claim My 10% Off';
+                }
+              })
+              .catch(function () {
+                note.textContent = 'Network error — please try again.';
+                note.classList.add('error');
+                submitBtn.disabled = false;
+                submitBtn.querySelector('span').textContent = 'Claim My 10% Off';
+              });
+          });
+        }
+      })();
+    </script>

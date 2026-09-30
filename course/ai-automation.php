@@ -225,7 +225,35 @@
           <span class="sub-title">KEEP EXPLORING</span>
           <h2>Related <span>Courses</span></h2>
         </div>
-        <div class="courses-static-grid" style="grid-template-columns:repeat(3,1fr);">
+        <div class="courses-static-grid" style="grid-template-columns:repeat(4,1fr);">
+          <div class="course-tile">
+            <div class="course-tile-icon"><i class="fa-solid fa-comment-dots"></i></div>
+            <span class="course-tile-cat">AI &amp; Automation</span>
+            <h3>Prompt Engineering</h3>
+            <div class="course-tile-meta">
+              <span><i class="fa-solid fa-users"></i> 58 Students</span>
+              <span><i class="fa-solid fa-book"></i> 12 lessons</span>
+            </div>
+            <p>Write effective prompts for ChatGPT, Claude and Gemini and apply them to real tasks.</p>
+            <div class="course-tile-footer">
+              <span class="course-tile-tag">Beginner</span>
+              <a href="/course/prompt-engineering/" class="course-tile-link">View course &rarr;</a>
+            </div>
+          </div>
+          <div class="course-tile">
+            <div class="course-tile-icon"><i class="fa-solid fa-diagram-project"></i></div>
+            <span class="course-tile-cat">AI &amp; Automation</span>
+            <h3>n8n Automation</h3>
+            <div class="course-tile-meta">
+              <span><i class="fa-solid fa-users"></i> 41 Students</span>
+              <span><i class="fa-solid fa-book"></i> 12 lessons</span>
+            </div>
+            <p>Build no-code automation workflows that connect your apps and save hours of manual work.</p>
+            <div class="course-tile-footer">
+              <span class="course-tile-tag">Beginner</span>
+              <a href="/course/n8n-automation/" class="course-tile-link">View course &rarr;</a>
+            </div>
+          </div>
           <div class="course-tile">
             <div class="course-tile-icon"><i class="fa-solid fa-server"></i></div>
             <span class="course-tile-cat">Web Development</span>

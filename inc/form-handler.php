@@ -28,7 +28,7 @@ if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') {
 }
 
 $cfg = ck_config();
-$type = in_array($_POST['form_type'] ?? '', ['instructor', 'demo'], true) ? $_POST['form_type'] : 'contact';
+$type = in_array($_POST['form_type'] ?? '', ['instructor', 'demo', 'popup'], true) ? $_POST['form_type'] : 'contact';
 
 // ---- anti-spam -----------------------------------------------------------
 $ip = ck_client_ip();
@@ -65,8 +65,10 @@ $email = trim($_POST['email'] ?? '');
 $errors = [];
 $fieldErrors = [];
 
-if (mb_strlen($name) < 2 || mb_strlen($name) > 100)            $errors[] = 'name';
-if (!filter_var($email, FILTER_VALIDATE_EMAIL) || mb_strlen($email) > 190) $errors[] = 'email';
+if ($type !== 'popup') {
+    if (mb_strlen($name) < 2 || mb_strlen($name) > 100)            $errors[] = 'name';
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL) || mb_strlen($email) > 190) $errors[] = 'email';
+}
 
 [$phoneOk, $phone, $phoneErr] = ck_check_phone($_POST['phone'] ?? '');
 if (!$phoneOk) { $errors[] = 'phone'; $fieldErrors[] = $phoneErr; }
@@ -84,6 +86,9 @@ if ($type === 'instructor') {
     if (mb_strlen($field1) < 2 || mb_strlen($field1) > 190) $errors[] = 'course';
     if (mb_strlen($field2) > 190) $field2 = mb_substr($field2, 0, 190);
     if (mb_strlen($message) > 4000) $errors[] = 'message';
+} elseif ($type === 'popup') {
+    $field1  = 'CK-10OFF';                              // which promo the callback is for
+    $message = null;
 } else {
     $field1  = null;
     $message = trim($_POST['question'] ?? $_POST['message'] ?? '');
@@ -148,25 +153,30 @@ try {
         $label = match ($type) {
             'instructor' => 'instructor application',
             'demo'       => 'free demo class booking',
+            'popup'      => 'callback request (promo popup)',
             default      => 'contact enquiry',
         };
         $lines = [
             "New {$label} on the Codeksha website",
             str_repeat('-', 48),
-            "Name:    {$name}",
-            "Email:   {$email}",
-            "Phone:   {$phone}",
         ];
+        if ($name)  $lines[] = "Name:    {$name}";
+        if ($email) $lines[] = "Email:   {$email}";
+        $lines[] = "Phone:   {$phone}";
         if ($type === 'demo') {
             $lines[] = "Course:  " . ($field1 ?: '-');
             if ($field2) $lines[] = "Prefers: {$field2}";
+        } elseif ($type === 'popup') {
+            $lines[] = "Promo:   {$field1}";
         } elseif ($field1) {
             $lines[] = "Subject: {$field1}";
         }
         $lines[] = "Page:    " . ($pagePath ?: '/');
         $lines[] = "IP:      " . $ip;
-        $lines[] = "";
-        $lines[] = $message;
+        if ($message) {
+            $lines[] = "";
+            $lines[] = $message;
+        }
         $lines[] = "";
         $lines[] = "Open in admin: " . $cfg['site_url'] . "/admin/submissions.php?id={$id}";
         ck_send_mail($to, "[Codeksha] New {$label} from {$name}", implode("\n", $lines));
@@ -178,5 +188,6 @@ try {
 ck_form_respond(true, match ($type) {
     'demo'       => 'Thanks — your free demo request is in. We\'ll call or email to confirm your slot shortly.',
     'instructor' => 'Thanks — we\'ve received your application and our team will get back to you soon.',
+    'popup'      => 'Thanks! Save code CK-10OFF — our team will call you back shortly.',
     default      => 'Thanks — we\'ve received your message and will get back to you shortly.',
 }, $wantsJson);

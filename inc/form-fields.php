@@ -6,7 +6,7 @@
  */
 require_once __DIR__ . '/lib.php';
 
-$ck_form_type = in_array($ck_form_type ?? '', ['instructor', 'demo'], true) ? $ck_form_type : 'contact';
+$ck_form_type = in_array($ck_form_type ?? '', ['instructor', 'demo', 'popup'], true) ? $ck_form_type : 'contact';
 $ck_ts  = time();
 $ck_tok = hash_hmac('sha256', $ck_form_type . '|' . $ck_ts, ck_config()['app_key']);
 ?>

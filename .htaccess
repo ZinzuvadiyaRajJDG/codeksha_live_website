@@ -72,6 +72,9 @@ Options -Indexes
   RewriteRule ^course/(web-builders|wordpress-cms-tools|ecommerce-course)/?$ /course/wordpress-development/ [R=301,L]
   RewriteRule ^course/freelancing-portfolio-building/?$ /courses/ [R=301,L]
 
+  # 2d) Common typo: plural /courses/<slug>/ -> singular /course/<slug>/
+  RewriteRule ^courses/([a-zA-Z0-9_-]+)/?$ /course/$1/ [R=301,L]
+
   # 3) Listing pages (before the nested rules and the directory check)
   RewriteRule ^courses/?$ courses.php [L]
   RewriteRule ^blog/?$    blog.php    [L]

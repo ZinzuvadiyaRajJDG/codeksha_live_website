@@ -97,6 +97,21 @@
           </div>
 
           <div class="course-tile" data-category="Web Development">
+            <div class="course-tile-icon"><i class="fa-brands fa-square-js"></i></div>
+            <span class="course-tile-cat">Web Development</span>
+            <h3>JavaScript</h3>
+            <div class="course-tile-meta">
+              <span><i class="fa-solid fa-users"></i> 63 Students</span>
+              <span><i class="fa-solid fa-book"></i> 16 lessons</span>
+            </div>
+            <p>Core JavaScript, DOM manipulation, async programming and working with APIs.</p>
+            <div class="course-tile-footer">
+              <span class="course-tile-tag">Beginner</span>
+              <a href="/course/javascript/" class="course-tile-link">View course &rarr;</a>
+            </div>
+          </div>
+
+          <div class="course-tile" data-category="Web Development">
             <div class="course-tile-icon"><i class="fa-solid fa-server"></i></div>
             <span class="course-tile-cat">Web Development</span>
             <h3>Backend Development</h3>
@@ -108,6 +123,21 @@
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/backend-development/" class="course-tile-link">View course &rarr;</a>
+            </div>
+          </div>
+
+          <div class="course-tile" data-category="Web Development">
+            <div class="course-tile-icon"><i class="fa-solid fa-database"></i></div>
+            <span class="course-tile-cat">Web Development</span>
+            <h3>MongoDB</h3>
+            <div class="course-tile-meta">
+              <span><i class="fa-solid fa-users"></i> 34 Students</span>
+              <span><i class="fa-solid fa-book"></i> 12 lessons</span>
+            </div>
+            <p>NoSQL database design, CRUD operations and aggregation pipelines with MongoDB.</p>
+            <div class="course-tile-footer">
+              <span class="course-tile-tag">Beginner</span>
+              <a href="/course/mongodb/" class="course-tile-link">View course &rarr;</a>
             </div>
           </div>
 
@@ -123,6 +153,51 @@
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/digital-marketing-seo/" class="course-tile-link">View course &rarr;</a>
+            </div>
+          </div>
+
+          <div class="course-tile" data-category="Digital Marketing Course">
+            <div class="course-tile-icon"><i class="fa-solid fa-bullseye"></i></div>
+            <span class="course-tile-cat">Digital Marketing</span>
+            <h3>Google Ads</h3>
+            <div class="course-tile-meta">
+              <span><i class="fa-solid fa-users"></i> 47 Students</span>
+              <span><i class="fa-solid fa-book"></i> 12 lessons</span>
+            </div>
+            <p>Plan, launch and optimize Search, Display and Performance Max campaigns.</p>
+            <div class="course-tile-footer">
+              <span class="course-tile-tag">Beginner</span>
+              <a href="/course/google-ads/" class="course-tile-link">View course &rarr;</a>
+            </div>
+          </div>
+
+          <div class="course-tile" data-category="Digital Marketing Course">
+            <div class="course-tile-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+            <span class="course-tile-cat">Digital Marketing</span>
+            <h3>SEO</h3>
+            <div class="course-tile-meta">
+              <span><i class="fa-solid fa-users"></i> 52 Students</span>
+              <span><i class="fa-solid fa-book"></i> 12 lessons</span>
+            </div>
+            <p>Rank websites higher on Google with on-page, technical and off-page SEO.</p>
+            <div class="course-tile-footer">
+              <span class="course-tile-tag">Beginner</span>
+              <a href="/course/seo/" class="course-tile-link">View course &rarr;</a>
+            </div>
+          </div>
+
+          <div class="course-tile" data-category="Digital Marketing Course">
+            <div class="course-tile-icon"><i class="fa-solid fa-hashtag"></i></div>
+            <span class="course-tile-cat">Digital Marketing</span>
+            <h3>Social Media Marketing</h3>
+            <div class="course-tile-meta">
+              <span><i class="fa-solid fa-users"></i> 39 Students</span>
+              <span><i class="fa-solid fa-book"></i> 12 lessons</span>
+            </div>
+            <p>Plan, create and run paid and organic campaigns across social platforms.</p>
+            <div class="course-tile-footer">
+              <span class="course-tile-tag">Beginner</span>
+              <a href="/course/social-media-marketing/" class="course-tile-link">View course &rarr;</a>
             </div>
           </div>
 
@@ -153,6 +228,36 @@
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/ai-automation/" class="course-tile-link">View course &rarr;</a>
+            </div>
+          </div>
+
+          <div class="course-tile" data-category="AI & Automation">
+            <div class="course-tile-icon"><i class="fa-solid fa-comment-dots"></i></div>
+            <span class="course-tile-cat">AI &amp; Automation</span>
+            <h3>Prompt Engineering</h3>
+            <div class="course-tile-meta">
+              <span><i class="fa-solid fa-users"></i> 58 Students</span>
+              <span><i class="fa-solid fa-book"></i> 12 lessons</span>
+            </div>
+            <p>Write effective prompts for ChatGPT, Claude and Gemini and apply them to real tasks.</p>
+            <div class="course-tile-footer">
+              <span class="course-tile-tag">Beginner</span>
+              <a href="/course/prompt-engineering/" class="course-tile-link">View course &rarr;</a>
+            </div>
+          </div>
+
+          <div class="course-tile" data-category="AI & Automation">
+            <div class="course-tile-icon"><i class="fa-solid fa-diagram-project"></i></div>
+            <span class="course-tile-cat">AI &amp; Automation</span>
+            <h3>n8n Automation</h3>
+            <div class="course-tile-meta">
+              <span><i class="fa-solid fa-users"></i> 41 Students</span>
+              <span><i class="fa-solid fa-book"></i> 12 lessons</span>
+            </div>
+            <p>Build no-code automation workflows that connect your apps and save hours of manual work.</p>
+            <div class="course-tile-footer">
+              <span class="course-tile-tag">Beginner</span>
+              <a href="/course/n8n-automation/" class="course-tile-link">View course &rarr;</a>
             </div>
           </div>
 
@@ -187,16 +292,21 @@
         // Course category filter
         const pills = document.querySelectorAll('#courseFilterBar .category-filter-pill');
         const tiles = document.querySelectorAll('#coursesGrid .course-tile');
-        pills.forEach(pill => {
-          pill.addEventListener('click', () => {
-            pills.forEach(p => p.classList.remove('active'));
-            pill.classList.add('active');
-            const filter = pill.getAttribute('data-filter');
-            tiles.forEach(tile => {
-              tile.style.display = (filter === 'all' || tile.getAttribute('data-category') === filter) ? '' : 'none';
-            });
+        const applyFilter = (filter) => {
+          pills.forEach(p => p.classList.toggle('active', p.getAttribute('data-filter') === filter));
+          tiles.forEach(tile => {
+            tile.style.display = (filter === 'all' || tile.getAttribute('data-category') === filter) ? '' : 'none';
           });
+        };
+        pills.forEach(pill => {
+          pill.addEventListener('click', () => applyFilter(pill.getAttribute('data-filter')));
         });
+
+        // Arrive pre-filtered when linked from the homepage category pills (?filter=...)
+        const requestedFilter = new URLSearchParams(location.search).get('filter');
+        if (requestedFilter && [...pills].some(p => p.getAttribute('data-filter') === requestedFilter)) {
+          applyFilter(requestedFilter);
+        }
       });
     </script>
   </body>

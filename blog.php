@@ -128,6 +128,15 @@
               <div class="blog-card-meta"><span>6 min read</span><span>Read more &rarr;</span></div>
             </div>
           </a>
+          <a href="/blog/javascript-roadmap-for-beginners-what-to-learn-step-by-step/" class="blog-card" style="text-decoration:none;" data-cat="Web Development">
+            <div class="blog-card-img"><img src="/Images/blog/live/the-power-of-javascript-why-every-developer-needs-it.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-body">
+              <span class="blog-card-cat">Web Development</span>
+              <h3>JavaScript Roadmap for Beginners: What to Learn Step by Step</h3>
+              <p>A practical JavaScript roadmap for beginners - what to learn first, in what order, and which mistakes to avoid, from the basics to your first real project.</p>
+              <div class="blog-card-meta"><span>9 min read</span><span>Read more &rarr;</span></div>
+            </div>
+          </a>
           <a href="/blog/the-power-of-javascript-why-every-developer-needs-it/" class="blog-card" style="text-decoration:none;" data-cat="Web Development">
             <div class="blog-card-img"><img src="/Images/blog/live/the-power-of-javascript-why-every-developer-needs-it.png" alt="" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">

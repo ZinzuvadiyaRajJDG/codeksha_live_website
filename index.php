@@ -650,10 +650,10 @@
             Courses Categories Built for Today’s <span>Digital World</span>
           </h2>
           <div class="category-pills">
-            <button class="pill-btn active">Web Development</button>
-            <button class="pill-btn">CMS & Builders</button>
-            <button class="pill-btn">Digital Marketing</button>
-            <button class="pill-btn">AI & Automation</button>
+            <a class="pill-btn" href="/courses/?filter=Web+Development">Web Development</a>
+            <a class="pill-btn" href="/courses/?filter=CMS+%26+Builders">CMS &amp; Builders</a>
+            <a class="pill-btn" href="/courses/?filter=Digital+Marketing+Course">Digital Marketing</a>
+            <a class="pill-btn" href="/courses/?filter=AI+%26+Automation">AI &amp; Automation</a>
           </div>
         </div>
       </div>

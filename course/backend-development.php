@@ -105,6 +105,7 @@
               <li><i class="fa-solid fa-circle-check"></i> The Laravel framework and MVC pattern</li>
               <li><i class="fa-solid fa-circle-check"></i> REST APIs, authentication and routing</li>
               <li><i class="fa-solid fa-circle-check"></i> MySQL database integration</li>
+              <li><i class="fa-solid fa-circle-check"></i> Intro to MongoDB and NoSQL document databases</li>
               <li><i class="fa-solid fa-circle-check"></i> CRUD operations and data relationships</li>
               <li><i class="fa-solid fa-circle-check"></i> Error handling, security and middleware</li>
               <li><i class="fa-solid fa-circle-check"></i> Hosting, cPanel and backend deployment</li>
@@ -131,7 +132,7 @@
               </div>
               <div class="curriculum-month">
                 <span class="month-num">5</span>
-                <p><strong>Month 5.</strong> MySQL integration, authentication and API security</p>
+                <p><strong>Month 5.</strong> MySQL integration, an intro to MongoDB, authentication and API security</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">6</span>
@@ -225,7 +226,21 @@
           <span class="sub-title">KEEP EXPLORING</span>
           <h2>Related <span>Courses</span></h2>
         </div>
-        <div class="courses-static-grid" style="grid-template-columns:repeat(3,1fr);">
+        <div class="courses-static-grid" style="grid-template-columns:repeat(4,1fr);">
+          <div class="course-tile">
+            <div class="course-tile-icon"><i class="fa-solid fa-database"></i></div>
+            <span class="course-tile-cat">Web Development</span>
+            <h3>MongoDB</h3>
+            <div class="course-tile-meta">
+              <span><i class="fa-solid fa-users"></i> 34 Students</span>
+              <span><i class="fa-solid fa-book"></i> 12 lessons</span>
+            </div>
+            <p>Go deeper on NoSQL database design, CRUD and aggregation pipelines with MongoDB.</p>
+            <div class="course-tile-footer">
+              <span class="course-tile-tag">Beginner</span>
+              <a href="/course/mongodb/" class="course-tile-link">View course &rarr;</a>
+            </div>
+          </div>
           <div class="course-tile">
             <div class="course-tile-icon"><i class="fa-solid fa-layer-group"></i></div>
             <span class="course-tile-cat">Web Development</span>

@@ -47,18 +47,20 @@ if (isset($_GET['id'])) {
     <?php if (isset($_GET['ok'])): ?><div class="flash ok"><?= h($flash ?: 'Saved.') ?></div><?php endif; ?>
     <div class="grid-2">
       <?php
-        $typeLabel = ['contact' => 'Contact', 'instructor' => 'Instructor', 'demo' => 'Free demo class'][$row['form_type']] ?? ucfirst($row['form_type']);
+        $typeLabel = ['contact' => 'Contact', 'instructor' => 'Instructor', 'demo' => 'Free demo class', 'popup' => 'Promo popup callback'][$row['form_type']] ?? ucfirst($row['form_type']);
         $isDemo = $row['form_type'] === 'demo';
       ?>
       <div class="panel"><div class="panel-head"><h2><?= h($typeLabel) ?> submission</h2>
         <span class="tag <?= h($row['status']) ?>"><?= h($row['status']) ?></span></div>
         <div class="panel-body"><dl class="kv">
-          <dt>Name</dt><dd><?= h($row['name']) ?></dd>
-          <dt>Email</dt><dd><a href="mailto:<?= h($row['email']) ?>"><?= h($row['email']) ?></a></dd>
+          <dt>Name</dt><dd><?= h($row['name'] ?: '—') ?></dd>
+          <dt>Email</dt><dd><?php if ($row['email']): ?><a href="mailto:<?= h($row['email']) ?>"><?= h($row['email']) ?></a><?php else: ?>—<?php endif; ?></dd>
           <dt>Phone</dt><dd><?php if ($row['phone']): ?><a href="tel:<?= h(preg_replace('/[^\d+]/', '', $row['phone'])) ?>"><?= h($row['phone']) ?></a><?php else: ?>—<?php endif; ?></dd>
-          <?php if ($row['field1']): ?><dt><?= $isDemo ? 'Course' : 'Subject' ?></dt><dd><?= h($row['field1']) ?></dd><?php endif; ?>
+          <?php if ($row['field1']): ?><dt><?= $isDemo ? 'Course' : ($row['form_type'] === 'popup' ? 'Promo code' : 'Subject') ?></dt><dd><?= h($row['field1']) ?></dd><?php endif; ?>
           <?php if ($isDemo): ?><dt>Preferred time</dt><dd><?= h($row['field2'] ?: 'Any time') ?></dd><?php endif; ?>
+          <?php if ($row['message'] || !in_array($row['form_type'], ['popup'], true)): ?>
           <dt><?= $isDemo ? 'Notes' : 'Message' ?></dt><dd style="white-space:pre-wrap"><?= h($row['message'] ?: '—') ?></dd>
+          <?php endif; ?>
           <dt>Received</dt><dd><?= h($row['created_at']) ?></dd>
           <dt>From page</dt><dd><?= h($row['page_path'] ?: '—') ?></dd>
           <dt>IP</dt><dd><?= h($row['ip'] ?: '—') ?> (<?= h($row['country'] ?: '?') ?>)</dd>
@@ -77,7 +79,12 @@ if (isset($_GET['id'])) {
               <?php endforeach; ?>
             </select>
             <button class="btn btn-sm">Update</button>
-            <a class="btn-ghost btn-sm" href="mailto:<?= h($row['email']) ?>?subject=Re: your message to Codeksha">Reply by email</a>
+            <?php if ($row['phone']): ?>
+              <a class="btn-ghost btn-sm" href="tel:<?= h(preg_replace('/[^\d+]/', '', $row['phone'])) ?>">Call back</a>
+            <?php endif; ?>
+            <?php if ($row['email']): ?>
+              <a class="btn-ghost btn-sm" href="mailto:<?= h($row['email']) ?>?subject=Re: your message to Codeksha">Reply by email</a>
+            <?php endif; ?>
           </form>
         </div></div>
         <div class="panel"><div class="panel-head"><h2>Private notes</h2></div><div class="panel-body">
@@ -131,6 +138,7 @@ require __DIR__ . '/inc/header.php';
     <option value="contact" <?= $type === 'contact' ? 'selected' : '' ?>>Contact</option>
     <option value="demo" <?= $type === 'demo' ? 'selected' : '' ?>>Free demo class</option>
     <option value="instructor" <?= $type === 'instructor' ? 'selected' : '' ?>>Instructor</option>
+    <option value="popup" <?= $type === 'popup' ? 'selected' : '' ?>>Promo popup callback</option>
   </select>
   <select name="status"><option value="">Any status</option>
     <?php foreach (['new', 'read', 'replied', 'spam'] as $st): ?>
@@ -146,10 +154,12 @@ require __DIR__ . '/inc/header.php';
   <tbody>
   <?php foreach ($rows as $r): ?>
     <?php
-      $formTag = ['contact' => 'Contact', 'instructor' => 'Instructor', 'demo' => 'Demo'][$r['form_type']] ?? $r['form_type'];
-      $detail = $r['form_type'] === 'demo'
-        ? trim(($r['field1'] ?: 'course?') . ($r['field2'] ? ' · ' . $r['field2'] : '') . ($r['message'] ? ' — ' . $r['message'] : ''))
-        : (string) $r['message'];
+      $formTag = ['contact' => 'Contact', 'instructor' => 'Instructor', 'demo' => 'Demo', 'popup' => 'Popup'][$r['form_type']] ?? $r['form_type'];
+      $detail = match ($r['form_type']) {
+        'demo'  => trim(($r['field1'] ?: 'course?') . ($r['field2'] ? ' · ' . $r['field2'] : '') . ($r['message'] ? ' — ' . $r['message'] : '')),
+        'popup' => 'Callback requested (code ' . ($r['field1'] ?: 'CK-10OFF') . ')',
+        default => (string) $r['message'],
+      };
     ?>
     <tr>
       <td><a href="?id=<?= (int)$r['id'] ?>"><?= h(fmt_ago($r['created_at'])) ?></a></td>
