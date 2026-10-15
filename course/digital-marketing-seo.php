@@ -141,6 +141,8 @@
               </div>
             </div>
 
+            <p>Want the bigger picture first? Read <a href="/blog/importance-of-digital-marketing/">Importance of Digital Marketing: 10 Benefits for Business Growth</a> to see how SEO, ads, social media and analytics work together.</p>
+
             <h2>Who This Course Is For &amp; What You'll Need</h2>
             <div class="two-list-grid">
               <div>

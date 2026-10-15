@@ -58,8 +58,11 @@ Options -Indexes
   RewriteRule ^course-([a-zA-Z0-9_-]+)/?$ /course/$1/ [R=301,L]
   RewriteRule ^blog-([a-zA-Z0-9_-]+)/?$   /blog/$1/   [R=301,L]
 
-  # 2b) Portfolio module removed -> home (301)
+  # 2b) Portfolio module removed -> home (301). Covers /portfolio/, /portfolio-x/,
+  # /portfolio/x/ and /portfolio_category/x/ - old WordPress URLs Google still requests.
   RewriteRule ^portfolio(-[a-zA-Z0-9_-]+)?/?$ / [R=301,L]
+  RewriteRule ^portfolio/[a-zA-Z0-9_-]+/?$ / [R=301,L]
+  RewriteRule ^portfolio_category/[a-zA-Z0-9_-]+/?$ / [R=301,L]
 
   # 2c) Course catalog trimmed to 6 - remap old course URLs (301)
   RewriteRule ^course/full-stack-development/?$   /course/full-stack-web-development/ [R=301,L]

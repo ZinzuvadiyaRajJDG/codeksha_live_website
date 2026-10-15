@@ -98,6 +98,7 @@
             <h2 id="design-matters-even-for-backend-focused-developers">Design Matters, Even for Backend-Focused Developers</h2>
             <p>A portfolio site itself should look clean and professional. It doesn't need to be elaborate, but poor design on your own site raises doubts about your attention to detail.</p>
             <div class="post-callout">Every course at Codeksha includes hands-on, real project work specifically so you graduate with genuine portfolio pieces - and our <a href="/courses/">Freelancing & Portfolio Building course</a> focuses entirely on presenting that work effectively.</div>
+            <p>A strong portfolio works best when people can find it. Read the <a href="/blog/importance-of-digital-marketing/">importance of digital marketing</a> to learn how to get your work seen.</p>
             <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
             <h3>Should I include tutorial-based projects in my portfolio?</h3>
             <p>It's better to significantly extend or modify a tutorial project with your own features, or build something original, rather than showing an unmodified clone.</p>

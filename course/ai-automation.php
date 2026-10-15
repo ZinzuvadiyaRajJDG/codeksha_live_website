@@ -139,6 +139,8 @@
               </div>
             </div>
 
+            <p>New to workflow automation? Read <a href="/blog/n8n-vs-zapier/">n8n vs Zapier: Which Automation Tool Should You Learn?</a> to see how the tools we teach compare.</p>
+
             <h2>Who This Course Is For &amp; What You'll Need</h2>
             <div class="two-list-grid">
               <div>

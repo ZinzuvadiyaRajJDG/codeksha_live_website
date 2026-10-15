@@ -98,6 +98,7 @@
             <h2 id="manage-client-communication-proactively">Manage Client Communication Proactively</h2>
             <p>Most freelance disputes come from unclear expectations, not bad work. Confirm scope, timelines, and revisions in writing before starting, and communicate early if something changes.</p>
             <div class="post-callout">Codeksha's <a href="/courses/">Freelancing & Portfolio Building course</a> covers exactly this - platform setup, proposal writing, client communication and portfolio building - alongside our technical courses.</div>
+            <p>Finding clients also depends on being found online. Our guide on the <a href="/blog/importance-of-digital-marketing/">importance of digital marketing</a> shows how SEO, social media and content can bring you leads.</p>
             <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
             <h3>Can I freelance while still learning?</h3>
             <p>It's possible to take on very small, well-scoped projects early, but it's generally safer to build core competence first so you can deliver reliably and protect your reputation.</p>

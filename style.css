@@ -4219,6 +4219,7 @@ body {
 .post-callout strong { color: #1a202c; }
 
 .post-body p a,
+.post-body li a,
 .post-callout a {
   color: #2563eb;
   font-weight: 600;
@@ -4226,6 +4227,7 @@ body {
   text-underline-offset: 2px;
 }
 .post-body p a:hover,
+.post-body li a:hover,
 .post-callout a:hover { color: #1d4ed8; }
 
 .post-cta-box {
@@ -4811,4 +4813,86 @@ body.promo-popup-lock {
   .promo-popup-head { padding: 30px 20px 22px; }
   .promo-popup-head h3 { font-size: 21px; }
   .promo-popup-body { padding: 22px 20px 26px; }
+}
+
+/* ===========================================================================
+   BLOG POST - numbered headings, key takeaways, step list
+   =========================================================================== */
+.post-body h2.post-h2-num {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+.post-num {
+  flex-shrink: 0;
+  width: 34px;
+  height: 34px;
+  margin-top: -2px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #2563eb 0%, #4f46e5 100%);
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-takeaways {
+  background: linear-gradient(135deg, #f0f7ff 0%, #eef2ff 100%);
+  border: 1px solid #dbeafe;
+  border-radius: 16px;
+  padding: 22px 24px 8px;
+  margin: 26px 0 30px;
+}
+.post-takeaways h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 14px;
+  font-size: 16px;
+}
+.post-takeaways h3 i { color: #2563eb; }
+.post-takeaways .learn-checklist { grid-template-columns: 1fr; margin-bottom: 14px; }
+
+.post-body .post-steps {
+  list-style: none;
+  counter-reset: post-step;
+  margin: 0 0 22px;
+  padding: 0;
+}
+.post-body .post-steps li {
+  counter-increment: post-step;
+  position: relative;
+  padding: 14px 18px 14px 62px;
+  margin: 0 0 10px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #374151;
+}
+.post-body .post-steps li::before {
+  content: counter(post-step);
+  position: absolute;
+  left: 16px;
+  top: 14px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.post-body .post-steps li strong { color: #1a202c; }
+
+@media (max-width: 480px) {
+  .post-body h2.post-h2-num { gap: 10px; }
+  .post-num { width: 30px; height: 30px; font-size: 14px; }
+  .post-takeaways { padding: 18px 18px 6px; }
 }
