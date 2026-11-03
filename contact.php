@@ -50,6 +50,19 @@
       }
     }
     </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Where is Codeksha's coding class located in Rajkot?", "acceptedAnswer": { "@type": "Answer", "text": "Our Rajkot training centre is at A-1110, RK Iconic, Near Sheetal Park, 150 Feet Ring Rd, Rajkot, Gujarat 360006. We also run classroom batches in Jamnagar." } },
+        { "@type": "Question", "name": "What are your office hours?", "acceptedAnswer": { "@type": "Answer", "text": "You can call or visit us Monday to Saturday, 8 AM to 7 PM (India Standard Time). Send a message any time and we will reply during office hours." } },
+        { "@type": "Question", "name": "Can I attend a demo class before enrolling?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Book a free demo class, sit in on a real session, meet the instructor and see how our project-based training works before you decide." } },
+        { "@type": "Question", "name": "I am a beginner. Which course should I start with?", "acceptedAnswer": { "@type": "Answer", "text": "Most of our courses start from the basics. Tell us your background and goals through the form or call us, and our team will suggest a starting point, such as Frontend Development, Full Stack Web Development or Digital Marketing." } },
+        { "@type": "Question", "name": "Can I join while studying in college or working?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Batch timings are flexible and student-friendly, so you can fit classes around college or a job." } }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div class="top-banner">
@@ -140,6 +153,96 @@
       </div>
     </section>
 
+    <!-- WAYS TO REACH US -->
+    <section class="highlights-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="sub-title">GET IN TOUCH</span>
+          <h2>Computer &amp; Coding Classes in Rajkot: <span>How to Reach Us</span></h2>
+          <p style="max-width:720px;margin:12px auto 0;color:#64748b;line-height:1.7;">Looking for coding classes or an IT training institute in Rajkot? Codeksha is a developer-led training centre where you learn web development, digital marketing and AI in live, project-based classes. Here are the quickest ways to talk to us.</p>
+        </div>
+        <div class="info-card-grid cols-3">
+          <div class="info-card">
+            <div class="info-card-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <h3>Visit Our Rajkot Centre</h3>
+            <p>Drop in at A-1110, RK Iconic, Near Sheetal Park, 150 Feet Ring Rd, Rajkot, Monday to Saturday, 8 AM to 7 PM. Walk through the classroom and meet the team in person.</p>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon"><i class="fa-solid fa-phone"></i></div>
+            <h3>Call or Email Us</h3>
+            <p>Call <a href="tel:+916355559016" style="color:#2563eb;font-weight:600;">+91 63555 59016</a> or write to <a href="mailto:info@codeksha.com" style="color:#2563eb;font-weight:600;">info@codeksha.com</a> for course details, batch timings and admissions.</p>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+            <h3>Try a Free Demo Class</h3>
+            <p>Not sure which course fits you? <a href="/book-demo/" style="color:#2563eb;font-weight:600;">Book a free demo class</a>, sit in on a real session and meet your instructor before you enrol.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COURSES TO ASK ABOUT -->
+    <section class="courses-page-section" style="background:#ffffff;">
+      <div class="container">
+        <div class="section-header">
+          <span class="sub-title">COURSE ENQUIRIES</span>
+          <h2>Which course would you like to <span>ask about?</span></h2>
+        </div>
+        <div class="learn-card" style="max-width:900px;margin:0 auto;">
+          <ul class="learn-checklist">
+              <li><i class="fa-solid fa-circle-check"></i> <span><a href="/course/full-stack-web-development/">Full Stack Web Development course in Rajkot</a></span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><a href="/course/frontend-development/">Frontend Development course in Rajkot</a></span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><a href="/course/backend-development/">Backend Development course in Rajkot</a></span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><a href="/course/digital-marketing-seo/">Digital Marketing &amp; SEO course in Rajkot</a></span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><a href="/course/wordpress-development/">WordPress Development course in Rajkot</a></span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><a href="/course/ai-automation/">AI &amp; Automation course in Rajkot</a></span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><a href="/course/javascript/">JavaScript course in Rajkot</a></span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><a href="/course/mongodb/">MongoDB course in Rajkot</a></span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><a href="/course/seo/">SEO course in Rajkot</a></span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><a href="/course/google-ads/">Google Ads course in Rajkot</a></span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><a href="/course/social-media-marketing/">Social Media Marketing course in Rajkot</a></span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><a href="/course/prompt-engineering/">Prompt Engineering course in Rajkot</a></span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><a href="/course/n8n-automation/">n8n Automation course in Rajkot</a></span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><a href="/course/ui-ux-design/">UI/UX Design course in Rajkot</a></span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><a href="/course/graphic-design/">Graphic Design course in Rajkot</a></span></li>
+          </ul>
+        </div>
+        <p style="text-align:center;margin-top:20px;color:#64748b;">Want the full list? See all <a href="/courses/" style="color:#2563eb;font-weight:600;">IT courses in Rajkot</a> or learn more <a href="/about-us/" style="color:#2563eb;font-weight:600;">about Codeksha</a>.</p>
+      </div>
+    </section>
+
+    <!-- CONTACT FAQ -->
+    <section class="courses-page-section" style="background:#f8fafc;">
+      <div class="container">
+        <div class="section-header">
+          <span class="sub-title">QUICK ANSWERS</span>
+          <h2>Contact &amp; admission <span>FAQs</span></h2>
+        </div>
+        <div class="faq-list" style="max-width:860px;margin:0 auto;">
+          <div class="faq-item active">
+            <button class="faq-question"><span>Where is Codeksha's coding class located in Rajkot?</span><i class="fa-solid fa-minus icon"></i></button>
+            <div class="faq-answer"><p>Our Rajkot training centre is at A-1110, RK Iconic, Near Sheetal Park, 150 Feet Ring Rd, Rajkot, Gujarat 360006. We also run classroom batches in Jamnagar.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question"><span>What are your office hours?</span><i class="fa-solid fa-plus icon"></i></button>
+            <div class="faq-answer"><p>You can call or visit us Monday to Saturday, 8 AM to 7 PM (India Standard Time). Send a message any time and we will reply during office hours.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question"><span>Can I attend a demo class before enrolling?</span><i class="fa-solid fa-plus icon"></i></button>
+            <div class="faq-answer"><p>Yes. Book a free demo class, sit in on a real session, meet the instructor and see how our project-based training works before you decide.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question"><span>I am a beginner. Which course should I start with?</span><i class="fa-solid fa-plus icon"></i></button>
+            <div class="faq-answer"><p>Most of our courses start from the basics. Tell us your background and goals through the form or call us, and our team will suggest a starting point, such as Frontend Development, Full Stack Web Development or Digital Marketing.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question"><span>Can I join while studying in college or working?</span><i class="fa-solid fa-plus icon"></i></button>
+            <div class="faq-answer"><p>Yes. Batch timings are flexible and student-friendly, so you can fit classes around college or a job.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- FOOTER -->
     <?php require __DIR__ . '/inc/partials/site-footer.php'; ?>
 
@@ -220,6 +323,33 @@
           });
         }
         if (location.hash === '#sent' && contactFormNote) contactFormNote.classList.add('show');
+      });
+    </script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const faqItems = document.querySelectorAll('.faq-item');
+        const setFaqHeight = (item) => {
+          const answer = item.querySelector('.faq-answer');
+          if (answer) answer.style.maxHeight = item.classList.contains('active') ? answer.scrollHeight + 30 + 'px' : '0px';
+        };
+        faqItems.forEach(item => {
+          const q = item.querySelector('.faq-question');
+          if (!q) return;
+          q.addEventListener('click', () => {
+            const isActive = item.classList.contains('active');
+            faqItems.forEach(o => {
+              o.classList.remove('active');
+              const ic = o.querySelector('.icon'); if (ic) ic.className = 'fa-solid fa-plus icon';
+              setFaqHeight(o);
+            });
+            if (!isActive) {
+              item.classList.add('active');
+              const ic = item.querySelector('.icon'); if (ic) ic.className = 'fa-solid fa-minus icon';
+              setFaqHeight(item);
+            }
+          });
+        });
+        setFaqHeight(document.querySelector('.faq-item.active') || faqItems[0]);
       });
     </script>
   </body>

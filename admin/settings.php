@@ -54,8 +54,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $flash = 'Alert settings saved.';
         if (isset($_POST['send_test'])) {
             $to = trim($_POST['alert_email'] ?? '');
-            $flash .= $to && ck_send_mail($to, 'Codeksha admin test email', "This is a test from your Codeksha admin panel.\nIf you can read this, alerts are working.")
-                ? " Test email sent to $to." : ' Test email could NOT be sent — check SMTP details.';
+            $flash .= $to && ck_send_mail($to, 'Codeksha admin test email', "Hello,\n\nThis is a test message from the Codeksha website admin panel, sent to confirm that form alert emails reach this inbox.\n\nNo action is needed.\n\nCodeksha, Rajkot\nhttps://codeksha.com/")
+                ? " Test email sent to $to." : ' Test email could NOT be sent. ' . ($GLOBALS['ck_mail_error'] ?? 'Check SMTP details.');
         }
     } elseif ($do === 'block' && is_role('admin')) {
         $ip = trim($_POST['ip'] ?? '');

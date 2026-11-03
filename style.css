@@ -4845,14 +4845,17 @@ body.promo-popup-lock {
   padding: 22px 24px 8px;
   margin: 26px 0 30px;
 }
-.post-takeaways h3 {
+.post-takeaways .post-takeaways-title {
   display: flex;
   align-items: center;
   gap: 8px;
   margin: 0 0 14px;
   font-size: 16px;
+  font-weight: 800;
+  color: #1a202c;
+  line-height: 1.4;
 }
-.post-takeaways h3 i { color: #2563eb; }
+.post-takeaways .post-takeaways-title i { color: #2563eb; }
 .post-takeaways .learn-checklist { grid-template-columns: 1fr; margin-bottom: 14px; }
 
 .post-body .post-steps {
@@ -4896,3 +4899,116 @@ body.promo-popup-lock {
   .post-num { width: 30px; height: 30px; font-size: 14px; }
   .post-takeaways { padding: 18px 18px 6px; }
 }
+
+/* ===========================================================================
+   LEAD FORM, TOOL CHIPS AND CTA BAND (UI/UX + Graphic Design course pages)
+   =========================================================================== */
+.lead-card {
+  background: #ffffff;
+  border: 1px solid #dbeafe;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 14px 34px rgba(37, 99, 235, 0.12);
+  margin-bottom: 20px;
+}
+.lead-card-head {
+  background: linear-gradient(135deg, #2563eb 0%, #4f46e5 100%);
+  color: #ffffff;
+  padding: 22px 22px 18px;
+}
+.lead-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.18);
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.lead-card-head h3 { font-size: 19px; font-weight: 800; margin: 0 0 6px; color: #ffffff; line-height: 1.3; }
+.lead-card-head p { font-size: 13.5px; margin: 0; color: rgba(255, 255, 255, 0.9); line-height: 1.55; }
+.lead-form { padding: 20px 22px 22px; }
+.lead-form .contact-form-group { margin-bottom: 14px; }
+.lead-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 14px 18px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #2563eb 0%, #4f46e5 100%);
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+.lead-submit:hover { transform: translateY(-1px); }
+.lead-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; }
+.lead-note { display: none; margin: 12px 0 0; font-size: 13.5px; font-weight: 600; text-align: center; line-height: 1.5; }
+.lead-note.show { display: block; }
+.lead-note.success { color: #16a34a; }
+.lead-note.error { color: #dc2626; }
+.lead-or { margin: 14px 0 0; text-align: center; font-size: 13.5px; color: #64748b; }
+.lead-or a { color: #2563eb; font-weight: 700; text-decoration: none; }
+
+.tool-chips { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 8px; padding: 0; list-style: none; }
+.tool-chips li {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 16px;
+  border-radius: 999px;
+  background: #eef4ff;
+  border: 1px solid #dbeafe;
+  color: #1e3a8a;
+  font-size: 14px;
+  font-weight: 700;
+}
+.tool-chips li i { color: #2563eb; font-size: 14px; }
+
+.course-main .info-card-grid { grid-template-columns: repeat(2, 1fr); margin-bottom: 8px; }
+.course-main .info-card-grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
+.course-main .info-card-grid.cols-4 { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 1100px) {
+  .course-main .info-card-grid.cols-3, .course-main .info-card-grid.cols-4 { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .course-main .info-card-grid, .course-main .info-card-grid.cols-3, .course-main .info-card-grid.cols-4 { grid-template-columns: 1fr; }
+}
+.course-main .info-card { padding: 22px 20px; }
+.course-main .info-card-step {
+  width: 34px; height: 34px; border-radius: 50%;
+  background: #2563eb; color: #ffffff; font-weight: 800; font-size: 15px;
+  display: flex; align-items: center; justify-content: center; margin-bottom: 14px;
+}
+
+.course-cta-band {
+  background: linear-gradient(135deg, #1a2b4e 0%, #2563eb 100%);
+  border-radius: 18px;
+  padding: 30px 28px;
+  margin: 34px 0 6px;
+  color: #ffffff;
+  text-align: center;
+}
+.course-cta-band h2 { color: #ffffff; font-size: 22px; margin: 0 0 8px; }
+.course-cta-band p { color: #cdd9f5; font-size: 15px; margin: 0 0 20px; line-height: 1.65; }
+.course-cta-band .cta-row { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+.course-cta-band .cta-btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 13px 22px; border-radius: 12px; font-weight: 700; font-size: 15px; text-decoration: none;
+  background: #ffffff; color: #1a2b4e;
+}
+.course-cta-band .cta-btn.alt { background: transparent; color: #ffffff; border: 1.5px solid rgba(255, 255, 255, 0.6); }
+.course-cta-band .cta-btn:hover { transform: translateY(-1px); }
+.course-main .course-cta-band p a { color: #ffffff; text-decoration: underline; }
+
+.course-main > p { margin: 0 0 16px; font-size: 15.5px; line-height: 1.8; color: #374151; }
+.course-main > p a { color: #2563eb; font-weight: 600; }

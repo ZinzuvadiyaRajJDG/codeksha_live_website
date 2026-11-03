@@ -5,20 +5,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Story of PHP: How It Powers the Web | Codeksha</title>
-    <meta name="description" content="The history of PHP - from Rasmus Lerdorf's Personal Home Page Tools to the language behind millions of websites today - and why it's still worth learning." />
+    <meta name="description" content="The history of PHP, from Rasmus Lerdorf's Personal Home Page Tools to millions of websites today, and why it is still worth learning." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/blog/story-of-php/" />
 
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="Codeksha" />
     <meta property="og:title" content="The Story of PHP: From a Personal Tool to Powering Most of the Web" />
-    <meta property="og:description" content="The history of PHP - from Rasmus Lerdorf's Personal Home Page Tools to the language behind millions of websites today - and why it's still worth learning." />
+    <meta property="og:description" content="The history of PHP, from Rasmus Lerdorf's Personal Home Page Tools to millions of websites today, and why it is still worth learning." />
     <meta property="og:url" content="https://codeksha.com/blog/story-of-php/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="The Story of PHP: From a Personal Tool to Powering Most of the Web" />
-    <meta name="twitter:description" content="The history of PHP - from Rasmus Lerdorf's Personal Home Page Tools to the language behind millions of websites today - and why it's still worth learning." />
+    <meta name="twitter:description" content="The history of PHP, from Rasmus Lerdorf's Personal Home Page Tools to millions of websites today, and why it is still worth learning." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
@@ -83,7 +83,7 @@
       <div class="container">
         <div class="post-layout">
           <div class="post-body">
-            <div class="post-feature-img"><img src="/Images/blog/live/story-of-php.png" alt="The Story of PHP: From a Personal Tool to Powering Most of the Web" width="1200" height="630"></div>
+            <div class="post-feature-img"><img src="/Images/blog/live/story-of-php.webp" alt="The Story of PHP: From a Personal Tool to Powering Most of the Web" width="1200" height="630"></div>
             <p>PHP has one of the more unusual origin stories in web development - it didn't start as a plan to build a programming language at all.</p>
             <h2 id="an-accidental-language">An Accidental Language</h2>
             <p>PHP began in 1994 when Rasmus Lerdorf wrote a set of small tools, called 'Personal Home Page Tools,' to help him track visitors to his own online resume. He open-sourced the code so others could use it, and other developers began extending it. By 1997, PHP 3 had been rewritten from scratch by Andi Gutmans and Zeev Suraski specifically as a general-purpose scripting language for the web, and PHP's name was reinterpreted as the recursive acronym 'PHP: Hypertext Preprocessor.'</p>
@@ -145,14 +145,14 @@
                   </div>
                 </a>
                 <a href="/blog/full-stack-development-course-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/full-stack-development-course-rajkot.png" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/full-stack-development-course-rajkot.webp" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>Full Stack Development Course in Rajkot</span>
                     <small>December 16, 2025</small>
                   </div>
                 </a>
                 <a href="/blog/react-js-course-training-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/react-js-course-training-rajkot.png" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/react-js-course-training-rajkot.webp" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>React JS Course Training in Rajkot</span>
                     <small>December 14, 2025</small>
@@ -185,7 +185,7 @@
         </div>
         <div class="blog-grid">
           <a href="/blog/the-wordpress-story-from-blog-tool-to-web-giant-codeksha/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/the-wordpress-story-from-blog-tool-to-web-giant-codeksha.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/the-wordpress-story-from-blog-tool-to-web-giant-codeksha.webp" alt="The WordPress story: from blogging tool to web giant" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">CMS & Builders</span>
               <h3>The WordPress Story: From Blog Tool to Web Giant</h3>
@@ -194,7 +194,7 @@
             </div>
           </a>
           <a href="/blog/how-to-build-a-strong-foundation-in-web-development-a-beginners-guide/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/how-to-build-a-strong-foundation-in-web-development-a-beginners-guide.jpg" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/how-to-build-a-strong-foundation-in-web-development-a-beginners-guide.jpg" alt="Beginner's guide to building a strong foundation in web development" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>How to Build a Strong Foundation in Web Development: A Beginner's Guide</h3>
@@ -203,7 +203,7 @@
             </div>
           </a>
           <a href="/blog/10-reasons-why-you-should-learn-full-stack-development-in-2025/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/10-reasons-why-you-should-learn-full-stack-development-in-2025.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/10-reasons-why-you-should-learn-full-stack-development-in-2025.webp" alt="10 reasons to learn full stack development" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>10 Reasons Why You Should Learn Full Stack Development</h3>

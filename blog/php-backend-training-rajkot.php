@@ -5,20 +5,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PHP & Backend Development Training in Rajkot | Codeksha</title>
-    <meta name="description" content="A guide to PHP and backend development training in Rajkot - what to look for in a course, and how classroom-based training works at Codeksha." />
+    <meta name="description" content="A guide to PHP and backend development training in Rajkot: what to look for in a course and how classes work at Codeksha." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/blog/php-backend-training-rajkot/" />
 
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="Codeksha" />
     <meta property="og:title" content="PHP & Backend Development Training in Rajkot" />
-    <meta property="og:description" content="A guide to PHP and backend development training in Rajkot - what to look for in a course, and how classroom-based training works at Codeksha." />
+    <meta property="og:description" content="A guide to PHP and backend development training in Rajkot: what to look for in a course and how classes work at Codeksha." />
     <meta property="og:url" content="https://codeksha.com/blog/php-backend-training-rajkot/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="PHP & Backend Development Training in Rajkot" />
-    <meta name="twitter:description" content="A guide to PHP and backend development training in Rajkot - what to look for in a course, and how classroom-based training works at Codeksha." />
+    <meta name="twitter:description" content="A guide to PHP and backend development training in Rajkot: what to look for in a course and how classes work at Codeksha." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
@@ -83,7 +83,7 @@
       <div class="container">
         <div class="post-layout">
           <div class="post-body">
-            <div class="post-feature-img"><img src="/Images/blog/live/php-backend-training-rajkot.png" alt="PHP & Backend Development Training in Rajkot" width="1200" height="630"></div>
+            <div class="post-feature-img"><img src="/Images/blog/live/php-backend-training-rajkot.webp" alt="PHP & Backend Development Training in Rajkot" width="1200" height="630"></div>
             <p>PHP remains one of the most practical backend languages to learn, especially given how widely it's used in real business websites. Here's what to look for in PHP and backend training in Rajkot.</p>
             <h2 id="what-a-real-backend-course-should-cover">What a Real Backend Course Should Cover</h2>
             <p>A solid backend curriculum should go beyond syntax - covering databases (MySQL), authentication, RESTful APIs, and basic security practices like preventing SQL injection, not just isolated coding exercises.</p>
@@ -145,14 +145,14 @@
                   </div>
                 </a>
                 <a href="/blog/full-stack-development-course-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/full-stack-development-course-rajkot.png" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/full-stack-development-course-rajkot.webp" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>Full Stack Development Course in Rajkot</span>
                     <small>December 16, 2025</small>
                   </div>
                 </a>
                 <a href="/blog/react-js-course-training-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/react-js-course-training-rajkot.png" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/react-js-course-training-rajkot.webp" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>React JS Course Training in Rajkot</span>
                     <small>December 14, 2025</small>
@@ -185,7 +185,7 @@
         </div>
         <div class="blog-grid">
           <a href="/blog/react-js-course-training-rajkot/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/react-js-course-training-rajkot.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/react-js-course-training-rajkot.webp" alt="React JS course training in Rajkot" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">IT Training Rajkot</span>
               <h3>React JS Course Training in Rajkot</h3>
@@ -194,7 +194,7 @@
             </div>
           </a>
           <a href="/blog/full-stack-development-course-rajkot/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/full-stack-development-course-rajkot.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/full-stack-development-course-rajkot.webp" alt="Full stack development course in Rajkot" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">IT Training Rajkot</span>
               <h3>Full Stack Development Course in Rajkot</h3>
@@ -203,7 +203,7 @@
             </div>
           </a>
           <a href="/blog/it-training-after-12th-or-graduation-rajkot/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/it-training-after-12th-or-graduation-rajkot.webp" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/it-training-after-12th-or-graduation-rajkot.webp" alt="IT training after 12th or graduation in Rajkot" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">IT Training Rajkot</span>
               <h3>IT Training After 12th or Graduation in Rajkot: What to Consider</h3>

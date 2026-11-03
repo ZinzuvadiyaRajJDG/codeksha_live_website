@@ -4,21 +4,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Why Students Choose Codeksha for Web Design & Dev Training</title>
-    <meta name="description" content="What makes Codeksha's web design and development training distinct for students across Gujarat - developer-led teaching and real project work." />
+    <title>Web Design &amp; Development Training in Gujarat | Codeksha</title>
+    <meta name="description" content="Why students across Gujarat choose Codeksha for web design and development training: developer-led teaching and real projects." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/blog/why-codeksha-best-web-design-development-training-gujarat/" />
 
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="Codeksha" />
-    <meta property="og:title" content="Why Students Choose Codeksha for Web Design & Dev Training" />
-    <meta property="og:description" content="What makes Codeksha's web design and development training distinct for students across Gujarat - developer-led teaching and real project work." />
+    <meta property="og:title" content="Web Design &amp; Development Training in Gujarat | Codeksha" />
+    <meta property="og:description" content="Why students across Gujarat choose Codeksha for web design and development training: developer-led teaching and real projects." />
     <meta property="og:url" content="https://codeksha.com/blog/why-codeksha-best-web-design-development-training-gujarat/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Why Students Choose Codeksha for Web Design & Dev Training" />
-    <meta name="twitter:description" content="What makes Codeksha's web design and development training distinct for students across Gujarat - developer-led teaching and real project work." />
+    <meta name="twitter:title" content="Web Design &amp; Development Training in Gujarat | Codeksha" />
+    <meta name="twitter:description" content="Why students across Gujarat choose Codeksha for web design and development training: developer-led teaching and real projects." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
@@ -83,7 +83,7 @@
       <div class="container">
         <div class="post-layout">
           <div class="post-body">
-            <div class="post-feature-img"><img src="/Images/blog/live/why-codeksha-best-web-design-development-training-gujarat.png" alt="Why Students Choose Codeksha for Web Design & Dev Training" width="1200" height="630"></div>
+            <div class="post-feature-img"><img src="/Images/blog/live/why-codeksha-best-web-design-development-training-gujarat.webp" alt="Why Students Choose Codeksha for Web Design & Dev Training" width="1200" height="630"></div>
             <p>Web design and development training varies a lot in format and quality. Here's a specific, honest look at what Codeksha offers, so you can judge the fit for yourself rather than take a marketing claim at face value.</p>
             <h2 id="a-combined-design-and-code-curriculum">A Combined Design-and-Code Curriculum</h2>
             <p>Codeksha's <a href="/course/frontend-development/">Frontend Design course</a> covers both sides of web design: visual/UI principles and wireframing through Figma, and the actual implementation in HTML, CSS, JavaScript and modern frameworks - so students aren't left with only design theory or only code.</p>
@@ -148,14 +148,14 @@
                   </div>
                 </a>
                 <a href="/blog/full-stack-development-course-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/full-stack-development-course-rajkot.png" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/full-stack-development-course-rajkot.webp" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>Full Stack Development Course in Rajkot</span>
                     <small>December 16, 2025</small>
                   </div>
                 </a>
                 <a href="/blog/react-js-course-training-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/react-js-course-training-rajkot.png" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/react-js-course-training-rajkot.webp" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>React JS Course Training in Rajkot</span>
                     <small>December 14, 2025</small>
@@ -188,7 +188,7 @@
         </div>
         <div class="blog-grid">
           <a href="/blog/it-web-development-course-training-rajkot/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/it-web-development-course-training-rajkot.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/it-web-development-course-training-rajkot.webp" alt="IT and web development course training in Rajkot" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">IT Training Rajkot</span>
               <h3>IT & Web Development Course Training in Rajkot</h3>
@@ -197,7 +197,7 @@
             </div>
           </a>
           <a href="/blog/php-backend-training-rajkot/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/php-backend-training-rajkot.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/php-backend-training-rajkot.webp" alt="PHP and backend development training in Rajkot" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">IT Training Rajkot</span>
               <h3>PHP & Backend Development Training in Rajkot</h3>
@@ -206,7 +206,7 @@
             </div>
           </a>
           <a href="/blog/react-js-course-training-rajkot/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/react-js-course-training-rajkot.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/react-js-course-training-rajkot.webp" alt="React JS course training in Rajkot" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">IT Training Rajkot</span>
               <h3>React JS Course Training in Rajkot</h3>

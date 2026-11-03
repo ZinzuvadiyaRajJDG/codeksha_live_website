@@ -83,7 +83,7 @@
       <div class="container">
         <div class="post-layout">
           <div class="post-body">
-            <div class="post-feature-img"><img src="/Images/blog/live/react-js-course-training-rajkot.png" alt="React JS Course Training in Rajkot" width="1200" height="630"></div>
+            <div class="post-feature-img"><img src="/Images/blog/live/react-js-course-training-rajkot.webp" alt="React JS Course Training in Rajkot" width="1200" height="630"></div>
             <p>React remains one of the most widely used frontend libraries in the industry, and structured, project-based training is one of the more reliable ways to build genuine proficiency in it.</p>
             <h2 id="what-a-real-react-course-should-cover">What a Real React Course Should Cover</h2>
             <p>Beyond basic components and JSX, a solid React course should cover state management (useState, useReducer), React Router for navigation, working with APIs, and at least an introduction to more advanced state management like Redux.</p>
@@ -145,14 +145,14 @@
                   </div>
                 </a>
                 <a href="/blog/full-stack-development-course-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/full-stack-development-course-rajkot.png" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/full-stack-development-course-rajkot.webp" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>Full Stack Development Course in Rajkot</span>
                     <small>December 16, 2025</small>
                   </div>
                 </a>
                 <a href="/blog/php-backend-training-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/php-backend-training-rajkot.png" alt="PHP & Backend Development Training in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/php-backend-training-rajkot.webp" alt="PHP & Backend Development Training in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>PHP & Backend Development Training in Rajkot</span>
                     <small>December 12, 2025</small>
@@ -185,7 +185,7 @@
         </div>
         <div class="blog-grid">
           <a href="/blog/full-stack-development-course-rajkot/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/full-stack-development-course-rajkot.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/full-stack-development-course-rajkot.webp" alt="Full stack development course in Rajkot" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">IT Training Rajkot</span>
               <h3>Full Stack Development Course in Rajkot</h3>
@@ -194,7 +194,7 @@
             </div>
           </a>
           <a href="/blog/it-training-after-12th-or-graduation-rajkot/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/it-training-after-12th-or-graduation-rajkot.webp" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/it-training-after-12th-or-graduation-rajkot.webp" alt="IT training after 12th or graduation in Rajkot" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">IT Training Rajkot</span>
               <h3>IT Training After 12th or Graduation in Rajkot: What to Consider</h3>
@@ -203,7 +203,7 @@
             </div>
           </a>
           <a href="/blog/story-of-html/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/story-of-html.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/story-of-html.webp" alt="The history of HTML, from simple documents to the backbone of the web" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>The Story of HTML: From Simple Documents to the Backbone of the Web</h3>

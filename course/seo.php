@@ -4,21 +4,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SEO Course in Rajkot | Search Engine Optimization Training | Codeksha</title>
-    <meta name="description" content="Learn SEO in Rajkot at Codeksha - keyword research, on-page and technical SEO, link building and Google ranking strategy, taught through hands-on, project-based training." />
+    <title>SEO Course in Rajkot | Hands-On SEO Training | Codeksha</title>
+    <meta name="description" content="Join our SEO course in Rajkot. Learn keyword research, on-page and technical SEO, link building and ranking strategy with live projects." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/course/seo/" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Codeksha" />
-    <meta property="og:title" content="SEO Course in Rajkot | Search Engine Optimization Training | Codeksha" />
-    <meta property="og:description" content="Learn SEO in Rajkot at Codeksha - keyword research, on-page and technical SEO, link building and Google ranking strategy, taught through hands-on, project-based training." />
+    <meta property="og:title" content="SEO Course in Rajkot | Hands-On SEO Training | Codeksha" />
+    <meta property="og:description" content="Join our SEO course in Rajkot. Learn keyword research, on-page and technical SEO, link building and ranking strategy with live projects." />
     <meta property="og:url" content="https://codeksha.com/course/seo/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="SEO Course in Rajkot | Search Engine Optimization Training | Codeksha" />
-    <meta name="twitter:description" content="Learn SEO in Rajkot at Codeksha - keyword research, on-page and technical SEO, link building and Google ranking strategy, taught through hands-on, project-based training." />
+    <meta name="twitter:title" content="SEO Course in Rajkot | Hands-On SEO Training | Codeksha" />
+    <meta name="twitter:description" content="Join our SEO course in Rajkot. Learn keyword research, on-page and technical SEO, link building and ranking strategy with live projects." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
@@ -209,7 +209,7 @@
                 <span>Enroll Now</span>
                 <div class="arrow-btn-circle"><i data-lucide="arrow-right"></i></div>
               </a>
-              <a href="/book-demo/?course=digital-marketing-seo" class="course-sidebar-secondary-btn">Book a Free Demo Class</a>
+              <a href="/book-demo/#course=digital-marketing-seo" class="course-sidebar-secondary-btn">Book a Free Demo Class</a>
                 </div>
             </div>
           </aside>

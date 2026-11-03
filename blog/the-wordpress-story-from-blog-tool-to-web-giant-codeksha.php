@@ -5,20 +5,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The WordPress Story: From Blog Tool to Web Giant | Codeksha</title>
-    <meta name="description" content="How WordPress grew from a simple blogging tool in 2003 into the CMS behind a huge share of the web - and what that means for anyone learning it today." />
+    <meta name="description" content="How WordPress grew from a 2003 blogging tool into the CMS behind a huge share of the web, and what that means if you are learning it." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/blog/the-wordpress-story-from-blog-tool-to-web-giant-codeksha/" />
 
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="Codeksha" />
     <meta property="og:title" content="The WordPress Story: From Blog Tool to Web Giant" />
-    <meta property="og:description" content="How WordPress grew from a simple blogging tool in 2003 into the CMS behind a huge share of the web - and what that means for anyone learning it today." />
+    <meta property="og:description" content="How WordPress grew from a 2003 blogging tool into the CMS behind a huge share of the web, and what that means if you are learning it." />
     <meta property="og:url" content="https://codeksha.com/blog/the-wordpress-story-from-blog-tool-to-web-giant-codeksha/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="The WordPress Story: From Blog Tool to Web Giant" />
-    <meta name="twitter:description" content="How WordPress grew from a simple blogging tool in 2003 into the CMS behind a huge share of the web - and what that means for anyone learning it today." />
+    <meta name="twitter:description" content="How WordPress grew from a 2003 blogging tool into the CMS behind a huge share of the web, and what that means if you are learning it." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
@@ -83,7 +83,7 @@
       <div class="container">
         <div class="post-layout">
           <div class="post-body">
-            <div class="post-feature-img"><img src="/Images/blog/live/the-wordpress-story-from-blog-tool-to-web-giant-codeksha.png" alt="The WordPress Story: From Blog Tool to Web Giant" width="1200" height="630"></div>
+            <div class="post-feature-img"><img src="/Images/blog/live/the-wordpress-story-from-blog-tool-to-web-giant-codeksha.webp" alt="The WordPress Story: From Blog Tool to Web Giant" width="1200" height="630"></div>
             <p>WordPress is so common today that it's easy to forget it started as a small, focused project with a much narrower goal than 'powering the web.'</p>
             <h2 id="a-fork-born-from-a-need">A Fork Born From a Need</h2>
             <p>WordPress was created in 2003 by Matt Mullenweg and Mike Little as a fork of an earlier blogging tool called b2/cafelog, whose original developer had stopped maintaining it. The goal was simple: a clean, easy way to publish blog posts using PHP and MySQL, the same technology stack still at WordPress's core today.</p>
@@ -145,14 +145,14 @@
                   </div>
                 </a>
                 <a href="/blog/full-stack-development-course-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/full-stack-development-course-rajkot.png" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/full-stack-development-course-rajkot.webp" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>Full Stack Development Course in Rajkot</span>
                     <small>December 16, 2025</small>
                   </div>
                 </a>
                 <a href="/blog/react-js-course-training-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/react-js-course-training-rajkot.png" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/react-js-course-training-rajkot.webp" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>React JS Course Training in Rajkot</span>
                     <small>December 14, 2025</small>
@@ -185,7 +185,7 @@
         </div>
         <div class="blog-grid">
           <a href="/blog/how-to-build-a-strong-foundation-in-web-development-a-beginners-guide/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/how-to-build-a-strong-foundation-in-web-development-a-beginners-guide.jpg" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/how-to-build-a-strong-foundation-in-web-development-a-beginners-guide.jpg" alt="Beginner's guide to building a strong foundation in web development" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>How to Build a Strong Foundation in Web Development: A Beginner's Guide</h3>
@@ -194,7 +194,7 @@
             </div>
           </a>
           <a href="/blog/10-reasons-why-you-should-learn-full-stack-development-in-2025/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/10-reasons-why-you-should-learn-full-stack-development-in-2025.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/10-reasons-why-you-should-learn-full-stack-development-in-2025.webp" alt="10 reasons to learn full stack development" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>10 Reasons Why You Should Learn Full Stack Development</h3>
@@ -203,7 +203,7 @@
             </div>
           </a>
           <a href="/blog/the-role-of-ui-ux-design-in-modern-web-development/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/the-role-of-ui-ux-design-in-modern-web-development.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/the-role-of-ui-ux-design-in-modern-web-development.webp" alt="Importance of UI/UX design in modern web development" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Design</span>
               <h3>The Role of UI/UX Design in Modern Web Development</h3>

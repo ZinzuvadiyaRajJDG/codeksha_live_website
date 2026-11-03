@@ -83,7 +83,7 @@
       <div class="container">
         <div class="post-layout">
           <div class="post-body">
-            <div class="post-feature-img"><img src="/Images/blog/live/essential-tools-every-developer-should-use-for-efficient-coding.png" alt="Essential Tools Every Developer Should Use for Efficient Coding" width="1200" height="630"></div>
+            <div class="post-feature-img"><img src="/Images/blog/live/essential-tools-every-developer-should-use-for-efficient-coding.webp" alt="Essential Tools Every Developer Should Use for Efficient Coding" width="1200" height="630"></div>
             <p>New developers often focus entirely on languages and frameworks, but the tools around your code matter just as much for real, efficient work. Here's what's genuinely worth learning.</p>
             <h2 id="a-proper-code-editor">A Proper Code Editor</h2>
             <p>Visual Studio Code has become the de facto standard code editor for web development, largely because of its extension ecosystem, built-in Git support, and strong support for nearly every language and framework in use today.</p>
@@ -151,14 +151,14 @@
                   </div>
                 </a>
                 <a href="/blog/full-stack-development-course-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/full-stack-development-course-rajkot.png" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/full-stack-development-course-rajkot.webp" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>Full Stack Development Course in Rajkot</span>
                     <small>December 16, 2025</small>
                   </div>
                 </a>
                 <a href="/blog/react-js-course-training-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/react-js-course-training-rajkot.png" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/react-js-course-training-rajkot.webp" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>React JS Course Training in Rajkot</span>
                     <small>December 14, 2025</small>
@@ -191,7 +191,7 @@
         </div>
         <div class="blog-grid">
           <a href="/blog/how-to-choose-the-best-it-training-institute-in-rajkot/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/how-to-choose-the-best-it-training-institute-in-rajkot.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/how-to-choose-the-best-it-training-institute-in-rajkot.webp" alt="How to choose the best IT training institute in Rajkot" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">IT Training Rajkot</span>
               <h3>How to Choose an IT Training Institute in Rajkot: A Practical Checklist</h3>
@@ -200,7 +200,7 @@
             </div>
           </a>
           <a href="/blog/codeksha-vs-others-which-web-development-institute-is-right-for-you/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/codeksha-vs-others-which-web-development-institute-is-right-for-you.jpg" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/codeksha-vs-others-which-web-development-institute-is-right-for-you.webp" alt="Codeksha compared with other web development institutes in Rajkot" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">IT Training Rajkot</span>
               <h3>Codeksha vs. Other Institutes: Which Web Development Training Is Right for You?</h3>
@@ -209,7 +209,7 @@
             </div>
           </a>
           <a href="/blog/7-reasons-why-codeksha-is-rajkots-1-choice-for-it-courses/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/7-reasons-why-codeksha-is-rajkots-1-choice-for-it-courses.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/7-reasons-why-codeksha-is-rajkots-1-choice-for-it-courses.webp" alt="Seven reasons students choose Codeksha for IT courses in Rajkot" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">IT Training Rajkot</span>
               <h3>7 Reasons Students Choose Codeksha for IT Courses in Rajkot</h3>

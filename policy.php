@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Privacy Policy | Codeksha</title>
+    <title>Privacy Policy | Codeksha Training Institute, Rajkot</title>
     <meta
       name="description"
       content="How Codeksha collects, uses and protects your personal information across our website, services and offline training programs in Rajkot."
@@ -14,14 +14,14 @@
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Codeksha" />
-    <meta property="og:title" content="Privacy Policy | Codeksha" />
-    <meta property="og:description" content="How Codeksha collects, uses and protects your personal information." />
+    <meta property="og:title" content="Privacy Policy | Codeksha Training Institute, Rajkot" />
+    <meta property="og:description" content="How Codeksha collects, uses and protects your personal information across our website, services and offline training programs in Rajkot." />
     <meta property="og:url" content="https://codeksha.com/policy/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Privacy Policy | Codeksha" />
-    <meta name="twitter:description" content="How Codeksha collects, uses and protects your personal information." />
+    <meta name="twitter:title" content="Privacy Policy | Codeksha Training Institute, Rajkot" />
+    <meta name="twitter:description" content="How Codeksha collects, uses and protects your personal information across our website, services and offline training programs in Rajkot." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/inc/partials/head.php'; ?>

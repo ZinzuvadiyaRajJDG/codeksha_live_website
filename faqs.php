@@ -7,7 +7,7 @@
     <title>FAQs | Codeksha IT Training Institute, Rajkot</title>
     <meta
       name="description"
-      content="Answers to common questions about Codeksha's IT courses in Rajkot - enrollment, fees, class size, certification, refunds and course delivery."
+      content="Answers to common questions about Codeksha's IT courses in Rajkot: enrollment, fees, class size, certification, refunds and delivery."
     />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/faqs/" />
@@ -15,13 +15,13 @@
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Codeksha" />
     <meta property="og:title" content="FAQs | Codeksha IT Training Institute, Rajkot" />
-    <meta property="og:description" content="Answers to common questions about Codeksha's IT courses in Rajkot - enrollment, fees, class size, certification and refunds." />
+    <meta property="og:description" content="Answers to common questions about Codeksha's IT courses in Rajkot: enrollment, fees, class size, certification, refunds and delivery." />
     <meta property="og:url" content="https://codeksha.com/faqs/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="FAQs | Codeksha IT Training Institute, Rajkot" />
-    <meta name="twitter:description" content="Answers to common questions about Codeksha's IT courses in Rajkot - enrollment, fees, class size, certification and refunds." />
+    <meta name="twitter:description" content="Answers to common questions about Codeksha's IT courses in Rajkot: enrollment, fees, class size, certification, refunds and delivery." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/inc/partials/head.php'; ?>

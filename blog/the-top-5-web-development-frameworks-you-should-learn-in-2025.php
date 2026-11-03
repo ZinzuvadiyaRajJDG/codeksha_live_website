@@ -4,21 +4,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Top 5 Web Development Frameworks You Should Learn | Codeksha</title>
-    <meta name="description" content="A practical overview of five web development frameworks worth learning - what each is good for, and how to decide which fits your goals." />
+    <title>Top 5 Web Development Frameworks You Should Learn</title>
+    <meta name="description" content="Compare the top web development frameworks worth learning, what each is best for, and how to choose the right one for your goals and career." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/blog/the-top-5-web-development-frameworks-you-should-learn-in-2025/" />
 
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="Codeksha" />
-    <meta property="og:title" content="The Top 5 Web Development Frameworks You Should Learn" />
-    <meta property="og:description" content="A practical overview of five web development frameworks worth learning - what each is good for, and how to decide which fits your goals." />
+    <meta property="og:title" content="Top 5 Web Development Frameworks You Should Learn" />
+    <meta property="og:description" content="Compare the top web development frameworks worth learning, what each is best for, and how to choose the right one for your goals and career." />
     <meta property="og:url" content="https://codeksha.com/blog/the-top-5-web-development-frameworks-you-should-learn-in-2025/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="The Top 5 Web Development Frameworks You Should Learn" />
-    <meta name="twitter:description" content="A practical overview of five web development frameworks worth learning - what each is good for, and how to decide which fits your goals." />
+    <meta name="twitter:title" content="Top 5 Web Development Frameworks You Should Learn" />
+    <meta name="twitter:description" content="Compare the top web development frameworks worth learning, what each is best for, and how to choose the right one for your goals and career." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
@@ -83,7 +83,7 @@
       <div class="container">
         <div class="post-layout">
           <div class="post-body">
-            <div class="post-feature-img"><img src="/Images/blog/live/the-top-5-web-development-frameworks-you-should-learn-in-2025.png" alt="The Top 5 Web Development Frameworks You Should Learn" width="1200" height="630"></div>
+            <div class="post-feature-img"><img src="/Images/blog/live/the-top-5-web-development-frameworks-you-should-learn-in-2025.webp" alt="The Top 5 Web Development Frameworks You Should Learn" width="1200" height="630"></div>
             <p>With so many frameworks available, it's easy to get stuck deciding what to learn. Here's a practical look at five frameworks that remain genuinely useful to know, and what each one is actually good for.</p>
             <h2 id="1-react-frontend">1. React (Frontend)</h2>
             <p>React remains one of the most widely used frontend libraries for building interactive user interfaces. It's component-based, has a huge ecosystem, and is a common requirement in job listings for frontend and full stack roles.</p>
@@ -152,14 +152,14 @@
                   </div>
                 </a>
                 <a href="/blog/full-stack-development-course-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/full-stack-development-course-rajkot.png" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/full-stack-development-course-rajkot.webp" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>Full Stack Development Course in Rajkot</span>
                     <small>December 16, 2025</small>
                   </div>
                 </a>
                 <a href="/blog/react-js-course-training-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/react-js-course-training-rajkot.png" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/react-js-course-training-rajkot.webp" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>React JS Course Training in Rajkot</span>
                     <small>December 14, 2025</small>
@@ -192,7 +192,7 @@
         </div>
         <div class="blog-grid">
           <a href="/blog/how-to-land-your-first-web-development-job-tips-for-freshers/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/how-to-land-your-first-web-development-job-tips-for-freshers.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/how-to-land-your-first-web-development-job-tips-for-freshers.webp" alt="How to land your first web development job: tips for freshers" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Career</span>
               <h3>How to Land Your First Web Development Job: Tips for Freshers</h3>
@@ -201,7 +201,7 @@
             </div>
           </a>
           <a href="/blog/freelance-web-development-how-to-get-started-and-succeed/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/freelance-web-development-how-to-get-started-and-succeed.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/freelance-web-development-how-to-get-started-and-succeed.webp" alt="Freelance web development: how to get started and succeed" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Career</span>
               <h3>Freelance Web Development: How to Get Started and Succeed</h3>
@@ -210,7 +210,7 @@
             </div>
           </a>
           <a href="/blog/how-to-build-a-portfolio-that-gets-you-hired-as-a-web-developer/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/how-to-build-a-portfolio-that-gets-you-hired-as-a-web-developer.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/how-to-build-a-portfolio-that-gets-you-hired-as-a-web-developer.webp" alt="How to build a web developer portfolio that gets you hired" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Career</span>
               <h3>How to Build a Portfolio That Gets You Hired as a Web Developer</h3>

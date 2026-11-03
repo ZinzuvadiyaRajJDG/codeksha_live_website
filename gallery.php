@@ -4,24 +4,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gallery | Codeksha - Training in Action, Rajkot</title>
+    <title>Gallery | Coding Classes in Rajkot | Codeksha</title>
     <meta
       name="description"
-      content="See Codeksha's classroom training, workshops and student life in Rajkot - real photos from our IT training centre."
+      content="See Codeksha's coding classes in Rajkot in action: classroom training, hands-on workshops, live projects and student life."
     />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/gallery/" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Codeksha" />
-    <meta property="og:title" content="Gallery | Codeksha - Training in Action, Rajkot" />
-    <meta property="og:description" content="See Codeksha's classroom training, workshops and student life in Rajkot." />
+    <meta property="og:title" content="Gallery | Coding Classes in Rajkot | Codeksha" />
+    <meta property="og:description" content="See Codeksha's coding classes in Rajkot in action: classroom training, hands-on workshops, live projects and student life." />
     <meta property="og:url" content="https://codeksha.com/gallery/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Gallery | Codeksha - Training in Action, Rajkot" />
-    <meta name="twitter:description" content="See Codeksha's classroom training, workshops and student life in Rajkot." />
+    <meta name="twitter:title" content="Gallery | Coding Classes in Rajkot | Codeksha" />
+    <meta name="twitter:description" content="See Codeksha's coding classes in Rajkot in action: classroom training, hands-on workshops, live projects and student life." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/inc/partials/head.php'; ?>
@@ -70,23 +70,23 @@
             <div class="gallery-item-overlay"><span>Live Project Work</span></div>
           </div>
           <div class="gallery-item">
-            <img src="/Images/gallery/gallery_image_4.png" alt="Instructor-led session at Codeksha" loading="lazy">
+            <img src="/Images/gallery/gallery_image_4.webp" alt="Instructor-led session at Codeksha" loading="lazy">
             <div class="gallery-item-overlay"><span>Instructor-Led Session</span></div>
           </div>
           <div class="gallery-item">
-            <img src="/Images/gallery/gallery_image_5.jpg" alt="Codeksha training centre in Rajkot" loading="lazy">
+            <img src="/Images/gallery/gallery_image_5.webp" alt="Codeksha training centre in Rajkot" loading="lazy">
             <div class="gallery-item-overlay"><span>At Our Rajkot Centre</span></div>
           </div>
           <div class="gallery-item">
-            <img src="/Images/gallery/gallery_image_6.jpg" alt="Codeksha students during a coding class" loading="lazy">
+            <img src="/Images/gallery/gallery_image_6.webp" alt="Codeksha students during a coding class" loading="lazy">
             <div class="gallery-item-overlay"><span>Coding Class</span></div>
           </div>
           <div class="gallery-item">
-            <img src="/Images/gallery/gallery_image_7.jpg" alt="Team collaboration at Codeksha" loading="lazy">
+            <img src="/Images/gallery/gallery_image_7.webp" alt="Team collaboration at Codeksha" loading="lazy">
             <div class="gallery-item-overlay"><span>Team Collaboration</span></div>
           </div>
           <div class="gallery-item">
-            <img src="/Images/gallery/gallery_image_8.jpg" alt="Codeksha mentorship session" loading="lazy">
+            <img src="/Images/gallery/gallery_image_8.webp" alt="Codeksha mentorship session" loading="lazy">
             <div class="gallery-item-overlay"><span>Mentorship</span></div>
           </div>
           <div class="gallery-item">
@@ -99,6 +99,35 @@
           </div>
         </div>
         <p style="text-align:center; margin-top:40px; font-size:14px; color:#94a3b8;">More photos from our workshops and events are added regularly.</p>
+      </div>
+    </section>
+
+    <!-- ABOUT THE PHOTOS -->
+    <section class="highlights-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="sub-title">LIFE AT CODEKSHA</span>
+          <h2>Inside our <span>coding classes in Rajkot</span></h2>
+          <p style="max-width:760px;margin:12px auto 0;color:#64748b;line-height:1.7;">These photos come from Codeksha's training centre in Rajkot. You will see instructor-led classroom sessions, hands-on workshops, live project work and students presenting what they have built. We believe you should see how a class actually runs before you choose an institute.</p>
+        </div>
+        <div class="info-card-grid cols-3">
+          <div class="info-card">
+            <div class="info-card-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+            <h3>Classroom Training</h3>
+            <p>Small, focused batches learn in a studio-style classroom, next to the instructor and classmates, not alone in front of a recorded video.</p>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <h3>Live Project Work</h3>
+            <p>Every course is built around real project briefs, code reviews and deadlines, so students finish with work they have actually built.</p>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon"><i class="fa-solid fa-people-group"></i></div>
+            <h3>Mentorship &amp; Events</h3>
+            <p>Working developers mentor students through workshops, team activities and project presentations throughout the course.</p>
+          </div>
+        </div>
+        <p style="text-align:center;margin:28px auto 0;max-width:760px;color:#64748b;line-height:1.7;">Explore our <a href="/courses/" style="color:#2563eb;font-weight:600;">IT courses in Rajkot</a>, read <a href="/about-us/" style="color:#2563eb;font-weight:600;">more about Codeksha</a>, or visit the <a href="/contact/" style="color:#2563eb;font-weight:600;">contact page</a> to plan a visit to our centre.</p>
       </div>
     </section>
 

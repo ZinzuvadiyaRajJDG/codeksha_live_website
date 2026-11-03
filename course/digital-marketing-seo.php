@@ -5,20 +5,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digital Marketing & SEO Course in Rajkot | Codeksha</title>
-    <meta name="description" content="Learn digital marketing in Rajkot at Codeksha - SEO, Google Ads, social media and email marketing, through classroom, project-based training." />
+    <meta name="description" content="Join our digital marketing course in Rajkot. Learn SEO, Google Ads, social media and email marketing in project-based classes." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/course/digital-marketing-seo/" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Codeksha" />
     <meta property="og:title" content="Digital Marketing & SEO Course in Rajkot | Codeksha" />
-    <meta property="og:description" content="Learn digital marketing in Rajkot at Codeksha - SEO, Google Ads, social media and email marketing, through classroom, project-based training." />
+    <meta property="og:description" content="Join our digital marketing course in Rajkot. Learn SEO, Google Ads, social media and email marketing in project-based classes." />
     <meta property="og:url" content="https://codeksha.com/course/digital-marketing-seo/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Digital Marketing & SEO Course in Rajkot | Codeksha" />
-    <meta name="twitter:description" content="Learn digital marketing in Rajkot at Codeksha - SEO, Google Ads, social media and email marketing, through classroom, project-based training." />
+    <meta name="twitter:description" content="Join our digital marketing course in Rajkot. Learn SEO, Google Ads, social media and email marketing in project-based classes." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
@@ -143,6 +143,8 @@
 
             <p>Want the bigger picture first? Read <a href="/blog/importance-of-digital-marketing/">Importance of Digital Marketing: 10 Benefits for Business Growth</a> to see how SEO, ads, social media and analytics work together.</p>
 
+            <p>Need great creatives for your campaigns? Explore our <a href="/course/graphic-design/">Graphic Design course in Rajkot</a> to design social posts, ads and brand assets.</p>
+
             <h2>Who This Course Is For &amp; What You'll Need</h2>
             <div class="two-list-grid">
               <div>
@@ -213,7 +215,7 @@
                 <span>Enroll Now</span>
                 <div class="arrow-btn-circle"><i data-lucide="arrow-right"></i></div>
               </a>
-              <a href="/book-demo/?course=digital-marketing-seo" class="course-sidebar-secondary-btn">Book a Free Demo Class</a>
+              <a href="/book-demo/#course=digital-marketing-seo" class="course-sidebar-secondary-btn">Book a Free Demo Class</a>
                 </div>
             </div>
           </aside>

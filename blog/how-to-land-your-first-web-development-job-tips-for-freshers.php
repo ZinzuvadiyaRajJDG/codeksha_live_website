@@ -5,20 +5,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>How to Land Your First Web Development Job | Codeksha</title>
-    <meta name="description" content="Practical, honest advice for freshers trying to land their first web development job - what actually matters to employers beyond just knowing how to code." />
+    <meta name="description" content="Honest advice for freshers on landing a first web development job: what employers value beyond knowing how to code." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/blog/how-to-land-your-first-web-development-job-tips-for-freshers/" />
 
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="Codeksha" />
     <meta property="og:title" content="How to Land Your First Web Development Job: Tips for Freshers" />
-    <meta property="og:description" content="Practical, honest advice for freshers trying to land their first web development job - what actually matters to employers beyond just knowing how to code." />
+    <meta property="og:description" content="Honest advice for freshers on landing a first web development job: what employers value beyond knowing how to code." />
     <meta property="og:url" content="https://codeksha.com/blog/how-to-land-your-first-web-development-job-tips-for-freshers/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="How to Land Your First Web Development Job: Tips for Freshers" />
-    <meta name="twitter:description" content="Practical, honest advice for freshers trying to land their first web development job - what actually matters to employers beyond just knowing how to code." />
+    <meta name="twitter:description" content="Honest advice for freshers on landing a first web development job: what employers value beyond knowing how to code." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
@@ -83,7 +83,7 @@
       <div class="container">
         <div class="post-layout">
           <div class="post-body">
-            <div class="post-feature-img"><img src="/Images/blog/live/how-to-land-your-first-web-development-job-tips-for-freshers.png" alt="How to Land Your First Web Development Job: Tips for Freshers" width="1200" height="630"></div>
+            <div class="post-feature-img"><img src="/Images/blog/live/how-to-land-your-first-web-development-job-tips-for-freshers.webp" alt="How to Land Your First Web Development Job: Tips for Freshers" width="1200" height="630"></div>
             <p>Getting your first developer job is often harder than learning to code, mostly because it depends on things tutorials don't teach - how you present your skills and how you talk about your work.</p>
             <h2 id="build-a-portfolio-before-you-apply-anywhere">Build a Portfolio Before You Apply Anywhere</h2>
             <p>A portfolio with 2-3 complete, working projects (not tutorial clones) is worth more to most employers than a certificate alone. Include live, deployed links and clean, readable code on GitHub - employers do check.</p>
@@ -151,14 +151,14 @@
                   </div>
                 </a>
                 <a href="/blog/full-stack-development-course-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/full-stack-development-course-rajkot.png" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/full-stack-development-course-rajkot.webp" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>Full Stack Development Course in Rajkot</span>
                     <small>December 16, 2025</small>
                   </div>
                 </a>
                 <a href="/blog/react-js-course-training-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/react-js-course-training-rajkot.png" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/react-js-course-training-rajkot.webp" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>React JS Course Training in Rajkot</span>
                     <small>December 14, 2025</small>
@@ -191,7 +191,7 @@
         </div>
         <div class="blog-grid">
           <a href="/blog/freelance-web-development-how-to-get-started-and-succeed/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/freelance-web-development-how-to-get-started-and-succeed.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/freelance-web-development-how-to-get-started-and-succeed.webp" alt="Freelance web development: how to get started and succeed" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Career</span>
               <h3>Freelance Web Development: How to Get Started and Succeed</h3>
@@ -200,7 +200,7 @@
             </div>
           </a>
           <a href="/blog/how-to-build-a-portfolio-that-gets-you-hired-as-a-web-developer/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/how-to-build-a-portfolio-that-gets-you-hired-as-a-web-developer.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/how-to-build-a-portfolio-that-gets-you-hired-as-a-web-developer.webp" alt="How to build a web developer portfolio that gets you hired" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Career</span>
               <h3>How to Build a Portfolio That Gets You Hired as a Web Developer</h3>
@@ -209,7 +209,7 @@
             </div>
           </a>
           <a href="/blog/how-cloud-computing-is-shaping-the-future-of-web-development/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/how-cloud-computing-is-shaping-the-future-of-web-development.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/how-cloud-computing-is-shaping-the-future-of-web-development.webp" alt="Cloud computing in web development: hosting, scaling and deployment" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>How Cloud Computing Is Shaping the Future of Web Development</h3>

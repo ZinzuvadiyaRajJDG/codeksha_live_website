@@ -4,21 +4,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Social Media Marketing Course in Rajkot | SMM Training | Codeksha</title>
-    <meta name="description" content="Learn social media marketing in Rajkot at Codeksha - content strategy, organic growth and paid ads for Instagram, Facebook and LinkedIn, taught through hands-on training." />
+    <title>Social Media Marketing Course in Rajkot | Codeksha</title>
+    <meta name="description" content="Learn social media marketing in Rajkot: content strategy, organic growth and paid ads on Instagram, Facebook and LinkedIn." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/course/social-media-marketing/" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Codeksha" />
-    <meta property="og:title" content="Social Media Marketing Course in Rajkot | SMM Training | Codeksha" />
-    <meta property="og:description" content="Learn social media marketing in Rajkot at Codeksha - content strategy, organic growth and paid ads for Instagram, Facebook and LinkedIn, taught through hands-on training." />
+    <meta property="og:title" content="Social Media Marketing Course in Rajkot | Codeksha" />
+    <meta property="og:description" content="Learn social media marketing in Rajkot: content strategy, organic growth and paid ads on Instagram, Facebook and LinkedIn." />
     <meta property="og:url" content="https://codeksha.com/course/social-media-marketing/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Social Media Marketing Course in Rajkot | SMM Training | Codeksha" />
-    <meta name="twitter:description" content="Learn social media marketing in Rajkot at Codeksha - content strategy, organic growth and paid ads for Instagram, Facebook and LinkedIn, taught through hands-on training." />
+    <meta name="twitter:title" content="Social Media Marketing Course in Rajkot | Codeksha" />
+    <meta name="twitter:description" content="Learn social media marketing in Rajkot: content strategy, organic growth and paid ads on Instagram, Facebook and LinkedIn." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
@@ -207,7 +207,7 @@
                 <span>Enroll Now</span>
                 <div class="arrow-btn-circle"><i data-lucide="arrow-right"></i></div>
               </a>
-              <a href="/book-demo/?course=digital-marketing-seo" class="course-sidebar-secondary-btn">Book a Free Demo Class</a>
+              <a href="/book-demo/#course=digital-marketing-seo" class="course-sidebar-secondary-btn">Book a Free Demo Class</a>
                 </div>
             </div>
           </aside>

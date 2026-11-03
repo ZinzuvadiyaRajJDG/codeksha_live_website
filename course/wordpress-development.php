@@ -5,20 +5,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WordPress Development Course in Rajkot | Codeksha</title>
-    <meta name="description" content="Learn WordPress development in Rajkot at Codeksha - custom themes, plugin development, WooCommerce and SEO, through classroom, project-based training." />
+    <meta name="description" content="Join our WordPress development course in Rajkot. Build custom themes, plugins and WooCommerce stores in project-based classes." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/course/wordpress-development/" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Codeksha" />
     <meta property="og:title" content="WordPress Development Course in Rajkot | Codeksha" />
-    <meta property="og:description" content="Learn WordPress development in Rajkot at Codeksha - custom themes, plugin development, WooCommerce and SEO, through classroom, project-based training." />
+    <meta property="og:description" content="Join our WordPress development course in Rajkot. Build custom themes, plugins and WooCommerce stores in project-based classes." />
     <meta property="og:url" content="https://codeksha.com/course/wordpress-development/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="WordPress Development Course in Rajkot | Codeksha" />
-    <meta name="twitter:description" content="Learn WordPress development in Rajkot at Codeksha - custom themes, plugin development, WooCommerce and SEO, through classroom, project-based training." />
+    <meta name="twitter:description" content="Join our WordPress development course in Rajkot. Build custom themes, plugins and WooCommerce stores in project-based classes." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
@@ -211,7 +211,7 @@
                 <span>Enroll Now</span>
                 <div class="arrow-btn-circle"><i data-lucide="arrow-right"></i></div>
               </a>
-              <a href="/book-demo/?course=wordpress-development" class="course-sidebar-secondary-btn">Book a Free Demo Class</a>
+              <a href="/book-demo/#course=wordpress-development" class="course-sidebar-secondary-btn">Book a Free Demo Class</a>
                 </div>
             </div>
           </aside>

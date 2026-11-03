@@ -4,21 +4,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JavaScript Roadmap for Beginners: What to Learn Step by Step | Codeksha</title>
-    <meta name="description" content="A practical JavaScript roadmap for beginners - what to learn first, in what order, and which mistakes to avoid, from the basics to your first real project." />
+    <title>JavaScript Roadmap for Beginners: Step-by-Step Guide</title>
+    <meta name="description" content="Follow this JavaScript roadmap for beginners: what to learn first, in what order, and how to build your first real projects." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/blog/javascript-roadmap-for-beginners-what-to-learn-step-by-step/" />
 
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="Codeksha" />
-    <meta property="og:title" content="JavaScript Roadmap for Beginners: What to Learn Step by Step" />
-    <meta property="og:description" content="A practical JavaScript roadmap for beginners - what to learn first, in what order, and which mistakes to avoid, from the basics to your first real project." />
+    <meta property="og:title" content="JavaScript Roadmap for Beginners: Step-by-Step Guide" />
+    <meta property="og:description" content="Follow this JavaScript roadmap for beginners: what to learn first, in what order, and how to build your first real projects." />
     <meta property="og:url" content="https://codeksha.com/blog/javascript-roadmap-for-beginners-what-to-learn-step-by-step/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="JavaScript Roadmap for Beginners: What to Learn Step by Step" />
-    <meta name="twitter:description" content="A practical JavaScript roadmap for beginners - what to learn first, in what order, and which mistakes to avoid, from the basics to your first real project." />
+    <meta name="twitter:title" content="JavaScript Roadmap for Beginners: Step-by-Step Guide" />
+    <meta name="twitter:description" content="Follow this JavaScript roadmap for beginners: what to learn first, in what order, and how to build your first real projects." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
@@ -84,7 +84,7 @@
       <div class="container">
         <div class="post-layout">
           <div class="post-body">
-            <div class="post-feature-img"><img src="/Images/blog/live/the-power-of-javascript-why-every-developer-needs-it.png" alt="JavaScript Roadmap for Beginners" width="1200" height="630"></div>
+            <div class="post-feature-img"><img src="/Images/blog/live/the-power-of-javascript-why-every-developer-needs-it.webp" alt="JavaScript Roadmap for Beginners" width="1200" height="630"></div>
 
             <p>If you've searched for a JavaScript roadmap before, you've probably run into one of those giant flowcharts with forty boxes and arrows going in every direction. They're not wrong, exactly, but they're overwhelming for someone who just wants to know what to open their code editor and start with tomorrow morning.</p>
             <p>So here's a simpler version. Not a poster you print and pin to your wall, just the actual order most people learn JavaScript in when it sticks, based on what we see work in our own classroom at Codeksha. Skip a step here and you'll usually feel it later, in the form of "wait, why doesn't this work" moments that a bit more foundation would've prevented.</p>
@@ -158,7 +158,7 @@
           <div class="post-cta-box">
             <h3>Want This Roadmap With an Instructor Who'll Actually Answer Your Questions?</h3>
             <p>Codeksha's <a href="/course/javascript/">JavaScript course</a> in Rajkot follows this exact progression, live and project-based. Book a free demo class and see a session for yourself.</p>
-            <a href="/book-demo/?course=frontend-development" class="hero-enroll-btn">
+            <a href="/book-demo/#course=frontend-development" class="hero-enroll-btn">
               <span>Book a Free Demo Class</span>
               <div class="arrow-btn-circle"><i data-lucide="arrow-right"></i></div>
             </a>
@@ -200,7 +200,7 @@
               <h4><i class="fa-regular fa-clock"></i> Recent Blogs</h4>
               <div class="sidebar-recent-list">
                 <a href="/blog/the-power-of-javascript-why-every-developer-needs-it/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/the-power-of-javascript-why-every-developer-needs-it.png" alt="The Power of JavaScript: Why Every Developer Needs It" loading="lazy" width="1200" height="630">
+                  <img src="/Images/blog/live/the-power-of-javascript-why-every-developer-needs-it.webp" alt="The Power of JavaScript: Why Every Developer Needs It" loading="lazy" width="1200" height="630">
                   <div>
                     <span>The Power of JavaScript: Why Every Developer Needs It</span>
                     <small>November 18, 2025</small>
@@ -214,7 +214,7 @@
                   </div>
                 </a>
                 <a href="/blog/full-stack-development-course-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/full-stack-development-course-rajkot.png" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/full-stack-development-course-rajkot.webp" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>Full Stack Development Course in Rajkot</span>
                     <small>December 16, 2025</small>
@@ -247,7 +247,7 @@
         </div>
         <div class="blog-grid">
           <a href="/blog/the-power-of-javascript-why-every-developer-needs-it/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/the-power-of-javascript-why-every-developer-needs-it.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/the-power-of-javascript-why-every-developer-needs-it.webp" alt="Importance of JavaScript for every web developer" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>The Power of JavaScript: Why Every Developer Needs It</h3>
@@ -256,7 +256,7 @@
             </div>
           </a>
           <a href="/blog/how-to-build-a-strong-foundation-in-web-development-a-beginners-guide/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/how-to-build-a-strong-foundation-in-web-development-a-beginners-guide.jpg" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/how-to-build-a-strong-foundation-in-web-development-a-beginners-guide.jpg" alt="Beginner's guide to building a strong foundation in web development" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>How to Build a Strong Foundation in Web Development: A Beginner's Guide</h3>
@@ -265,7 +265,7 @@
             </div>
           </a>
           <a href="/blog/the-top-5-web-development-frameworks-you-should-learn-in-2025/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/the-top-5-web-development-frameworks-you-should-learn-in-2025.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/the-top-5-web-development-frameworks-you-should-learn-in-2025.webp" alt="Top 5 web development frameworks to learn" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>The Top 5 Web Development Frameworks You Should Learn</h3>

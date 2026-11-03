@@ -7,7 +7,7 @@
     <title>Blog | Codeksha - Web Development &amp; IT Training Insights</title>
     <meta
       name="description"
-      content="Articles on web development, IT training in Rajkot, and career advice from Codeksha - covering HTML, CSS, JavaScript, PHP, frameworks and more."
+      content="Articles on web development, IT training in Rajkot and careers from Codeksha, covering HTML, CSS, JavaScript, PHP, frameworks and more."
     />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/blog/" />
@@ -15,13 +15,13 @@
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Codeksha" />
     <meta property="og:title" content="Blog | Codeksha - Web Development & IT Training Insights" />
-    <meta property="og:description" content="Articles on web development, IT training in Rajkot, and career advice from Codeksha." />
+    <meta property="og:description" content="Articles on web development, IT training in Rajkot and careers from Codeksha, covering HTML, CSS, JavaScript, PHP, frameworks and more." />
     <meta property="og:url" content="https://codeksha.com/blog/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Blog | Codeksha - Web Development & IT Training Insights" />
-    <meta name="twitter:description" content="Articles on web development, IT training in Rajkot, and career advice from Codeksha." />
+    <meta name="twitter:description" content="Articles on web development, IT training in Rajkot and careers from Codeksha, covering HTML, CSS, JavaScript, PHP, frameworks and more." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/inc/partials/head.php'; ?>
@@ -67,7 +67,7 @@
         </div>
         <div class="blog-grid" id="blogGrid">
           <a href="/blog/importance-of-digital-marketing/" class="blog-card" style="text-decoration:none;" data-cat="Digital Marketing">
-            <div class="blog-card-img"><img src="/Images/blog/live/importance-of-digital-marketing.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/importance-of-digital-marketing.webp" alt="Importance of digital marketing for business growth" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Digital Marketing</span>
               <h3>Importance of Digital Marketing: 10 Benefits for Business Growth</h3>
@@ -76,7 +76,7 @@
             </div>
           </a>
           <a href="/blog/n8n-vs-zapier/" class="blog-card" style="text-decoration:none;" data-cat="Web Development">
-            <div class="blog-card-img"><img src="/Images/blog/live/n8n-vs-zapier.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/n8n-vs-zapier.webp" alt="n8n vs Zapier: comparing two workflow automation tools" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>n8n vs Zapier: Which Automation Tool Should You Learn?</h3>
@@ -85,7 +85,7 @@
             </div>
           </a>
           <a href="/blog/javascript-roadmap-for-beginners-what-to-learn-step-by-step/" class="blog-card" style="text-decoration:none;" data-cat="Web Development">
-            <div class="blog-card-img"><img src="/Images/blog/live/the-power-of-javascript-why-every-developer-needs-it.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/the-power-of-javascript-why-every-developer-needs-it.webp" alt="JavaScript roadmap for beginners: step-by-step learning guide" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>JavaScript Roadmap for Beginners: What to Learn Step by Step</h3>
@@ -94,7 +94,7 @@
             </div>
           </a>
           <a href="/blog/it-training-after-12th-or-graduation-rajkot/" class="blog-card" style="text-decoration:none;" data-cat="IT Training Rajkot">
-            <div class="blog-card-img"><img src="/Images/blog/live/it-training-after-12th-or-graduation-rajkot.webp" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/it-training-after-12th-or-graduation-rajkot.webp" alt="IT training after 12th or graduation in Rajkot" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">IT Training Rajkot</span>
               <h3>IT Training After 12th or Graduation in Rajkot: What to Consider</h3>
@@ -103,7 +103,7 @@
             </div>
           </a>
           <a href="/blog/full-stack-development-course-rajkot/" class="blog-card" style="text-decoration:none;" data-cat="IT Training Rajkot">
-            <div class="blog-card-img"><img src="/Images/blog/live/full-stack-development-course-rajkot.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/full-stack-development-course-rajkot.webp" alt="Full stack development course in Rajkot" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">IT Training Rajkot</span>
               <h3>Full Stack Development Course in Rajkot</h3>
@@ -112,7 +112,7 @@
             </div>
           </a>
           <a href="/blog/react-js-course-training-rajkot/" class="blog-card" style="text-decoration:none;" data-cat="IT Training Rajkot">
-            <div class="blog-card-img"><img src="/Images/blog/live/react-js-course-training-rajkot.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/react-js-course-training-rajkot.webp" alt="React JS course training in Rajkot" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">IT Training Rajkot</span>
               <h3>React JS Course Training in Rajkot</h3>
@@ -121,7 +121,7 @@
             </div>
           </a>
           <a href="/blog/php-backend-training-rajkot/" class="blog-card" style="text-decoration:none;" data-cat="IT Training Rajkot">
-            <div class="blog-card-img"><img src="/Images/blog/live/php-backend-training-rajkot.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/php-backend-training-rajkot.webp" alt="PHP and backend development training in Rajkot" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">IT Training Rajkot</span>
               <h3>PHP & Backend Development Training in Rajkot</h3>
@@ -130,7 +130,7 @@
             </div>
           </a>
           <a href="/blog/it-web-development-course-training-rajkot/" class="blog-card" style="text-decoration:none;" data-cat="IT Training Rajkot">
-            <div class="blog-card-img"><img src="/Images/blog/live/it-web-development-course-training-rajkot.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/it-web-development-course-training-rajkot.webp" alt="IT and web development course training in Rajkot" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">IT Training Rajkot</span>
               <h3>IT & Web Development Course Training in Rajkot</h3>
@@ -139,7 +139,7 @@
             </div>
           </a>
           <a href="/blog/why-codeksha-best-web-design-development-training-gujarat/" class="blog-card" style="text-decoration:none;" data-cat="IT Training Rajkot">
-            <div class="blog-card-img"><img src="/Images/blog/live/why-codeksha-best-web-design-development-training-gujarat.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/why-codeksha-best-web-design-development-training-gujarat.webp" alt="Web design and development training in Gujarat at Codeksha" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">IT Training Rajkot</span>
               <h3>Why Students Choose Codeksha for Web Design & Development Training in Gujarat</h3>
@@ -148,7 +148,7 @@
             </div>
           </a>
           <a href="/blog/7-reasons-why-codeksha-is-rajkots-1-choice-for-it-courses/" class="blog-card" style="text-decoration:none;" data-cat="IT Training Rajkot">
-            <div class="blog-card-img"><img src="/Images/blog/live/7-reasons-why-codeksha-is-rajkots-1-choice-for-it-courses.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/7-reasons-why-codeksha-is-rajkots-1-choice-for-it-courses.webp" alt="Seven reasons students choose Codeksha for IT courses in Rajkot" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">IT Training Rajkot</span>
               <h3>7 Reasons Students Choose Codeksha for IT Courses in Rajkot</h3>
@@ -157,7 +157,7 @@
             </div>
           </a>
           <a href="/blog/codeksha-vs-others-which-web-development-institute-is-right-for-you/" class="blog-card" style="text-decoration:none;" data-cat="IT Training Rajkot">
-            <div class="blog-card-img"><img src="/Images/blog/live/codeksha-vs-others-which-web-development-institute-is-right-for-you.jpg" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/codeksha-vs-others-which-web-development-institute-is-right-for-you.webp" alt="Codeksha compared with other web development institutes in Rajkot" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">IT Training Rajkot</span>
               <h3>Codeksha vs. Other Institutes: Which Web Development Training Is Right for You?</h3>
@@ -166,7 +166,7 @@
             </div>
           </a>
           <a href="/blog/how-to-choose-the-best-it-training-institute-in-rajkot/" class="blog-card" style="text-decoration:none;" data-cat="IT Training Rajkot">
-            <div class="blog-card-img"><img src="/Images/blog/live/how-to-choose-the-best-it-training-institute-in-rajkot.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/how-to-choose-the-best-it-training-institute-in-rajkot.webp" alt="How to choose the best IT training institute in Rajkot" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">IT Training Rajkot</span>
               <h3>How to Choose an IT Training Institute in Rajkot: A Practical Checklist</h3>
@@ -175,7 +175,7 @@
             </div>
           </a>
           <a href="/blog/essential-tools-every-developer-should-use-for-efficient-coding/" class="blog-card" style="text-decoration:none;" data-cat="Web Development">
-            <div class="blog-card-img"><img src="/Images/blog/live/essential-tools-every-developer-should-use-for-efficient-coding.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/essential-tools-every-developer-should-use-for-efficient-coding.webp" alt="Essential tools every developer should use for efficient coding" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>Essential Tools Every Developer Should Use for Efficient Coding</h3>
@@ -184,7 +184,7 @@
             </div>
           </a>
           <a href="/blog/how-cloud-computing-is-shaping-the-future-of-web-development/" class="blog-card" style="text-decoration:none;" data-cat="Web Development">
-            <div class="blog-card-img"><img src="/Images/blog/live/how-cloud-computing-is-shaping-the-future-of-web-development.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/how-cloud-computing-is-shaping-the-future-of-web-development.webp" alt="Cloud computing in web development: hosting, scaling and deployment" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>How Cloud Computing Is Shaping the Future of Web Development</h3>
@@ -193,7 +193,7 @@
             </div>
           </a>
           <a href="/blog/how-to-build-a-portfolio-that-gets-you-hired-as-a-web-developer/" class="blog-card" style="text-decoration:none;" data-cat="Career">
-            <div class="blog-card-img"><img src="/Images/blog/live/how-to-build-a-portfolio-that-gets-you-hired-as-a-web-developer.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/how-to-build-a-portfolio-that-gets-you-hired-as-a-web-developer.webp" alt="How to build a web developer portfolio that gets you hired" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Career</span>
               <h3>How to Build a Portfolio That Gets You Hired as a Web Developer</h3>
@@ -202,7 +202,7 @@
             </div>
           </a>
           <a href="/blog/freelance-web-development-how-to-get-started-and-succeed/" class="blog-card" style="text-decoration:none;" data-cat="Career">
-            <div class="blog-card-img"><img src="/Images/blog/live/freelance-web-development-how-to-get-started-and-succeed.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/freelance-web-development-how-to-get-started-and-succeed.webp" alt="Freelance web development: how to get started and succeed" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Career</span>
               <h3>Freelance Web Development: How to Get Started and Succeed</h3>
@@ -211,7 +211,7 @@
             </div>
           </a>
           <a href="/blog/how-to-land-your-first-web-development-job-tips-for-freshers/" class="blog-card" style="text-decoration:none;" data-cat="Career">
-            <div class="blog-card-img"><img src="/Images/blog/live/how-to-land-your-first-web-development-job-tips-for-freshers.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/how-to-land-your-first-web-development-job-tips-for-freshers.webp" alt="How to land your first web development job: tips for freshers" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Career</span>
               <h3>How to Land Your First Web Development Job: Tips for Freshers</h3>
@@ -220,7 +220,7 @@
             </div>
           </a>
           <a href="/blog/the-top-5-web-development-frameworks-you-should-learn-in-2025/" class="blog-card" style="text-decoration:none;" data-cat="Web Development">
-            <div class="blog-card-img"><img src="/Images/blog/live/the-top-5-web-development-frameworks-you-should-learn-in-2025.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/the-top-5-web-development-frameworks-you-should-learn-in-2025.webp" alt="Top 5 web development frameworks to learn" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>The Top 5 Web Development Frameworks You Should Learn</h3>
@@ -229,7 +229,7 @@
             </div>
           </a>
           <a href="/blog/the-power-of-javascript-why-every-developer-needs-it/" class="blog-card" style="text-decoration:none;" data-cat="Web Development">
-            <div class="blog-card-img"><img src="/Images/blog/live/the-power-of-javascript-why-every-developer-needs-it.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/the-power-of-javascript-why-every-developer-needs-it.webp" alt="Importance of JavaScript for every web developer" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>The Power of JavaScript: Why Every Developer Needs It</h3>
@@ -238,7 +238,7 @@
             </div>
           </a>
           <a href="/blog/the-role-of-ui-ux-design-in-modern-web-development/" class="blog-card" style="text-decoration:none;" data-cat="Design">
-            <div class="blog-card-img"><img src="/Images/blog/live/the-role-of-ui-ux-design-in-modern-web-development.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/the-role-of-ui-ux-design-in-modern-web-development.webp" alt="Importance of UI/UX design in modern web development" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Design</span>
               <h3>The Role of UI/UX Design in Modern Web Development</h3>
@@ -247,7 +247,7 @@
             </div>
           </a>
           <a href="/blog/10-reasons-why-you-should-learn-full-stack-development-in-2025/" class="blog-card" style="text-decoration:none;" data-cat="Web Development">
-            <div class="blog-card-img"><img src="/Images/blog/live/10-reasons-why-you-should-learn-full-stack-development-in-2025.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/10-reasons-why-you-should-learn-full-stack-development-in-2025.webp" alt="10 reasons to learn full stack development" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>10 Reasons Why You Should Learn Full Stack Development</h3>
@@ -256,7 +256,7 @@
             </div>
           </a>
           <a href="/blog/how-to-build-a-strong-foundation-in-web-development-a-beginners-guide/" class="blog-card" style="text-decoration:none;" data-cat="Web Development">
-            <div class="blog-card-img"><img src="/Images/blog/live/how-to-build-a-strong-foundation-in-web-development-a-beginners-guide.jpg" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/how-to-build-a-strong-foundation-in-web-development-a-beginners-guide.jpg" alt="Beginner's guide to building a strong foundation in web development" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>How to Build a Strong Foundation in Web Development: A Beginner's Guide</h3>
@@ -265,7 +265,7 @@
             </div>
           </a>
           <a href="/blog/the-wordpress-story-from-blog-tool-to-web-giant-codeksha/" class="blog-card" style="text-decoration:none;" data-cat="CMS & Builders">
-            <div class="blog-card-img"><img src="/Images/blog/live/the-wordpress-story-from-blog-tool-to-web-giant-codeksha.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/the-wordpress-story-from-blog-tool-to-web-giant-codeksha.webp" alt="The WordPress story: from blogging tool to web giant" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">CMS & Builders</span>
               <h3>The WordPress Story: From Blog Tool to Web Giant</h3>
@@ -274,7 +274,7 @@
             </div>
           </a>
           <a href="/blog/story-of-php/" class="blog-card" style="text-decoration:none;" data-cat="Web Development">
-            <div class="blog-card-img"><img src="/Images/blog/live/story-of-php.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/story-of-php.webp" alt="The history of PHP, from a personal tool to powering the web" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>The Story of PHP: From a Personal Tool to Powering Most of the Web</h3>
@@ -283,7 +283,7 @@
             </div>
           </a>
           <a href="/blog/story-of-css/" class="blog-card" style="text-decoration:none;" data-cat="Web Development">
-            <div class="blog-card-img"><img src="/Images/blog/live/story-of-css.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/story-of-css.webp" alt="History of CSS: how the web learned to look good" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>The Story of CSS: How the Web Learned to Look Good</h3>
@@ -292,7 +292,7 @@
             </div>
           </a>
           <a href="/blog/story-of-html/" class="blog-card" style="text-decoration:none;" data-cat="Web Development">
-            <div class="blog-card-img"><img src="/Images/blog/live/story-of-html.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/story-of-html.webp" alt="The history of HTML, from simple documents to the backbone of the web" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>The Story of HTML: From Simple Documents to the Backbone of the Web</h3>

@@ -1,13 +1,14 @@
 <?php @include __DIR__ . '/inc/tracker.php'; /* analytics */ ?>
+<?php require_once __DIR__ . '/inc/theme.php'; $ck_diwali = ck_diwali_on(); /* seasonal theme switch: inc/theme-config.php */ ?>
 <!doctype html>
-<html lang="en">
+<html lang="en"<?= $ck_diwali ? ' class="diwali-theme"' : '' ?>>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IT Training Institute in Rajkot | Codeksha</title>
     <meta
       name="description"
-      content="Codeksha is an IT training institute in Rajkot teaching full stack, backend, frontend, Laravel and WordPress through classroom, project-based courses."
+      content="Codeksha is an IT training institute in Rajkot teaching full stack, backend, frontend, Laravel and WordPress in project-based classes."
     />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/" />
@@ -18,7 +19,7 @@
     <meta property="og:title" content="IT Training Institute in Rajkot | Codeksha" />
     <meta
       property="og:description"
-      content="Classroom, project-based IT training in Rajkot - Full Stack Development, Backend Programming, Frontend Design, Laravel and WordPress, taught by working developers."
+      content="Codeksha is an IT training institute in Rajkot teaching full stack, backend, frontend, Laravel and WordPress in project-based classes."
     />
     <meta property="og:url" content="https://codeksha.com/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
@@ -29,11 +30,12 @@
     <meta name="twitter:title" content="IT Training Institute in Rajkot | Codeksha" />
     <meta
       name="twitter:description"
-      content="Classroom, project-based IT training in Rajkot - Full Stack Development, Backend Programming, Frontend Design, Laravel and WordPress."
+      content="Codeksha is an IT training institute in Rajkot teaching full stack, backend, frontend, Laravel and WordPress in project-based classes."
     />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/inc/partials/head.php'; ?>
+    <?php ck_diwali_part('head'); ?>
 
     <!-- Organization + EducationalOrganization schema (verified NAP only) -->
     <script type="application/ld+json">
@@ -147,10 +149,12 @@
 
     <!-- HERO BANNER SECTION -->
     <section class="hero-banner-section">
+      <?php ck_diwali_part('hero-decor'); ?>
       <div class="container hero-container">
         
         <!-- Left Column: Branding Text, CTA & Metrics -->
         <div class="hero-left">
+<?php ck_diwali_part('greeting'); ?>
           <h1 class="hero-title">
             Learn From <span class="highlight-blue">Real Developers</span> at Codeksha's <span class="highlight-dark">IT Training Institute in Rajkot</span>
           </h1>
@@ -592,7 +596,7 @@
           <div class="card-inner">
             <div class="card-banner">
               <span class="category-tag">AI &amp; Automation</span>
-              <img src="/Images/ai_automation.png" alt="AI &amp; Automation" class="card-banner-img" loading="lazy" width="666" height="450">
+              <img src="/Images/ai_automation.webp" alt="AI &amp; Automation" class="card-banner-img" loading="lazy" width="666" height="450">
             </div>
             <div class="card-body">
               <div class="tags">
@@ -650,10 +654,11 @@
             Courses Categories Built for Today’s <span>Digital World</span>
           </h2>
           <div class="category-pills">
-            <a class="pill-btn" href="/courses/?filter=Web+Development">Web Development</a>
-            <a class="pill-btn" href="/courses/?filter=CMS+%26+Builders">CMS &amp; Builders</a>
-            <a class="pill-btn" href="/courses/?filter=Digital+Marketing+Course">Digital Marketing</a>
-            <a class="pill-btn" href="/courses/?filter=AI+%26+Automation">AI &amp; Automation</a>
+            <a class="pill-btn" href="/courses/#web-development">Web Development</a>
+            <a class="pill-btn" href="/courses/#cms-builders">CMS &amp; Builders</a>
+            <a class="pill-btn" href="/courses/#digital-marketing-course">Digital Marketing</a>
+            <a class="pill-btn" href="/courses/#ai-automation">AI &amp; Automation</a>
+            <a class="pill-btn" href="/courses/#design">Design</a>
           </div>
         </div>
       </div>
@@ -999,6 +1004,8 @@
         </div>
       </div>
     </section>
+
+    <?php if ($ck_diwali) { $GLOBALS['ck_suppress_promo_autoopen'] = true; ck_diwali_part('popup'); } ?>
 
     <!-- FOOTER -->
     <?php require __DIR__ . '/inc/partials/site-footer.php'; ?>

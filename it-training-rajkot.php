@@ -7,7 +7,7 @@
     <title>IT Training Rajkot | Codeksha Training Centre</title>
     <meta
       name="description"
-      content="Learn IT career skills in Rajkot with real, hands-on training, not just theory. Codeksha's developer-led courses in Full Stack, Backend, Frontend and Laravel."
+      content="Join an IT training institute in Rajkot with hands-on, developer-led courses in full stack, backend, frontend, Laravel and WordPress."
     />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/it-training-rajkot/" />
@@ -15,13 +15,13 @@
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Codeksha" />
     <meta property="og:title" content="IT Training Rajkot | Codeksha Training Centre" />
-    <meta property="og:description" content="Learn IT career skills in Rajkot with real, hands-on training - not just theory. Developer-led courses, live projects, classroom training." />
+    <meta property="og:description" content="Join an IT training institute in Rajkot with hands-on, developer-led courses in full stack, backend, frontend, Laravel and WordPress." />
     <meta property="og:url" content="https://codeksha.com/it-training-rajkot/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="IT Training Rajkot | Codeksha Training Centre" />
-    <meta name="twitter:description" content="Learn IT career skills in Rajkot with real, hands-on training - not just theory." />
+    <meta name="twitter:description" content="Join an IT training institute in Rajkot with hands-on, developer-led courses in full stack, backend, frontend, Laravel and WordPress." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/inc/partials/head.php'; ?>

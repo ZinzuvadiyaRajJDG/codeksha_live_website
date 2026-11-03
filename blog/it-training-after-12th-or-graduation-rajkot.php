@@ -141,21 +141,21 @@
               <h4><i class="fa-regular fa-clock"></i> Recent Blogs</h4>
               <div class="sidebar-recent-list">
                 <a href="/blog/full-stack-development-course-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/full-stack-development-course-rajkot.png" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/full-stack-development-course-rajkot.webp" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>Full Stack Development Course in Rajkot</span>
                     <small>December 16, 2025</small>
                   </div>
                 </a>
                 <a href="/blog/react-js-course-training-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/react-js-course-training-rajkot.png" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/react-js-course-training-rajkot.webp" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>React JS Course Training in Rajkot</span>
                     <small>December 14, 2025</small>
                   </div>
                 </a>
                 <a href="/blog/php-backend-training-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/php-backend-training-rajkot.png" alt="PHP & Backend Development Training in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/php-backend-training-rajkot.webp" alt="PHP & Backend Development Training in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>PHP & Backend Development Training in Rajkot</span>
                     <small>December 12, 2025</small>
@@ -188,7 +188,7 @@
         </div>
         <div class="blog-grid">
           <a href="/blog/story-of-html/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/story-of-html.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/story-of-html.webp" alt="The history of HTML, from simple documents to the backbone of the web" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>The Story of HTML: From Simple Documents to the Backbone of the Web</h3>
@@ -197,7 +197,7 @@
             </div>
           </a>
           <a href="/blog/story-of-css/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/story-of-css.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/story-of-css.webp" alt="History of CSS: how the web learned to look good" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>The Story of CSS: How the Web Learned to Look Good</h3>
@@ -206,7 +206,7 @@
             </div>
           </a>
           <a href="/blog/story-of-php/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/story-of-php.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/story-of-php.webp" alt="The history of PHP, from a personal tool to powering the web" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>The Story of PHP: From a Personal Tool to Powering Most of the Web</h3>

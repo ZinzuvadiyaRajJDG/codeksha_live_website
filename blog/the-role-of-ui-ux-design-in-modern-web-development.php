@@ -4,21 +4,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Role of UI/UX Design in Modern Web Development | Codeksha</title>
-    <meta name="description" content="Why UI and UX design are no longer optional extras in web development - and what developers should understand about design even if they're not designers." />
+    <title>Importance of UI/UX Design in Web Development</title>
+    <meta name="description" content="Learn why UI/UX design matters in modern web development and what developers should understand about design, even if they are not designers." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/blog/the-role-of-ui-ux-design-in-modern-web-development/" />
 
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="Codeksha" />
-    <meta property="og:title" content="The Role of UI/UX Design in Modern Web Development" />
-    <meta property="og:description" content="Why UI and UX design are no longer optional extras in web development - and what developers should understand about design even if they're not designers." />
+    <meta property="og:title" content="Importance of UI/UX Design in Web Development" />
+    <meta property="og:description" content="Learn why UI/UX design matters in modern web development and what developers should understand about design, even if they are not designers." />
     <meta property="og:url" content="https://codeksha.com/blog/the-role-of-ui-ux-design-in-modern-web-development/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="The Role of UI/UX Design in Modern Web Development" />
-    <meta name="twitter:description" content="Why UI and UX design are no longer optional extras in web development - and what developers should understand about design even if they're not designers." />
+    <meta name="twitter:title" content="Importance of UI/UX Design in Web Development" />
+    <meta name="twitter:description" content="Learn why UI/UX design matters in modern web development and what developers should understand about design, even if they are not designers." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
@@ -83,7 +83,7 @@
       <div class="container">
         <div class="post-layout">
           <div class="post-body">
-            <div class="post-feature-img"><img src="/Images/blog/live/the-role-of-ui-ux-design-in-modern-web-development.png" alt="The Role of UI/UX Design in Modern Web Development" width="1200" height="630"></div>
+            <div class="post-feature-img"><img src="/Images/blog/live/the-role-of-ui-ux-design-in-modern-web-development.webp" alt="The Role of UI/UX Design in Modern Web Development" width="1200" height="630"></div>
             <p>It used to be common for design and development to be treated as entirely separate disciplines - a designer hands over a mockup, and a developer builds it. That separation has broken down, and understanding why matters for anyone building for the web today.</p>
             <h2 id="ui-vs-ux-two-related-but-different-things">UI vs. UX: Two Related but Different Things</h2>
             <p>User Interface (UI) design is about how something looks - layout, color, typography, spacing. User Experience (UX) design is about how something works - the flow a user follows, how intuitive it feels, and whether the product actually solves their problem without friction. Good UI without good UX still results in a confusing product, and good UX with poor UI can feel unpolished. Both matter.</p>
@@ -145,14 +145,14 @@
                   </div>
                 </a>
                 <a href="/blog/full-stack-development-course-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/full-stack-development-course-rajkot.png" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/full-stack-development-course-rajkot.webp" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>Full Stack Development Course in Rajkot</span>
                     <small>December 16, 2025</small>
                   </div>
                 </a>
                 <a href="/blog/react-js-course-training-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/react-js-course-training-rajkot.png" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/react-js-course-training-rajkot.webp" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>React JS Course Training in Rajkot</span>
                     <small>December 14, 2025</small>
@@ -185,7 +185,7 @@
         </div>
         <div class="blog-grid">
           <a href="/blog/the-power-of-javascript-why-every-developer-needs-it/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/the-power-of-javascript-why-every-developer-needs-it.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/the-power-of-javascript-why-every-developer-needs-it.webp" alt="Importance of JavaScript for every web developer" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>The Power of JavaScript: Why Every Developer Needs It</h3>
@@ -194,7 +194,7 @@
             </div>
           </a>
           <a href="/blog/the-top-5-web-development-frameworks-you-should-learn-in-2025/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/the-top-5-web-development-frameworks-you-should-learn-in-2025.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/the-top-5-web-development-frameworks-you-should-learn-in-2025.webp" alt="Top 5 web development frameworks to learn" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>The Top 5 Web Development Frameworks You Should Learn</h3>
@@ -203,7 +203,7 @@
             </div>
           </a>
           <a href="/blog/how-to-land-your-first-web-development-job-tips-for-freshers/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/how-to-land-your-first-web-development-job-tips-for-freshers.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/how-to-land-your-first-web-development-job-tips-for-freshers.webp" alt="How to land your first web development job: tips for freshers" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Career</span>
               <h3>How to Land Your First Web Development Job: Tips for Freshers</h3>

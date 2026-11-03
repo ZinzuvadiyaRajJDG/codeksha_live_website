@@ -7,7 +7,7 @@
     <title>IT Courses in Rajkot | Codeksha Course Catalog</title>
     <meta
       name="description"
-      content="Browse all IT courses at Codeksha's Rajkot training centre - Full Stack, Backend, Frontend, PHP, Laravel, WordPress, Digital Marketing and more classroom courses."
+      content="Browse all IT courses in Rajkot at Codeksha: full stack, frontend, backend, WordPress, digital marketing, AI and more, in live classes."
     />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/courses/" />
@@ -15,13 +15,13 @@
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Codeksha" />
     <meta property="og:title" content="IT Courses in Rajkot | Codeksha Course Catalog" />
-    <meta property="og:description" content="Browse all IT courses at Codeksha's Rajkot training centre - Full Stack, Backend, Frontend, PHP, Laravel, WordPress, Digital Marketing and more." />
+    <meta property="og:description" content="Browse all IT courses in Rajkot at Codeksha: full stack, frontend, backend, WordPress, digital marketing, AI and more, in live classes." />
     <meta property="og:url" content="https://codeksha.com/courses/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="IT Courses in Rajkot | Codeksha Course Catalog" />
-    <meta name="twitter:description" content="Browse all IT courses at Codeksha's Rajkot training centre - Full Stack, Backend, Frontend, PHP, Laravel, WordPress, Digital Marketing and more." />
+    <meta name="twitter:description" content="Browse all IT courses in Rajkot at Codeksha: full stack, frontend, backend, WordPress, digital marketing, AI and more, in live classes." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/inc/partials/head.php'; ?>
@@ -62,6 +62,7 @@
           <button class="category-filter-pill" data-filter="CMS & Builders">CMS &amp; Builders</button>
           <button class="category-filter-pill" data-filter="Digital Marketing Course">Digital Marketing</button>
           <button class="category-filter-pill" data-filter="AI & Automation">AI &amp; Automation</button>
+          <button class="category-filter-pill" data-filter="Design">Design</button>
         </div>
 
         <div class="courses-static-grid" id="coursesGrid">
@@ -261,6 +262,36 @@
             </div>
           </div>
 
+          <div class="course-tile" data-category="Design">
+            <div class="course-tile-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+            <span class="course-tile-cat">Design</span>
+            <h3>UI/UX Design</h3>
+            <div class="course-tile-meta">
+              <span><i class="fa-regular fa-clock"></i> 12 weeks</span>
+              <span><i class="fa-solid fa-book"></i> 24 lessons</span>
+            </div>
+            <p>User research, wireframes, Figma prototyping and design systems with real portfolio projects.</p>
+            <div class="course-tile-footer">
+              <span class="course-tile-tag">Beginner</span>
+              <a href="/course/ui-ux-design/" class="course-tile-link">View course &rarr;</a>
+            </div>
+          </div>
+
+          <div class="course-tile" data-category="Design">
+            <div class="course-tile-icon"><i class="fa-solid fa-swatchbook"></i></div>
+            <span class="course-tile-cat">Design</span>
+            <h3>Graphic Design</h3>
+            <div class="course-tile-meta">
+              <span><i class="fa-regular fa-clock"></i> 12 weeks</span>
+              <span><i class="fa-solid fa-book"></i> 24 lessons</span>
+            </div>
+            <p>Photoshop, Illustrator, CorelDRAW and Canva with real branding, social media and print projects.</p>
+            <div class="course-tile-footer">
+              <span class="course-tile-tag">Beginner</span>
+              <a href="/course/graphic-design/" class="course-tile-link">View course &rarr;</a>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
@@ -302,11 +333,13 @@
           pill.addEventListener('click', () => applyFilter(pill.getAttribute('data-filter')));
         });
 
-        // Arrive pre-filtered when linked from the homepage category pills (?filter=...)
+        // Arrive pre-filtered from the homepage category pills (#web-development etc., or legacy ?filter=...)
+        const slugOf = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+        const hashSlug = window.location.hash.replace(/^#/, '');
         const requestedFilter = new URLSearchParams(location.search).get('filter');
-        if (requestedFilter && [...pills].some(p => p.getAttribute('data-filter') === requestedFilter)) {
-          applyFilter(requestedFilter);
-        }
+        const matchPill = [...pills].find(p => hashSlug && slugOf(p.getAttribute('data-filter')) === hashSlug)
+          || [...pills].find(p => requestedFilter && p.getAttribute('data-filter') === requestedFilter);
+        if (matchPill) applyFilter(matchPill.getAttribute('data-filter'));
       });
     </script>
   </body>

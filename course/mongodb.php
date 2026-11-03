@@ -4,21 +4,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MongoDB Course in Rajkot | NoSQL Database Training | Codeksha</title>
-    <meta name="description" content="Learn MongoDB in Rajkot at Codeksha - NoSQL database design, CRUD operations, aggregation pipelines and connecting MongoDB to real backend applications, taught hands-on." />
+    <title>MongoDB Course in Rajkot | NoSQL Training | Codeksha</title>
+    <meta name="description" content="Join our MongoDB course in Rajkot. Learn NoSQL database design, CRUD, aggregation pipelines and how to connect MongoDB to backend apps." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/course/mongodb/" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Codeksha" />
-    <meta property="og:title" content="MongoDB Course in Rajkot | NoSQL Database Training | Codeksha" />
-    <meta property="og:description" content="Learn MongoDB in Rajkot at Codeksha - NoSQL database design, CRUD operations, aggregation pipelines and connecting MongoDB to real backend applications, taught hands-on." />
+    <meta property="og:title" content="MongoDB Course in Rajkot | NoSQL Training | Codeksha" />
+    <meta property="og:description" content="Join our MongoDB course in Rajkot. Learn NoSQL database design, CRUD, aggregation pipelines and how to connect MongoDB to backend apps." />
     <meta property="og:url" content="https://codeksha.com/course/mongodb/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="MongoDB Course in Rajkot | NoSQL Database Training | Codeksha" />
-    <meta name="twitter:description" content="Learn MongoDB in Rajkot at Codeksha - NoSQL database design, CRUD operations, aggregation pipelines and connecting MongoDB to real backend applications, taught hands-on." />
+    <meta name="twitter:title" content="MongoDB Course in Rajkot | NoSQL Training | Codeksha" />
+    <meta name="twitter:description" content="Join our MongoDB course in Rajkot. Learn NoSQL database design, CRUD, aggregation pipelines and how to connect MongoDB to backend apps." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
@@ -207,7 +207,7 @@
                 <span>Enroll Now</span>
                 <div class="arrow-btn-circle"><i data-lucide="arrow-right"></i></div>
               </a>
-              <a href="/book-demo/?course=backend-development" class="course-sidebar-secondary-btn">Book a Free Demo Class</a>
+              <a href="/book-demo/#course=backend-development" class="course-sidebar-secondary-btn">Book a Free Demo Class</a>
                 </div>
             </div>
           </aside>

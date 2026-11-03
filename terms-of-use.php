@@ -4,24 +4,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Terms of Use | Codeksha</title>
+    <title>Terms of Use | Codeksha Training Institute, Rajkot</title>
     <meta
       name="description"
-      content="Terms governing your access to and participation in Codeksha's offline training programs, website and services."
+      content="Read the terms of use that govern access to Codeksha's website, offline IT training programs and other services in Rajkot."
     />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/terms-of-use/" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Codeksha" />
-    <meta property="og:title" content="Terms of Use | Codeksha" />
-    <meta property="og:description" content="Terms governing your access to and participation in Codeksha's training programs and website." />
+    <meta property="og:title" content="Terms of Use | Codeksha Training Institute, Rajkot" />
+    <meta property="og:description" content="Read the terms of use that govern access to Codeksha's website, offline IT training programs and other services in Rajkot." />
     <meta property="og:url" content="https://codeksha.com/terms-of-use/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Terms of Use | Codeksha" />
-    <meta name="twitter:description" content="Terms governing your access to and participation in Codeksha's training programs and website." />
+    <meta name="twitter:title" content="Terms of Use | Codeksha Training Institute, Rajkot" />
+    <meta name="twitter:description" content="Read the terms of use that govern access to Codeksha's website, offline IT training programs and other services in Rajkot." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/inc/partials/head.php'; ?>

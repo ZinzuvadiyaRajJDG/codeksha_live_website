@@ -7,7 +7,7 @@
     <title>Book a Free Demo Class in Rajkot | Codeksha</title>
     <meta
       name="description"
-      content="Book a free demo class at Codeksha's Rajkot training centre. Sit in on a real session, meet the instructor and see how our project-based courses work - no cost, no commitment."
+      content="Book a free demo class at Codeksha in Rajkot. Sit in on a real session, meet the instructor and see how our project-based courses work."
     />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/book-demo/" />
@@ -15,13 +15,13 @@
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Codeksha" />
     <meta property="og:title" content="Book a Free Demo Class in Rajkot | Codeksha" />
-    <meta property="og:description" content="Sit in on a real Codeksha session, meet the instructor and see how our courses work - free, no commitment." />
+    <meta property="og:description" content="Book a free demo class at Codeksha in Rajkot. Sit in on a real session, meet the instructor and see how our project-based courses work." />
     <meta property="og:url" content="https://codeksha.com/book-demo/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Book a Free Demo Class in Rajkot | Codeksha" />
-    <meta name="twitter:description" content="Sit in on a real Codeksha session, meet the instructor and see how our courses work - free, no commitment." />
+    <meta name="twitter:description" content="Book a free demo class at Codeksha in Rajkot. Sit in on a real session, meet the instructor and see how our project-based courses work." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/inc/partials/head.php'; ?>
@@ -121,6 +121,8 @@
                   <option>Digital Marketing &amp; SEO</option>
                   <option>WordPress Development</option>
                   <option>AI &amp; Automation</option>
+                  <option>UI/UX Design</option>
+                  <option>Graphic Design</option>
                   <option>Not sure yet - help me choose</option>
                 </select>
               </div>
@@ -193,9 +195,10 @@
           demoPhone.addEventListener('blur', () => demoPhone.setCustomValidity(ckPhoneError(demoPhone.value)));
         }
 
-        // pre-select the course if arriving from a course page (?course=slug)
+        // pre-select the course if arriving from a course page (#course=slug, or legacy ?course=slug)
         const params = new URLSearchParams(location.search);
-        const wanted = (params.get('course') || '').toLowerCase();
+        const hashParams = new URLSearchParams(location.hash.replace(/^#/, ''));
+        const wanted = (hashParams.get('course') || params.get('course') || '').toLowerCase();
         if (wanted && demoCourse) {
           [...demoCourse.options].forEach(o => {
             if (o.value && o.value.toLowerCase().replace(/[^a-z]+/g, '-').includes(wanted)) o.selected = true;

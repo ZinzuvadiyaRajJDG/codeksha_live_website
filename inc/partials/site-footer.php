@@ -125,12 +125,14 @@
           try { return localStorage.getItem(SEEN_KEY) === '1'; } catch (e) { return false; }
         }
 
+<?php if (empty($GLOBALS['ck_suppress_promo_autoopen'])): ?>
         if (!hasBeenSeen()) {
           window.setTimeout(function () {
             openPopup();
             markSeen();
           }, 1800);
         }
+<?php endif; ?>
 
         closeBtn.addEventListener('click', closePopup);
         overlay.addEventListener('click', function (e) {

@@ -4,21 +4,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JavaScript Course in Rajkot | Learn JavaScript Programming | Codeksha</title>
-    <meta name="description" content="Learn JavaScript in Rajkot at Codeksha - core syntax, DOM manipulation, ES6+, async programming and API calls, taught through hands-on, project-based classroom training." />
+    <title>JavaScript Course in Rajkot | Project-Based | Codeksha</title>
+    <meta name="description" content="Learn JavaScript in Rajkot: syntax, DOM manipulation, ES6+, async programming and API calls in live, project-based classes." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/course/javascript/" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Codeksha" />
-    <meta property="og:title" content="JavaScript Course in Rajkot | Learn JavaScript Programming | Codeksha" />
-    <meta property="og:description" content="Learn JavaScript in Rajkot at Codeksha - core syntax, DOM manipulation, ES6+, async programming and API calls, taught through hands-on, project-based classroom training." />
+    <meta property="og:title" content="JavaScript Course in Rajkot | Project-Based | Codeksha" />
+    <meta property="og:description" content="Learn JavaScript in Rajkot: syntax, DOM manipulation, ES6+, async programming and API calls in live, project-based classes." />
     <meta property="og:url" content="https://codeksha.com/course/javascript/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="JavaScript Course in Rajkot | Learn JavaScript Programming | Codeksha" />
-    <meta name="twitter:description" content="Learn JavaScript in Rajkot at Codeksha - core syntax, DOM manipulation, ES6+, async programming and API calls, taught through hands-on, project-based classroom training." />
+    <meta name="twitter:title" content="JavaScript Course in Rajkot | Project-Based | Codeksha" />
+    <meta name="twitter:description" content="Learn JavaScript in Rajkot: syntax, DOM manipulation, ES6+, async programming and API calls in live, project-based classes." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
@@ -209,7 +209,7 @@
                 <span>Enroll Now</span>
                 <div class="arrow-btn-circle"><i data-lucide="arrow-right"></i></div>
               </a>
-              <a href="/book-demo/?course=frontend-development" class="course-sidebar-secondary-btn">Book a Free Demo Class</a>
+              <a href="/book-demo/#course=frontend-development" class="course-sidebar-secondary-btn">Book a Free Demo Class</a>
                 </div>
             </div>
           </aside>

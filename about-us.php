@@ -4,10 +4,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Codeksha | Developer-Led IT &amp; Web Development Institute in Rajkot</title>
+    <title>About Codeksha | IT Training Institute in Rajkot</title>
     <meta
       name="description"
-      content="Codeksha is a developer-led IT and web development training institute in Rajkot, with classroom batches in Jamnagar. Learn full stack, frontend, backend, WordPress, digital marketing and AI through live, project-based training. 10,000+ learners trained, rated 4.85."
+      content="Codeksha is a developer-led IT training institute in Rajkot with a Jamnagar centre. Learn web development, digital marketing and AI."
     />
     <meta name="keywords" content="Codeksha, about Codeksha, IT training institute Rajkot, web development course Rajkot, developer-led training, coding classes Rajkot, Codeksha Jamnagar" />
     <meta name="robots" content="index, follow, max-image-preview:large" />
@@ -16,14 +16,14 @@
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Codeksha" />
-    <meta property="og:title" content="About Codeksha | Developer-Led IT &amp; Web Development Institute in Rajkot" />
-    <meta property="og:description" content="Where code meets siksha. Codeksha trains students in Rajkot and Jamnagar through classroom, project-based courses taught by working developers - not lecturers." />
+    <meta property="og:title" content="About Codeksha | IT Training Institute in Rajkot" />
+    <meta property="og:description" content="Codeksha is a developer-led IT training institute in Rajkot with a Jamnagar centre. Learn web development, digital marketing and AI." />
     <meta property="og:url" content="https://codeksha.com/about-us/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="About Codeksha | Developer-Led IT Institute in Rajkot" />
-    <meta name="twitter:description" content="10,000+ learners. 10+ years. Rated 4.85. Classroom, project-based IT training in Rajkot taught by real developers." />
+    <meta name="twitter:title" content="About Codeksha | IT Training Institute in Rajkot" />
+    <meta name="twitter:description" content="Codeksha is a developer-led IT training institute in Rajkot with a Jamnagar centre. Learn web development, digital marketing and AI." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/inc/partials/head.php'; ?>

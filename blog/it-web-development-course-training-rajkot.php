@@ -5,20 +5,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IT & Web Development Course Training in Rajkot | Codeksha</title>
-    <meta name="description" content="A guide to IT and web development course training in Rajkot - what's covered, how classroom training works, and how to choose the right course." />
+    <meta name="description" content="A guide to IT and web development course training in Rajkot: what is covered, how classroom training works and how to choose." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/blog/it-web-development-course-training-rajkot/" />
 
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="Codeksha" />
     <meta property="og:title" content="IT & Web Development Course Training in Rajkot" />
-    <meta property="og:description" content="A guide to IT and web development course training in Rajkot - what's covered, how classroom training works, and how to choose the right course." />
+    <meta property="og:description" content="A guide to IT and web development course training in Rajkot: what is covered, how classroom training works and how to choose." />
     <meta property="og:url" content="https://codeksha.com/blog/it-web-development-course-training-rajkot/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="IT & Web Development Course Training in Rajkot" />
-    <meta name="twitter:description" content="A guide to IT and web development course training in Rajkot - what's covered, how classroom training works, and how to choose the right course." />
+    <meta name="twitter:description" content="A guide to IT and web development course training in Rajkot: what is covered, how classroom training works and how to choose." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
@@ -83,7 +83,7 @@
       <div class="container">
         <div class="post-layout">
           <div class="post-body">
-            <div class="post-feature-img"><img src="/Images/blog/live/it-web-development-course-training-rajkot.png" alt="IT & Web Development Course Training in Rajkot" width="1200" height="630"></div>
+            <div class="post-feature-img"><img src="/Images/blog/live/it-web-development-course-training-rajkot.webp" alt="IT & Web Development Course Training in Rajkot" width="1200" height="630"></div>
             <p>If you're looking for IT and web development training in Rajkot, it helps to understand what a genuinely useful course should cover before you enroll anywhere.</p>
             <h2 id="what-a-solid-web-development-course-should-include">What a Solid Web Development Course Should Include</h2>
             <p>Look for a curriculum that covers HTML, CSS and JavaScript fundamentals, at least one frontend framework, backend logic and databases, and real deployment - not just an isolated slice of the stack.</p>
@@ -145,14 +145,14 @@
                   </div>
                 </a>
                 <a href="/blog/full-stack-development-course-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/full-stack-development-course-rajkot.png" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/full-stack-development-course-rajkot.webp" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>Full Stack Development Course in Rajkot</span>
                     <small>December 16, 2025</small>
                   </div>
                 </a>
                 <a href="/blog/react-js-course-training-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/react-js-course-training-rajkot.png" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/react-js-course-training-rajkot.webp" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>React JS Course Training in Rajkot</span>
                     <small>December 14, 2025</small>
@@ -185,7 +185,7 @@
         </div>
         <div class="blog-grid">
           <a href="/blog/php-backend-training-rajkot/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/php-backend-training-rajkot.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/php-backend-training-rajkot.webp" alt="PHP and backend development training in Rajkot" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">IT Training Rajkot</span>
               <h3>PHP & Backend Development Training in Rajkot</h3>
@@ -194,7 +194,7 @@
             </div>
           </a>
           <a href="/blog/react-js-course-training-rajkot/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/react-js-course-training-rajkot.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/react-js-course-training-rajkot.webp" alt="React JS course training in Rajkot" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">IT Training Rajkot</span>
               <h3>React JS Course Training in Rajkot</h3>
@@ -203,7 +203,7 @@
             </div>
           </a>
           <a href="/blog/full-stack-development-course-rajkot/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/full-stack-development-course-rajkot.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/full-stack-development-course-rajkot.webp" alt="Full stack development course in Rajkot" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">IT Training Rajkot</span>
               <h3>Full Stack Development Course in Rajkot</h3>

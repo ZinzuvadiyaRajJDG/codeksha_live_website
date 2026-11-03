@@ -33,6 +33,17 @@ Options -Indexes
   RewriteEngine On
   RewriteBase /
 
+  # Force HTTPS on the live domain only (local codeksha.test stays on http).
+  # Also covers shared hosts / proxies that terminate SSL (X-Forwarded-Proto).
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]
+  RewriteCond %{HTTP_HOST} ^(www\.)?codeksha\.com$ [NC]
+  RewriteRule ^ https://codeksha.com%{REQUEST_URI} [R=301,L]
+
+  # www -> non-www (canonical host is https://codeksha.com)
+  RewriteCond %{HTTP_HOST} ^www\.codeksha\.com$ [NC]
+  RewriteRule ^ https://codeksha.com%{REQUEST_URI} [R=301,L]
+
   # Never expose the include / db folders over HTTP
   RewriteRule ^(inc|db)(/|$) - [F]
 

@@ -4,21 +4,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>n8n Automation Course in Rajkot | Workflow Automation | Codeksha</title>
-    <meta name="description" content="Learn n8n automation in Rajkot at Codeksha - build no-code workflow automations, connect apps and APIs, and automate real business processes with n8n, Zapier and Make." />
+    <title>n8n Course in Rajkot: Workflow Automation | Codeksha</title>
+    <meta name="description" content="Join the n8n course in Rajkot at Codeksha. Build no-code workflow automations, connect apps and APIs, and automate real processes." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/course/n8n-automation/" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Codeksha" />
-    <meta property="og:title" content="n8n Automation Course in Rajkot | Workflow Automation | Codeksha" />
-    <meta property="og:description" content="Learn n8n automation in Rajkot at Codeksha - build no-code workflow automations, connect apps and APIs, and automate real business processes with n8n, Zapier and Make." />
+    <meta property="og:title" content="n8n Course in Rajkot: Workflow Automation | Codeksha" />
+    <meta property="og:description" content="Join the n8n course in Rajkot at Codeksha. Build no-code workflow automations, connect apps and APIs, and automate real processes." />
     <meta property="og:url" content="https://codeksha.com/course/n8n-automation/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="n8n Automation Course in Rajkot | Workflow Automation | Codeksha" />
-    <meta name="twitter:description" content="Learn n8n automation in Rajkot at Codeksha - build no-code workflow automations, connect apps and APIs, and automate real business processes with n8n, Zapier and Make." />
+    <meta name="twitter:title" content="n8n Course in Rajkot: Workflow Automation | Codeksha" />
+    <meta name="twitter:description" content="Join the n8n course in Rajkot at Codeksha. Build no-code workflow automations, connect apps and APIs, and automate real processes." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
@@ -209,7 +209,7 @@
                 <span>Enroll Now</span>
                 <div class="arrow-btn-circle"><i data-lucide="arrow-right"></i></div>
               </a>
-              <a href="/book-demo/?course=ai-automation" class="course-sidebar-secondary-btn">Book a Free Demo Class</a>
+              <a href="/book-demo/#course=ai-automation" class="course-sidebar-secondary-btn">Book a Free Demo Class</a>
                 </div>
             </div>
           </aside>

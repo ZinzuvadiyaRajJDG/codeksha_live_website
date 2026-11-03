@@ -5,20 +5,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Story of HTML: Building the Web's Backbone | Codeksha</title>
-    <meta name="description" content="The history of HTML - from Tim Berners-Lee's original proposal to HTML5 - and why it still matters for anyone learning web development today." />
+    <meta name="description" content="The history of HTML, from Tim Berners-Lee's original proposal to HTML5, and why it still matters if you are learning web development." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/blog/story-of-html/" />
 
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="Codeksha" />
     <meta property="og:title" content="The Story of HTML: From Simple Documents to the Backbone of the Web" />
-    <meta property="og:description" content="The history of HTML - from Tim Berners-Lee's original proposal to HTML5 - and why it still matters for anyone learning web development today." />
+    <meta property="og:description" content="The history of HTML, from Tim Berners-Lee's original proposal to HTML5, and why it still matters if you are learning web development." />
     <meta property="og:url" content="https://codeksha.com/blog/story-of-html/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="The Story of HTML: From Simple Documents to the Backbone of the Web" />
-    <meta name="twitter:description" content="The history of HTML - from Tim Berners-Lee's original proposal to HTML5 - and why it still matters for anyone learning web development today." />
+    <meta name="twitter:description" content="The history of HTML, from Tim Berners-Lee's original proposal to HTML5, and why it still matters if you are learning web development." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
@@ -83,7 +83,7 @@
       <div class="container">
         <div class="post-layout">
           <div class="post-body">
-            <div class="post-feature-img"><img src="/Images/blog/live/story-of-html.png" alt="The Story of HTML: From Simple Documents to the Backbone of the Web" width="1200" height="630"></div>
+            <div class="post-feature-img"><img src="/Images/blog/live/story-of-html.webp" alt="The Story of HTML: From Simple Documents to the Backbone of the Web" width="1200" height="630"></div>
             <p>HTML is the oldest of the three core web technologies, and understanding where it came from makes it much easier to understand why it works the way it does today.</p>
             <h2 id="where-html-started">Where HTML Started</h2>
             <p>HTML (HyperText Markup Language) was created by Tim Berners-Lee in 1990-91 while he was working at CERN, the European physics research organization. He needed a simple way to link scientific documents together so researchers could jump between related papers - the earliest form of what we now call a hyperlink. His original specification described fewer than 20 tags, most of which (like <code>&lt;p&gt;</code>, <code>&lt;a&gt;</code>, and heading tags) are still in use today.</p>
@@ -145,14 +145,14 @@
                   </div>
                 </a>
                 <a href="/blog/full-stack-development-course-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/full-stack-development-course-rajkot.png" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/full-stack-development-course-rajkot.webp" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>Full Stack Development Course in Rajkot</span>
                     <small>December 16, 2025</small>
                   </div>
                 </a>
                 <a href="/blog/react-js-course-training-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/react-js-course-training-rajkot.png" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/react-js-course-training-rajkot.webp" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>React JS Course Training in Rajkot</span>
                     <small>December 14, 2025</small>
@@ -185,7 +185,7 @@
         </div>
         <div class="blog-grid">
           <a href="/blog/story-of-css/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/story-of-css.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/story-of-css.webp" alt="History of CSS: how the web learned to look good" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>The Story of CSS: How the Web Learned to Look Good</h3>
@@ -194,7 +194,7 @@
             </div>
           </a>
           <a href="/blog/story-of-php/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/story-of-php.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/story-of-php.webp" alt="The history of PHP, from a personal tool to powering the web" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>The Story of PHP: From a Personal Tool to Powering Most of the Web</h3>
@@ -203,7 +203,7 @@
             </div>
           </a>
           <a href="/blog/the-wordpress-story-from-blog-tool-to-web-giant-codeksha/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/the-wordpress-story-from-blog-tool-to-web-giant-codeksha.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/the-wordpress-story-from-blog-tool-to-web-giant-codeksha.webp" alt="The WordPress story: from blogging tool to web giant" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">CMS & Builders</span>
               <h3>The WordPress Story: From Blog Tool to Web Giant</h3>

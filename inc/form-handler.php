@@ -28,7 +28,7 @@ if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') {
 }
 
 $cfg = ck_config();
-$type = in_array($_POST['form_type'] ?? '', ['instructor', 'demo', 'popup'], true) ? $_POST['form_type'] : 'contact';
+$type = in_array($_POST['form_type'] ?? '', ['instructor', 'demo', 'popup', 'enquiry'], true) ? $_POST['form_type'] : 'contact';
 
 // ---- anti-spam -----------------------------------------------------------
 $ip = ck_client_ip();
@@ -65,7 +65,10 @@ $email = trim($_POST['email'] ?? '');
 $errors = [];
 $fieldErrors = [];
 
-if ($type !== 'popup') {
+if ($type === 'enquiry') {
+    if (mb_strlen($name) < 2 || mb_strlen($name) > 100)            $errors[] = 'name';
+    if ($email !== '' && (!filter_var($email, FILTER_VALIDATE_EMAIL) || mb_strlen($email) > 190)) $errors[] = 'email';
+} elseif ($type !== 'popup') {
     if (mb_strlen($name) < 2 || mb_strlen($name) > 100)            $errors[] = 'name';
     if (!filter_var($email, FILTER_VALIDATE_EMAIL) || mb_strlen($email) > 190) $errors[] = 'email';
 }
@@ -86,6 +89,9 @@ if ($type === 'instructor') {
     if (mb_strlen($field1) < 2 || mb_strlen($field1) > 190) $errors[] = 'course';
     if (mb_strlen($field2) > 190) $field2 = mb_substr($field2, 0, 190);
     if (mb_strlen($message) > 4000) $errors[] = 'message';
+} elseif ($type === 'enquiry') {
+    $field1  = mb_substr(trim($_POST['course'] ?? ''), 0, 190) ?: 'Course enquiry';   // course the lead asked about
+    $message = null;
 } elseif ($type === 'popup') {
     $field1  = 'CK-10OFF';                              // which promo the callback is for
     $message = null;
@@ -154,6 +160,7 @@ try {
             'instructor' => 'instructor application',
             'demo'       => 'free demo class booking',
             'popup'      => 'callback request (promo popup)',
+            'enquiry'    => 'course enquiry',
             default      => 'contact enquiry',
         };
         $lines = [
@@ -166,6 +173,8 @@ try {
         if ($type === 'demo') {
             $lines[] = "Course:  " . ($field1 ?: '-');
             if ($field2) $lines[] = "Prefers: {$field2}";
+        } elseif ($type === 'enquiry') {
+            $lines[] = "Course:  {$field1}";
         } elseif ($type === 'popup') {
             $lines[] = "Promo:   {$field1}";
         } elseif ($field1) {
@@ -188,6 +197,7 @@ try {
 ck_form_respond(true, match ($type) {
     'demo'       => 'Thanks — your free demo request is in. We\'ll call or email to confirm your slot shortly.',
     'instructor' => 'Thanks — we\'ve received your application and our team will get back to you soon.',
+    'enquiry'    => 'Thanks! Our counsellor will call you shortly with the syllabus, fees and free demo details.',
     'popup'      => 'Thanks! Save code CK-10OFF — our team will call you back shortly.',
     default      => 'Thanks — we\'ve received your message and will get back to you shortly.',
 }, $wantsJson);

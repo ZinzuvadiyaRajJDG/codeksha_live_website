@@ -21,6 +21,9 @@ function ck_send_mail(string $to, string $subject, string $body): bool
         'MIME-Version: 1.0',
         'Content-Type: text/plain; charset=UTF-8',
         'Content-Transfer-Encoding: 8bit',
+        'Date: ' . date('r'),
+        'Message-ID: <' . bin2hex(random_bytes(12)) . '@' . (substr(strrchr($from, '@') ?: '@codeksha.com', 1) ?: 'codeksha.com') . '>',
+        'Auto-Submitted: auto-generated',
         'X-Mailer: Codeksha',
     ];
 
@@ -31,6 +34,7 @@ function ck_send_mail(string $to, string $subject, string $body): bool
     try {
         return ck_smtp_send($host, $to, $from, $subject, $body, $headers);
     } catch (\Throwable $e) {
+        $GLOBALS['ck_mail_error'] = $e->getMessage();
         error_log('[ck-smtp] ' . $e->getMessage());
         return false;
     }
@@ -45,6 +49,7 @@ function ck_smtp_send(string $host, string $to, string $from, string $subject, s
 {
     $port   = (int) (ck_setting('smtp_port') ?: 587);
     $secure = strtolower((string) ck_setting('smtp_secure'));   // tls | ssl | none
+    if ($port === 465) $secure = 'ssl';                          // 465 is implicit SSL, STARTTLS never works there
     $user   = (string) ck_setting('smtp_user');
     $pass   = (string) ck_setting('smtp_pass');
 
@@ -72,7 +77,8 @@ function ck_smtp_send(string $host, string $to, string $from, string $subject, s
     };
 
     $read(); // greeting
-    $ehlo = 'EHLO ' . ($_SERVER['SERVER_NAME'] ?? 'localhost');
+    $helo = substr(strrchr($from, '@') ?: '', 1) ?: ($_SERVER['SERVER_NAME'] ?? 'localhost');   // a real FQDN, not codeksha.test
+    $ehlo = 'EHLO ' . $helo;
     $cmd($ehlo, [250]);
 
     if ($secure === 'tls') {

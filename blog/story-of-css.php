@@ -4,21 +4,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Story of CSS: How the Web Learned to Look Good | Codeksha</title>
-    <meta name="description" content="The history of CSS - from Hakon Wium Lie's original proposal to modern Flexbox and Grid - and why understanding it helps you write better stylesheets." />
+    <title>History of CSS: How the Web Learned to Look Good</title>
+    <meta name="description" content="Explore the history of CSS, from Hakon Wium Lie's first proposal to Flexbox and Grid, and why knowing it helps you write better stylesheets." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/blog/story-of-css/" />
 
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="Codeksha" />
-    <meta property="og:title" content="The Story of CSS: How the Web Learned to Look Good" />
-    <meta property="og:description" content="The history of CSS - from Hakon Wium Lie's original proposal to modern Flexbox and Grid - and why understanding it helps you write better stylesheets." />
+    <meta property="og:title" content="History of CSS: How the Web Learned to Look Good" />
+    <meta property="og:description" content="Explore the history of CSS, from Hakon Wium Lie's first proposal to Flexbox and Grid, and why knowing it helps you write better stylesheets." />
     <meta property="og:url" content="https://codeksha.com/blog/story-of-css/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="The Story of CSS: How the Web Learned to Look Good" />
-    <meta name="twitter:description" content="The history of CSS - from Hakon Wium Lie's original proposal to modern Flexbox and Grid - and why understanding it helps you write better stylesheets." />
+    <meta name="twitter:title" content="History of CSS: How the Web Learned to Look Good" />
+    <meta name="twitter:description" content="Explore the history of CSS, from Hakon Wium Lie's first proposal to Flexbox and Grid, and why knowing it helps you write better stylesheets." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
@@ -83,7 +83,7 @@
       <div class="container">
         <div class="post-layout">
           <div class="post-body">
-            <div class="post-feature-img"><img src="/Images/blog/live/story-of-css.png" alt="The Story of CSS: How the Web Learned to Look Good" width="1200" height="630"></div>
+            <div class="post-feature-img"><img src="/Images/blog/live/story-of-css.webp" alt="The Story of CSS: How the Web Learned to Look Good" width="1200" height="630"></div>
             <p>Before CSS existed, styling a web page meant mixing presentation directly into HTML - fonts, colors, and layout were all crammed into markup attributes. CSS was invented to separate how a page looks from what it contains, and that one decision changed how the entire web was built.</p>
             <h2 id="the-original-proposal">The Original Proposal</h2>
             <p>Cascading Style Sheets were proposed by Hakon Wium Lie in 1994, while he was working alongside Tim Berners-Lee at CERN. The idea was to let a single stylesheet control the appearance of many documents at once, and to let styles 'cascade' - meaning multiple style sources (browser defaults, author styles, and user preferences) could combine with clear rules about which one wins. CSS1 became a W3C recommendation in 1996.</p>
@@ -145,14 +145,14 @@
                   </div>
                 </a>
                 <a href="/blog/full-stack-development-course-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/full-stack-development-course-rajkot.png" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/full-stack-development-course-rajkot.webp" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>Full Stack Development Course in Rajkot</span>
                     <small>December 16, 2025</small>
                   </div>
                 </a>
                 <a href="/blog/react-js-course-training-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/react-js-course-training-rajkot.png" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/react-js-course-training-rajkot.webp" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>React JS Course Training in Rajkot</span>
                     <small>December 14, 2025</small>
@@ -185,7 +185,7 @@
         </div>
         <div class="blog-grid">
           <a href="/blog/story-of-php/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/story-of-php.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/story-of-php.webp" alt="The history of PHP, from a personal tool to powering the web" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>The Story of PHP: From a Personal Tool to Powering Most of the Web</h3>
@@ -194,7 +194,7 @@
             </div>
           </a>
           <a href="/blog/the-wordpress-story-from-blog-tool-to-web-giant-codeksha/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/the-wordpress-story-from-blog-tool-to-web-giant-codeksha.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/the-wordpress-story-from-blog-tool-to-web-giant-codeksha.webp" alt="The WordPress story: from blogging tool to web giant" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">CMS & Builders</span>
               <h3>The WordPress Story: From Blog Tool to Web Giant</h3>
@@ -203,7 +203,7 @@
             </div>
           </a>
           <a href="/blog/how-to-build-a-strong-foundation-in-web-development-a-beginners-guide/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/how-to-build-a-strong-foundation-in-web-development-a-beginners-guide.jpg" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/how-to-build-a-strong-foundation-in-web-development-a-beginners-guide.jpg" alt="Beginner's guide to building a strong foundation in web development" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>How to Build a Strong Foundation in Web Development: A Beginner's Guide</h3>

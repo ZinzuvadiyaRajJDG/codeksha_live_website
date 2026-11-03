@@ -4,21 +4,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Frontend Development Course in Rajkot | HTML, CSS, UI | Codeksha</title>
-    <meta name="description" content="Frontend development course in Rajkot covering HTML, CSS, JavaScript, responsive design, Figma and Webflow. Classroom-based, project-based training at Codeksha." />
+    <title>Frontend Development Course in Rajkot | Codeksha</title>
+    <meta name="description" content="Join our frontend development course in Rajkot. Learn HTML, CSS, JavaScript, responsive design, Figma and Webflow in live classes." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/course/frontend-development/" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Codeksha" />
-    <meta property="og:title" content="Frontend Development Course in Rajkot | HTML, CSS, UI | Codeksha" />
-    <meta property="og:description" content="Frontend development course in Rajkot covering HTML, CSS, JavaScript, responsive design, Figma and Webflow. Classroom-based, project-based training at Codeksha." />
+    <meta property="og:title" content="Frontend Development Course in Rajkot | Codeksha" />
+    <meta property="og:description" content="Join our frontend development course in Rajkot. Learn HTML, CSS, JavaScript, responsive design, Figma and Webflow in live classes." />
     <meta property="og:url" content="https://codeksha.com/course/frontend-development/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Frontend Development Course in Rajkot | HTML, CSS, UI | Codeksha" />
-    <meta name="twitter:description" content="Frontend development course in Rajkot covering HTML, CSS, JavaScript, responsive design, Figma and Webflow. Classroom-based, project-based training at Codeksha." />
+    <meta name="twitter:title" content="Frontend Development Course in Rajkot | Codeksha" />
+    <meta name="twitter:description" content="Join our frontend development course in Rajkot. Learn HTML, CSS, JavaScript, responsive design, Figma and Webflow in live classes." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
@@ -139,6 +139,8 @@
               </div>
             </div>
 
+            <p>Want to focus on how products look and feel? See our <a href="/course/ui-ux-design/">UI/UX Design course in Rajkot</a> to learn Figma, user research and prototyping.</p>
+
             <h2>Who This Course Is For &amp; What You'll Need</h2>
             <div class="two-list-grid">
               <div>
@@ -209,7 +211,7 @@
                 <span>Enroll Now</span>
                 <div class="arrow-btn-circle"><i data-lucide="arrow-right"></i></div>
               </a>
-              <a href="/book-demo/?course=frontend-development" class="course-sidebar-secondary-btn">Book a Free Demo Class</a>
+              <a href="/book-demo/#course=frontend-development" class="course-sidebar-secondary-btn">Book a Free Demo Class</a>
                 </div>
             </div>
           </aside>

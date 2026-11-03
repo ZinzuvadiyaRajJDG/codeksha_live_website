@@ -83,7 +83,7 @@
       <div class="container">
         <div class="post-layout">
           <div class="post-body">
-            <div class="post-feature-img"><img src="/Images/blog/live/how-to-build-a-portfolio-that-gets-you-hired-as-a-web-developer.png" alt="How to Build a Portfolio That Gets You Hired as a Web Developer" width="1200" height="630"></div>
+            <div class="post-feature-img"><img src="/Images/blog/live/how-to-build-a-portfolio-that-gets-you-hired-as-a-web-developer.webp" alt="How to Build a Portfolio That Gets You Hired as a Web Developer" width="1200" height="630"></div>
             <p>A portfolio is often the deciding factor between two candidates with similar course backgrounds. Here's what actually makes one effective, based on what employers consistently look for.</p>
             <h2 id="choose-depth-over-quantity">Choose Depth Over Quantity</h2>
             <p>Three well-built, fully functional projects beat ten shallow ones. Each project should demonstrate a real skill - a complete CRUD application, a responsive frontend build, or an API integration - not just a static page.</p>
@@ -152,14 +152,14 @@
                   </div>
                 </a>
                 <a href="/blog/full-stack-development-course-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/full-stack-development-course-rajkot.png" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/full-stack-development-course-rajkot.webp" alt="Full Stack Development Course in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>Full Stack Development Course in Rajkot</span>
                     <small>December 16, 2025</small>
                   </div>
                 </a>
                 <a href="/blog/react-js-course-training-rajkot/" class="sidebar-recent-item">
-                  <img src="/Images/blog/live/react-js-course-training-rajkot.png" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
+                  <img src="/Images/blog/live/react-js-course-training-rajkot.webp" alt="React JS Course Training in Rajkot" loading="lazy" width="1290" height="720">
                   <div>
                     <span>React JS Course Training in Rajkot</span>
                     <small>December 14, 2025</small>
@@ -192,7 +192,7 @@
         </div>
         <div class="blog-grid">
           <a href="/blog/how-cloud-computing-is-shaping-the-future-of-web-development/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/how-cloud-computing-is-shaping-the-future-of-web-development.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/how-cloud-computing-is-shaping-the-future-of-web-development.webp" alt="Cloud computing in web development: hosting, scaling and deployment" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>How Cloud Computing Is Shaping the Future of Web Development</h3>
@@ -201,7 +201,7 @@
             </div>
           </a>
           <a href="/blog/essential-tools-every-developer-should-use-for-efficient-coding/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/essential-tools-every-developer-should-use-for-efficient-coding.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/essential-tools-every-developer-should-use-for-efficient-coding.webp" alt="Essential tools every developer should use for efficient coding" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">Web Development</span>
               <h3>Essential Tools Every Developer Should Use for Efficient Coding</h3>
@@ -210,7 +210,7 @@
             </div>
           </a>
           <a href="/blog/how-to-choose-the-best-it-training-institute-in-rajkot/" class="blog-card" style="text-decoration:none;">
-            <div class="blog-card-img"><img src="/Images/blog/live/how-to-choose-the-best-it-training-institute-in-rajkot.png" alt="" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-img"><img src="/Images/blog/live/how-to-choose-the-best-it-training-institute-in-rajkot.webp" alt="How to choose the best IT training institute in Rajkot" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">
               <span class="blog-card-cat">IT Training Rajkot</span>
               <h3>How to Choose an IT Training Institute in Rajkot: A Practical Checklist</h3>

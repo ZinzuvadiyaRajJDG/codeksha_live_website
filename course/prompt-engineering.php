@@ -4,21 +4,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prompt Engineering Course in Rajkot | AI Prompt Training | Codeksha</title>
-    <meta name="description" content="Learn prompt engineering in Rajkot at Codeksha - write effective prompts for ChatGPT, Claude and Gemini, build AI workflows, and apply prompt engineering to real business tasks." />
+    <title>Prompt Engineering Course in Rajkot | Codeksha</title>
+    <meta name="description" content="Learn prompt engineering in Rajkot: write effective prompts for ChatGPT, Claude and Gemini and solve real business tasks." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/course/prompt-engineering/" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Codeksha" />
-    <meta property="og:title" content="Prompt Engineering Course in Rajkot | AI Prompt Training | Codeksha" />
-    <meta property="og:description" content="Learn prompt engineering in Rajkot at Codeksha - write effective prompts for ChatGPT, Claude and Gemini, build AI workflows, and apply prompt engineering to real business tasks." />
+    <meta property="og:title" content="Prompt Engineering Course in Rajkot | Codeksha" />
+    <meta property="og:description" content="Learn prompt engineering in Rajkot: write effective prompts for ChatGPT, Claude and Gemini and solve real business tasks." />
     <meta property="og:url" content="https://codeksha.com/course/prompt-engineering/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Prompt Engineering Course in Rajkot | AI Prompt Training | Codeksha" />
-    <meta name="twitter:description" content="Learn prompt engineering in Rajkot at Codeksha - write effective prompts for ChatGPT, Claude and Gemini, build AI workflows, and apply prompt engineering to real business tasks." />
+    <meta name="twitter:title" content="Prompt Engineering Course in Rajkot | Codeksha" />
+    <meta name="twitter:description" content="Learn prompt engineering in Rajkot: write effective prompts for ChatGPT, Claude and Gemini and solve real business tasks." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
@@ -207,7 +207,7 @@
                 <span>Enroll Now</span>
                 <div class="arrow-btn-circle"><i data-lucide="arrow-right"></i></div>
               </a>
-              <a href="/book-demo/?course=ai-automation" class="course-sidebar-secondary-btn">Book a Free Demo Class</a>
+              <a href="/book-demo/#course=ai-automation" class="course-sidebar-secondary-btn">Book a Free Demo Class</a>
                 </div>
             </div>
           </aside>

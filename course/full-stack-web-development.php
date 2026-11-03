@@ -5,20 +5,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Full Stack Web Development Course in Rajkot | Codeksha</title>
-    <meta name="description" content="Learn Full Stack Web Development in Rajkot at Codeksha - HTML, CSS, JavaScript, frontend frameworks, backend and databases, taught by working developers." />
+    <meta name="description" content="Join our full stack web development course in Rajkot. Learn HTML, CSS, JavaScript, frontend frameworks, backend and databases." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/course/full-stack-web-development/" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Codeksha" />
     <meta property="og:title" content="Full Stack Web Development Course in Rajkot | Codeksha" />
-    <meta property="og:description" content="Learn Full Stack Web Development in Rajkot at Codeksha - HTML, CSS, JavaScript, frontend frameworks, backend and databases, taught by working developers." />
+    <meta property="og:description" content="Join our full stack web development course in Rajkot. Learn HTML, CSS, JavaScript, frontend frameworks, backend and databases." />
     <meta property="og:url" content="https://codeksha.com/course/full-stack-web-development/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Full Stack Web Development Course in Rajkot | Codeksha" />
-    <meta name="twitter:description" content="Learn Full Stack Web Development in Rajkot at Codeksha - HTML, CSS, JavaScript, frontend frameworks, backend and databases, taught by working developers." />
+    <meta name="twitter:description" content="Join our full stack web development course in Rajkot. Learn HTML, CSS, JavaScript, frontend frameworks, backend and databases." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
@@ -209,7 +209,7 @@
                 <span>Enroll Now</span>
                 <div class="arrow-btn-circle"><i data-lucide="arrow-right"></i></div>
               </a>
-              <a href="/book-demo/?course=full-stack-web-development" class="course-sidebar-secondary-btn">Book a Free Demo Class</a>
+              <a href="/book-demo/#course=full-stack-web-development" class="course-sidebar-secondary-btn">Book a Free Demo Class</a>
                 </div>
             </div>
           </aside>
