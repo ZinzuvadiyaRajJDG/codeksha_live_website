@@ -6,7 +6,7 @@
  *
  * Wording rule: pages say "for students from <Town>", never "in <Town>" (classes are at the Rajkot centre).
  * 'km' is a ROUGH road distance from Rajkot, kept for planning only. It is NOT shown on the pages.
- * Only rows with 'index' => true are indexable and listed in the sitemap; the others are noindex,follow
+ * Rows with 'index' => true are indexable (index, follow) and listed in the sitemap; set false to make a page noindex,follow.
  * until enquiries from that town justify them (flip the flag to publish).
  *
  * 'focus' picks the page's course/keyword set from $CK_FOCUS below.
@@ -68,16 +68,16 @@ $CK_LOC = [
     // key (= URL path)                         name             district          region        km   focus       index
     'it-training-morbi'                  => ['name' => 'Morbi',         'district' => 'Morbi',         'region' => 'Saurashtra', 'km' => 65,  'focus' => 'general',   'index' => true],
     'it-training-gondal'                 => ['name' => 'Gondal',        'district' => 'Rajkot',        'region' => 'Saurashtra', 'km' => 40,  'focus' => 'general',   'index' => true],
-    'it-training-jamnagar'               => ['name' => 'Jamnagar',      'district' => 'Jamnagar',      'region' => 'Saurashtra', 'km' => 90,  'focus' => 'general',   'index' => false], // publish after the Jamnagar-batches claim on About/Contact is confirmed
+    'it-training-jamnagar'               => ['name' => 'Jamnagar',      'district' => 'Jamnagar',      'region' => 'Saurashtra', 'km' => 90,  'focus' => 'general',   'index' => true], // publish after the Jamnagar-batches claim on About/Contact is confirmed
     'it-training-junagadh'               => ['name' => 'Junagadh',      'district' => 'Junagadh',      'region' => 'Saurashtra', 'km' => 100, 'focus' => 'general',   'index' => true],
     'web-development-course-wankaner'    => ['name' => 'Wankaner',      'district' => 'Morbi',         'region' => 'Saurashtra', 'km' => 40,  'focus' => 'web',       'index' => true],
     'full-stack-development-course-jetpur' => ['name' => 'Jetpur',      'district' => 'Rajkot',        'region' => 'Saurashtra', 'km' => 65,  'focus' => 'fullstack', 'index' => true],
-    'digital-marketing-course-jasdan'    => ['name' => 'Jasdan',        'district' => 'Rajkot',        'region' => 'Saurashtra', 'km' => 55,  'focus' => 'dm',        'index' => false],
+    'digital-marketing-course-jasdan'    => ['name' => 'Jasdan',        'district' => 'Rajkot',        'region' => 'Saurashtra', 'km' => 55,  'focus' => 'dm',        'index' => true],
     'digital-marketing-course-surendranagar' => ['name' => 'Surendranagar', 'district' => 'Surendranagar', 'region' => 'Saurashtra', 'km' => 100, 'focus' => 'dm',   'index' => true],
-    'graphic-design-course-dhoraji'      => ['name' => 'Dhoraji',       'district' => 'Rajkot',        'region' => 'Saurashtra', 'km' => 75,  'focus' => 'graphic',   'index' => false],
-    'ui-ux-design-course-upleta'         => ['name' => 'Upleta',        'district' => 'Rajkot',        'region' => 'Saurashtra', 'km' => 95,  'focus' => 'uiux',      'index' => false],
-    'wordpress-development-course-botad' => ['name' => 'Botad',         'district' => 'Botad',         'region' => 'Saurashtra', 'km' => 105, 'focus' => 'wp',        'index' => false],
-    'ai-automation-course-limbdi'        => ['name' => 'Limbdi',        'district' => 'Surendranagar', 'region' => 'Saurashtra', 'km' => 95,  'focus' => 'ai',        'index' => false],
+    'graphic-design-course-dhoraji'      => ['name' => 'Dhoraji',       'district' => 'Rajkot',        'region' => 'Saurashtra', 'km' => 75,  'focus' => 'graphic',   'index' => true],
+    'ui-ux-design-course-upleta'         => ['name' => 'Upleta',        'district' => 'Rajkot',        'region' => 'Saurashtra', 'km' => 95,  'focus' => 'uiux',      'index' => true],
+    'wordpress-development-course-botad' => ['name' => 'Botad',         'district' => 'Botad',         'region' => 'Saurashtra', 'km' => 105, 'focus' => 'wp',        'index' => true],
+    'ai-automation-course-limbdi'        => ['name' => 'Limbdi',        'district' => 'Surendranagar', 'region' => 'Saurashtra', 'km' => 95,  'focus' => 'ai',        'index' => true],
 ];
 
 function ck_loc_indexable(array $rec): bool
