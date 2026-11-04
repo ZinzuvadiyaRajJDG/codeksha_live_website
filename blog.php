@@ -66,6 +66,42 @@
           <button class="category-filter-pill" data-filter="IT Training Rajkot">IT Training Rajkot</button>
         </div>
         <div class="blog-grid" id="blogGrid">
+          <a href="/blog/full-stack-developer-roadmap/" class="blog-card" style="text-decoration:none;" data-cat="Career">
+            <div class="blog-card-img"><img src="/Images/blog/live/full-stack-developer-roadmap.webp" alt="Full stack developer roadmap with nine phases from HTML to deployment" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-body">
+              <span class="blog-card-cat">Career</span>
+              <h3>Full Stack Developer Roadmap 2026-27: Skills, Tools, Salary and How to Start</h3>
+              <p>A phase-by-phase full stack developer roadmap: what to learn, in what order, how long it takes, the projects to build and what freshers earn.</p>
+              <div class="blog-card-meta"><span>15 min read</span><span>Read more &rarr;</span></div>
+            </div>
+          </a>
+          <a href="/blog/javascript-interview-questions/" class="blog-card" style="text-decoration:none;" data-cat="Web Development">
+            <div class="blog-card-img"><img src="/Images/blog/live/javascript-interview-questions.webp" alt="JavaScript interview questions and answers for freshers" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-body">
+              <span class="blog-card-cat">Web Development</span>
+              <h3>JavaScript Interview Questions and Answers for Freshers (2026)</h3>
+              <p>60+ JavaScript interview questions with clear answers and code: basics, closures, async, DOM and tricky output questions for freshers.</p>
+              <div class="blog-card-meta"><span>22 min read</span><span>Read more &rarr;</span></div>
+            </div>
+          </a>
+          <a href="/blog/react-js-interview-questions/" class="blog-card" style="text-decoration:none;" data-cat="Web Development">
+            <div class="blog-card-img"><img src="/Images/blog/live/react-js-interview-questions.webp" alt="React JS interview questions and answers with hooks" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-body">
+              <span class="blog-card-cat">Web Development</span>
+              <h3>React JS Interview Questions and Answers (2026)</h3>
+              <p>50 React interview questions with answers: hooks, state, rendering, performance and React 19, for freshers and 1-3 year developers.</p>
+              <div class="blog-card-meta"><span>20 min read</span><span>Read more &rarr;</span></div>
+            </div>
+          </a>
+          <a href="/blog/what-is-n8n/" class="blog-card" style="text-decoration:none;" data-cat="Web Development">
+            <div class="blog-card-img"><img src="/Images/blog/live/what-is-n8n.webp" alt="What is n8n: beginner guide to workflow automation" loading="lazy" width="1200" height="630"></div>
+            <div class="blog-card-body">
+              <span class="blog-card-cat">Web Development</span>
+              <h3>What Is n8n? A Beginner's Guide to Workflow Automation</h3>
+              <p>What n8n is, how workflows, nodes and triggers work, what it costs, how to self-host it and what you can build with it.</p>
+              <div class="blog-card-meta"><span>11 min read</span><span>Read more &rarr;</span></div>
+            </div>
+          </a>
           <a href="/blog/importance-of-digital-marketing/" class="blog-card" style="text-decoration:none;" data-cat="Digital Marketing">
             <div class="blog-card-img"><img src="/Images/blog/live/importance-of-digital-marketing.webp" alt="Importance of digital marketing for business growth" loading="lazy" width="1200" height="630"></div>
             <div class="blog-card-body">

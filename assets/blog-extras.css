@@ -1,0 +1,263 @@
+/* ===========================================================================
+   Blog extras: code blocks, Q&A accordion, roadmap phases, tables, stats,
+   sticky lead form. Used by the long-form guides (interview questions,
+   roadmap, n8n). Loaded after /style.css, only on those posts.
+   =========================================================================== */
+
+/* ---- code ---- */
+.post-body code {
+  background: #eef2ff;
+  color: #3730a3;
+  padding: 2px 7px;
+  border-radius: 6px;
+  font-size: 0.9em;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+}
+.post-body pre {
+  background: #0f172a;
+  color: #e2e8f0;
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+  padding: 16px 18px;
+  margin: 12px 0 18px;
+  overflow-x: auto;
+  font-size: 13.5px;
+  line-height: 1.7;
+  tab-size: 2;
+}
+.post-body pre code {
+  background: none;
+  color: inherit;
+  padding: 0;
+  border-radius: 0;
+  font-size: inherit;
+  white-space: pre;
+}
+.post-body pre .k { color: #93c5fd; }   /* keyword */
+.post-body pre .s { color: #86efac; }   /* string  */
+.post-body pre .n { color: #fcd34d; }   /* number  */
+.post-body pre .c { color: #94a3b8; font-style: italic; } /* comment */
+.post-body pre .f { color: #c4b5fd; }   /* function / tag */
+
+/* ---- intro stat strip ---- */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin: 8px 0 26px;
+}
+.stat-card {
+  background: linear-gradient(135deg, #f0f7ff 0%, #eef2ff 100%);
+  border: 1px solid #dbeafe;
+  border-radius: 14px;
+  padding: 16px 14px;
+  text-align: center;
+}
+.stat-card strong { display: block; font-size: 24px; line-height: 1.2; color: #1d4ed8; font-weight: 800; }
+.stat-card span { display: block; margin-top: 4px; font-size: 12.5px; color: #475569; line-height: 1.4; }
+
+/* ---- mobile table of contents (sidebar TOC hides on small screens) ---- */
+.post-toc-mobile {
+  display: none;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 14px 18px;
+  margin: 0 0 24px;
+}
+.post-toc-mobile summary { cursor: pointer; font-weight: 800; color: #1a202c; font-size: 15px; }
+.post-toc-mobile ul { margin: 12px 0 0; padding-left: 18px; }
+.post-toc-mobile li { margin: 0 0 6px; font-size: 14px; }
+
+/* ---- Q&A accordion ---- */
+.qa-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 0 0 16px; }
+.qa-toolbar .qa-hint { font-size: 13.5px; color: #64748b; margin-right: auto; }
+.qa-btn {
+  border: 1px solid #bfdbfe;
+  background: #eff6ff;
+  color: #1d4ed8;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.qa-btn:hover { background: #dbeafe; }
+.qa {
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  background: #ffffff;
+  margin: 0 0 10px;
+  overflow: hidden;
+  scroll-margin-top: 20px;
+}
+.qa[open] { border-color: #bfdbfe; box-shadow: 0 8px 22px rgba(37, 99, 235, 0.08); }
+.qa summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 14px 18px;
+  font-weight: 700;
+  font-size: 15.5px;
+  line-height: 1.5;
+  color: #1a202c;
+}
+.qa summary::-webkit-details-marker { display: none; }
+.qa summary::after {
+  content: "";
+  flex: 0 0 9px;
+  height: 9px;
+  margin: 10px 2px 0 auto;
+  border-right: 2px solid #64748b;
+  border-bottom: 2px solid #64748b;
+  transform: rotate(45deg);
+  transition: transform 0.2s ease;
+}
+.qa[open] summary::after { transform: rotate(-135deg); margin-top: 15px; }
+.qa summary:hover { background: #f8fafc; }
+.qa-n {
+  flex: 0 0 34px;
+  height: 34px;
+  border-radius: 10px;
+  background: #eef2ff;
+  color: #2563eb;
+  font-size: 13px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.qa-a { padding: 2px 20px 18px 66px; }
+.qa-a p { font-size: 15px; margin: 0 0 10px; }
+.qa-a ul, .qa-a ol { margin: 0 0 12px; }
+.qa-a li { font-size: 15px; }
+.qa-a pre { margin-left: 0; }
+.qa-a .qa-tip {
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-size: 14px;
+  color: #78350f;
+  margin: 10px 0 0;
+}
+.qa-group-head { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.qa-count {
+  font-size: 12.5px;
+  font-weight: 800;
+  background: #2563eb;
+  color: #ffffff;
+  border-radius: 999px;
+  padding: 3px 12px;
+  letter-spacing: 0.02em;
+}
+
+/* ---- tables ---- */
+.table-wrap { overflow-x: auto; margin: 8px 0 22px; border: 1px solid #e2e8f0; border-radius: 14px; }
+.post-table { width: 100%; border-collapse: collapse; font-size: 14.5px; min-width: 520px; }
+.post-table th {
+  background: #0f172a;
+  color: #ffffff;
+  text-align: left;
+  font-weight: 700;
+  padding: 12px 16px;
+  white-space: nowrap;
+}
+.post-table td { padding: 12px 16px; border-top: 1px solid #e2e8f0; color: #374151; line-height: 1.6; vertical-align: top; }
+.post-table tr:nth-child(even) td { background: #f8fafc; }
+.post-table td strong { color: #1a202c; }
+
+/* ---- roadmap phases ---- */
+.rm-phase {
+  position: relative;
+  margin: 0 0 18px;
+  padding: 20px 22px 18px 22px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-left: 5px solid #2563eb;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.04);
+}
+.rm-phase-head { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 12px; margin: 0 0 10px; }
+.rm-phase-head .rm-n {
+  width: 34px; height: 34px; border-radius: 10px;
+  background: linear-gradient(135deg, #2563eb 0%, #4f46e5 100%);
+  color: #fff; font-weight: 800; font-size: 15px;
+  display: flex; align-items: center; justify-content: center;
+}
+.rm-phase-head h3 { margin: 0; font-size: 18px; color: #1a202c; }
+.rm-time {
+  margin-left: auto;
+  font-size: 12.5px;
+  font-weight: 800;
+  color: #1d4ed8;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 999px;
+  padding: 4px 12px;
+}
+.rm-phase p { font-size: 15px; margin: 0 0 10px; }
+.rm-phase ul { margin: 0 0 10px; padding-left: 20px; }
+.rm-phase li { font-size: 15px; margin-bottom: 4px; }
+.rm-build {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-size: 14px;
+  color: #166534;
+  margin: 8px 0 0;
+}
+.rm-build strong { color: #14532d; }
+
+/* ---- n8n workflow diagram ---- */
+.flow-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 10px 0 22px; }
+.flow-node {
+  background: #ffffff;
+  border: 2px solid #2563eb;
+  color: #1a202c;
+  border-radius: 12px;
+  padding: 10px 16px;
+  font-weight: 700;
+  font-size: 14px;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1);
+}
+.flow-node small { display: block; font-weight: 600; font-size: 11.5px; color: #64748b; }
+.flow-node.trigger { background: #2563eb; color: #fff; }
+.flow-node.trigger small { color: #dbeafe; }
+.flow-arrow { color: #94a3b8; font-weight: 800; }
+
+/* ---- lead capture: in-article + sticky sidebar ---- */
+.post-sidebar.has-lead { position: static; align-self: stretch; }
+.sidebar-lead { position: sticky; top: 20px; }
+.sidebar-lead .lead-card { margin-bottom: 0; }
+.post-lead-inline { margin: 30px 0; }
+.post-lead-inline .lead-card { margin-bottom: 0; }
+.post-lead-inline .lead-card { display: grid; grid-template-columns: 1.1fr 1fr; }
+.post-lead-inline .lead-card-head { display: flex; flex-direction: column; justify-content: center; }
+.post-lead-inline .lead-form { padding: 22px; }
+
+.qa-end { margin: 26px 0 8px; font-size: 15px; color: #475569; }
+
+@media (max-width: 900px) {
+  .post-toc-mobile { display: block; }
+  .post-lead-inline .lead-card { grid-template-columns: 1fr; }
+  .sidebar-lead { position: static; }
+}
+@media (max-width: 600px) {
+  .stat-grid { grid-template-columns: 1fr; }
+  .qa summary { padding: 12px 14px; font-size: 15px; gap: 10px; }
+  .qa-n { flex-basis: 30px; height: 30px; }
+  .qa-a { padding: 2px 14px 16px 14px; }
+  .rm-time { margin-left: 0; }
+  .rm-phase { padding: 16px 16px 14px; }
+}
+
+/* Grid items must be allowed to shrink, otherwise wide code blocks and tables
+   stretch the whole page past the phone screen. */
+.post-layout > .post-body,
+.post-layout > .post-sidebar { min-width: 0; }
+.post-body { overflow-wrap: break-word; }
