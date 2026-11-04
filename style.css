@@ -5012,3 +5012,12 @@ body.promo-popup-lock {
 
 .course-main > p { margin: 0 0 16px; font-size: 15.5px; line-height: 1.8; color: #374151; }
 .course-main > p a { color: #2563eb; font-weight: 600; }
+
+/* ===========================================================================
+   FOOTER: links to the location pages (students from nearby towns)
+   =========================================================================== */
+.footer-towns { margin-top: 36px; padding-top: 30px; border-top: 1px solid #e2e8f0; }
+.footer-towns h3 { font-size: 20px; font-weight: 700; margin-bottom: 20px; color: #1a202c; }
+.footer-links-cols { display: grid !important; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px 30px !important; }
+@media (max-width: 900px) { .footer-links-cols { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .footer-links-cols { grid-template-columns: 1fr; } }

@@ -93,6 +93,13 @@ Options -Indexes
   RewriteRule ^courses/?$ courses.php [L]
   RewriteRule ^blog/?$    blog.php    [L]
 
+  # Location pages: /<service>-<town>/  e.g. /it-training-morbi/, /web-development-course-wankaner/
+  # Existing real pages (e.g. /it-training-rajkot/) win because their .php file exists.
+  RewriteCond %{DOCUMENT_ROOT}/$1-$2.php !-f
+  RewriteRule ^(it-training|web-development-course|full-stack-development-course|digital-marketing-course|graphic-design-course|ui-ux-design-course|wordpress-development-course|ai-automation-course)-([a-z0-9-]+)$ /$1-$2/ [R=301,L]
+  RewriteCond %{DOCUMENT_ROOT}/$1-$2.php !-f
+  RewriteRule ^(it-training|web-development-course|full-stack-development-course|digital-marketing-course|graphic-design-course|ui-ux-design-course|wordpress-development-course|ai-automation-course)-([a-z0-9-]+)/$ gujarat.php?loc=$1-$2 [L,QSA]
+
   # 4) Enforce trailing slash on nested course/blog URLs
   RewriteRule ^(course|blog)/([a-zA-Z0-9_-]+)$ /$1/$2/ [R=301,L]
 

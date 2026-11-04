@@ -1,4 +1,5 @@
 <?php /* Shared site footer — included by every public page. */ ?>
+<?php require_once __DIR__ . '/../locations.php'; ?>
     <footer class="site-footer">
       <div class="footer-top">
         <div class="container">
@@ -47,6 +48,14 @@
                 <li><a href="https://x.com/TeamCodeksha" target="_blank" rel="noopener noreferrer"><span class="social-icon twitter-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></span>Twitter</a></li>
               </ul>
             </div>
+          </div>
+          <div class="footer-towns">
+            <h3>Students from nearby towns</h3>
+            <ul class="footer-links footer-links-cols">
+              <?php foreach ($CK_LOC as $__k => $__r): ?>
+              <li><a href="/<?= htmlspecialchars($__k, ENT_QUOTES) ?>/"><?= htmlspecialchars($CK_FOCUS[$__r['focus']]['h1'] . ' for Students from ' . $__r['name'], ENT_QUOTES, 'UTF-8') ?></a></li>
+              <?php endforeach; ?>
+            </ul>
           </div>
         </div>
       </div>

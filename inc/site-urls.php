@@ -57,5 +57,13 @@ function ck_site_urls(): array
         $rows[] = ['/blog/' . $slug . '/', '0.6', 'monthly', date('Y-m-d', (int) filemtime($f))];
     }
 
+    // Location (student-catchment) pages: only the indexable ones
+    require_once __DIR__ . '/locations.php';
+    foreach ($CK_LOC as $slug => $rec) {
+        if (ck_loc_indexable($rec)) {
+            $rows[] = ['/' . $slug . '/', '0.5', 'monthly', $mtime('gujarat.php')];
+        }
+    }
+
     return $rows;
 }
