@@ -61,6 +61,7 @@
     </script>
   </head>
   <body>
+<?php require __DIR__ . "/inc/partials/gtm-body.php"; ?>
     <div class="top-banner">
       <p>Brand new Course Package released! Get 10% off your first purchase with code “CK-10OFF”. <a href="#">Find out more!</a></p>
     </div>

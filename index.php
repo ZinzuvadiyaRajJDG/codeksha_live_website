@@ -136,6 +136,7 @@
     </script>
   </head>
   <body>
+<?php require __DIR__ . "/inc/partials/gtm-body.php"; ?>
     <!-- TOP BANNER -->
     <div class="top-banner">
       <p>

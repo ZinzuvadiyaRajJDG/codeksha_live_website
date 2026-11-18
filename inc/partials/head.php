@@ -1,4 +1,5 @@
 <?php /* Shared <head> assets — included by every public page. Edit here, applies everywhere. */ ?>
+<?php require __DIR__ . "/gtm-head.php"; ?>
     <link rel="icon" type="image/png" href="/Images/fevicon.png" />
     <link rel="apple-touch-icon" href="/Images/fevicon.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
