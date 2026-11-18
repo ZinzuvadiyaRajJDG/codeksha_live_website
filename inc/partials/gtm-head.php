@@ -10,4 +10,5 @@ if (($_COOKIE['ck_consent'] ?? '') !== 'essential'):
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-P83GZKCT');</script>
     <!-- End Google Tag Manager -->
+    <script src="/assets/events.js?v=<?= (int) @filemtime(__DIR__ . "/../../assets/events.js") ?>" defer></script>
 <?php endif; ?>
