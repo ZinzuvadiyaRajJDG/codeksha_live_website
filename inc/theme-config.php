@@ -10,7 +10,7 @@
  */
 return [
     'diwali' => [
-        'enabled' => true,
+        'enabled' => false,
 
         // Campaign id. Change it (e.g. diwali-2027) to make every visitor eligible for the popup again.
         'campaign' => 'diwali-2026',
