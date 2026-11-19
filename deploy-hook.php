@@ -39,8 +39,10 @@ $payload = json_decode($body, true);
 if (($payload['ref'] ?? '') !== 'refs/heads/main') ck_hook_end(200, 'Ignored: not the main branch.');
 
 $webroot = __DIR__;
-$repo    = dirname($webroot) . '/repositories/codeksha';
-if (!is_dir($repo . '/.git')) ck_hook_end(500, 'Repository clone not found at ~/repositories/codeksha.');
+// Mode A: the git clone IS the web root (public_html). Mode B: separate clone in ~/repositories/codeksha.
+$direct  = is_dir($webroot . '/.git');
+$repo    = $direct ? $webroot : dirname($webroot) . '/repositories/codeksha';
+if (!is_dir($repo . '/.git')) ck_hook_end(500, 'Repository clone not found (web root or ~/repositories/codeksha).');
 if (!function_exists('exec')) ck_hook_end(500, 'exec() is disabled on this host.');
 
 // one deploy at a time
@@ -51,20 +53,22 @@ putenv('HOME=' . dirname($webroot));
 $r = escapeshellarg($repo);
 $steps = [
     "git -C $r fetch --quiet origin main",
-    "git -C $r reset --hard --quiet origin/main",
-    // copy into the web root; never deletes, never touches the live config
-    "/bin/rsync -rlptD --exclude='.git' --exclude='.gitignore' --exclude='.cpanel.yml' --exclude='inc/config.php' --exclude='db/' --exclude='*.md' $r/ " . escapeshellarg($webroot . '/'),
+    "git -C $r reset --hard --quiet origin/main",   // untracked/ignored files (inc/config.php) are left alone
 ];
+if (!$direct) {
+    // copy into the web root; never deletes, never touches the live config
+    $steps[] = "/bin/rsync -rlptD --exclude='.git' --exclude='.gitignore' --exclude='.cpanel.yml' --exclude='inc/config.php' --exclude='db/' --exclude='*.md' $r/ " . escapeshellarg($webroot . '/');
+}
 $log = [];
 foreach ($steps as $cmd) {
     $out = [];
     exec($cmd . ' 2>&1', $out, $code);
     $log[] = '$ ' . $cmd . "\n" . implode("\n", $out);
     if ($code !== 0) {
-        @file_put_contents(dirname($repo) . '/deploy-hook.log', date('c') . " FAILED\n" . implode("\n", $log) . "\n\n", FILE_APPEND);
-        ck_hook_end(500, 'Deploy failed - see ~/repositories/deploy-hook.log');
+        @file_put_contents(dirname($webroot) . '/deploy-hook.log', date('c') . " FAILED\n" . implode("\n", $log) . "\n\n", FILE_APPEND);
+        ck_hook_end(500, 'Deploy failed - see ~/deploy-hook.log');
     }
 }
 $sha = substr((string) ($payload['after'] ?? ''), 0, 7);
-@file_put_contents(dirname($repo) . '/deploy-hook.log', date('c') . " OK {$sha}\n", FILE_APPEND);
+@file_put_contents(dirname($webroot) . '/deploy-hook.log', date('c') . " OK {$sha}\n", FILE_APPEND);
 ck_hook_end(200, 'Deployed ' . $sha);

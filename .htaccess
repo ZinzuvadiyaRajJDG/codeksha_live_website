@@ -46,6 +46,8 @@ Options -Indexes
 
   # Never expose the include / db folders over HTTP
   RewriteRule ^(inc|db)(/|$) - [F]
+  # Never expose git metadata or deploy files (matters when the repo lives in public_html)
+  RewriteRule (^|/)\.(git|cpanel\.yml|gitignore)(/|$) - [F]
 
   # Pass admin panel, tracker endpoint and static assets straight through
   RewriteRule ^(admin|track|assets)/ - [L]
