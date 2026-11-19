@@ -1,0 +1,4 @@
+# Local / server-specific files that must never be deployed from git
+inc/config.php
+db/GeoLite2-City.mmdb
+*.log

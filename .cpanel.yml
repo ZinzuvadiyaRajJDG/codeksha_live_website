@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    # Copies the site into the web root. Never deletes anything on the server and never touches
+    # inc/config.php (the live database settings live only on the server).
+    - export DEPLOYPATH=$HOME/public_html/
+    - /bin/rsync -rlptD --exclude='.git' --exclude='.gitignore' --exclude='.cpanel.yml' --exclude='inc/config.php' --exclude='db/' --exclude='*.md' ./ $DEPLOYPATH
