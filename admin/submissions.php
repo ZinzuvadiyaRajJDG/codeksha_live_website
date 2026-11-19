@@ -129,7 +129,7 @@ $per = 30;
 $type = q_str('ftype', 32);
 $status = q_str('status', 16);
 $search = q_str('q');
-$w = ['1=1']; $args = [];
+$w = ["form_type<>'walkin'"]; $args = [];   // walk-in enquiries live in their own tab (walkins.php)
 if ($type !== '')   { $w[] = 'form_type=?'; $args[] = $type; }
 if ($status !== '') { $w[] = 'status=?'; $args[] = $status; }
 if ($search !== '') { $w[] = '(name LIKE ? OR email LIKE ? OR phone LIKE ? OR message LIKE ?)'; array_push($args, "%$search%", "%$search%", "%$search%", "%$search%"); }
@@ -145,7 +145,7 @@ $rows->execute($args);
 $rows = $rows->fetchAll();
 
 $counts = [];
-foreach ($db->query("SELECT status, COUNT(*) c FROM form_submissions GROUP BY status") as $r) $counts[$r['status']] = $r['c'];
+foreach ($db->query("SELECT status, COUNT(*) c FROM form_submissions WHERE form_type<>'walkin' GROUP BY status") as $r) $counts[$r['status']] = $r['c'];
 
 $PAGE_TITLE = 'Form Submissions';
 $ACTIVE = 'submissions';
@@ -160,7 +160,6 @@ require __DIR__ . '/inc/header.php';
     <option value="instructor" <?= $type === 'instructor' ? 'selected' : '' ?>>Instructor</option>
     <option value="popup" <?= $type === 'popup' ? 'selected' : '' ?>>Promo popup callback</option>
     <option value="enquiry" <?= $type === 'enquiry' ? 'selected' : '' ?>>Course enquiry</option>
-    <option value="walkin" <?= $type === 'walkin' ? 'selected' : '' ?>>Walk-in enquiry</option>
   </select>
   <select name="status"><option value="">Any status</option>
     <?php foreach (['new', 'read', 'replied', 'spam'] as $st): ?>
