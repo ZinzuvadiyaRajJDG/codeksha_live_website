@@ -81,7 +81,7 @@ if (isset($_GET['id'])) {
           <?php if ($row['message'] || !in_array($row['form_type'], ['popup', 'enquiry'], true)): ?>
           <dt><?= $isDemo ? 'Notes' : 'Message' ?></dt><dd style="white-space:pre-wrap"><?= h($row['message'] ?: '—') ?></dd>
           <?php endif; ?>
-          <dt>Received</dt><dd><?= h($row['created_at']) ?></dd>
+          <dt>Received (IST)</dt><dd><?= h(fmt_ist($row['created_at'])) ?> &nbsp;<span class="tag"><?= h(fmt_ago($row['created_at'])) ?></span></dd>
           <dt>From page</dt><dd><?= h($row['page_path'] ?: '—') ?></dd>
           <dt>IP</dt><dd><?= h($row['ip'] ?: '—') ?> (<?= h($row['country'] ?: '?') ?>)</dd>
           <?php if ($row['visitor_id']): ?>
@@ -181,7 +181,7 @@ require __DIR__ . '/inc/header.php';
 </div>
 <?php endif; ?>
 <div class="panel"><div class="table-wrap"><table class="data">
-  <thead><tr><?php if ($canDelete): ?><th style="width:34px"><input type="checkbox" id="selAll" aria-label="Select all"></th><?php endif; ?><th>Received</th><th>Form</th><th>Name</th><th>Email</th><th>Phone</th><th>Message / details</th><th>Status</th><?php if ($canDelete): ?><th></th><?php endif; ?></tr></thead>
+  <thead><tr><?php if ($canDelete): ?><th style="width:34px"><input type="checkbox" id="selAll" aria-label="Select all"></th><?php endif; ?><th>Date &amp; time (IST)</th><th>Form</th><th>Name</th><th>Email</th><th>Phone</th><th>Message / details</th><th>Status</th><?php if ($canDelete): ?><th></th><?php endif; ?></tr></thead>
   <tbody>
   <?php foreach ($rows as $r): ?>
     <?php
@@ -196,7 +196,7 @@ require __DIR__ . '/inc/header.php';
     ?>
     <tr>
       <?php if ($canDelete): ?><td><input type="checkbox" class="selRow" name="ids[]" value="<?= (int)$r['id'] ?>" aria-label="Select #<?= (int)$r['id'] ?>"></td><?php endif; ?>
-      <td><a href="?id=<?= (int)$r['id'] ?>"><?= h(fmt_ago($r['created_at'])) ?></a></td>
+      <td style="white-space:nowrap"><a href="?id=<?= (int)$r['id'] ?>"><?= h(date('d M Y', strtotime($r['created_at']))) ?></a><br><small style="color:var(--muted)"><?= h(date('h:i A', strtotime($r['created_at']))) ?> &middot; <?= h(fmt_ago($r['created_at'])) ?></small></td>
       <td><span class="tag<?= $r['form_type'] === 'demo' ? ' read' : '' ?>"><?= h($formTag) ?></span></td>
       <td><?= h($r['name']) ?></td>
       <td><?= h($r['email']) ?></td>

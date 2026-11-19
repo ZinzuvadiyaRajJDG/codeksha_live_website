@@ -83,7 +83,7 @@ require __DIR__ . '/inc/header.php';
 <div class="panel"><div class="table-wrap"><table class="data">
   <thead><tr>
     <?php if ($canDelete): ?><th style="width:34px"><input type="checkbox" id="selAll" aria-label="Select all"></th><?php endif; ?>
-    <th>Received</th><th>Name</th><th>Phone</th><th>Email</th><th>Course</th><th>Interest</th><th>Currently</th>
+    <th>Date &amp; time (IST)</th><th>Name</th><th>Phone</th><th>Email</th><th>Course</th><th>Interest</th><th>Currently</th>
     <th>Goal</th><th>Start</th><th>Batch</th><th>City</th><th>Heard via</th><th>Status</th><?php if ($canDelete): ?><th></th><?php endif; ?>
   </tr></thead>
   <tbody>
@@ -92,7 +92,7 @@ require __DIR__ . '/inc/header.php';
       $tel = preg_replace('/[^\d+]/', '', (string) $r['phone']); ?>
     <tr>
       <?php if ($canDelete): ?><td><input type="checkbox" class="selRow" name="ids[]" value="<?= (int) $r['id'] ?>" aria-label="Select #<?= (int) $r['id'] ?>"></td><?php endif; ?>
-      <td title="<?= h($r['created_at']) ?>"><a href="/admin/submissions.php?id=<?= (int) $r['id'] ?>"><?= h(fmt_ago($r['created_at'])) ?></a></td>
+      <td style="white-space:nowrap"><a href="/admin/submissions.php?id=<?= (int) $r['id'] ?>"><?= h(date('d M Y', strtotime($r['created_at']))) ?></a><br><small style="color:var(--muted)"><?= h(date('h:i A', strtotime($r['created_at']))) ?> &middot; <?= h(fmt_ago($r['created_at'])) ?></small></td>
       <td><strong><?= h($r['name']) ?></strong></td>
       <td><?php if ($tel): ?><a href="tel:<?= h($tel) ?>"><?= h($r['phone']) ?></a><?php else: ?>&mdash;<?php endif; ?></td>
       <td><?= $r['email'] ? '<a href="mailto:' . h($r['email']) . '">' . h($r['email']) . '</a>' : '&mdash;' ?></td>

@@ -4,6 +4,10 @@
  * the admin panel. No output, no side effects on include.
  */
 
+// All dates the site stores or shows are India time. MySQL NOW() and PHP date()/strtotime()
+// must agree, otherwise "x minutes ago" goes negative (the host's PHP is UTC, its MySQL is IST).
+date_default_timezone_set('Asia/Kolkata');
+
 function ck_config(): array
 {
     static $cfg;
@@ -26,6 +30,7 @@ function ck_db(): PDO
         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
         PDO::ATTR_EMULATE_PREPARES   => false,
     ]);
+    $pdo->exec("SET time_zone = '+05:30'");   // India Standard Time, no DST
     return $pdo;
 }
 

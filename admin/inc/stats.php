@@ -98,9 +98,14 @@ function fmt_dur(?float $s): string
     if ($s < 3600) return floor($s / 60) . 'm ' . ($s % 60) . 's';
     return floor($s / 3600) . 'h ' . floor(($s % 3600) / 60) . 'm';
 }
+/** "19 Nov 2026, 06:45 PM" in India time. */
+function fmt_ist(?string $ts): string
+{
+    return $ts ? date('d M Y, h:i A', strtotime($ts)) : '-';
+}
 function fmt_ago(string $ts): string
 {
-    $d = time() - strtotime($ts);
+    $d = max(0, time() - strtotime($ts));
     if ($d < 60) return $d . 's ago';
     if ($d < 3600) return floor($d / 60) . 'm ago';
     if ($d < 86400) return floor($d / 3600) . 'h ago';
