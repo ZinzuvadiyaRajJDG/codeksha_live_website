@@ -18,6 +18,9 @@ return [
 
     // --- App -----------------------------------------------------------------
     // Random 64-char key used for signing/CSRF salt. Change it once, then leave it.
+    // Live server only: shared secret for the GitHub webhook (deploy-hook.php). Leave blank locally.
+    'deploy_secret' => '',
+
     'app_key' => 'CHANGE-ME-TO-A-RANDOM-64-CHAR-STRING',
 
     // Absolute URL base of the public site (no trailing slash). Used for links
