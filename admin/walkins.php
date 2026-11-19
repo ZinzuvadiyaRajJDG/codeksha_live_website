@@ -5,42 +5,8 @@ require_login();
 require __DIR__ . '/inc/stats.php';
 $db = admin_db();
 
-// Call-status options (slug => label). The slug is what gets stored in extra_json.
-$CALL = [
-    'initial'       => 'Initial call done',
-    'followup'      => 'Follow-up done',
-    'waiting'       => 'Waiting for response',
-    'noreceive'     => 'Not receiving call',
-    'notuseful'     => 'Not useful',
-    'notinterested' => 'Not interested anymore',
-];
-$canEdit = !is_role('viewer');
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['action'] ?? '') === 'call_status') {
-    header('Content-Type: application/json');
-    csrf_verify();
-    $fail = function (int $code, string $msg) { http_response_code($code); echo json_encode(['ok' => false, 'message' => $msg]); exit; };
-    if (!$canEdit) $fail(403, 'Read-only account.');
-    $id = (int) ($_POST['id'] ?? 0);
-    $slug = (string) ($_POST['call_status'] ?? '');
-    if ($slug !== '' && !isset($CALL[$slug])) $fail(422, 'Unknown status.');
-    $s = $db->prepare("SELECT extra_json FROM form_submissions WHERE id=? AND form_type='walkin'");
-    $s->execute([$id]);
-    $row = $s->fetch();
-    if (!$row) $fail(404, 'Not found.');
-    $x = json_decode((string) $row['extra_json'], true) ?: [];
-    if ($slug === '') {
-        unset($x['call_status'], $x['call_at'], $x['call_by']);
-    } else {
-        $x['call_status'] = $slug;
-        $x['call_at'] = date('Y-m-d H:i:s');
-        $x['call_by'] = (string) ($_SESSION['uname'] ?? '');
-    }
-    $db->prepare('UPDATE form_submissions SET extra_json=? WHERE id=?')->execute([json_encode($x, JSON_UNESCAPED_UNICODE), $id]);
-    admin_log('walkin_call_status', "#$id -> " . ($slug ?: 'not called'));
-    echo json_encode(['ok' => true, 'slug' => $slug, 'at' => $slug ? fmt_ist($x['call_at']) : '', 'by' => $x['call_by'] ?? '']);
-    exit;
-}
+require __DIR__ . '/inc/callstatus.php';   // $CALL, $canEdit, ck_call_handle(), css helpers
+ck_call_handle($db, $CALL, $canEdit);
 
 $flash = isset($_GET['deleted']) ? (int) $_GET['deleted'] . ' inquiry(ies) deleted.' : '';
 $call = q_str('call', 16);
@@ -208,20 +174,7 @@ $cols = $canDelete ? 8 : 7;
   .wkm-chips span{background:#eff6ff;color:#1d4ed8;border-radius:999px;padding:4px 11px;font-size:13px;font-weight:600}
   .wkm-note{margin:0;background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;padding:12px 14px;white-space:pre-wrap;font-size:14.5px;line-height:1.5}
   .wkm-foot{display:flex;flex-wrap:wrap;gap:8px;padding:14px 22px;border-top:1px solid #e2e8f0;background:#f8fafc}
-  .cs{-webkit-appearance:none;appearance:none;border:1.5px solid;border-radius:999px;padding:6px 30px 6px 13px;font:inherit;font-size:12.5px;font-weight:700;cursor:pointer;max-width:200px;
-      background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23475569' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
-      background-repeat:no-repeat;background-position:right 11px center;transition:box-shadow .2s}
-  .cs:disabled{opacity:.7;cursor:default}
-  .cs-saved{box-shadow:0 0 0 3px rgba(34,197,94,.45)}
-  .cs-lg{font-size:14.5px;padding:10px 38px 10px 16px;max-width:none;width:100%}
-  .cs-none{background-color:#f1f5f9;color:#475569;border-color:#cbd5e1}
-  .cs-initial{background-color:#dbeafe;color:#1d4ed8;border-color:#93c5fd}
-  .cs-followup{background-color:#e0e7ff;color:#4338ca;border-color:#a5b4fc}
-  .cs-waiting{background-color:#fef3c7;color:#b45309;border-color:#fcd34d}
-  .cs-noreceive{background-color:#ffedd5;color:#c2410c;border-color:#fdba74}
-  .cs-notuseful{background-color:#e5e7eb;color:#374151;border-color:#d1d5db}
-  .cs-notinterested{background-color:#fee2e2;color:#b91c1c;border-color:#fca5a5}
-  .wkm-callmeta{margin-top:8px;font-size:12.5px;color:#64748b}
+<?= ck_call_css_rules() ?>  .wkm-callmeta{margin-top:8px;font-size:12.5px;color:#64748b}
   .wkm-foot a{flex:1 1 auto;text-align:center}
   .wkm-ic{display:inline-flex;align-items:center;justify-content:center;gap:8px}
   .wkm-ic svg{width:16px;height:16px;flex:none}

@@ -3,6 +3,8 @@ require __DIR__ . '/inc/bootstrap.php';
 require_login();
 require __DIR__ . '/inc/stats.php';
 $db = admin_db();
+require __DIR__ . '/inc/callstatus.php';   // $CALL, $canEdit, ck_call_* helpers
+ck_call_handle($db, $CALL, $canEdit);
 
 /* ---- actions (workflow) ---- */
 $flash = isset($_GET['deleted']) ? (int) $_GET['deleted'] . ' submission(s) deleted.' : '';
@@ -106,6 +108,13 @@ if (isset($_GET['id'])) {
               <a class="btn-ghost btn-sm" href="mailto:<?= h($row['email']) ?>?subject=Re: your message to Codeksha">Reply by email</a>
             <?php endif; ?>
           </form>
+          <?php $cx = json_decode((string) $row['extra_json'], true) ?: []; ?>
+          <div style="margin-top:14px">
+            <label style="display:block;font-weight:600;font-size:13px;margin-bottom:6px">Call status</label>
+            <?= ck_call_select($CALL, $cx['call_status'] ?? '', (int) $row['id'], $canEdit, 'Call status', 'cs-lg') ?>
+            <div class="cs-meta" id="csMeta"><?= !empty($cx['call_status']) && !empty($cx['call_at']) ? 'Updated ' . h(fmt_ist($cx['call_at'])) . (!empty($cx['call_by']) ? ' by ' . h($cx['call_by']) : '') : '' ?></div>
+          </div>
+          <?= ck_call_assets() ?>
         </div></div>
         <div class="panel"><div class="panel-head"><h2>Private notes</h2></div><div class="panel-body">
           <form method="post" action="?id=<?= $id ?>">
@@ -127,11 +136,11 @@ if (isset($_GET['id'])) {
 $page = pg_int('p', 1, 1, 100000);
 $per = 30;
 $type = q_str('ftype', 32);
-$status = q_str('status', 16);
+$call = q_str('call', 16);
 $search = q_str('q');
 $w = ["form_type<>'walkin'"]; $args = [];   // walk-in enquiries live in their own tab (walkins.php)
 if ($type !== '')   { $w[] = 'form_type=?'; $args[] = $type; }
-if ($status !== '') { $w[] = 'status=?'; $args[] = $status; }
+ck_call_where($call, $CALL, $w, $args);
 if ($search !== '') { $w[] = '(name LIKE ? OR email LIKE ? OR phone LIKE ? OR message LIKE ?)'; array_push($args, "%$search%", "%$search%", "%$search%", "%$search%"); }
 $where = implode(' AND ', $w);
 
@@ -145,7 +154,7 @@ $rows->execute($args);
 $rows = $rows->fetchAll();
 
 $counts = [];
-foreach ($db->query("SELECT status, COUNT(*) c FROM form_submissions WHERE form_type<>'walkin' GROUP BY status") as $r) $counts[$r['status']] = $r['c'];
+foreach ($db->query("SELECT COALESCE(JSON_UNQUOTE(JSON_EXTRACT(extra_json,'$.call_status')),'none') s, COUNT(*) c FROM form_submissions WHERE form_type<>'walkin' GROUP BY s") as $r) $counts[$r['s']] = $r['c'];
 
 $PAGE_TITLE = 'Form Submissions';
 $ACTIVE = 'submissions';
@@ -161,9 +170,10 @@ require __DIR__ . '/inc/header.php';
     <option value="popup" <?= $type === 'popup' ? 'selected' : '' ?>>Promo popup callback</option>
     <option value="enquiry" <?= $type === 'enquiry' ? 'selected' : '' ?>>Course enquiry</option>
   </select>
-  <select name="status"><option value="">Any status</option>
-    <?php foreach (['new', 'read', 'replied', 'spam'] as $st): ?>
-      <option value="<?= $st ?>" <?= $status === $st ? 'selected' : '' ?>><?= ucfirst($st) ?> (<?= (int)($counts[$st] ?? 0) ?>)</option>
+  <select name="call"><option value="">Any call status</option>
+    <option value="none" <?= $call === 'none' ? 'selected' : '' ?>>Not called yet (<?= (int) ($counts['none'] ?? 0) ?>)</option>
+    <?php foreach ($CALL as $slug => $label): ?>
+      <option value="<?= $slug ?>" <?= $call === $slug ? 'selected' : '' ?>><?= h($label) ?> (<?= (int) ($counts[$slug] ?? 0) ?>)</option>
     <?php endforeach; ?>
   </select>
   <button class="btn btn-sm">Filter</button>
@@ -181,10 +191,11 @@ require __DIR__ . '/inc/header.php';
 </div>
 <?php endif; ?>
 <div class="panel"><div class="table-wrap"><table class="data">
-  <thead><tr><?php if ($canDelete): ?><th style="width:34px"><input type="checkbox" id="selAll" aria-label="Select all"></th><?php endif; ?><th>Date &amp; time (IST)</th><th>Form</th><th>Name</th><th>Email</th><th>Phone</th><th>Message / details</th><th>Status</th><?php if ($canDelete): ?><th></th><?php endif; ?></tr></thead>
+  <thead><tr><?php if ($canDelete): ?><th style="width:34px"><input type="checkbox" id="selAll" aria-label="Select all"></th><?php endif; ?><th>Date &amp; time (IST)</th><th>Form</th><th>Name</th><th>Email</th><th>Phone</th><th>Message / details</th><th>Call status</th><?php if ($canDelete): ?><th></th><?php endif; ?></tr></thead>
   <tbody>
   <?php foreach ($rows as $r): ?>
     <?php
+      $x = json_decode((string) $r['extra_json'], true) ?: [];
       $formTag = ['contact' => 'Contact', 'instructor' => 'Instructor', 'demo' => 'Demo', 'popup' => 'Popup', 'enquiry' => 'Enquiry', 'walkin' => 'Walk-in'][$r['form_type']] ?? $r['form_type'];
       $detail = match ($r['form_type']) {
         'demo'  => trim(($r['field1'] ?: 'course?') . ($r['field2'] ? ' · ' . $r['field2'] : '') . ($r['message'] ? ' — ' . $r['message'] : '')),
@@ -202,7 +213,7 @@ require __DIR__ . '/inc/header.php';
       <td><?= h($r['email']) ?></td>
       <td><?= h($r['phone'] ?: '—') ?></td>
       <td class="wrap" style="max-width:320px;overflow:hidden;text-overflow:ellipsis"><?= h(mb_substr($detail, 0, 80)) ?><?= mb_strlen($detail) > 80 ? '…' : '' ?></td>
-      <td><span class="tag <?= h($r['status']) ?>"><?= h($r['status']) ?></span></td>
+      <td><?= ck_call_select($CALL, $x['call_status'] ?? '', (int) $r['id'], $canEdit, 'Call status for ' . $r['name']) ?></td>
       <?php if ($canDelete): ?><td><button class="btn btn-sm btn-danger" name="action" value="delete_one" type="submit"
         formaction="/admin/submissions.php" onclick="document.getElementById('delId').value=<?= (int)$r['id'] ?>; return confirm('Delete this submission permanently?')">Delete</button></td><?php endif; ?>
     </tr>
@@ -219,5 +230,6 @@ function upd(){var n=rows.filter(function(r){return r.checked}).length;btn.disab
 if(all)all.addEventListener('change',function(){rows.forEach(function(r){r.checked=all.checked});upd();});rows.forEach(function(r){r.addEventListener('change',upd)});})();
 </script>
 <?php endif; ?>
+<?= ck_call_assets() ?>
 <?php require __DIR__ . '/inc/_pager.php'; ?>
 <?php require __DIR__ . '/inc/footer.php'; ?>
