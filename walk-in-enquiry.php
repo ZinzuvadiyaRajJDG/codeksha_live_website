@@ -12,7 +12,7 @@ $interests = ['Web Development', 'Digital Marketing', 'Design (UI/UX & Graphic)'
 $statuses  = ['School student', 'College student', 'Graduate', 'Working professional', 'Business owner', 'Other'];
 $goals     = ['Get a job', 'Freelancing', 'Start my own business', 'Upgrade my skills', 'Learn as a hobby'];
 $starts    = ['Immediately', 'Within 1 month', '1-3 months', 'Just exploring'];
-$batches   = ['Morning', 'Afternoon', 'Evening', 'Weekend', 'Flexible'];
+$batches   = ['Morning', 'Evening'];
 $sources   = ['Google search', 'Instagram', 'Facebook', 'YouTube', 'Friend / family', 'Passing by the office', 'Other'];
 $h = static fn($s) => htmlspecialchars($s, ENT_QUOTES, 'UTF-8');
 $chips = static function (string $name, array $opts, string $type = 'radio', bool $req = false) use ($h) {

@@ -97,7 +97,7 @@ if ($type === 'walkin') {
         'qualification' => mb_substr(trim($_POST['qualification'] ?? ''), 0, 150),
         'goal'          => $pick('goal', ['Get a job', 'Freelancing', 'Start my own business', 'Upgrade my skills', 'Learn as a hobby']),
         'start'         => $pick('start', ['Immediately', 'Within 1 month', '1-3 months', 'Just exploring']),
-        'batch'         => $pick('batch', ['Morning', 'Afternoon', 'Evening', 'Weekend', 'Flexible']),
+        'batch'         => $pick('batch', ['Morning', 'Evening']),
         'city'          => mb_substr(trim($_POST['city'] ?? ''), 0, 100),
         'source'        => $pick('source', ['Google search', 'Instagram', 'Facebook', 'YouTube', 'Friend / family', 'Passing by the office', 'Other']),
         'consent'       => 'yes',
