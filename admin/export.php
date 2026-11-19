@@ -12,6 +12,7 @@ $maps = [
     'events'     => 'SELECT id,session_id,visitor_id,type,label,detail,path,created_at FROM events ORDER BY created_at DESC LIMIT 50000',
     'submissions'=> 'SELECT id,form_type,name,email,phone,field1,field2,message,extra_json,status,page_path,ip,country,created_at,admin_notes FROM form_submissions ORDER BY created_at DESC LIMIT 50000',
 ];
+$maps['walkins'] = "SELECT id,created_at,name,phone,email,field1 AS course,field2 AS interests,JSON_UNQUOTE(JSON_EXTRACT(extra_json,'$.status')) AS currently,JSON_UNQUOTE(JSON_EXTRACT(extra_json,'$.qualification')) AS qualification,JSON_UNQUOTE(JSON_EXTRACT(extra_json,'$.goal')) AS goal,JSON_UNQUOTE(JSON_EXTRACT(extra_json,'$.start')) AS plans_to_start,JSON_UNQUOTE(JSON_EXTRACT(extra_json,'$.batch')) AS batch,JSON_UNQUOTE(JSON_EXTRACT(extra_json,'$.city')) AS city,JSON_UNQUOTE(JSON_EXTRACT(extra_json,'$.source')) AS heard_via,message AS notes,status,admin_notes FROM form_submissions WHERE form_type='walkin' ORDER BY created_at DESC LIMIT 50000";
 if (!isset($maps[$type])) { http_response_code(400); exit('Unknown export type'); }
 
 admin_log('export', $type);

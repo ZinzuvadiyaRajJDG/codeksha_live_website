@@ -5,7 +5,7 @@ require __DIR__ . '/inc/stats.php';
 $db = admin_db();
 
 /* ---- actions (workflow) ---- */
-$flash = '';
+$flash = isset($_GET['deleted']) ? (int) $_GET['deleted'] . ' submission(s) deleted.' : '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     csrf_verify();
     if (is_role('viewer')) { http_response_code(403); exit('Read-only account.'); }
@@ -20,6 +20,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
            ->execute([mb_substr(trim($_POST['note'] ?? ''), 0, 5000), $id]);
         admin_log('submission_note', "#$id");
         $flash = 'Note saved.';
+    } elseif (in_array($act, ['delete_one', 'delete_many'], true) && is_role('admin')) {
+        $ids = $act === 'delete_one' ? [(int) ($_POST['id'] ?? 0)] : array_map('intval', (array) ($_POST['ids'] ?? []));
+        $ids = array_values(array_filter($ids));
+        if ($ids) {
+            $in = implode(',', array_fill(0, count($ids), '?'));
+            $db->prepare("DELETE FROM form_submissions WHERE id IN ($in)")->execute($ids);
+            admin_log('submission_delete', '#' . implode(',#', $ids));
+        }
+        $back = (string) ($_POST['back'] ?? '');
+        if (!preg_match('#^/admin/(submissions|walkins)\.php(\?[^\s]*)?$#', $back)) $back = '/admin/submissions.php';
+        $back = rtrim(preg_replace('/([?&])deleted=\d+&?/', '$1', $back), '?&');   // drop an earlier flash param
+        header('Location: ' . $back . (str_contains($back, '?') ? '&' : '?') . 'deleted=' . count($ids));
+        exit;
     } elseif ($act === 'delete' && is_role('admin')) {
         $db->prepare('DELETE FROM form_submissions WHERE id=?')->execute([$id]);
         admin_log('submission_delete', "#$id");
@@ -158,8 +171,18 @@ require __DIR__ . '/inc/header.php';
   <a class="btn-ghost btn-sm" href="/admin/export.php?type=submissions&<?= h($_SERVER['QUERY_STRING'] ?? '') ?>">Export CSV</a>
   <span style="margin-left:auto;color:var(--muted)"><?= number_format($total) ?> total</span>
 </form>
+<?php $canDelete = is_role('admin'); ?>
+<form method="post" action="/admin/submissions.php" id="bulkForm">
+<?= csrf_field() ?><input type="hidden" name="back" value="<?= h($_SERVER['REQUEST_URI']) ?>">
+<?php if ($canDelete): ?>
+<div class="filters" style="margin-bottom:10px">
+  <button class="btn btn-sm btn-danger" name="action" value="delete_many" id="bulkDel" disabled
+    onclick="return confirm('Delete the selected submissions permanently? This cannot be undone.')">Delete selected</button>
+  <span id="selCount" style="color:var(--muted)"></span>
+</div>
+<?php endif; ?>
 <div class="panel"><div class="table-wrap"><table class="data">
-  <thead><tr><th>Received</th><th>Form</th><th>Name</th><th>Email</th><th>Phone</th><th>Message / details</th><th>Status</th></tr></thead>
+  <thead><tr><?php if ($canDelete): ?><th style="width:34px"><input type="checkbox" id="selAll" aria-label="Select all"></th><?php endif; ?><th>Received</th><th>Form</th><th>Name</th><th>Email</th><th>Phone</th><th>Message / details</th><th>Status</th><?php if ($canDelete): ?><th></th><?php endif; ?></tr></thead>
   <tbody>
   <?php foreach ($rows as $r): ?>
     <?php
@@ -173,6 +196,7 @@ require __DIR__ . '/inc/header.php';
       };
     ?>
     <tr>
+      <?php if ($canDelete): ?><td><input type="checkbox" class="selRow" name="ids[]" value="<?= (int)$r['id'] ?>" aria-label="Select #<?= (int)$r['id'] ?>"></td><?php endif; ?>
       <td><a href="?id=<?= (int)$r['id'] ?>"><?= h(fmt_ago($r['created_at'])) ?></a></td>
       <td><span class="tag<?= $r['form_type'] === 'demo' ? ' read' : '' ?>"><?= h($formTag) ?></span></td>
       <td><?= h($r['name']) ?></td>
@@ -180,10 +204,21 @@ require __DIR__ . '/inc/header.php';
       <td><?= h($r['phone'] ?: '—') ?></td>
       <td class="wrap" style="max-width:320px;overflow:hidden;text-overflow:ellipsis"><?= h(mb_substr($detail, 0, 80)) ?><?= mb_strlen($detail) > 80 ? '…' : '' ?></td>
       <td><span class="tag <?= h($r['status']) ?>"><?= h($r['status']) ?></span></td>
+      <?php if ($canDelete): ?><td><button class="btn btn-sm btn-danger" name="action" value="delete_one" type="submit"
+        formaction="/admin/submissions.php" onclick="document.getElementById('delId').value=<?= (int)$r['id'] ?>; return confirm('Delete this submission permanently?')">Delete</button></td><?php endif; ?>
     </tr>
   <?php endforeach; ?>
-  <?php if (!$rows): ?><tr><td colspan="7" class="empty">No submissions.</td></tr><?php endif; ?>
+  <?php if (!$rows): ?><tr><td colspan="9" class="empty">No submissions.</td></tr><?php endif; ?>
   </tbody>
 </table></div></div>
+<input type="hidden" name="id" id="delId" value="">
+</form>
+<?php if ($canDelete): ?>
+<script>
+(function(){var all=document.getElementById('selAll'),rows=[].slice.call(document.querySelectorAll('.selRow')),btn=document.getElementById('bulkDel'),cnt=document.getElementById('selCount');
+function upd(){var n=rows.filter(function(r){return r.checked}).length;btn.disabled=!n;cnt.textContent=n?n+' selected':'';if(all)all.checked=n&&n===rows.length;}
+if(all)all.addEventListener('change',function(){rows.forEach(function(r){r.checked=all.checked});upd();});rows.forEach(function(r){r.addEventListener('change',upd)});})();
+</script>
+<?php endif; ?>
 <?php require __DIR__ . '/inc/_pager.php'; ?>
 <?php require __DIR__ . '/inc/footer.php'; ?>
