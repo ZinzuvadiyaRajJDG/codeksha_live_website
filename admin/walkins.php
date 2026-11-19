@@ -165,6 +165,9 @@ $cols = $canDelete ? 8 : 7;
   .wkm-note{margin:0;background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;padding:12px 14px;white-space:pre-wrap;font-size:14.5px;line-height:1.5}
   .wkm-foot{display:flex;flex-wrap:wrap;gap:8px;padding:14px 22px;border-top:1px solid #e2e8f0;background:#f8fafc}
   .wkm-foot a{flex:1 1 auto;text-align:center}
+  .wkm-ic{display:inline-flex;align-items:center;justify-content:center;gap:8px}
+  .wkm-ic svg{width:16px;height:16px;flex:none}
+  .wkm-wa svg{color:#25d366}
   @media (max-width:560px){.wkm{padding:0;align-items:flex-end}.wkm-card{max-width:none;max-height:94vh;border-radius:18px 18px 0 0}.wkm-grid{grid-template-columns:1fr}}
 </style>
 <script>
@@ -182,11 +185,15 @@ $cols = $canDelete ? 8 : 7;
     var about=d.more.length?'<dl class="wkm-grid">'+d.more.map(function(p){return item(p[0],esc(p[1]))}).join('')+'</dl>':'';
     var notes=d.notes?'<p class="wkm-note">'+esc(d.notes)+'</p>':'';
     body.innerHTML=sec('Contact',contact)+sec('Enquiry',enq)+sec('About the student',about)+sec('Their question / note',notes)+sec('Status','<span class="tag '+esc(d.status)+'">'+esc(d.status)+'</span>');
+    var ic={
+      call:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>',
+      wa:'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35zM12.05 21.5h-.01a9.45 9.45 0 0 1-4.82-1.32l-.35-.2-3.58.94.96-3.5-.23-.36a9.43 9.43 0 0 1-1.45-5.04c0-5.22 4.25-9.47 9.48-9.47 2.53 0 4.9.99 6.69 2.78a9.4 9.4 0 0 1 2.77 6.7c0 5.23-4.25 9.47-9.46 9.47zM20.05 3.93A11.3 11.3 0 0 0 12.05.5C5.8.5.72 5.58.72 11.83c0 2 .52 3.95 1.51 5.67L.63 23.5l6.14-1.61a11.3 11.3 0 0 0 5.28 1.34h.01c6.25 0 11.33-5.08 11.33-11.33 0-3.03-1.18-5.87-3.34-8.01z"/></svg>',
+      mail:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>'
+    };
     var f='';
-    if(d.tel)f+='<a class="btn btn-sm" href="tel:'+esc(d.tel)+'">Call</a>';
-    if(d.wa)f+='<a class="btn-ghost btn-sm" target="_blank" rel="noopener" href="https://wa.me/'+esc(d.wa)+'">WhatsApp</a>';
-    if(d.email)f+='<a class="btn-ghost btn-sm" href="mailto:'+esc(d.email)+'">Email</a>';
-    f+='<a class="btn-ghost btn-sm" href="/admin/submissions.php?id='+d.id+'">Update status / add notes</a>';
+    if(d.tel)f+='<a class="btn btn-sm wkm-ic" href="tel:'+esc(d.tel)+'">'+ic.call+'Call</a>';
+    if(d.wa)f+='<a class="btn-ghost btn-sm wkm-ic wkm-wa" target="_blank" rel="noopener" href="https://wa.me/'+esc(d.wa)+'">'+ic.wa+'WhatsApp</a>';
+    if(d.email)f+='<a class="btn-ghost btn-sm wkm-ic" href="mailto:'+esc(d.email)+'">'+ic.mail+'Email</a>';
     foot.innerHTML=f;
     m.hidden=false;document.body.style.overflow='hidden';document.getElementById('wkmClose').focus();
   }
