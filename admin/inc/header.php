@@ -9,7 +9,7 @@ $nav = [
     ['pageviews',   'Page Views',       '/admin/pageviews.php',   'file'],
     ['events',      'Interactions',     '/admin/events.php',      'mouse'],
     ['submissions', 'Form Submissions', '/admin/submissions.php', 'inbox'],
-    ['walkins',     'Walk-in Enquiries', '/admin/walkins.php',    'userplus'],
+    ['walkins',     'Walk-in Inquiries', '/admin/walkins.php',    'userplus'],
     ['live',        'Live',             '/admin/live.php',        'radio'],
 ];
 $navBottom = [

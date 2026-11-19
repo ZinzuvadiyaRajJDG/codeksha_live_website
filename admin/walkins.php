@@ -1,11 +1,11 @@
 <?php
-/** Walk-in enquiries: the answers from /walk-in-enquiry/ (form_type "walkin") in one readable table. */
+/** Walk-in inquiries: the answers from /walk-in-enquiry/ (form_type "walkin") in one readable table. */
 require __DIR__ . '/inc/bootstrap.php';
 require_login();
 require __DIR__ . '/inc/stats.php';
 $db = admin_db();
 
-$flash = isset($_GET['deleted']) ? (int) $_GET['deleted'] . ' enquiry(ies) deleted.' : '';
+$flash = isset($_GET['deleted']) ? (int) $_GET['deleted'] . ' inquiry(ies) deleted.' : '';
 $status = q_str('status', 16);
 $course = q_str('course', 190);
 $search = q_str('q');
@@ -38,7 +38,7 @@ $counts = [];
 foreach ($db->query("SELECT status, COUNT(*) c FROM form_submissions WHERE form_type='walkin' GROUP BY status") as $r) $counts[$r['status']] = $r['c'];
 $canDelete = is_role('admin');
 
-$PAGE_TITLE = 'Walk-in Enquiries';
+$PAGE_TITLE = 'Walk-in Inquiries';
 $ACTIVE = 'walkins';
 require __DIR__ . '/inc/header.php';
 ?>
@@ -76,7 +76,7 @@ require __DIR__ . '/inc/header.php';
 <?php if ($canDelete): ?>
 <div class="filters" style="margin-bottom:10px">
   <button class="btn btn-sm btn-danger" name="action" value="delete_many" id="bulkDel" disabled
-    onclick="return confirm('Delete the selected enquiries permanently? This cannot be undone.')">Delete selected</button>
+    onclick="return confirm('Delete the selected inquiries permanently? This cannot be undone.')">Delete selected</button>
   <span id="selCount" style="color:var(--muted)"></span>
 </div>
 <?php endif; ?>
@@ -116,11 +116,11 @@ $cols = $canDelete ? 8 : 7;
       <td style="white-space:nowrap;text-align:right">
         <button type="button" class="btn btn-sm js-details" data-d="<?= h($json) ?>">Details</button>
         <?php if ($canDelete): ?><button class="btn btn-sm btn-danger" name="action" value="delete_one" type="submit"
-          onclick="document.getElementById('delId').value=<?= (int) $r['id'] ?>; return confirm('Delete this enquiry permanently?')">Delete</button><?php endif; ?>
+          onclick="document.getElementById('delId').value=<?= (int) $r['id'] ?>; return confirm('Delete this inquiry permanently?')">Delete</button><?php endif; ?>
       </td>
     </tr>
   <?php endforeach; ?>
-  <?php if (!$rows): ?><tr><td colspan="<?= $cols ?>" class="empty">No walk-in enquiries yet. Share the form: <a href="/walk-in-enquiry/" target="_blank" rel="noopener">/walk-in-enquiry/</a></td></tr><?php endif; ?>
+  <?php if (!$rows): ?><tr><td colspan="<?= $cols ?>" class="empty">No walk-in inquiries yet. Share the form: <a href="/walk-in-enquiry/" target="_blank" rel="noopener">/walk-in-enquiry/</a></td></tr><?php endif; ?>
   </tbody>
 </table></div></div>
 </form>
@@ -130,7 +130,7 @@ $cols = $canDelete ? 8 : 7;
   <div class="wkm-card" role="dialog" aria-modal="true" aria-labelledby="wkmName">
     <div class="wkm-head">
       <div>
-        <div class="wkm-kicker">Walk-in enquiry</div>
+        <div class="wkm-kicker">Walk-in inquiry</div>
         <h2 id="wkmName">&nbsp;</h2>
         <div class="wkm-when" id="wkmWhen"></div>
       </div>
@@ -181,10 +181,10 @@ $cols = $canDelete ? 8 : 7;
     document.getElementById('wkmName').textContent=d.name||'(no name)';
     document.getElementById('wkmWhen').textContent='Submitted '+d.when+' IST · '+d.ago;
     var contact='<dl class="wkm-grid">'+item('Mobile',d.phone?'<a href="tel:'+esc(d.tel)+'">'+esc(d.phone)+'</a>':'')+item('Email',d.email?'<a href="mailto:'+esc(d.email)+'">'+esc(d.email)+'</a>':'')+'</dl>';
-    var enq='<dl class="wkm-grid">'+item('Course enquired',esc(d.course),true)+(d.interest.length?item('Interested in','<div class="wkm-chips">'+d.interest.map(function(i){return '<span>'+esc(i)+'</span>'}).join('')+'</div>',true):'')+'</dl>';
+    var enq='<dl class="wkm-grid">'+item('Course inquired',esc(d.course),true)+(d.interest.length?item('Interested in','<div class="wkm-chips">'+d.interest.map(function(i){return '<span>'+esc(i)+'</span>'}).join('')+'</div>',true):'')+'</dl>';
     var about=d.more.length?'<dl class="wkm-grid">'+d.more.map(function(p){return item(p[0],esc(p[1]))}).join('')+'</dl>':'';
     var notes=d.notes?'<p class="wkm-note">'+esc(d.notes)+'</p>':'';
-    body.innerHTML=sec('Contact',contact)+sec('Enquiry',enq)+sec('About the student',about)+sec('Their question / note',notes)+sec('Status','<span class="tag '+esc(d.status)+'">'+esc(d.status)+'</span>');
+    body.innerHTML=sec('Contact',contact)+sec('Inquiry',enq)+sec('About the student',about)+sec('Their question / note',notes)+sec('Status','<span class="tag '+esc(d.status)+'">'+esc(d.status)+'</span>');
     var ic={
       call:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>',
       wa:'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35zM12.05 21.5h-.01a9.45 9.45 0 0 1-4.82-1.32l-.35-.2-3.58.94.96-3.5-.23-.36a9.43 9.43 0 0 1-1.45-5.04c0-5.22 4.25-9.47 9.48-9.47 2.53 0 4.9.99 6.69 2.78a9.4 9.4 0 0 1 2.77 6.7c0 5.23-4.25 9.47-9.46 9.47zM20.05 3.93A11.3 11.3 0 0 0 12.05.5C5.8.5.72 5.58.72 11.83c0 2 .52 3.95 1.51 5.67L.63 23.5l6.14-1.61a11.3 11.3 0 0 0 5.28 1.34h.01c6.25 0 11.33-5.08 11.33-11.33 0-3.03-1.18-5.87-3.34-8.01z"/></svg>',

@@ -60,7 +60,7 @@ if (isset($_GET['id'])) {
     <?php if (isset($_GET['ok'])): ?><div class="flash ok"><?= h($flash ?: 'Saved.') ?></div><?php endif; ?>
     <div class="grid-2">
       <?php
-        $typeLabel = ['contact' => 'Contact', 'instructor' => 'Instructor', 'demo' => 'Free demo class', 'popup' => 'Promo popup callback', 'enquiry' => 'Course enquiry', 'walkin' => 'Walk-in enquiry'][$row['form_type']] ?? ucfirst($row['form_type']);
+        $typeLabel = ['contact' => 'Contact', 'instructor' => 'Instructor', 'demo' => 'Free demo class', 'popup' => 'Promo popup callback', 'enquiry' => 'Course enquiry', 'walkin' => 'Walk-in inquiry'][$row['form_type']] ?? ucfirst($row['form_type']);
         $isDemo = $row['form_type'] === 'demo';
       ?>
       <div class="panel"><div class="panel-head"><h2><?= h($typeLabel) ?> submission</h2>

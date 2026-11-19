@@ -1,6 +1,6 @@
 <?php @include __DIR__ . '/inc/tracker.php'; /* analytics */ ?>
 <?php
-// Walk-in enquiry form: students fill this when they visit the Rajkot office.
+// Walk-in inquiry form: students fill this when they visit the Rajkot office.
 // Saved as form_type "walkin" via /submit (see inc/form-handler.php) and listed in /admin/submissions.php.
 $courses = [
     'Web Development' => ['Full Stack Web Development', 'Frontend Development', 'Backend Development', 'JavaScript', 'MongoDB', 'WordPress Development'],
@@ -27,7 +27,7 @@ $chips = static function (string $name, array $opts, string $type = 'radio', boo
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Walk-in Enquiry Form | Codeksha Rajkot</title>
+    <title>Walk-in Inquiry Form | Codeksha Rajkot</title>
     <meta name="description" content="Visiting Codeksha's Rajkot office? Fill in this short form so our counsellor can help you faster." />
     <meta name="robots" content="noindex, nofollow" />
     <link rel="canonical" href="https://codeksha.com/walk-in-enquiry/" />
@@ -174,7 +174,7 @@ $chips = static function (string $name, array $opts, string $type = 'radio', boo
                 <div class="wk-err">Please choose at least one.</div>
               </div>
               <div class="wk-f" data-req>
-                <label for="wkCourse">Which course are you enquiring about?</label>
+                <label for="wkCourse">Which course are you inquiring about?</label>
                 <select id="wkCourse" name="course">
                   <option value="" selected disabled>Select a course</option>
                   <?php foreach ($courses as $group => $list): ?>

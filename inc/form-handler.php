@@ -83,7 +83,7 @@ if ($type === 'walkin') {
         $v = trim((string) ($_POST[$key] ?? ''));
         return in_array($v, $allowed, true) ? $v : '';
     };
-    $field1  = trim($_POST['course'] ?? '');                       // course they came to enquire about
+    $field1  = trim($_POST['course'] ?? '');                       // course they came to inquire about
     $interests = array_values(array_filter((array) ($_POST['interest'] ?? []), 'is_string'));
     $interests = array_slice(array_intersect($interests, ['Web Development', 'Digital Marketing', 'Design (UI/UX & Graphic)', 'AI & Automation', 'Not sure yet']), 0, 5);
     $field2  = implode(', ', $interests);                          // their areas of interest
@@ -196,7 +196,7 @@ try {
             'demo'       => 'free demo class booking',
             'popup'      => 'callback request (promo popup)',
             'enquiry'    => 'course enquiry',
-            'walkin'     => 'walk-in enquiry (office visit form)',
+            'walkin'     => 'walk-in inquiry (office visit form)',
             default      => 'contact enquiry',
         };
         $lines = [
