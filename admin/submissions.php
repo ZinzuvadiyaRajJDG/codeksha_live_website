@@ -47,7 +47,7 @@ if (isset($_GET['id'])) {
     <?php if (isset($_GET['ok'])): ?><div class="flash ok"><?= h($flash ?: 'Saved.') ?></div><?php endif; ?>
     <div class="grid-2">
       <?php
-        $typeLabel = ['contact' => 'Contact', 'instructor' => 'Instructor', 'demo' => 'Free demo class', 'popup' => 'Promo popup callback', 'enquiry' => 'Course enquiry'][$row['form_type']] ?? ucfirst($row['form_type']);
+        $typeLabel = ['contact' => 'Contact', 'instructor' => 'Instructor', 'demo' => 'Free demo class', 'popup' => 'Promo popup callback', 'enquiry' => 'Course enquiry', 'walkin' => 'Walk-in enquiry'][$row['form_type']] ?? ucfirst($row['form_type']);
         $isDemo = $row['form_type'] === 'demo';
       ?>
       <div class="panel"><div class="panel-head"><h2><?= h($typeLabel) ?> submission</h2>
@@ -56,7 +56,14 @@ if (isset($_GET['id'])) {
           <dt>Name</dt><dd><?= h($row['name'] ?: '—') ?></dd>
           <dt>Email</dt><dd><?php if ($row['email']): ?><a href="mailto:<?= h($row['email']) ?>"><?= h($row['email']) ?></a><?php else: ?>—<?php endif; ?></dd>
           <dt>Phone</dt><dd><?php if ($row['phone']): ?><a href="tel:<?= h(preg_replace('/[^\d+]/', '', $row['phone'])) ?>"><?= h($row['phone']) ?></a><?php else: ?>—<?php endif; ?></dd>
-          <?php if ($row['field1']): ?><dt><?= ($isDemo || $row['form_type'] === 'enquiry') ? 'Course' : ($row['form_type'] === 'popup' ? 'Promo code' : 'Subject') ?></dt><dd><?= h($row['field1']) ?></dd><?php endif; ?>
+          <?php if ($row['field1']): ?><dt><?= ($isDemo || in_array($row['form_type'], ['enquiry', 'walkin'], true)) ? 'Course' : ($row['form_type'] === 'popup' ? 'Promo code' : 'Subject') ?></dt><dd><?= h($row['field1']) ?></dd><?php endif; ?>
+          <?php if ($row['form_type'] === 'walkin'): ?>
+            <dt>Interested in</dt><dd><?= h($row['field2'] ?: '—') ?></dd>
+            <?php $labels = ['status' => 'Currently', 'qualification' => 'Qualification / college', 'goal' => 'Goal', 'start' => 'Plans to start', 'batch' => 'Preferred batch', 'city' => 'City / area', 'source' => 'Heard about us via'];
+            foreach (json_decode((string) $row['extra_json'], true) ?: [] as $k => $v): if (!isset($labels[$k])) continue; ?>
+              <dt><?= h($labels[$k]) ?></dt><dd><?= h($v) ?></dd>
+            <?php endforeach; ?>
+          <?php endif; ?>
           <?php if ($isDemo): ?><dt>Preferred time</dt><dd><?= h($row['field2'] ?: 'Any time') ?></dd><?php endif; ?>
           <?php if ($row['message'] || !in_array($row['form_type'], ['popup', 'enquiry'], true)): ?>
           <dt><?= $isDemo ? 'Notes' : 'Message' ?></dt><dd style="white-space:pre-wrap"><?= h($row['message'] ?: '—') ?></dd>
@@ -140,6 +147,7 @@ require __DIR__ . '/inc/header.php';
     <option value="instructor" <?= $type === 'instructor' ? 'selected' : '' ?>>Instructor</option>
     <option value="popup" <?= $type === 'popup' ? 'selected' : '' ?>>Promo popup callback</option>
     <option value="enquiry" <?= $type === 'enquiry' ? 'selected' : '' ?>>Course enquiry</option>
+    <option value="walkin" <?= $type === 'walkin' ? 'selected' : '' ?>>Walk-in enquiry</option>
   </select>
   <select name="status"><option value="">Any status</option>
     <?php foreach (['new', 'read', 'replied', 'spam'] as $st): ?>
@@ -155,10 +163,11 @@ require __DIR__ . '/inc/header.php';
   <tbody>
   <?php foreach ($rows as $r): ?>
     <?php
-      $formTag = ['contact' => 'Contact', 'instructor' => 'Instructor', 'demo' => 'Demo', 'popup' => 'Popup', 'enquiry' => 'Enquiry'][$r['form_type']] ?? $r['form_type'];
+      $formTag = ['contact' => 'Contact', 'instructor' => 'Instructor', 'demo' => 'Demo', 'popup' => 'Popup', 'enquiry' => 'Enquiry', 'walkin' => 'Walk-in'][$r['form_type']] ?? $r['form_type'];
       $detail = match ($r['form_type']) {
         'demo'  => trim(($r['field1'] ?: 'course?') . ($r['field2'] ? ' · ' . $r['field2'] : '') . ($r['message'] ? ' — ' . $r['message'] : '')),
         'enquiry' => 'Wants info on: ' . ($r['field1'] ?: 'a course'),
+        'walkin' => ($r['field1'] ?: 'course?') . ($r['field2'] ? ' · ' . $r['field2'] : ''),
         'popup' => 'Callback requested (code ' . ($r['field1'] ?: 'CK-10OFF') . ')',
         default => (string) $r['message'],
       };

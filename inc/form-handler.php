@@ -28,7 +28,7 @@ if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') {
 }
 
 $cfg = ck_config();
-$type = in_array($_POST['form_type'] ?? '', ['instructor', 'demo', 'popup', 'enquiry'], true) ? $_POST['form_type'] : 'contact';
+$type = in_array($_POST['form_type'] ?? '', ['instructor', 'demo', 'popup', 'enquiry', 'walkin'], true) ? $_POST['form_type'] : 'contact';
 
 // ---- anti-spam -----------------------------------------------------------
 $ip = ck_client_ip();
@@ -77,7 +77,32 @@ if ($type === 'enquiry') {
 if (!$phoneOk) { $errors[] = 'phone'; $fieldErrors[] = $phoneErr; }
 
 $field2 = null;
-if ($type === 'instructor') {
+$extra  = null;   // JSON blob for the walk-in form's extra answers
+if ($type === 'walkin') {
+    $pick = static function (string $key, array $allowed): string {
+        $v = trim((string) ($_POST[$key] ?? ''));
+        return in_array($v, $allowed, true) ? $v : '';
+    };
+    $field1  = trim($_POST['course'] ?? '');                       // course they came to enquire about
+    $interests = array_values(array_filter((array) ($_POST['interest'] ?? []), 'is_string'));
+    $interests = array_slice(array_intersect($interests, ['Web Development', 'Digital Marketing', 'Design (UI/UX & Graphic)', 'AI & Automation', 'Not sure yet']), 0, 5);
+    $field2  = implode(', ', $interests);                          // their areas of interest
+    $message = trim($_POST['message'] ?? '');
+    if (mb_strlen($field1) < 2 || mb_strlen($field1) > 190) $errors[] = 'course';
+    if (!$interests) $errors[] = 'interest';
+    if (mb_strlen($message) > 4000) $errors[] = 'message';
+    if (($_POST['consent'] ?? '') !== '1') { $errors[] = 'consent'; $fieldErrors[] = 'Please tick the box so we can contact you.'; }
+    $extra = json_encode(array_filter([
+        'status'        => $pick('status', ['School student', 'College student', 'Graduate', 'Working professional', 'Business owner', 'Other']),
+        'qualification' => mb_substr(trim($_POST['qualification'] ?? ''), 0, 150),
+        'goal'          => $pick('goal', ['Get a job', 'Freelancing', 'Start my own business', 'Upgrade my skills', 'Learn as a hobby']),
+        'start'         => $pick('start', ['Immediately', 'Within 1 month', '1-3 months', 'Just exploring']),
+        'batch'         => $pick('batch', ['Morning', 'Afternoon', 'Evening', 'Weekend', 'Flexible']),
+        'city'          => mb_substr(trim($_POST['city'] ?? ''), 0, 100),
+        'source'        => $pick('source', ['Google search', 'Instagram', 'Facebook', 'YouTube', 'Friend / family', 'Passing by the office', 'Other']),
+        'consent'       => 'yes',
+    ], static fn($v) => $v !== ''), JSON_UNESCAPED_UNICODE);
+} elseif ($type === 'instructor') {
     $field1  = trim($_POST['subject'] ?? '');
     $message = trim($_POST['message'] ?? '');
     if (mb_strlen($field1) < 2 || mb_strlen($field1) > 190) $errors[] = 'subject';
@@ -129,18 +154,28 @@ try {
 
     $pagePath = substr(parse_url($_SERVER['HTTP_REFERER'] ?? '', PHP_URL_PATH) ?? '', 0, 512);
 
-    $ins = $db->prepare(
-        'INSERT INTO form_submissions
-         (form_type,name,email,phone,field1,field2,message,visitor_id,session_id,page_path,ip,country,ua,status,created_at)
-         VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,NOW())'
-    );
-    $ins->execute([
+    $row = [
         $type, mb_substr($name, 0, 190), mb_substr($email, 0, 190), mb_substr($phone, 0, 20),
         $field1 ? mb_substr($field1, 0, 190) : null,
-        $field2 ? mb_substr($field2, 0, 190) : null, $message,
+        $field2 ? mb_substr($field2, 0, 190) : null, $message, $extra,
         $visitorId, $sessionId, $pagePath, ck_anonymize_ip($ip), $country,
         substr($_SERVER['HTTP_USER_AGENT'] ?? '', 0, 512), 'new',
-    ]);
+    ];
+    try {
+        $db->prepare(
+            'INSERT INTO form_submissions
+             (form_type,name,email,phone,field1,field2,message,extra_json,visitor_id,session_id,page_path,ip,country,ua,status,created_at)
+             VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,NOW())'
+        )->execute($row);
+    } catch (\PDOException $e) {
+        if ($e->getCode() !== '42S22') throw $e;   // older database without extra_json: save without it
+        unset($row[7]);
+        $db->prepare(
+            'INSERT INTO form_submissions
+             (form_type,name,email,phone,field1,field2,message,visitor_id,session_id,page_path,ip,country,ua,status,created_at)
+             VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,NOW())'
+        )->execute(array_values($row));
+    }
     $id = (int) $db->lastInsertId();
 
     if ($sessionId) {
@@ -161,6 +196,7 @@ try {
             'demo'       => 'free demo class booking',
             'popup'      => 'callback request (promo popup)',
             'enquiry'    => 'course enquiry',
+            'walkin'     => 'walk-in enquiry (office visit form)',
             default      => 'contact enquiry',
         };
         $lines = [
@@ -173,6 +209,12 @@ try {
         if ($type === 'demo') {
             $lines[] = "Course:  " . ($field1 ?: '-');
             if ($field2) $lines[] = "Prefers: {$field2}";
+        } elseif ($type === 'walkin') {
+            $lines[] = "Course:  {$field1}";
+            if ($field2) $lines[] = "Interest: {$field2}";
+            foreach (json_decode((string) $extra, true) ?: [] as $k => $v) {
+                if ($k !== 'consent') $lines[] = str_pad(ucfirst($k) . ':', 9) . $v;
+            }
         } elseif ($type === 'enquiry') {
             $lines[] = "Course:  {$field1}";
         } elseif ($type === 'popup') {
@@ -197,6 +239,7 @@ try {
 ck_form_respond(true, match ($type) {
     'demo'       => 'Thanks — your free demo request is in. We\'ll call or email to confirm your slot shortly.',
     'instructor' => 'Thanks — we\'ve received your application and our team will get back to you soon.',
+    'walkin'     => 'Thank you! Your details are saved. Please take a seat - our counsellor will be with you shortly.',
     'enquiry'    => 'Thanks! Our counsellor will call you shortly with the syllabus, fees and free demo details.',
     'popup'      => 'Thanks! Save code CK-10OFF — our team will call you back shortly.',
     default      => 'Thanks — we\'ve received your message and will get back to you shortly.',

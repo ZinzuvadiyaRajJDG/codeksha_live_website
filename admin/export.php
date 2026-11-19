@@ -10,7 +10,7 @@ $maps = [
     'sessions'   => 'SELECT id,sid,visitor_id,started_at,duration_sec,pageviews,events,channel,referrer_host,utm_source,utm_medium,utm_campaign,entry_path,exit_path,is_bounce,country,device_type FROM sessions ORDER BY started_at DESC LIMIT 50000',
     'pageviews'  => 'SELECT id,session_id,visitor_id,path,query,title,created_at,time_on_page_sec,max_scroll_pct,viewport_w,viewport_h,is_entry,referrer FROM pageviews ORDER BY created_at DESC LIMIT 50000',
     'events'     => 'SELECT id,session_id,visitor_id,type,label,detail,path,created_at FROM events ORDER BY created_at DESC LIMIT 50000',
-    'submissions'=> 'SELECT id,form_type,name,email,phone,field1,field2,message,status,page_path,ip,country,created_at,admin_notes FROM form_submissions ORDER BY created_at DESC LIMIT 50000',
+    'submissions'=> 'SELECT id,form_type,name,email,phone,field1,field2,message,extra_json,status,page_path,ip,country,created_at,admin_notes FROM form_submissions ORDER BY created_at DESC LIMIT 50000',
 ];
 if (!isset($maps[$type])) { http_response_code(400); exit('Unknown export type'); }
 
