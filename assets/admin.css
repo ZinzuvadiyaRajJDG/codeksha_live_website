@@ -42,7 +42,7 @@ a:hover{text-decoration:underline}
 .topbar h1{font-size:19px;font-weight:700;flex:1}
 .topbar-right{display:flex;gap:10px;align-items:center}
 .menu-toggle{display:none;background:none;border:0;font-size:20px;color:var(--muted);cursor:pointer}
-.content{padding:26px 28px 60px;max-width:1240px;width:100%}
+.content{padding:26px 28px 60px;width:100%}
 
 /* ---- buttons / controls ---- */
 .btn,.btn-ghost{display:inline-flex;align-items:center;gap:7px;padding:8px 15px;border-radius:9px;font-weight:600;
