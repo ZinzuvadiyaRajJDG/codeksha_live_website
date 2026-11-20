@@ -24,31 +24,31 @@ $CK_FOCUS = [
         'course' => 'frontend-development', 'tab' => 'web', 'h1' => 'Web Development Course', 'teacher' => 'real developers',
         'primary' => 'web development course for students from {T}',
         'sec' => ['frontend development course for students from {T}', 'JavaScript course for students from {T}', 'coding classes for students from {T}'],
-        'chips' => ['HTML/CSS', 'JavaScript', 'Bootstrap', 'Responsive design', 'Frontend'], 'curr_h2' => 'Web development and <em>frontend</em> training.',
+        'chips' => ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Frontend'], 'curr_h2' => 'Web development and <em>frontend</em> training.',
     ],
     'fullstack' => [
         'course' => 'full-stack-web-development', 'tab' => 'web', 'h1' => 'Full Stack Development Course', 'teacher' => 'real developers',
         'primary' => 'full stack development course for students from {T}',
         'sec' => ['web development course for students from {T}', 'MERN stack course for students from {T}', 'coding classes for students from {T}'],
-        'chips' => ['HTML/CSS', 'JavaScript', 'React', 'Node.js', 'PHP', 'MySQL'], 'curr_h2' => 'Full stack development <em>training</em>.',
+        'chips' => ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'PHP / Laravel / Node', 'GitHub'], 'curr_h2' => 'Full stack development <em>training</em>.',
     ],
     'dm' => [
         'course' => 'digital-marketing-seo', 'tab' => 'dm', 'h1' => 'Digital Marketing Course', 'teacher' => 'experienced professionals',
         'primary' => 'digital marketing course for students from {T}',
         'sec' => ['SEO course for students from {T}', 'Google Ads course for students from {T}', 'social media marketing course for students from {T}'],
-        'chips' => ['SEO', 'Google Ads', 'Analytics', 'Social media', 'Content marketing'], 'curr_h2' => 'Digital marketing and <em>SEO</em> training.',
+        'chips' => ['Basic SEO', 'Advance SEO', 'Google Ads', 'Meta Ads', 'ChatGPT Ads'], 'curr_h2' => 'Digital marketing and <em>SEO</em> training.',
     ],
     'graphic' => [
         'course' => 'graphic-design', 'tab' => 'ds', 'h1' => 'Graphic Design Course', 'teacher' => 'experienced professionals',
         'primary' => 'graphic design course for students from {T}',
         'sec' => ['UI UX design course for students from {T}', 'Photoshop and Illustrator course for students from {T}', 'design classes for students from {T}'],
-        'chips' => ['Photoshop', 'Illustrator', 'CorelDRAW', 'Canva', 'Branding'], 'curr_h2' => 'Graphic design <em>training</em>.',
+        'chips' => ['Canva', 'Photoshop', 'Adobe Illustrator'], 'curr_h2' => 'Graphic design <em>training</em>.',
     ],
     'uiux' => [
         'course' => 'ui-ux-design', 'tab' => 'ds', 'h1' => 'UI UX Design Course', 'teacher' => 'experienced professionals',
         'primary' => 'UI UX design course for students from {T}',
         'sec' => ['Figma course for students from {T}', 'web design course for students from {T}', 'design classes for students from {T}'],
-        'chips' => ['Figma', 'Wireframes', 'Prototypes', 'User research', 'Design systems'], 'curr_h2' => 'UI UX design <em>training</em>.',
+        'chips' => ['Figma', 'Claude Design'], 'curr_h2' => 'UI UX design <em>training</em>.',
     ],
     'wp' => [
         'course' => 'wordpress-development', 'tab' => 'cms', 'h1' => 'WordPress Development Course', 'teacher' => 'real developers',
@@ -60,7 +60,7 @@ $CK_FOCUS = [
         'course' => 'ai-automation', 'tab' => 'ai', 'h1' => 'AI and Automation Course', 'teacher' => 'real developers',
         'primary' => 'AI automation course for students from {T}',
         'sec' => ['n8n course for students from {T}', 'prompt engineering course for students from {T}', 'IT courses for {T} students'],
-        'chips' => ['ChatGPT', 'Prompt engineering', 'n8n', 'Make', 'Zapier'], 'curr_h2' => 'AI and automation <em>training</em>.',
+        'chips' => ['Prompt engineering', 'n8n', 'Zapier', 'Make.com', 'AI agents'], 'curr_h2' => 'AI and automation <em>training</em>.',
     ],
 ];
 

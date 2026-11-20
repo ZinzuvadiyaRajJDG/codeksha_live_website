@@ -5,7 +5,7 @@
 $courses = [
     'Web Development' => ['Full Stack Web Development', 'Frontend Development', 'Backend Development', 'JavaScript', 'MongoDB', 'WordPress Development'],
     'Digital Marketing' => ['Digital Marketing & SEO', 'SEO', 'Google Ads', 'Social Media Marketing'],
-    'Design' => ['UI/UX Design', 'Graphic Design'],
+    'Design' => ['UI/UX Design', 'Graphic Design', 'Graphic Design + UI/UX Design'],
     'AI & Automation' => ['AI & Automation', 'n8n Automation', 'Prompt Engineering'],
 ];
 $interests = ['Web Development', 'Digital Marketing', 'Design (UI/UX & Graphic)', 'AI & Automation', 'Not sure yet'];

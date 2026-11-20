@@ -50,7 +50,7 @@
       "hasCourseInstance": {
         "@type": "CourseInstance",
         "courseMode": "Onsite",
-        "courseWorkload": "P8W",
+        "courseWorkload": "P3M",
         "inLanguage": "en"
       }
     }
@@ -86,10 +86,9 @@
         <p class="lede">Learn JavaScript from the ground up - core syntax and logic, DOM manipulation, ES6+ features, asynchronous programming and working with real APIs, all hands-on.</p>
         <div class="course-quick-meta">
           <span><i class="fa-solid fa-signal"></i> Beginner</span>
-          <span><i class="fa-regular fa-clock"></i> 8 weeks</span>
+          <span><i class="fa-regular fa-clock"></i> 3 months</span>
           <span><i class="fa-solid fa-book"></i> 16 lessons</span>
           <span><i class="fa-solid fa-language"></i> English</span>
-          <span><i class="fa-solid fa-users"></i> 63 students</span>
         </div>
       </div>
     </section>
@@ -118,23 +117,23 @@
             <div class="curriculum-list">
               <div class="curriculum-month">
                 <span class="month-num">1</span>
-                <p><strong>Week 1-2.</strong> JavaScript basics: syntax, variables, functions and control flow</p>
+                <p><strong>Part 1.</strong> JavaScript basics: syntax, variables, functions and control flow</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">2</span>
-                <p><strong>Week 3-4.</strong> DOM manipulation, events and interactive UI components</p>
+                <p><strong>Part 2.</strong> DOM manipulation, events and interactive UI components</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">3</span>
-                <p><strong>Week 5.</strong> Arrays, objects and modern ES6+ features</p>
+                <p><strong>Part 3.</strong> Arrays, objects and modern ES6+ features</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">4</span>
-                <p><strong>Week 6-7.</strong> Asynchronous JavaScript, promises, async/await and APIs</p>
+                <p><strong>Part 4.</strong> Asynchronous JavaScript, promises, async/await and APIs</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">5</span>
-                <p><strong>Week 8.</strong> Capstone: a JavaScript project consuming a real API</p>
+                <p><strong>Part 5.</strong> Capstone: a JavaScript project consuming a real API</p>
               </div>
             </div>
 
@@ -202,7 +201,7 @@
                 <ul class="course-meta-list">
                 <li>Delivery <strong>Live class</strong></li>
                 <li>Level <strong>Beginner</strong></li>
-                <li>Duration <strong>8 weeks</strong></li>
+                <li>Duration <strong>3 months</strong></li>
                 <li>Lessons <strong>16</strong></li>
                 <li>Language <strong>English</strong></li>
               </ul>
@@ -232,7 +231,6 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>Frontend Development</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 205 Students</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
             <p>Build responsive, modern websites with HTML, CSS, Bootstrap and JavaScript.</p>
@@ -246,10 +244,9 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>Full Stack Web Development</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 271 Students</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
-            <p>Learn to build complete web applications from frontend to backend.</p>
+            <p>Learn HTML, CSS, JavaScript and Bootstrap, then a backend with PHP, Laravel, CodeIgniter or Node, plus GitHub, CI/CD and DevOps.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/full-stack-web-development/" class="course-tile-link">View course &rarr;</a>
@@ -260,7 +257,6 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>MongoDB</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 34 Students</span>
               <span><i class="fa-solid fa-book"></i> 12 lessons</span>
             </div>
             <p>Learn NoSQL database design and development with MongoDB.</p>

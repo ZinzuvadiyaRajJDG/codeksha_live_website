@@ -50,7 +50,7 @@
       "hasCourseInstance": {
         "@type": "CourseInstance",
         "courseMode": "Onsite",
-        "courseWorkload": "P6W",
+        "courseWorkload": "P3M",
         "inLanguage": "en"
       }
     }
@@ -86,10 +86,9 @@
         <p class="lede">Learn to plan, launch and optimize Google Ads campaigns - Search, Display and Performance Max, keyword and bidding strategy, conversion tracking and budget optimization, with hands-on campaign practice.</p>
         <div class="course-quick-meta">
           <span><i class="fa-solid fa-signal"></i> Beginner</span>
-          <span><i class="fa-regular fa-clock"></i> 6 weeks</span>
+          <span><i class="fa-regular fa-clock"></i> 3 months</span>
           <span><i class="fa-solid fa-book"></i> 12 lessons</span>
           <span><i class="fa-solid fa-language"></i> English</span>
-          <span><i class="fa-solid fa-users"></i> 47 students</span>
         </div>
       </div>
     </section>
@@ -118,23 +117,23 @@
             <div class="curriculum-list">
               <div class="curriculum-month">
                 <span class="month-num">1</span>
-                <p><strong>Week 1-2.</strong> Google Ads fundamentals, account setup and campaign structure</p>
+                <p><strong>Part 1.</strong> Google Ads fundamentals, account setup and campaign structure</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">2</span>
-                <p><strong>Week 3.</strong> Search campaigns: keywords, match types and ad copywriting</p>
+                <p><strong>Part 2.</strong> Search campaigns: keywords, match types and ad copywriting</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">3</span>
-                <p><strong>Week 4.</strong> Display and Performance Max campaigns</p>
+                <p><strong>Part 3.</strong> Display and Performance Max campaigns</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">4</span>
-                <p><strong>Week 5.</strong> Bidding strategies, budgets and conversion tracking</p>
+                <p><strong>Part 4.</strong> Bidding strategies, budgets and conversion tracking</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">5</span>
-                <p><strong>Week 6.</strong> Capstone: launch and optimize a live campaign</p>
+                <p><strong>Part 5.</strong> Capstone: launch and optimize a live campaign</p>
               </div>
             </div>
 
@@ -200,7 +199,7 @@
                 <ul class="course-meta-list">
                 <li>Delivery <strong>Live class</strong></li>
                 <li>Level <strong>Beginner</strong></li>
-                <li>Duration <strong>6 weeks</strong></li>
+                <li>Duration <strong>3 months</strong></li>
                 <li>Lessons <strong>12</strong></li>
                 <li>Language <strong>English</strong></li>
               </ul>
@@ -230,7 +229,6 @@
             <span class="course-tile-cat">Digital Marketing &amp; SEO</span>
             <h3>Digital Marketing &amp; SEO</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 273 Students</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
             <p>Plan and run digital marketing campaigns that drive traffic and grow a business.</p>
@@ -244,10 +242,9 @@
             <span class="course-tile-cat">Digital Marketing &amp; SEO</span>
             <h3>SEO</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 52 Students</span>
               <span><i class="fa-solid fa-book"></i> 12 lessons</span>
             </div>
-            <p>Rank websites higher on Google with on-page, technical and off-page SEO.</p>
+            <p>Learn Basic SEO and Advance SEO, including AI SEO, GEO and AEO.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/seo/" class="course-tile-link">View course &rarr;</a>
@@ -258,7 +255,6 @@
             <span class="course-tile-cat">Digital Marketing &amp; SEO</span>
             <h3>Social Media Marketing</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 39 Students</span>
               <span><i class="fa-solid fa-book"></i> 12 lessons</span>
             </div>
             <p>Plan, create and run paid and organic campaigns across social platforms.</p>

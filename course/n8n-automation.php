@@ -50,7 +50,7 @@
       "hasCourseInstance": {
         "@type": "CourseInstance",
         "courseMode": "Onsite",
-        "courseWorkload": "P6W",
+        "courseWorkload": "P3M",
         "inLanguage": "en"
       }
     }
@@ -86,10 +86,9 @@
         <p class="lede">Build no-code workflow automations with n8n - connect your apps and APIs, automate repetitive business tasks, and add AI steps to your workflows, with Zapier and Make covered as alternatives.</p>
         <div class="course-quick-meta">
           <span><i class="fa-solid fa-signal"></i> Beginner</span>
-          <span><i class="fa-regular fa-clock"></i> 6 weeks</span>
+          <span><i class="fa-regular fa-clock"></i> 3 months</span>
           <span><i class="fa-solid fa-book"></i> 12 lessons</span>
           <span><i class="fa-solid fa-language"></i> English</span>
-          <span><i class="fa-solid fa-users"></i> 41 students</span>
         </div>
       </div>
     </section>
@@ -118,23 +117,23 @@
             <div class="curriculum-list">
               <div class="curriculum-month">
                 <span class="month-num">1</span>
-                <p><strong>Week 1-2.</strong> n8n basics: nodes, triggers, connections and your first workflow</p>
+                <p><strong>Part 1.</strong> n8n basics: nodes, triggers, connections and your first workflow</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">2</span>
-                <p><strong>Week 3.</strong> APIs, webhooks and working with real-world data</p>
+                <p><strong>Part 2.</strong> APIs, webhooks and working with real-world data</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">3</span>
-                <p><strong>Week 4.</strong> Conditional logic, loops, error handling and scheduling</p>
+                <p><strong>Part 3.</strong> Conditional logic, loops, error handling and scheduling</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">4</span>
-                <p><strong>Week 5.</strong> Adding AI steps to workflows, plus a look at Zapier and Make</p>
+                <p><strong>Part 4.</strong> Adding AI steps to workflows, plus a look at Zapier and Make</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">5</span>
-                <p><strong>Week 6.</strong> Capstone: automate a real, multi-step business process</p>
+                <p><strong>Part 5.</strong> Capstone: automate a real, multi-step business process</p>
               </div>
             </div>
 
@@ -202,7 +201,7 @@
                 <ul class="course-meta-list">
                 <li>Delivery <strong>Live class</strong></li>
                 <li>Level <strong>Beginner</strong></li>
-                <li>Duration <strong>6 weeks</strong></li>
+                <li>Duration <strong>3 months</strong></li>
                 <li>Lessons <strong>12</strong></li>
                 <li>Language <strong>English</strong></li>
               </ul>
@@ -232,10 +231,9 @@
             <span class="course-tile-cat">AI &amp; Automation</span>
             <h3>AI &amp; Automation</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 64 Students</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
-            <p>Learn how AI tools &amp; automation are used to improve modern business workflows.</p>
+            <p>Learn AI tools, prompt engineering, n8n, Zapier and Make.com workflows, AI agents and business automation.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/ai-automation/" class="course-tile-link">View course &rarr;</a>
@@ -246,7 +244,6 @@
             <span class="course-tile-cat">AI &amp; Automation</span>
             <h3>Prompt Engineering</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 58 Students</span>
               <span><i class="fa-solid fa-book"></i> 12 lessons</span>
             </div>
             <p>Write effective prompts for ChatGPT, Claude and Gemini and apply them to real tasks.</p>
@@ -260,10 +257,9 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>Full Stack Web Development</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 271 Students</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
-            <p>Learn to build complete web applications from frontend to backend.</p>
+            <p>Learn HTML, CSS, JavaScript and Bootstrap, then a backend with PHP, Laravel, CodeIgniter or Node, plus GitHub, CI/CD and DevOps.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/full-stack-web-development/" class="course-tile-link">View course &rarr;</a>

@@ -431,7 +431,6 @@
               </div>
               <h3 class="course-title">Full Stack Web Development</h3>
               <div class="meta-info">
-                <span><i data-lucide="users"></i> 271 Students</span>
                 <span><i data-lucide="book-open"></i> 30 lessons</span>
               </div>
             </div>
@@ -442,10 +441,9 @@
               </div>
               <h3 class="course-title">Full Stack Web Development</h3>
               <div class="meta-info">
-                <span><i data-lucide="users"></i> 271 Students</span>
                 <span><i data-lucide="book-open"></i> 30 lessons</span>
               </div>
-              <p class="hover-description">Learn to build complete web applications from frontend to backend.</p>
+              <p class="hover-description">Learn HTML, CSS, JavaScript and Bootstrap, then a backend with PHP, Laravel, CodeIgniter or Node, plus GitHub, CI/CD and DevOps.</p>
               <div class="btn-wrapper">
                 <a href="/course/full-stack-web-development/" class="view-detail-btn">View Detail</a>
               </div>
@@ -466,7 +464,6 @@
               </div>
               <h3 class="course-title">Frontend Development</h3>
               <div class="meta-info">
-                <span><i data-lucide="users"></i> 273 Students</span>
                 <span><i data-lucide="book-open"></i> 30 lessons</span>
               </div>
             </div>
@@ -477,10 +474,9 @@
               </div>
               <h3 class="course-title">Frontend Development</h3>
               <div class="meta-info">
-                <span><i data-lucide="users"></i> 273 Students</span>
                 <span><i data-lucide="book-open"></i> 30 lessons</span>
               </div>
-              <p class="hover-description">Learn how to create modern, responsive and interactive websites.</p>
+              <p class="hover-description">Learn HTML, CSS, JavaScript and Bootstrap, plus one CMS of your choice, GitHub and a CI/CD pipeline.</p>
               <div class="btn-wrapper">
                 <a href="/course/frontend-development/" class="view-detail-btn">View Detail</a>
               </div>
@@ -501,7 +497,6 @@
               </div>
               <h3 class="course-title">Backend Development</h3>
               <div class="meta-info">
-                <span><i data-lucide="users"></i> 274 Students</span>
                 <span><i data-lucide="book-open"></i> 30 lessons</span>
               </div>
             </div>
@@ -512,10 +507,9 @@
               </div>
               <h3 class="course-title">Backend Development</h3>
               <div class="meta-info">
-                <span><i data-lucide="users"></i> 274 Students</span>
                 <span><i data-lucide="book-open"></i> 30 lessons</span>
               </div>
-              <p class="hover-description">Learn server-side development, databases, APIs and application logic.</p>
+              <p class="hover-description">Learn PHP, Laravel, CodeIgniter or Node (choose one), plus Ajax, jQuery, GitHub, CI/CD and DevOps.</p>
               <div class="btn-wrapper">
                 <a href="/course/backend-development/" class="view-detail-btn">View Detail</a>
               </div>
@@ -536,7 +530,6 @@
               </div>
               <h3 class="course-title">Digital Marketing &amp; SEO</h3>
               <div class="meta-info">
-                <span><i data-lucide="users"></i> 273 Students</span>
                 <span><i data-lucide="book-open"></i> 30 lessons</span>
               </div>
             </div>
@@ -547,10 +540,9 @@
               </div>
               <h3 class="course-title">Digital Marketing &amp; SEO</h3>
               <div class="meta-info">
-                <span><i data-lucide="users"></i> 273 Students</span>
                 <span><i data-lucide="book-open"></i> 30 lessons</span>
               </div>
-              <p class="hover-description">Learn SEO, digital marketing, content, analytics and online growth strategies.</p>
+              <p class="hover-description">Learn Basic and Advance SEO, Paid Ads, Google Ads, Meta Ads and ChatGPT Ads.</p>
               <div class="btn-wrapper">
                 <a href="/course/digital-marketing-seo/" class="view-detail-btn">View Detail</a>
               </div>
@@ -571,7 +563,6 @@
               </div>
               <h3 class="course-title">WordPress Development</h3>
               <div class="meta-info">
-                <span><i data-lucide="users"></i> 273 Students</span>
                 <span><i data-lucide="book-open"></i> 30 lessons</span>
               </div>
             </div>
@@ -582,7 +573,6 @@
               </div>
               <h3 class="course-title">WordPress Development</h3>
               <div class="meta-info">
-                <span><i data-lucide="users"></i> 273 Students</span>
                 <span><i data-lucide="book-open"></i> 30 lessons</span>
               </div>
               <p class="hover-description">Learn to build professional websites using WordPress and modern development.</p>
@@ -606,7 +596,6 @@
               </div>
               <h3 class="course-title">AI &amp; Automation</h3>
               <div class="meta-info">
-                <span><i data-lucide="users"></i> 64 Students</span>
                 <span><i data-lucide="book-open"></i> 30 lessons</span>
               </div>
             </div>
@@ -617,10 +606,9 @@
               </div>
               <h3 class="course-title">AI &amp; Automation</h3>
               <div class="meta-info">
-                <span><i data-lucide="users"></i> 64 Students</span>
                 <span><i data-lucide="book-open"></i> 30 lessons</span>
               </div>
-              <p class="hover-description">Learn how AI tools &amp; automation are used to improve modern business workflows.</p>
+              <p class="hover-description">Learn AI tools, prompt engineering, n8n, Zapier and Make.com workflows, AI agents and business automation.</p>
               <div class="btn-wrapper">
                 <a href="/course/ai-automation/" class="view-detail-btn">View Detail</a>
               </div>

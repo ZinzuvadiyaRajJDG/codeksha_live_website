@@ -212,8 +212,8 @@
         <div class="c-body">
           <div class="c-row"><span class="c-cat">Web Development</span><span class="c-num">01/15</span></div>
           <h3>Full Stack Web Development</h3>
-          <p class="c-desc">Build complete web applications, from the frontend to the backend.</p>
-          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>30 lessons</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.5 3.4-5.5 6.5-5.5s5.7 2 6.5 5.5M16 4.8a3.5 3.5 0 010 6.4M18 14.8c1.8.7 3 2.4 3.5 5.2"/></svg>271 students</span><span class="lvl">Beginner · Live class</span></div>
+          <p class="c-desc">HTML, CSS, JavaScript and Bootstrap, then a backend with PHP, Laravel, CodeIgniter or Node.</p>
+          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>30 lessons</span><span class="lvl">Beginner · Live class</span></div>
           <a href="/course/full-stack-web-development/" class="btn btn-dark c-btn">View Details <span class="arr">→</span></a>
         </div>
       </article>
@@ -222,8 +222,8 @@
         <div class="c-body">
           <div class="c-row"><span class="c-cat">Web Development</span><span class="c-num">02/15</span></div>
           <h3>Frontend Development</h3>
-          <p class="c-desc">Create modern, responsive and interactive websites.</p>
-          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>30 lessons</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.5 3.4-5.5 6.5-5.5s5.7 2 6.5 5.5M16 4.8a3.5 3.5 0 010 6.4M18 14.8c1.8.7 3 2.4 3.5 5.2"/></svg>273 students</span><span class="lvl">Beginner · Live class</span></div>
+          <p class="c-desc">HTML, CSS, JavaScript and Bootstrap, plus one CMS of your choice.</p>
+          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>30 lessons</span><span class="lvl">Beginner · Live class</span></div>
           <a href="/course/frontend-development/" class="btn btn-dark c-btn">View Details <span class="arr">→</span></a>
         </div>
       </article>
@@ -233,7 +233,7 @@
           <div class="c-row"><span class="c-cat">Web Development</span><span class="c-num">03/15</span></div>
           <h3>JavaScript</h3>
           <p class="c-desc">Core JS, DOM manipulation, ES6+, async programming and API calls.</p>
-          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>16 lessons</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.5 3.4-5.5 6.5-5.5s5.7 2 6.5 5.5M16 4.8a3.5 3.5 0 010 6.4M18 14.8c1.8.7 3 2.4 3.5 5.2"/></svg>63 students</span><span class="lvl">Beginner · Live class</span></div>
+          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>16 lessons</span><span class="lvl">Beginner · Live class</span></div>
           <a href="/course/javascript/" class="btn btn-dark c-btn">View Details <span class="arr">→</span></a>
         </div>
       </article>
@@ -242,8 +242,8 @@
         <div class="c-body">
           <div class="c-row"><span class="c-cat">Web Development</span><span class="c-num">04/15</span></div>
           <h3>Backend Development</h3>
-          <p class="c-desc">Server-side development, databases, APIs and application logic.</p>
-          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>30 lessons</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.5 3.4-5.5 6.5-5.5s5.7 2 6.5 5.5M16 4.8a3.5 3.5 0 010 6.4M18 14.8c1.8.7 3 2.4 3.5 5.2"/></svg>274 students</span><span class="lvl">Beginner · Live class</span></div>
+          <p class="c-desc">PHP, Laravel, CodeIgniter or Node, plus Ajax, jQuery, GitHub, CI/CD and DevOps.</p>
+          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>30 lessons</span><span class="lvl">Beginner · Live class</span></div>
           <a href="/course/backend-development/" class="btn btn-dark c-btn">View Details <span class="arr">→</span></a>
         </div>
       </article>
@@ -253,7 +253,7 @@
           <div class="c-row"><span class="c-cat">Web Development</span><span class="c-num">05/15</span></div>
           <h3>MongoDB</h3>
           <p class="c-desc">NoSQL database design, CRUD operations and aggregation pipelines.</p>
-          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>12 lessons</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.5 3.4-5.5 6.5-5.5s5.7 2 6.5 5.5M16 4.8a3.5 3.5 0 010 6.4M18 14.8c1.8.7 3 2.4 3.5 5.2"/></svg>34 students</span><span class="lvl">Beginner · Live class</span></div>
+          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>12 lessons</span><span class="lvl">Beginner · Live class</span></div>
           <a href="/course/mongodb/" class="btn btn-dark c-btn">View Details <span class="arr">→</span></a>
         </div>
       </article>
@@ -262,8 +262,8 @@
         <div class="c-body">
           <div class="c-row"><span class="c-cat">Digital Marketing</span><span class="c-num">06/15</span></div>
           <h3>Digital Marketing &amp; SEO</h3>
-          <p class="c-desc">SEO, digital marketing, content, analytics and online growth strategies.</p>
-          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>30 lessons</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.5 3.4-5.5 6.5-5.5s5.7 2 6.5 5.5M16 4.8a3.5 3.5 0 010 6.4M18 14.8c1.8.7 3 2.4 3.5 5.2"/></svg>273 students</span><span class="lvl">Beginner · Live class</span></div>
+          <p class="c-desc">Basic and Advance SEO, Paid Ads, Google Ads, Meta Ads and ChatGPT Ads.</p>
+          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>30 lessons</span><span class="lvl">Beginner · Live class</span></div>
           <a href="/course/digital-marketing-seo/" class="btn btn-dark c-btn">View Details <span class="arr">→</span></a>
         </div>
       </article>
@@ -273,7 +273,7 @@
           <div class="c-row"><span class="c-cat">Digital Marketing</span><span class="c-num">07/15</span></div>
           <h3>Google Ads</h3>
           <p class="c-desc">Plan and optimise Search, Display and Performance Max campaigns.</p>
-          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>12 lessons</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.5 3.4-5.5 6.5-5.5s5.7 2 6.5 5.5M16 4.8a3.5 3.5 0 010 6.4M18 14.8c1.8.7 3 2.4 3.5 5.2"/></svg>47 students</span><span class="lvl">Beginner · Live class</span></div>
+          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>12 lessons</span><span class="lvl">Beginner · Live class</span></div>
           <a href="/course/google-ads/" class="btn btn-dark c-btn">View Details <span class="arr">→</span></a>
         </div>
       </article>
@@ -282,8 +282,8 @@
         <div class="c-body">
           <div class="c-row"><span class="c-cat">Digital Marketing</span><span class="c-num">08/15</span></div>
           <h3>SEO</h3>
-          <p class="c-desc">On-page, technical and off-page SEO for higher Google rankings.</p>
-          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>12 lessons</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.5 3.4-5.5 6.5-5.5s5.7 2 6.5 5.5M16 4.8a3.5 3.5 0 010 6.4M18 14.8c1.8.7 3 2.4 3.5 5.2"/></svg>52 students</span><span class="lvl">Beginner · Live class</span></div>
+          <p class="c-desc">Basic SEO and Advance SEO, including AI SEO, GEO and AEO.</p>
+          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>12 lessons</span><span class="lvl">Beginner · Live class</span></div>
           <a href="/course/seo/" class="btn btn-dark c-btn">View Details <span class="arr">→</span></a>
         </div>
       </article>
@@ -293,7 +293,7 @@
           <div class="c-row"><span class="c-cat">Digital Marketing</span><span class="c-num">09/15</span></div>
           <h3>Social Media Marketing</h3>
           <p class="c-desc">Paid and organic campaigns across social platforms.</p>
-          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>12 lessons</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.5 3.4-5.5 6.5-5.5s5.7 2 6.5 5.5M16 4.8a3.5 3.5 0 010 6.4M18 14.8c1.8.7 3 2.4 3.5 5.2"/></svg>39 students</span><span class="lvl">Beginner · Live class</span></div>
+          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>12 lessons</span><span class="lvl">Beginner · Live class</span></div>
           <a href="/course/social-media-marketing/" class="btn btn-dark c-btn">View Details <span class="arr">→</span></a>
         </div>
       </article>
@@ -303,7 +303,7 @@
           <div class="c-row"><span class="c-cat">CMS &amp; Builders</span><span class="c-num">10/15</span></div>
           <h3>WordPress Development</h3>
           <p class="c-desc">Build professional websites with WordPress and modern development.</p>
-          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>30 lessons</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.5 3.4-5.5 6.5-5.5s5.7 2 6.5 5.5M16 4.8a3.5 3.5 0 010 6.4M18 14.8c1.8.7 3 2.4 3.5 5.2"/></svg>273 students</span><span class="lvl">Beginner · Live class</span></div>
+          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>30 lessons</span><span class="lvl">Beginner · Live class</span></div>
           <a href="/course/wordpress-development/" class="btn btn-dark c-btn">View Details <span class="arr">→</span></a>
         </div>
       </article>
@@ -312,8 +312,8 @@
         <div class="c-body">
           <div class="c-row"><span class="c-cat">AI &amp; Automation</span><span class="c-num">11/15</span></div>
           <h3>AI &amp; Automation</h3>
-          <p class="c-desc">How AI tools and automation improve modern business workflows.</p>
-          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>30 lessons</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.5 3.4-5.5 6.5-5.5s5.7 2 6.5 5.5M16 4.8a3.5 3.5 0 010 6.4M18 14.8c1.8.7 3 2.4 3.5 5.2"/></svg>64 students</span><span class="lvl">Beginner · Live class</span></div>
+          <p class="c-desc">AI tools, prompt engineering, n8n, Zapier and Make.com workflows, AI agents.</p>
+          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>30 lessons</span><span class="lvl">Beginner · Live class</span></div>
           <a href="/course/ai-automation/" class="btn btn-dark c-btn">View Details <span class="arr">→</span></a>
         </div>
       </article>
@@ -323,7 +323,7 @@
           <div class="c-row"><span class="c-cat">AI &amp; Automation</span><span class="c-num">12/15</span></div>
           <h3>Prompt Engineering</h3>
           <p class="c-desc">Write effective prompts for ChatGPT, Claude and Gemini.</p>
-          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>12 lessons</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.5 3.4-5.5 6.5-5.5s5.7 2 6.5 5.5M16 4.8a3.5 3.5 0 010 6.4M18 14.8c1.8.7 3 2.4 3.5 5.2"/></svg>58 students</span><span class="lvl">Beginner · Live class</span></div>
+          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>12 lessons</span><span class="lvl">Beginner · Live class</span></div>
           <a href="/course/prompt-engineering/" class="btn btn-dark c-btn">View Details <span class="arr">→</span></a>
         </div>
       </article>
@@ -333,7 +333,7 @@
           <div class="c-row"><span class="c-cat">AI &amp; Automation</span><span class="c-num">13/15</span></div>
           <h3>n8n Automation</h3>
           <p class="c-desc">No-code workflows that connect your apps and remove manual work.</p>
-          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>12 lessons</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.5 3.4-5.5 6.5-5.5s5.7 2 6.5 5.5M16 4.8a3.5 3.5 0 010 6.4M18 14.8c1.8.7 3 2.4 3.5 5.2"/></svg>41 students</span><span class="lvl">Beginner · Live class</span></div>
+          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>12 lessons</span><span class="lvl">Beginner · Live class</span></div>
           <a href="/course/n8n-automation/" class="btn btn-dark c-btn">View Details <span class="arr">→</span></a>
         </div>
       </article>
@@ -342,8 +342,8 @@
         <div class="c-body">
           <div class="c-row"><span class="c-cat">Design</span><span class="c-num">14/15</span></div>
           <h3>UI/UX Design</h3>
-          <p class="c-desc">User research, wireframes, Figma prototyping and design systems.</p>
-          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>24 lessons</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>12 weeks</span><span class="lvl">Beginner · Live class</span></div>
+          <p class="c-desc">Learn Figma and Claude Design.</p>
+          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>24 lessons</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>3 months</span><span class="lvl">Beginner · Live class</span></div>
           <a href="/course/ui-ux-design/" class="btn btn-dark c-btn">View Details <span class="arr">→</span></a>
         </div>
       </article>
@@ -352,8 +352,8 @@
         <div class="c-body">
           <div class="c-row"><span class="c-cat">Design</span><span class="c-num">15/15</span></div>
           <h3>Graphic Design</h3>
-          <p class="c-desc">Photoshop, Illustrator, CorelDRAW and Canva, with branding and print projects.</p>
-          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>24 lessons</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>12 weeks</span><span class="lvl">Beginner · Live class</span></div>
+          <p class="c-desc">Learn Canva, Photoshop and Adobe Illustrator.</p>
+          <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>24 lessons</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>3 months</span><span class="lvl">Beginner · Live class</span></div>
           <a href="/course/graphic-design/" class="btn btn-dark c-btn">View Details <span class="arr">→</span></a>
         </div>
       </article>
@@ -386,16 +386,16 @@
         <div class="cat-copy">
           <h3>Web Development and Full Stack Training</h3>
           <p><?= e($PANEL_WEB) ?></p>
-          <ul class="cat-list"><li>Full Stack Web Development <span>271 students</span></li><li>Frontend Development <span>273 students</span></li><li>Backend Development <span>274 students</span></li><li>Laravel <span>PHP web apps</span></li></ul>
+          <ul class="cat-list"><li>Full Stack Web Development <span>3 months</span></li><li>Frontend Development <span>3 months</span></li><li>Backend Development <span>3 months</span></li><li>Laravel <span>PHP web apps</span></li></ul>
         </div>
         <div class="terminal"><div class="term-bar"><i></i><i></i><i></i><span>codeksha-lab — web</span></div>
-          <div class="term-body"><span class="c"># your path, step by step</span><span><span class="k">html</span> → <span class="k">css</span> → <span class="k">javascript</span></span><span><span class="k">php</span> → <span class="k">laravel</span> → <span class="k">mysql</span></span><span><span class="k">rest api</span> → <span class="s">live project</span></span><span class="c"># status</span><span>job-ready skills: compiling<span class="caret"></span></span></div></div>
+          <div class="term-body"><span class="c"># your path, step by step</span><span><span class="k">html</span> → <span class="k">css</span> → <span class="k">javascript</span></span><span><span class="k">bootstrap</span> → <span class="k">backend</span></span><span><span class="k">github</span> → <span class="k">ci/cd</span> → <span class="s">devops</span></span><span class="c"># status</span><span>job-ready skills: compiling<span class="caret"></span></span></div></div>
       </div>
       <div class="cat-panel" role="tabpanel" id="p-cms" aria-labelledby="tab-cms" hidden>
         <div class="cat-copy">
           <h3>CMS &amp; Builders</h3>
           <p>Build professional websites businesses can manage themselves. Customise themes, set up WooCommerce stores, and ship real client-style sites.</p>
-          <ul class="cat-list"><li>WordPress Development <span>273 students</span></li><li>Theme customization <span>WordPress</span></li><li>WooCommerce setup <span>Online stores</span></li></ul>
+          <ul class="cat-list"><li>WordPress Development <span>3 months</span></li><li>Theme customization <span>WordPress</span></li><li>WooCommerce setup <span>Online stores</span></li></ul>
         </div>
         <div class="terminal"><div class="term-bar"><i></i><i></i><i></i><span>codeksha-lab — cms</span></div>
           <div class="term-body"><span class="c"># build a site a client can actually use</span><span><span class="k">wordpress</span> install → theme setup</span><span><span class="k">customize</span> → pages, menus, forms</span><span><span class="k">woocommerce</span> → <span class="s">products live</span></span><span>handover ready<span class="caret"></span></span></div></div>
@@ -404,16 +404,16 @@
         <div class="cat-copy">
           <h3>Digital Marketing and SEO Training</h3>
           <p><?= e($PANEL_DM) ?></p>
-          <ul class="cat-list"><li>Digital Marketing &amp; SEO <span>273 students</span></li><li>Content &amp; analytics <span>Growth strategy</span></li></ul>
+          <ul class="cat-list"><li>Digital Marketing &amp; SEO <span>3 months</span></li><li>Content &amp; analytics <span>Growth strategy</span></li></ul>
         </div>
         <div class="terminal"><div class="term-bar"><i></i><i></i><i></i><span>codeksha-lab — growth</span></div>
-          <div class="term-body"><span class="c"># from page one to page one</span><span><span class="k">keyword research</span> → on-page seo</span><span><span class="k">content</span> → <span class="k">analytics</span></span><span><span class="k">report</span> → <span class="s">growth plan</span></span><span>ranking<span class="caret"></span></span></div></div>
+          <div class="term-body"><span class="c"># from page one to page one</span><span><span class="k">basic seo</span> → <span class="k">advance seo</span></span><span><span class="k">paid ads</span> → <span class="k">google ads</span></span><span><span class="k">meta ads</span> → <span class="s">chatgpt ads</span></span><span>ranking<span class="caret"></span></span></div></div>
       </div>
       <div class="cat-panel" role="tabpanel" id="p-ai" aria-labelledby="tab-ai" hidden>
         <div class="cat-copy">
           <h3>AI &amp; Automation</h3>
           <p>See how AI tools and automation improve modern business workflows, and learn to put them to work on repetitive tasks.</p>
-          <ul class="cat-list"><li>AI &amp; Automation <span>64 students</span></li><li>Workflow automation <span>Business use</span></li></ul>
+          <ul class="cat-list"><li>AI &amp; Automation <span>3 months</span></li><li>Workflow automation <span>Business use</span></li></ul>
         </div>
         <div class="terminal"><div class="term-bar"><i></i><i></i><i></i><span>codeksha-lab — ai</span></div>
           <div class="term-body"><span class="c"># let the machine do the busywork</span><span><span class="k">ai tools</span> → prompts that work</span><span><span class="k">automation</span> → connected workflows</span><span><span class="s">hours saved</span></span><span>automating<span class="caret"></span></span></div></div>
@@ -422,7 +422,7 @@
         <div class="cat-copy">
           <h3>Design</h3>
           <p>Interfaces people enjoy using. Learn layout, responsiveness and interaction as part of building modern, responsive websites.</p>
-          <ul class="cat-list"><li>Frontend Design <span>Responsive UI</span></li><li>Frontend Development <span>273 students</span></li></ul>
+          <ul class="cat-list"><li>Frontend Design <span>Responsive UI</span></li><li>Frontend Development <span>3 months</span></li></ul>
         </div>
         <div class="terminal"><div class="term-bar"><i></i><i></i><i></i><span>codeksha-lab — design</span></div>
           <div class="term-body"><span class="c"># pixels with a purpose</span><span><span class="k">layout</span> → <span class="k">typography</span></span><span><span class="k">responsive</span> → mobile first</span><span><span class="k">interaction</span> → <span class="s">polished UI</span></span><span>rendering<span class="caret"></span></span></div></div>
@@ -439,7 +439,7 @@
         <span class="eyebrow">Course curriculum</span>
         <h2 class="h-sec" style="margin-top:16px"><?= $CUR_H2 ?></h2>
       </div>
-      <div class="faq-help"><b><?= e($CUR['weeks']) ?> weeks · <?= e($CUR['lessons']) ?> lessons · Beginner</b><span>Live, instructor-led sessions with flexible, student-friendly batch timings and a certificate of completion. <?= e($HELP_LINE) ?></span></div>
+      <div class="faq-help"><b><?= e($CUR['weeks']) ?> months · <?= e($CUR['lessons']) ?> lessons · Beginner</b><span>Live, instructor-led sessions with flexible, student-friendly batch timings and a certificate of completion. <?= e($HELP_LINE) ?></span></div>
     </div>
     <div class="acc" id="accCurriculum">
       <?php foreach ($CUR['steps'] as $i => $st):

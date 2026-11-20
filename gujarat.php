@@ -58,14 +58,14 @@ if ($general) {
     $desc = 'From ' . $T . '? Explore Full Stack, Web Development and Digital Marketing courses at Codeksha\'s Rajkot centre. Learn through live projects. Book a demo.';
     $HERO_SUB = 'Learn from real developers with 5+ years of experience in the IT sector. Project-based courses in Full Stack, Frontend, Backend, Laravel and WordPress at Codeksha, Rajkot. Here is how ' . $PRIMARY . ' works and how to get started.';
     $LEDE_COURSES = 'Our ' . $K0 . ' are live, beginner-friendly programmes in Rajkot with a real project built in. Our ' . $K1 . ', ' . $K2 . ' and ' . $K3 . ' all follow the same live, project-based approach.';
-    $PANEL_WEB = 'From the first HTML tag to a deployed app with a database behind it. ' . $ucf($K3) . ' follow the full request-to-response journey, with a developer at your side.';
-    $PANEL_DM = 'Learn how websites get found and grow. The ' . $K2 . ' covers SEO, content and analytics, practised on real pages.';
+    $PANEL_WEB = 'From the first HTML tag to a backend of your choice, with GitHub, CI/CD and DevOps. ' . $ucf($K3) . ' follow the full request-to-response journey, with a developer at your side.';
+    $PANEL_DM = 'Learn how websites get found and grow. The ' . $K2 . ' covers Basic SEO, Advance SEO and Paid Ads, practised on real pages.';
 } else {
     $desc = 'IT training for students from ' . $T . ' at Codeksha Rajkot: ' . $COURSE . ' with live projects. Book a free demo.';
     $HERO_SUB = 'Join the ' . $COURSE . ' at Codeksha, Rajkot, taught by ' . $TEACHER . ' with 5+ years of experience in the IT sector. Project-based, beginner friendly, with a certificate on completion. Here is how ' . $PRIMARY . ' works and how to get started.';
     $LEDE_COURSES = 'Our IT courses for ' . $T . ' students are live, beginner-friendly programmes in Rajkot with a real project built in. Our ' . $K1 . ', ' . $K2 . ' and ' . $K3 . ' all follow the same live, project-based approach.';
-    $PANEL_WEB = 'From the first HTML tag to a deployed app with a database behind it. Learn the full request-to-response journey, with a developer at your side.';
-    $PANEL_DM = 'Learn how websites get found and grow. SEO, content, analytics and online growth strategies, practised on real pages.';
+    $PANEL_WEB = 'From the first HTML tag to a backend of your choice, with GitHub, CI/CD and DevOps. Learn the full request-to-response journey, with a developer at your side.';
+    $PANEL_DM = 'Learn how websites get found and grow. Basic SEO, Advance SEO and Paid Ads (Google Ads, Meta Ads, ChatGPT Ads), practised on real pages.';
 }
 $HELP_LINE = 'A great start for any ' . ($general ? $K1 : $PRIMARY) . '.';
 $CONSULT_LINE = 'Ask about our ' . $K2 . ' or any other course.';
@@ -84,7 +84,7 @@ if ($general) {
     $faqs[] = ['Which course should I choose as a student from ' . $T . '?', 'For a ' . $K1 . ', start with Full Stack or Frontend Development. For a ' . $K2 . ', start with Digital Marketing & SEO, SEO or Google Ads. For ' . $K3 . ', JavaScript is the usual first step. A short call with our team will help you pick.'];
 } else {
     $faqs[] = ['What is ' . $SHARED . ' like in practice?', 'It means live, project-based courses at our Rajkot centre, taught by ' . $TEACHER . ' with 5+ years of IT experience. Most students from ' . $T . ' start with a ' . $PRIMARY . ', then add a ' . $K1 . ' or ' . $K2 . '. Others begin with ' . $K3 . '.'];
-    $faqs[] = ['What will I learn in the ' . $COURSE . ' at Codeksha?', 'Over ' . $CUR['weeks'] . ' weeks (' . $CUR['lessons'] . ' lessons) you will cover: ' . implode('; ', array_slice($CUR['learn'], 0, 6)) . '.'];
+    $faqs[] = ['What will I learn in the ' . $COURSE . ' at Codeksha?', 'Over ' . $CUR['weeks'] . ' months (' . $CUR['lessons'] . ' lessons) you will cover: ' . implode('; ', array_slice($CUR['learn'], 0, 6)) . '.'];
     $faqs[] = ['Which course should I choose as a student from ' . $T . '?', 'If you want a ' . $PRIMARY . ', start with the ' . $COURSE . '. If you are still deciding, a short call with our team will help you compare the ' . $K1 . ', ' . $K2 . ' and ' . $K3 . '.'];
 }
 $faqs[] = ['Can I attend a demo class before I join?', 'Yes. You can book a free demo class on our website and see how classes work at the Rajkot centre before you decide.'];

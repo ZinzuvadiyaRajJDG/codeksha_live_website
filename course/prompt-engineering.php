@@ -50,7 +50,7 @@
       "hasCourseInstance": {
         "@type": "CourseInstance",
         "courseMode": "Onsite",
-        "courseWorkload": "P6W",
+        "courseWorkload": "P3M",
         "inLanguage": "en"
       }
     }
@@ -86,10 +86,9 @@
         <p class="lede">A focused, hands-on prompt engineering course - learn to write effective prompts for ChatGPT, Claude and Gemini, structure AI workflows, and use prompt engineering for real content, research and business tasks.</p>
         <div class="course-quick-meta">
           <span><i class="fa-solid fa-signal"></i> Beginner</span>
-          <span><i class="fa-regular fa-clock"></i> 6 weeks</span>
+          <span><i class="fa-regular fa-clock"></i> 3 months</span>
           <span><i class="fa-solid fa-book"></i> 12 lessons</span>
           <span><i class="fa-solid fa-language"></i> English</span>
-          <span><i class="fa-solid fa-users"></i> 58 students</span>
         </div>
       </div>
     </section>
@@ -118,23 +117,23 @@
             <div class="curriculum-list">
               <div class="curriculum-month">
                 <span class="month-num">1</span>
-                <p><strong>Week 1-2.</strong> How LLMs work, prompt anatomy, and zero-shot vs few-shot prompting</p>
+                <p><strong>Part 1.</strong> How LLMs work, prompt anatomy, and zero-shot vs few-shot prompting</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">2</span>
-                <p><strong>Week 3.</strong> Chain-of-thought, role prompts and structured output formats</p>
+                <p><strong>Part 2.</strong> Chain-of-thought, role prompts and structured output formats</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">3</span>
-                <p><strong>Week 4.</strong> Prompting for content, research and data analysis tasks</p>
+                <p><strong>Part 3.</strong> Prompting for content, research and data analysis tasks</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">4</span>
-                <p><strong>Week 5.</strong> Building reusable prompt templates and prompt libraries</p>
+                <p><strong>Part 4.</strong> Building reusable prompt templates and prompt libraries</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">5</span>
-                <p><strong>Week 6.</strong> Capstone: solve a real business task end-to-end using prompt engineering</p>
+                <p><strong>Part 5.</strong> Capstone: solve a real business task end-to-end using prompt engineering</p>
               </div>
             </div>
 
@@ -200,7 +199,7 @@
                 <ul class="course-meta-list">
                 <li>Delivery <strong>Live class</strong></li>
                 <li>Level <strong>Beginner</strong></li>
-                <li>Duration <strong>6 weeks</strong></li>
+                <li>Duration <strong>3 months</strong></li>
                 <li>Lessons <strong>12</strong></li>
                 <li>Language <strong>English</strong></li>
               </ul>
@@ -230,10 +229,9 @@
             <span class="course-tile-cat">AI &amp; Automation</span>
             <h3>AI &amp; Automation</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 64 Students</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
-            <p>Learn how AI tools &amp; automation are used to improve modern business workflows.</p>
+            <p>Learn AI tools, prompt engineering, n8n, Zapier and Make.com workflows, AI agents and business automation.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/ai-automation/" class="course-tile-link">View course &rarr;</a>
@@ -244,7 +242,6 @@
             <span class="course-tile-cat">AI &amp; Automation</span>
             <h3>n8n Automation</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 41 Students</span>
               <span><i class="fa-solid fa-book"></i> 12 lessons</span>
             </div>
             <p>Build no-code automation workflows that connect your apps and save hours of manual work.</p>
@@ -258,7 +255,6 @@
             <span class="course-tile-cat">Digital Marketing &amp; SEO</span>
             <h3>Digital Marketing &amp; SEO</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 273 Students</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
             <p>Plan and run digital marketing campaigns that drive traffic and grow a business.</p>

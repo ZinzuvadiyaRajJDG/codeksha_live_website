@@ -50,7 +50,7 @@
       "hasCourseInstance": {
         "@type": "CourseInstance",
         "courseMode": "Onsite",
-        "courseWorkload": "P6W",
+        "courseWorkload": "P3M",
         "inLanguage": "en"
       }
     }
@@ -86,10 +86,9 @@
         <p class="lede">Learn MongoDB from the ground up - NoSQL database design, CRUD operations, schema modeling and aggregation pipelines, connected to a real backend application.</p>
         <div class="course-quick-meta">
           <span><i class="fa-solid fa-signal"></i> Beginner</span>
-          <span><i class="fa-regular fa-clock"></i> 6 weeks</span>
+          <span><i class="fa-regular fa-clock"></i> 3 months</span>
           <span><i class="fa-solid fa-book"></i> 12 lessons</span>
           <span><i class="fa-solid fa-language"></i> English</span>
-          <span><i class="fa-solid fa-users"></i> 34 students</span>
         </div>
       </div>
     </section>
@@ -118,23 +117,23 @@
             <div class="curriculum-list">
               <div class="curriculum-month">
                 <span class="month-num">1</span>
-                <p><strong>Week 1-2.</strong> NoSQL fundamentals, MongoDB setup and CRUD operations</p>
+                <p><strong>Part 1.</strong> NoSQL fundamentals, MongoDB setup and CRUD operations</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">2</span>
-                <p><strong>Week 3.</strong> Schema design and data modeling</p>
+                <p><strong>Part 2.</strong> Schema design and data modeling</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">3</span>
-                <p><strong>Week 4.</strong> Indexing, query optimization and aggregation pipelines</p>
+                <p><strong>Part 3.</strong> Indexing, query optimization and aggregation pipelines</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">4</span>
-                <p><strong>Week 5.</strong> MongoDB Atlas, backups and connecting to a backend app</p>
+                <p><strong>Part 4.</strong> MongoDB Atlas, backups and connecting to a backend app</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">5</span>
-                <p><strong>Week 6.</strong> Capstone: a backend project powered by MongoDB</p>
+                <p><strong>Part 5.</strong> Capstone: a backend project powered by MongoDB</p>
               </div>
             </div>
 
@@ -200,7 +199,7 @@
                 <ul class="course-meta-list">
                 <li>Delivery <strong>Live class</strong></li>
                 <li>Level <strong>Beginner</strong></li>
-                <li>Duration <strong>6 weeks</strong></li>
+                <li>Duration <strong>3 months</strong></li>
                 <li>Lessons <strong>12</strong></li>
                 <li>Language <strong>English</strong></li>
               </ul>
@@ -230,7 +229,6 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>Backend Development</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 198 Students</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
             <p>Learn PHP, Laravel, MySQL and REST APIs to build robust backend systems.</p>
@@ -244,10 +242,9 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>Full Stack Web Development</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 271 Students</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
-            <p>Learn to build complete web applications from frontend to backend.</p>
+            <p>Learn HTML, CSS, JavaScript and Bootstrap, then a backend with PHP, Laravel, CodeIgniter or Node, plus GitHub, CI/CD and DevOps.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/full-stack-web-development/" class="course-tile-link">View course &rarr;</a>
@@ -258,7 +255,6 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>JavaScript</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 63 Students</span>
               <span><i class="fa-solid fa-book"></i> 16 lessons</span>
             </div>
             <p>Core JavaScript, DOM manipulation, async programming and working with APIs.</p>

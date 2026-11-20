@@ -50,7 +50,7 @@
       "hasCourseInstance": {
         "@type": "CourseInstance",
         "courseMode": "Onsite",
-        "courseWorkload": "P6W",
+        "courseWorkload": "P3M",
         "inLanguage": "en"
       }
     }
@@ -86,10 +86,9 @@
         <p class="lede">Learn to plan content, grow an audience and run paid campaigns across Instagram, Facebook and LinkedIn - practical social media marketing you can apply to a real brand from day one.</p>
         <div class="course-quick-meta">
           <span><i class="fa-solid fa-signal"></i> Beginner</span>
-          <span><i class="fa-regular fa-clock"></i> 6 weeks</span>
+          <span><i class="fa-regular fa-clock"></i> 3 months</span>
           <span><i class="fa-solid fa-book"></i> 12 lessons</span>
           <span><i class="fa-solid fa-language"></i> English</span>
-          <span><i class="fa-solid fa-users"></i> 39 students</span>
         </div>
       </div>
     </section>
@@ -118,23 +117,23 @@
             <div class="curriculum-list">
               <div class="curriculum-month">
                 <span class="month-num">1</span>
-                <p><strong>Week 1-2.</strong> Platform fundamentals, audience research and content strategy</p>
+                <p><strong>Part 1.</strong> Platform fundamentals, audience research and content strategy</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">2</span>
-                <p><strong>Week 3.</strong> Organic content creation, reels and community engagement</p>
+                <p><strong>Part 2.</strong> Organic content creation, reels and community engagement</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">3</span>
-                <p><strong>Week 4.</strong> Paid social advertising on Meta and LinkedIn</p>
+                <p><strong>Part 3.</strong> Paid social advertising on Meta and LinkedIn</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">4</span>
-                <p><strong>Week 5.</strong> Analytics, reporting and scheduling tools</p>
+                <p><strong>Part 4.</strong> Analytics, reporting and scheduling tools</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">5</span>
-                <p><strong>Week 6.</strong> Capstone: a full social media campaign for a real or practice brand</p>
+                <p><strong>Part 5.</strong> Capstone: a full social media campaign for a real or practice brand</p>
               </div>
             </div>
 
@@ -200,7 +199,7 @@
                 <ul class="course-meta-list">
                 <li>Delivery <strong>Live class</strong></li>
                 <li>Level <strong>Beginner</strong></li>
-                <li>Duration <strong>6 weeks</strong></li>
+                <li>Duration <strong>3 months</strong></li>
                 <li>Lessons <strong>12</strong></li>
                 <li>Language <strong>English</strong></li>
               </ul>
@@ -230,7 +229,6 @@
             <span class="course-tile-cat">Digital Marketing &amp; SEO</span>
             <h3>Digital Marketing &amp; SEO</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 273 Students</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
             <p>Plan and run digital marketing campaigns that drive traffic and grow a business.</p>
@@ -244,7 +242,6 @@
             <span class="course-tile-cat">Digital Marketing &amp; SEO</span>
             <h3>Google Ads</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 47 Students</span>
               <span><i class="fa-solid fa-book"></i> 12 lessons</span>
             </div>
             <p>Plan, launch and optimize Search, Display and Performance Max campaigns.</p>
@@ -258,10 +255,9 @@
             <span class="course-tile-cat">Digital Marketing &amp; SEO</span>
             <h3>SEO</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 52 Students</span>
               <span><i class="fa-solid fa-book"></i> 12 lessons</span>
             </div>
-            <p>Rank websites higher on Google with on-page, technical and off-page SEO.</p>
+            <p>Learn Basic SEO and Advance SEO, including AI SEO, GEO and AEO.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/seo/" class="course-tile-link">View course &rarr;</a>

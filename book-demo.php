@@ -124,6 +124,7 @@
                   <option>AI &amp; Automation</option>
                   <option>UI/UX Design</option>
                   <option>Graphic Design</option>
+                  <option>Graphic Design + UI/UX Design</option>
                   <option>Not sure yet - help me choose</option>
                 </select>
               </div>

@@ -5,20 +5,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Graphic Designing Course in Rajkot | Codeksha</title>
-    <meta name="description" content="Join our graphic design course in Rajkot. Learn Photoshop, Illustrator, CorelDRAW and Canva, build a portfolio and get a free demo class." />
+    <meta name="description" content="Graphic design course in Rajkot (3 months): learn Canva, Photoshop and Adobe Illustrator at Codeksha." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/course/graphic-design/" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Codeksha" />
     <meta property="og:title" content="Graphic Designing Course in Rajkot | Codeksha" />
-    <meta property="og:description" content="Join our graphic design course in Rajkot. Learn Photoshop, Illustrator, CorelDRAW and Canva, build a portfolio and get a free demo class." />
+    <meta property="og:description" content="Graphic design course in Rajkot (3 months): learn Canva, Photoshop and Adobe Illustrator at Codeksha." />
     <meta property="og:url" content="https://codeksha.com/course/graphic-design/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Graphic Designing Course in Rajkot | Codeksha" />
-    <meta name="twitter:description" content="Join our graphic design course in Rajkot. Learn Photoshop, Illustrator, CorelDRAW and Canva, build a portfolio and get a free demo class." />
+    <meta name="twitter:description" content="Graphic design course in Rajkot (3 months): learn Canva, Photoshop and Adobe Illustrator at Codeksha." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
@@ -39,18 +39,61 @@
       "@context": "https://schema.org",
       "@type": "Course",
       "name": "Graphic Design",
-      "description": "A 12-week, hands-on graphic design course in Rajkot covering design principles, Photoshop, Illustrator, CorelDRAW, Canva, logo design and branding, with portfolio projects.",
+      "description": "The Graphic Design course at Codeksha is a 3-month classroom program in Rajkot where you learn Canva, Adobe Photoshop and Adobe Illustrator to create social media posts, ad banners, photo edits, logos and brand identities.",
+      "url": "https://codeksha.com/course/graphic-design/",
       "provider": {
         "@type": "EducationalOrganization",
         "name": "Codeksha",
         "url": "https://codeksha.com/",
         "sameAs": "https://codeksha.com/it-training-rajkot/"
       },
+      "educationalLevel": "Beginner",
+      "inLanguage": "en",
+      "timeRequired": "P3M",
+      "teaches": [
+        "Canva",
+        "Adobe Photoshop",
+        "Adobe Illustrator"
+      ],
+      "syllabusSections": [
+        {
+          "@type": "Syllabus",
+          "name": "Canva",
+          "description": "Brand kits and templates, Social media posts and stories, Presentations and marketing creatives, Quick resizing for every platform"
+        },
+        {
+          "@type": "Syllabus",
+          "name": "Adobe Photoshop",
+          "description": "Layers, masks and selections, Photo retouching and manipulation, Social media and ad banners, Exporting for web and print"
+        },
+        {
+          "@type": "Syllabus",
+          "name": "Adobe Illustrator",
+          "description": "Shapes and the pen tool, Logo design, Icons and illustrations, Brand identity basics"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "category": "Paid",
+        "url": "https://codeksha.com/course/graphic-design/"
+      },
       "hasCourseInstance": {
         "@type": "CourseInstance",
         "courseMode": "Onsite",
-        "courseWorkload": "P12W",
-        "inLanguage": "en"
+        "courseWorkload": "P3M",
+        "inLanguage": "en",
+        "location": {
+          "@type": "Place",
+          "name": "Codeksha",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "A-1110, RK Iconic, Near Sheetal Park, 150 Feet Ring Rd",
+            "addressLocality": "Rajkot",
+            "addressRegion": "Gujarat",
+            "postalCode": "360006",
+            "addressCountry": "IN"
+          }
+        }
       }
     }
     </script>
@@ -59,16 +102,59 @@
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "What are the fees for the graphic design course in Rajkot?", "acceptedAnswer": { "@type": "Answer", "text": "The fee depends on the batch you join. Our counsellor shares the current graphic design course fee, batch dates and syllabus when you call or fill in the enquiry form, and you can attend a free demo class before deciding." } },
-        { "@type": "Question", "name": "How long is the graphic designing course?", "acceptedAnswer": { "@type": "Answer", "text": "The course runs for 12 weeks of live classroom training, covering design fundamentals, Photoshop, Illustrator, CorelDRAW, Canva and a final portfolio project." } },
-        { "@type": "Question", "name": "Which course is best for graphic design?", "acceptedAnswer": { "@type": "Answer", "text": "A good graphic design course is hands-on, covers both print and digital tools, gives you real briefs to work on and ends with a portfolio. Try a demo class first, which we offer free, and judge the teaching for yourself." } },
-        { "@type": "Question", "name": "Which software will I learn?", "acceptedAnswer": { "@type": "Answer", "text": "You will learn Adobe Photoshop, Adobe Illustrator, CorelDRAW and Canva, along with the design principles that apply to any tool." } },
-        { "@type": "Question", "name": "Can I join after 12th?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The course is beginner friendly and designed for students after 12th, college students and working professionals. Batch timings are flexible." } },
-        { "@type": "Question", "name": "Do I need to know drawing?", "acceptedAnswer": { "@type": "Answer", "text": "No. You do not need to draw well to become a graphic designer. We teach layout, color, typography and the software from scratch, and drawing skills improve with practice." } },
-        { "@type": "Question", "name": "Will I get a certificate?", "acceptedAnswer": { "@type": "Answer", "text": "You receive a certificate of completion from Codeksha, and a portfolio of branding, social media and print projects you can show to employers and clients." } }
+        {
+          "@type": "Question",
+          "name": "How long is the graphic design course at Codeksha?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It runs for 3 months of live classroom training at our Rajkot centre, in a Morning or an Evening batch."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which software will I learn?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Canva, Adobe Photoshop and Adobe Illustrator."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to know drawing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. You learn the tools and design basics from scratch, and your skills improve with practice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the fee for the graphic design course?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The fee depends on the batch. Our counsellor shares the current fee and batch dates when you call or send your details, and you can attend a free demo class first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I join after 12th?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The course is beginner friendly and open to students after 12th, college students and working professionals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I get a certificate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, you receive a certificate of completion from Codeksha."
+          }
+        }
       ]
     }
     </script>
+    
+    
   </head>
   <body>
 <?php require __DIR__ . "/../inc/partials/gtm-body.php"; ?>
@@ -84,16 +170,16 @@
         <p class="breadcrumb"><a href="/">Home</a> / <a href="/courses/">Courses</a> / Graphic Design</p>
         <span class="course-detail-cat">Design</span>
         <h1>Graphic Design Course in Rajkot</h1>
-        <p class="lede">Turn your creativity into a career. Our graphic design course in Rajkot teaches design principles, Photoshop, Illustrator, CorelDRAW and Canva through live classes and real branding, social media and print projects that build your portfolio.</p>
+        <p class="lede">Learn graphic design in 3 months at Codeksha, Rajkot with Canva, Photoshop and Adobe Illustrator.</p>
         <div class="course-quick-meta">
           <span><i class="fa-solid fa-signal"></i> Beginner friendly</span>
-          <span><i class="fa-regular fa-clock"></i> 12 weeks</span>
+          <span><i class="fa-regular fa-clock"></i> 3 months</span>
           <span><i class="fa-solid fa-book"></i> 24 lessons</span>
           <span><i class="fa-solid fa-chalkboard-user"></i> Live classroom</span>
           <span><i class="fa-solid fa-folder-open"></i> Portfolio projects</span>
         </div>
         <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-top:24px;">
-          <a href="#enquire" class="hero-enroll-btn">
+          <a href="#enquire" class="hero-enroll-btn" data-open-lead>
             <span>Get Syllabus &amp; Free Demo</span>
             <div class="arrow-btn-circle"><i data-lucide="arrow-right"></i></div>
           </a>
@@ -108,97 +194,84 @@
         <div class="course-detail-layout">
 
           <div class="course-main">
-            <h2>What Is a Graphic Design Course?</h2>
-            <p>Graphic design is visual communication: logos, social media posts, brochures, banners, packaging and ads that make a business look professional and get its message across. A graphic designing course teaches you the principles behind good design and the software designers use every day.</p>
-            <p>At Codeksha you start with the fundamentals of color, typography and layout, then move through Photoshop, Illustrator, CorelDRAW and Canva while working on real briefs. You finish with a portfolio of branding, digital and print work, ready to show to employers and clients.</p>
+            <div class="course-answer">
+              <span class="course-answer-tag"><i class="fa-solid fa-bolt"></i> Quick answer</span>
+              <h2>What is the Graphic Design course at Codeksha?</h2>
+              <p>The Graphic Design course at Codeksha is a 3-month classroom program in Rajkot where you learn Canva, Adobe Photoshop and Adobe Illustrator to create social media posts, ad banners, photo edits, logos and brand identities.</p>
+              <dl class="glance-grid">
+                <div><dt><i class="fa-regular fa-clock"></i> Duration</dt><dd>3 months</dd></div>
+                <div><dt><i class="fa-solid fa-chalkboard-user"></i> Mode</dt><dd>Live classroom, Rajkot</dd></div>
+                <div><dt><i class="fa-solid fa-signal"></i> Level</dt><dd>Beginner</dd></div>
+                <div><dt><i class="fa-solid fa-sun"></i> Batches</dt><dd>Morning or Evening</dd></div>
+                <div><dt><i class="fa-solid fa-certificate"></i> Certificate</dt><dd>Yes, on completion</dd></div>
+                <div><dt><i class="fa-solid fa-indian-rupee-sign"></i> Fees</dt><dd>Shared by our counsellor</dd></div>
+              </dl>
+            </div>
 
-            <h2>What You'll Learn</h2>
+            <h2>Why Students Choose This Course</h2>
+            <div class="info-card-grid cols-4">
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-calendar-check"></i></div>
+              <h3>3-month program</h3>
+              <p>A focused course you can finish in one term, without losing a year.</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+              <h3>Learn from practising designers</h3>
+              <p>Your trainers use these skills on real client work every day.</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-laptop-code"></i></div>
+              <h3>Hands-on in every class</h3>
+              <p>Short explanations, then practice on real tasks you can show.</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-certificate"></i></div>
+              <h3>Certificate included</h3>
+              <p>Finish with a Codeksha certificate of completion.</p>
+            </div>
+            </div>
+
+            <h2>What You'll Be Able to Do After This Course</h2>
             <div class="learn-card">
             <ul class="learn-checklist">
-              <li><i class="fa-solid fa-circle-check"></i> <span>Design principles: layout, hierarchy, color theory and typography</span></li>
-              <li><i class="fa-solid fa-circle-check"></i> <span>Photo editing, retouching and creative compositions in Photoshop</span></li>
-              <li><i class="fa-solid fa-circle-check"></i> <span>Vector illustration, icons and logo design in Illustrator</span></li>
-              <li><i class="fa-solid fa-circle-check"></i> <span>Print layouts, visiting cards and banners in CorelDRAW</span></li>
-              <li><i class="fa-solid fa-circle-check"></i> <span>Fast social media and marketing creatives in Canva</span></li>
-              <li><i class="fa-solid fa-circle-check"></i> <span>Brand identity: logo, color palette, fonts and brand guidelines</span></li>
-              <li><i class="fa-solid fa-circle-check"></i> <span>Designing for social media, ads, brochures and packaging</span></li>
-              <li><i class="fa-solid fa-circle-check"></i> <span>Print-ready files: CMYK, bleed, resolution and export settings</span></li>
-              <li><i class="fa-solid fa-circle-check"></i> <span>Building a professional design portfolio</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> Create social media posts, stories and presentations in Canva</li>
+              <li><i class="fa-solid fa-circle-check"></i> Edit and retouch photos in Photoshop</li>
+              <li><i class="fa-solid fa-circle-check"></i> Design ad banners and marketing creatives</li>
+              <li><i class="fa-solid fa-circle-check"></i> Draw vector logos, icons and illustrations in Illustrator</li>
+              <li><i class="fa-solid fa-circle-check"></i> Build a simple brand identity</li>
+              <li><i class="fa-solid fa-circle-check"></i> Export files correctly for web and print</li>
             </ul>
             </div>
 
-            <h2>Tools You'll Use</h2>
-            <ul class="tool-chips">
-              <li><i class="fa-solid fa-image"></i> Adobe Photoshop</li>
-              <li><i class="fa-solid fa-bezier-curve"></i> Adobe Illustrator</li>
-              <li><i class="fa-solid fa-vector-square"></i> CorelDRAW</li>
-              <li><i class="fa-solid fa-wand-magic-sparkles"></i> Canva</li>
-            </ul>
-
-            <h2>Graphic Design Course Syllabus</h2>
-            <div class="curriculum-list">
-              <div class="curriculum-month">
-                <span class="month-num">1</span>
-                <p><strong>Week 1-2.</strong> Design foundations: principles, color theory, typography, layout grids, sketching and mood boards</p>
-              </div>
-              <div class="curriculum-month">
-                <span class="month-num">2</span>
-                <p><strong>Week 3-5.</strong> Adobe Photoshop: photo editing, retouching, compositions and social media creatives</p>
-              </div>
-              <div class="curriculum-month">
-                <span class="month-num">3</span>
-                <p><strong>Week 6-8.</strong> Adobe Illustrator: vector drawing, icons, logo design and brand identity</p>
-              </div>
-              <div class="curriculum-month">
-                <span class="month-num">4</span>
-                <p><strong>Week 9.</strong> CorelDRAW: print layouts, visiting cards, flyers, banners and print-ready files</p>
-              </div>
-              <div class="curriculum-month">
-                <span class="month-num">5</span>
-                <p><strong>Week 10.</strong> Canva for quick marketing creatives, plus designing for social media and ads</p>
-              </div>
-              <div class="curriculum-month">
-                <span class="month-num">6</span>
-                <p><strong>Week 11-12.</strong> Capstone: a complete brand identity kit and portfolio presentation</p>
+            <h2>Graphic Design Course Curriculum: 3 Modules in 3 Months</h2>
+            <p class="section-intro">Each module mixes a short explanation with hands-on practice in class, so you learn by doing.</p>
+            <div class="module-groups">
+              <div class="module-grid">
+                <div class="module-card">
+                  <div class="module-head"><span class="module-num">01</span><div><h4>Canva</h4><p>Create professional designs fast.</p></div></div>
+                  <ul class="module-topics"><li>Brand kits and templates</li><li>Social media posts and stories</li><li>Presentations and marketing creatives</li><li>Quick resizing for every platform</li></ul>
+                </div>
+                <div class="module-card">
+                  <div class="module-head"><span class="module-num">02</span><div><h4>Adobe Photoshop</h4><p>Edit photos and build creatives.</p></div></div>
+                  <ul class="module-topics"><li>Layers, masks and selections</li><li>Photo retouching and manipulation</li><li>Social media and ad banners</li><li>Exporting for web and print</li></ul>
+                </div>
+                <div class="module-card">
+                  <div class="module-head"><span class="module-num">03</span><div><h4>Adobe Illustrator</h4><p>Design logos and vector artwork.</p></div></div>
+                  <ul class="module-topics"><li>Shapes and the pen tool</li><li>Logo design</li><li>Icons and illustrations</li><li>Brand identity basics</li></ul>
+                </div>
               </div>
             </div>
-
-            <h2>Projects You'll Build for Your Portfolio</h2>
-            <div class="info-card-grid cols-3">
-            <div class="info-card">
-              <div class="info-card-icon"><i class="fa-solid fa-signature"></i></div>
-              <h3>Logo & Brand Identity Kit</h3>
-              <p>Create a logo, color palette, typography and a simple brand guide for a business of your choice.</p>
-            </div>
-            <div class="info-card">
-              <div class="info-card-icon"><i class="fa-solid fa-hashtag"></i></div>
-              <h3>Social Media Campaign</h3>
-              <p>Design a set of posts, stories and an ad banner that work together as one campaign.</p>
-            </div>
-            <div class="info-card">
-              <div class="info-card-icon"><i class="fa-solid fa-print"></i></div>
-              <h3>Print Design Set</h3>
-              <p>Produce a visiting card, brochure or flyer and a banner, all exported print-ready.</p>
-            </div>
+            <div class="inline-cta">
+              <div><strong>Want the full syllabus, fees and batch timings?</strong><span>Share your number and our counsellor will call you back.</span></div>
+              <button type="button" class="inline-cta-btn" data-open-lead><i class="fa-solid fa-paper-plane"></i> Get Course Details</button>
             </div>
 
-            <h2>Why Learn Graphic Design in Rajkot</h2>
-            <p>Rajkot and nearby Morbi are full of manufacturers, traders, retailers, restaurants, clinics, coaching classes and growing startups. Almost all of them need logos, packaging, social media creatives, brochures and signage, and many struggle to find designers who can handle both print and digital work.</p>
-            <p>That is why we teach CorelDRAW alongside Photoshop, Illustrator and Canva. The combination lets you take on local print jobs and online design work, whether you want a job at an agency, freelance clients or your own design studio.</p>
+            <h2>Tools &amp; Technologies You'll Use</h2>
+            <ul class="tool-chips"><li><i class="fa-solid fa-screwdriver-wrench"></i> Canva</li><li><i class="fa-solid fa-screwdriver-wrench"></i> Adobe Photoshop</li><li><i class="fa-solid fa-screwdriver-wrench"></i> Adobe Illustrator</li></ul>
 
-            <h2>Design That Works for Marketing and the Web</h2>
-            <p>Good design is only useful if it helps a business grow. Because Codeksha also teaches digital marketing and web development, your projects are built around real use cases: ad creatives that get clicks, social posts that fit each platform and brand assets that work on a website.</p>
-            <p>You can pair this course with our <a href="/course/digital-marketing-seo/">Digital Marketing &amp; SEO</a> or <a href="/course/social-media-marketing/">Social Media Marketing</a> course, or move into <a href="/course/ui-ux-design/">UI/UX Design</a> once your visual skills are strong.</p>
-
-            <h2>Career Paths After This Course</h2>
-            <ul class="tool-chips">
-              <li><i class="fa-solid fa-palette"></i> Graphic Designer</li>
-              <li><i class="fa-solid fa-signature"></i> Logo & Brand Designer</li>
-              <li><i class="fa-solid fa-hashtag"></i> Social Media Designer</li>
-              <li><i class="fa-solid fa-box-open"></i> Packaging Designer</li>
-              <li><i class="fa-solid fa-print"></i> Print Designer</li>
-              <li><i class="fa-solid fa-laptop-code"></i> Freelance Designer</li>
-            </ul>
+            <h2>Career Paths After the Graphic Design Course</h2>
+            <ul class="tool-chips"><li><i class="fa-solid fa-briefcase"></i> Graphic Designer</li><li><i class="fa-solid fa-briefcase"></i> Social Media Designer</li><li><i class="fa-solid fa-briefcase"></i> Logo &amp; Brand Designer</li><li><i class="fa-solid fa-briefcase"></i> Photo Editor</li><li><i class="fa-solid fa-briefcase"></i> Marketing Creative Designer</li><li><i class="fa-solid fa-briefcase"></i> Freelance Designer</li></ul>
 
             <h2>Who This Course Is For &amp; What You'll Need</h2>
             <div class="two-list-grid">
@@ -206,7 +279,7 @@
                 <h3>Who This Course Is For</h3>
                 <ul>
                 <li><i class="fa-solid fa-user-check"></i> Beginners who want to start a design career</li>
-                <li><i class="fa-solid fa-user-check"></i> Students after 12th or during college who want a creative, job-ready skill</li>
+                <li><i class="fa-solid fa-user-check"></i> Students after 12th or in college who want a creative skill</li>
                 <li><i class="fa-solid fa-user-check"></i> Business owners and marketers who want to design their own creatives</li>
                 </ul>
               </div>
@@ -214,8 +287,8 @@
                 <h3>Requirements</h3>
                 <ul>
                 <li><i class="fa-solid fa-circle-check"></i> Basic computer and internet skills</li>
-                <li><i class="fa-solid fa-circle-check"></i> No drawing or design background required</li>
-                <li><i class="fa-solid fa-circle-check"></i> An eye for detail and a willingness to practise</li>
+                <li><i class="fa-solid fa-circle-check"></i> No drawing or design background needed</li>
+                <li><i class="fa-solid fa-circle-check"></i> An eye for detail and willingness to practise</li>
                 </ul>
               </div>
             </div>
@@ -230,68 +303,78 @@
             <div class="info-card">
               <div class="info-card-step">2</div>
               <h3>Attend a free demo</h3>
-              <p>Sit in on a real class, meet the instructor and see how the course is taught before you decide.</p>
+              <p>Sit in on a real class, meet the trainer and see how the course is taught before you decide.</p>
             </div>
             <div class="info-card">
               <div class="info-card-step">3</div>
               <h3>Choose your batch</h3>
-              <p>Pick a flexible, student-friendly batch timing that fits around college or work.</p>
+              <p>Pick a Morning or Evening batch that fits around college or work.</p>
             </div>
             <div class="info-card">
               <div class="info-card-step">4</div>
-              <h3>Start building</h3>
-              <p>Begin with the basics and work on portfolio projects from your first few weeks.</p>
+              <h3>Start learning</h3>
+              <p>Begin with the basics and practise on real tasks from your first week.</p>
             </div>
             </div>
 
-            <h2>Graphic Design Course Fees, Duration & Batches</h2>
-            <p>The graphic design course runs for <strong>12 weeks</strong> of live classroom training, with hands-on practice in every class. Batch timings are flexible and student-friendly, so you can attend around college or work.</p>
-            <p>Fees depend on the batch, so we share the current course fee, batch dates and syllabus directly. Fill in the form or call <a href="tel:+916355559016">+91 63555 59016</a> and our counsellor will explain everything, with no obligation.</p>
+            <h2>Graphic Design Course Fees, Duration &amp; Batches</h2>
+            <p>The graphic design course runs for <strong>3 months</strong> of live classroom training at our Rajkot centre, with hands-on practice in every class. You can join a <strong>Morning</strong> or an <strong>Evening</strong> batch, so it fits around college or work.</p>
+            <p>Fees depend on the batch, so our counsellor shares the current fee, batch dates and full syllabus directly. Tap <button type="button" class="link-btn" data-open-lead>Get Course Details</button> or call <a href="tel:+916355559016">+91 63555 59016</a>, with no obligation.</p>
+            <p class="related-read"><i class="fa-solid fa-book-open"></i> Keep reading: <a href="/blog/the-role-of-ui-ux-design-in-modern-web-development/">The Role of UI/UX Design in Modern Web Development</a></p>
 
             <h2>Frequently Asked Questions</h2>
             <div class="faq-list">
-          <div class="faq-item active">
-            <button class="faq-question"><span>What are the fees for the graphic design course in Rajkot?</span><i class="fa-solid fa-minus icon"></i></button>
-            <div class="faq-answer"><p>The fee depends on the batch you join. Our counsellor shares the current graphic design course fee, batch dates and syllabus when you call or fill in the enquiry form, and you can attend a free demo class before deciding.</p></div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question"><span>How long is the graphic designing course?</span><i class="fa-solid fa-plus icon"></i></button>
-            <div class="faq-answer"><p>The course runs for 12 weeks of live classroom training, covering design fundamentals, Photoshop, Illustrator, CorelDRAW, Canva and a final portfolio project.</p></div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question"><span>Which course is best for graphic design?</span><i class="fa-solid fa-plus icon"></i></button>
-            <div class="faq-answer"><p>A good graphic design course is hands-on, covers both print and digital tools, gives you real briefs to work on and ends with a portfolio. Try a demo class first, which we offer free, and judge the teaching for yourself.</p></div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question"><span>Which software will I learn?</span><i class="fa-solid fa-plus icon"></i></button>
-            <div class="faq-answer"><p>You will learn Adobe Photoshop, Adobe Illustrator, CorelDRAW and Canva, along with the design principles that apply to any tool.</p></div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question"><span>Can I join after 12th?</span><i class="fa-solid fa-plus icon"></i></button>
-            <div class="faq-answer"><p>Yes. The course is beginner friendly and designed for students after 12th, college students and working professionals. Batch timings are flexible.</p></div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question"><span>Do I need to know drawing?</span><i class="fa-solid fa-plus icon"></i></button>
-            <div class="faq-answer"><p>No. You do not need to draw well to become a graphic designer. We teach layout, color, typography and the software from scratch, and drawing skills improve with practice.</p></div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question"><span>Will I get a certificate?</span><i class="fa-solid fa-plus icon"></i></button>
-            <div class="faq-answer"><p>You receive a certificate of completion from Codeksha, and a portfolio of branding, social media and print projects you can show to employers and clients.</p></div>
-          </div>
+            <div class="faq-item active">
+              <button class="faq-question"><span>How long is the graphic design course at Codeksha?</span><i class="fa-solid fa-minus icon"></i></button>
+              <div class="faq-answer"><p>It runs for 3 months of live classroom training at our Rajkot centre, in a Morning or an Evening batch.</p></div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question"><span>Which software will I learn?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>Canva, Adobe Photoshop and Adobe Illustrator.</p></div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question"><span>Do I need to know drawing?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>No. You learn the tools and design basics from scratch, and your skills improve with practice.</p></div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question"><span>What is the fee for the graphic design course?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>The fee depends on the batch. Our counsellor shares the current fee and batch dates when you call or send your details, and you can attend a free demo class first.</p></div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question"><span>Can I join after 12th?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>Yes. The course is beginner friendly and open to students after 12th, college students and working professionals.</p></div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question"><span>Do I get a certificate?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>Yes, you receive a certificate of completion from Codeksha.</p></div>
+            </div>
             </div>
 
             <div class="course-cta-band">
-              <h2>Ready to Start Your Graphic Design Career in Rajkot?</h2>
-              <p>Book a free demo class, meet the instructor and get the full syllabus and fee details. No cost, no commitment.</p>
+              <h2>Ready to Start Your Graphic Design Journey in Rajkot?</h2>
+              <p>Get the syllabus, fees and batch timings on a quick call, or book a free demo class first. No cost, no commitment.</p>
               <div class="cta-row">
-                <a href="/book-demo/#course=graphic-design" class="cta-btn"><i class="fa-solid fa-chalkboard-user"></i> Book a Free Demo Class</a>
-                <a href="tel:+916355559016" class="cta-btn alt"><i class="fa-solid fa-phone"></i> Call +91 63555 59016</a>
+                <button type="button" class="cta-btn" data-open-lead><i class="fa-solid fa-paper-plane"></i> Get Course Details</button>
+                <a href="/book-demo/#course=graphic-design" class="cta-btn alt"><i class="fa-solid fa-chalkboard-user"></i> Book a Free Demo Class</a>
               </div>
             </div>
           </div>
 
           <aside class="course-sidebar" id="enquire">
-            <?php $lf_course = 'Graphic Design'; $lf_id = 'leadgraphicdesign'; require __DIR__ . '/../inc/partials/lead-form.php'; ?>
+            <?php $lf_course = 'Graphic Design'; $lf_id = 'leadgraphicdesign'; $lf_title = 'Get Graphic Design Course Details'; $lf_sub = 'Syllabus, fees and batch timings on a quick call. No spam, no pressure.'; require __DIR__ . '/../inc/partials/lead-form.php'; ?>
+            <div class="course-sidebar-card course-facts-card">
+              <div class="course-sidebar-body">
+                <ul class="course-meta-list">
+                <li>Delivery <strong>Live classroom</strong></li>
+                <li>Level <strong>Beginner</strong></li>
+                <li>Duration <strong>3 months</strong></li>
+                <li>Batches <strong>Morning / Evening</strong></li>
+                <li>Certificate <strong>Yes</strong></li>
+                <li>Language <strong>English</strong></li>
+              </ul>
+              <a href="/book-demo/#course=graphic-design" class="course-sidebar-secondary-btn">Book a Free Demo Class</a>
+              </div>
+            </div>
           </aside>
 
         </div>
@@ -311,10 +394,10 @@
             <span class="course-tile-cat">Design</span>
             <h3>UI/UX Design</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-regular fa-clock"></i> 12 weeks</span>
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
               <span><i class="fa-solid fa-book"></i> 24 lessons</span>
             </div>
-            <p>User research, wireframes, Figma prototyping and design systems.</p>
+            <p>Learn Figma and Claude Design for UI/UX design.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/ui-ux-design/" class="course-tile-link">View course &rarr;</a>
@@ -325,10 +408,10 @@
             <span class="course-tile-cat">Digital Marketing &amp; SEO</span>
             <h3>Digital Marketing &amp; SEO</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-regular fa-clock"></i> 24 weeks</span>
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
-            <p>Plan and run campaigns that drive traffic and grow a business.</p>
+            <p>Learn Basic and Advance SEO, Paid Ads, Google Ads, Meta Ads and ChatGPT Ads.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/digital-marketing-seo/" class="course-tile-link">View course &rarr;</a>
@@ -339,7 +422,7 @@
             <span class="course-tile-cat">Digital Marketing &amp; SEO</span>
             <h3>Social Media Marketing</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-regular fa-clock"></i> 6 weeks</span>
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
               <span><i class="fa-solid fa-book"></i> 12 lessons</span>
             </div>
             <p>Plan, create and run paid and organic campaigns on social platforms.</p>
@@ -353,6 +436,29 @@
     </section>
 
     <!-- FOOTER -->
+    <!-- QUICK ENQUIRY POPUP -->
+    <div class="ck-lead-modal" id="ckLeadModal" hidden>
+      <div class="ck-lead-dialog" role="dialog" aria-modal="true" aria-label="Get course details">
+        <button class="ck-lead-close" type="button" aria-label="Close">&times;</button>
+        <?php $lf_course = 'Graphic Design'; $lf_id = 'leadpopup'; $lf_title = 'Get Graphic Design Course Details'; $lf_sub = 'Leave your name and number. Our counsellor will call you with the syllabus, fees and batch timings.'; require __DIR__ . '/../inc/partials/lead-form.php'; ?>
+      </div>
+    </div>
+    <button class="ck-sticky-cta" type="button" data-open-lead><i class="fa-solid fa-paper-plane"></i> Get Course Details</button>
+    <script>
+      (function () {
+        var m = document.getElementById('ckLeadModal'); if (!m) return; var last = null;
+        function open(ev) { if (ev) ev.preventDefault(); last = document.activeElement; m.hidden = false; document.body.style.overflow = 'hidden';
+          var i = m.querySelector('input[name=name]'); setTimeout(function () { if (i) i.focus(); }, 60); }
+        function close() { m.hidden = true; document.body.style.overflow = ''; if (last && last.focus) last.focus(); }
+        [].forEach.call(document.querySelectorAll('[data-open-lead]'), function (b) { b.addEventListener('click', open); });
+        m.querySelector('.ck-lead-close').addEventListener('click', close);
+        m.addEventListener('click', function (ev) { if (ev.target === m) close(); });
+        document.addEventListener('keydown', function (ev) { if (ev.key === 'Escape' && !m.hidden) close(); });
+        var s = document.querySelector('.ck-sticky-cta');
+        if (s) { var f = function () { s.classList.toggle('show', window.scrollY > 520); }; window.addEventListener('scroll', f, { passive: true }); f(); }
+      })();
+    </script>
+
     <?php require __DIR__ . '/../inc/partials/site-footer.php'; ?>
 
     <script>

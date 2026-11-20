@@ -73,10 +73,9 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>Full Stack Web Development</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 271 Students</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
-            <p>Learn to build complete web applications from frontend to backend.</p>
+            <p>Learn HTML, CSS, JavaScript and Bootstrap, then a backend with PHP, Laravel, CodeIgniter or Node, plus GitHub, CI/CD and DevOps.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/full-stack-web-development/" class="course-tile-link">View course &rarr;</a>
@@ -88,10 +87,9 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>Frontend Development</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 273 Students</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
-            <p>Learn how to create modern, responsive and interactive websites.</p>
+            <p>Learn HTML, CSS, JavaScript and Bootstrap, plus one CMS of your choice, GitHub and a CI/CD pipeline.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/frontend-development/" class="course-tile-link">View course &rarr;</a>
@@ -103,7 +101,6 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>JavaScript</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 63 Students</span>
               <span><i class="fa-solid fa-book"></i> 16 lessons</span>
             </div>
             <p>Core JavaScript, DOM manipulation, async programming and working with APIs.</p>
@@ -118,10 +115,9 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>Backend Development</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 274 Students</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
-            <p>Learn server-side development, databases, APIs and application logic.</p>
+            <p>Learn PHP, Laravel, CodeIgniter or Node (choose one), plus Ajax, jQuery, GitHub, CI/CD and DevOps.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/backend-development/" class="course-tile-link">View course &rarr;</a>
@@ -133,7 +129,6 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>MongoDB</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 34 Students</span>
               <span><i class="fa-solid fa-book"></i> 12 lessons</span>
             </div>
             <p>NoSQL database design, CRUD operations and aggregation pipelines with MongoDB.</p>
@@ -148,10 +143,9 @@
             <span class="course-tile-cat">Digital Marketing</span>
             <h3>Digital Marketing &amp; SEO</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 273 Students</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
-            <p>Learn SEO, digital marketing, content, analytics and online growth strategies.</p>
+            <p>Learn Basic and Advance SEO, Paid Ads, Google Ads, Meta Ads and ChatGPT Ads.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/digital-marketing-seo/" class="course-tile-link">View course &rarr;</a>
@@ -163,7 +157,6 @@
             <span class="course-tile-cat">Digital Marketing</span>
             <h3>Google Ads</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 47 Students</span>
               <span><i class="fa-solid fa-book"></i> 12 lessons</span>
             </div>
             <p>Plan, launch and optimize Search, Display and Performance Max campaigns.</p>
@@ -178,10 +171,9 @@
             <span class="course-tile-cat">Digital Marketing</span>
             <h3>SEO</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 52 Students</span>
               <span><i class="fa-solid fa-book"></i> 12 lessons</span>
             </div>
-            <p>Rank websites higher on Google with on-page, technical and off-page SEO.</p>
+            <p>Learn Basic SEO and Advance SEO, including AI SEO, GEO and AEO.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/seo/" class="course-tile-link">View course &rarr;</a>
@@ -193,7 +185,6 @@
             <span class="course-tile-cat">Digital Marketing</span>
             <h3>Social Media Marketing</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 39 Students</span>
               <span><i class="fa-solid fa-book"></i> 12 lessons</span>
             </div>
             <p>Plan, create and run paid and organic campaigns across social platforms.</p>
@@ -208,7 +199,6 @@
             <span class="course-tile-cat">CMS &amp; Builders</span>
             <h3>WordPress Development</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 273 Students</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
             <p>Learn to build professional websites using WordPress and modern development.</p>
@@ -223,10 +213,9 @@
             <span class="course-tile-cat">AI &amp; Automation</span>
             <h3>AI &amp; Automation</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 64 Students</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
-            <p>Learn how AI tools &amp; automation are used to improve modern business workflows.</p>
+            <p>Learn AI tools, prompt engineering, n8n, Zapier and Make.com workflows, AI agents and business automation.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/ai-automation/" class="course-tile-link">View course &rarr;</a>
@@ -238,7 +227,6 @@
             <span class="course-tile-cat">AI &amp; Automation</span>
             <h3>Prompt Engineering</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 58 Students</span>
               <span><i class="fa-solid fa-book"></i> 12 lessons</span>
             </div>
             <p>Write effective prompts for ChatGPT, Claude and Gemini and apply them to real tasks.</p>
@@ -253,7 +241,6 @@
             <span class="course-tile-cat">AI &amp; Automation</span>
             <h3>n8n Automation</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 41 Students</span>
               <span><i class="fa-solid fa-book"></i> 12 lessons</span>
             </div>
             <p>Build no-code automation workflows that connect your apps and save hours of manual work.</p>
@@ -268,10 +255,10 @@
             <span class="course-tile-cat">Design</span>
             <h3>UI/UX Design</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-regular fa-clock"></i> 12 weeks</span>
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
               <span><i class="fa-solid fa-book"></i> 24 lessons</span>
             </div>
-            <p>User research, wireframes, Figma prototyping and design systems with real portfolio projects.</p>
+            <p>Learn Figma and Claude Design for UI/UX design.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/ui-ux-design/" class="course-tile-link">View course &rarr;</a>
@@ -283,13 +270,27 @@
             <span class="course-tile-cat">Design</span>
             <h3>Graphic Design</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-regular fa-clock"></i> 12 weeks</span>
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
               <span><i class="fa-solid fa-book"></i> 24 lessons</span>
             </div>
-            <p>Photoshop, Illustrator, CorelDRAW and Canva with real branding, social media and print projects.</p>
+            <p>Learn Canva, Photoshop and Adobe Illustrator for graphic design.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/graphic-design/" class="course-tile-link">View course &rarr;</a>
+            </div>
+          </div>
+
+          <div class="course-tile" data-category="Design">
+            <div class="course-tile-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+            <span class="course-tile-cat">Design</span>
+            <h3>Graphic Design + UI/UX Design</h3>
+            <div class="course-tile-meta">
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
+            </div>
+            <p>Both design skills in one course: Canva, Photoshop, Illustrator, Figma and Claude Design.</p>
+            <div class="course-tile-footer">
+              <span class="course-tile-tag">Beginner</span>
+              <a href="/course/graphic-design-ui-ux/" class="course-tile-link">View course &rarr;</a>
             </div>
           </div>
 

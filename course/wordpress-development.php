@@ -49,7 +49,7 @@
       "hasCourseInstance": {
         "@type": "CourseInstance",
         "courseMode": "Onsite",
-        "courseWorkload": "P24W",
+        "courseWorkload": "P3M",
         "inLanguage": "en"
       }
     }
@@ -85,10 +85,9 @@
         <p class="lede">WordPress powers a huge share of the web. This course takes you from beginner to advanced, teaching you to build custom themes and plugins - whether you're building blogs or full business websites.</p>
         <div class="course-quick-meta">
           <span><i class="fa-solid fa-signal"></i> Beginner</span>
-          <span><i class="fa-regular fa-clock"></i> 24 weeks</span>
+          <span><i class="fa-regular fa-clock"></i> 3 months</span>
           <span><i class="fa-solid fa-book"></i> 30 lessons</span>
           <span><i class="fa-solid fa-language"></i> English</span>
-          <span><i class="fa-solid fa-users"></i> 15 students</span>
         </div>
       </div>
     </section>
@@ -118,27 +117,27 @@
             <div class="curriculum-list">
               <div class="curriculum-month">
                 <span class="month-num">1</span>
-                <p><strong>Month 1.</strong> Getting started with WordPress: setup, themes and plugins</p>
+                <p><strong>Part 1.</strong> Getting started with WordPress: setup, themes and plugins</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">2</span>
-                <p><strong>Month 2.</strong> Customizing WordPress: themes, widgets and plugins</p>
+                <p><strong>Part 2.</strong> Customizing WordPress: themes, widgets and plugins</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">3</span>
-                <p><strong>Month 3.</strong> Working with WordPress widgets and custom menus</p>
+                <p><strong>Part 3.</strong> Working with WordPress widgets and custom menus</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">4</span>
-                <p><strong>Month 4.</strong> WooCommerce and e-commerce site setup</p>
+                <p><strong>Part 4.</strong> WooCommerce and e-commerce site setup</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">5</span>
-                <p><strong>Month 5.</strong> SEO, speed and performance optimization</p>
+                <p><strong>Part 5.</strong> SEO, speed and performance optimization</p>
               </div>
               <div class="curriculum-month">
                 <span class="month-num">6</span>
-                <p><strong>Month 6.</strong> Final project: a complete WordPress website for a client</p>
+                <p><strong>Part 6.</strong> Final project: a complete WordPress website for a client</p>
               </div>
             </div>
 
@@ -204,7 +203,7 @@
                 <ul class="course-meta-list">
                 <li>Delivery <strong>Live class</strong></li>
                 <li>Level <strong>Beginner</strong></li>
-                <li>Duration <strong>24 weeks</strong></li>
+                <li>Duration <strong>3 months</strong></li>
                 <li>Lessons <strong>30</strong></li>
                 <li>Language <strong>English</strong></li>
               </ul>
@@ -234,10 +233,9 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>Full Stack Web Development</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 271 Students</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
-            <p>Learn to build complete web applications from frontend to backend.</p>
+            <p>Learn HTML, CSS, JavaScript and Bootstrap, then a backend with PHP, Laravel, CodeIgniter or Node, plus GitHub, CI/CD and DevOps.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/full-stack-web-development/" class="course-tile-link">View course &rarr;</a>
@@ -248,10 +246,9 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>Frontend Development</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 273 Students</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
-            <p>Learn how to create modern, responsive and interactive websites.</p>
+            <p>Learn HTML, CSS, JavaScript and Bootstrap, plus one CMS of your choice, GitHub and a CI/CD pipeline.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/frontend-development/" class="course-tile-link">View course &rarr;</a>
@@ -262,10 +259,9 @@
             <span class="course-tile-cat">Digital Marketing</span>
             <h3>Digital Marketing &amp; SEO</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 273 Students</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
-            <p>Learn SEO, digital marketing, content, analytics and online growth strategies.</p>
+            <p>Learn Basic and Advance SEO, Paid Ads, Google Ads, Meta Ads and ChatGPT Ads.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/digital-marketing-seo/" class="course-tile-link">View course &rarr;</a>

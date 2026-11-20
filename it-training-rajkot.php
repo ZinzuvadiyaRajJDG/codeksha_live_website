@@ -122,7 +122,6 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>Full Stack Web Development</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 271 Students</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
             <p>Learn to build complete web applications from frontend to backend.</p>
@@ -136,7 +135,6 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>Frontend Development</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 273 Students</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
             <p>Learn how to create modern, responsive and interactive websites.</p>
@@ -150,7 +148,6 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>Backend Development</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 274 Students</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
             <p>Learn server-side development, databases, APIs and application logic.</p>
@@ -164,7 +161,6 @@
             <span class="course-tile-cat">Digital Marketing</span>
             <h3>Digital Marketing &amp; SEO</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 273 Students</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
             <p>Learn SEO, digital marketing, content, analytics and online growth strategies.</p>
@@ -178,7 +174,6 @@
             <span class="course-tile-cat">CMS &amp; Builders</span>
             <h3>WordPress Development</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 273 Students</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
             <p>Learn to build professional websites using WordPress and modern development.</p>
@@ -192,7 +187,6 @@
             <span class="course-tile-cat">AI &amp; Automation</span>
             <h3>AI &amp; Automation</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-users"></i> 64 Students</span>
               <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
             <p>Learn how AI tools &amp; automation are used to improve modern business workflows.</p>
