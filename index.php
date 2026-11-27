@@ -307,6 +307,7 @@
         </div>
 
       </div>
+      <?php require __DIR__ . '/inc/partials/mascot-walker.php'; ?>
     </section>
 
     <!-- Feature section -->
