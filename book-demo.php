@@ -116,15 +116,17 @@
                 <label for="demoCourse">Which course? *</label>
                 <select id="demoCourse" name="course" required>
                   <option value="" disabled selected>Select a course</option>
-                  <option>Full Stack Web Development</option>
-                  <option>Frontend Development</option>
-                  <option>Backend Development</option>
-                  <option>Digital Marketing &amp; SEO</option>
-                  <option>WordPress Development</option>
-                  <option>AI &amp; Automation</option>
-                  <option>UI/UX Design</option>
-                  <option>Graphic Design</option>
-                  <option>Graphic Design + UI/UX Design</option>
+                  <option data-slug="full-stack-web-development">Full Stack Web Development</option>
+                  <option data-slug="frontend-development">Frontend Development with CMS</option>
+                  <option data-slug="backend-development">Backend Development</option>
+                  <option data-slug="seo">SEO Foundation (Basic)</option>
+                  <option data-slug="advanced-seo-ai-search">Advanced SEO &amp; AI Search</option>
+                  <option data-slug="digital-marketing-seo">Digital Marketing Pro (SEO + Paid Ads)</option>
+                  <option data-slug="ai-automation">AI Automation &amp; AI Agents</option>
+                  <option data-slug="graphic-design-ui-ux">Graphic Design &amp; UI/UX</option>
+                  <option data-slug="wordpress-development">WordPress Development</option>
+                  <option data-slug="ui-ux-design">UI/UX Design</option>
+                  <option data-slug="graphic-design">Graphic Design</option>
                   <option>Not sure yet - help me choose</option>
                 </select>
               </div>
@@ -203,7 +205,7 @@
         const wanted = (hashParams.get('course') || params.get('course') || '').toLowerCase();
         if (wanted && demoCourse) {
           [...demoCourse.options].forEach(o => {
-            if (o.value && o.value.toLowerCase().replace(/[^a-z]+/g, '-').includes(wanted)) o.selected = true;
+            if (o.dataset.slug === wanted) o.selected = true;
           });
         }
 

@@ -84,7 +84,7 @@ if ($general) {
     $faqs[] = ['Which course should I choose as a student from ' . $T . '?', 'For a ' . $K1 . ', start with Full Stack or Frontend Development. For a ' . $K2 . ', start with Digital Marketing & SEO, SEO or Google Ads. For ' . $K3 . ', JavaScript is the usual first step. A short call with our team will help you pick.'];
 } else {
     $faqs[] = ['What is ' . $SHARED . ' like in practice?', 'It means live, project-based courses at our Rajkot centre, taught by ' . $TEACHER . ' with 5+ years of IT experience. Most students from ' . $T . ' start with a ' . $PRIMARY . ', then add a ' . $K1 . ' or ' . $K2 . '. Others begin with ' . $K3 . '.'];
-    $faqs[] = ['What will I learn in the ' . $COURSE . ' at Codeksha?', 'Over ' . $CUR['weeks'] . ' months (' . $CUR['lessons'] . ' lessons) you will cover: ' . implode('; ', array_slice($CUR['learn'], 0, 6)) . '.'];
+    $faqs[] = ['What will I learn in the ' . $COURSE . ' at Codeksha?', 'Over ' . $CUR['weeks'] . ' months you will cover: ' . implode('; ', array_slice($CUR['learn'], 0, 6)) . '.'];
     $faqs[] = ['Which course should I choose as a student from ' . $T . '?', 'If you want a ' . $PRIMARY . ', start with the ' . $COURSE . '. If you are still deciding, a short call with our team will help you compare the ' . $K1 . ', ' . $K2 . ' and ' . $K3 . '.'];
 }
 $faqs[] = ['Can I attend a demo class before I join?', 'Yes. You can book a free demo class on our website and see how classes work at the Rajkot centre before you decide.'];

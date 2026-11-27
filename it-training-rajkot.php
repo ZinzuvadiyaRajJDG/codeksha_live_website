@@ -44,7 +44,7 @@
         { "@type": "Question", "name": "Who will be teaching these courses?", "acceptedAnswer": { "@type": "Answer", "text": "Not typical teachers - you'll be learning from actual industry developers who work on real client projects daily." } },
         { "@type": "Question", "name": "Will I work on real-time projects?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Every course includes hands-on projects that simulate real-world client work to help you build a strong portfolio." } },
         { "@type": "Question", "name": "Do you provide internships in Rajkot?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We offer internship certificates and live project exposure to help you gain practical experience." } },
-        { "@type": "Question", "name": "Which IT courses are most in demand in Rajkot?", "acceptedAnswer": { "@type": "Answer", "text": "Full Stack Development, React, PHP and WordPress are currently among the most popular career paths in Rajkot." } }
+        { "@type": "Question", "name": "Which IT courses are most in demand in Rajkot?", "acceptedAnswer": { "@type": "Answer", "text": "Full Stack Web Development (PHP), Frontend with WordPress or Shopify, Digital Marketing, SEO and AI Automation are among the most popular career paths in Rajkot, and Codeksha teaches all of them." } }
       ]
     }
     </script>
@@ -122,9 +122,9 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>Full Stack Web Development</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 30 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 5 months</span>
             </div>
-            <p>Learn to build complete web applications from frontend to backend.</p>
+            <p>HTML, CSS, Bootstrap, JavaScript, PHP, MySQL, a framework of your choice, DevOps and a live capstone.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/full-stack-web-development/" class="course-tile-link">View course &rarr;</a>
@@ -133,11 +133,11 @@
           <div class="course-tile">
             <div class="course-tile-icon"><i class="fa-solid fa-palette"></i></div>
             <span class="course-tile-cat">Web Development</span>
-            <h3>Frontend Development</h3>
+            <h3>Frontend Development with CMS</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 30 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
             </div>
-            <p>Learn how to create modern, responsive and interactive websites.</p>
+            <p>HTML, CSS, Bootstrap, JavaScript, GitHub and one CMS: WordPress, Shopify, Webflow or Wix.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/frontend-development/" class="course-tile-link">View course &rarr;</a>
@@ -148,9 +148,9 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>Backend Development</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 30 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 4 months</span>
             </div>
-            <p>Learn server-side development, databases, APIs and application logic.</p>
+            <p>PHP, MySQL, Laravel, CodeIgniter or Node.js, REST APIs, security, CI/CD and Docker basics.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/backend-development/" class="course-tile-link">View course &rarr;</a>
@@ -159,11 +159,11 @@
           <div class="course-tile">
             <div class="course-tile-icon"><i class="fa-solid fa-bullhorn"></i></div>
             <span class="course-tile-cat">Digital Marketing</span>
-            <h3>Digital Marketing &amp; SEO</h3>
+            <h3>Digital Marketing Pro (SEO + Paid Ads)</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 30 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 4 months</span>
             </div>
-            <p>Learn SEO, digital marketing, content, analytics and online growth strategies.</p>
+            <p>Basic and advanced SEO, Canva and AI ad creatives, Meta Ads, Google Ads and ChatGPT Ads.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/digital-marketing-seo/" class="course-tile-link">View course &rarr;</a>
@@ -174,9 +174,9 @@
             <span class="course-tile-cat">CMS &amp; Builders</span>
             <h3>WordPress Development</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 30 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
             </div>
-            <p>Learn to build professional websites using WordPress and modern development.</p>
+            <p>Theme setup, page builders, plugins, forms, speed and on-page SEO, and site launch.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/wordpress-development/" class="course-tile-link">View course &rarr;</a>
@@ -185,11 +185,11 @@
           <div class="course-tile">
             <div class="course-tile-icon"><i class="fa-solid fa-robot"></i></div>
             <span class="course-tile-cat">AI &amp; Automation</span>
-            <h3>AI &amp; Automation</h3>
+            <h3>AI Automation &amp; AI Agents</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 30 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
             </div>
-            <p>Learn how AI tools &amp; automation are used to improve modern business workflows.</p>
+            <p>AI tools, prompt engineering, n8n, Zapier and Make.com workflows, AI agents and business automation.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/ai-automation/" class="course-tile-link">View course &rarr;</a>
@@ -247,7 +247,7 @@
           </div>
           <div class="faq-item">
             <button class="faq-question"><span>Which IT courses are most in demand in Rajkot?</span><i class="fa-solid fa-plus icon"></i></button>
-            <div class="faq-answer"><p>Full Stack Development, React, PHP and WordPress are currently among the most popular career paths in Rajkot. See our <a href="/faqs/">full FAQ page</a> for more.</p></div>
+            <div class="faq-answer"><p>Full Stack Web Development (PHP), Frontend with WordPress or Shopify, Digital Marketing, SEO and AI Automation are among the most popular career paths in Rajkot, and Codeksha teaches all of them. See our <a href="/faqs/">full FAQ page</a> for more.</p></div>
           </div>
         </div>
       </div>

@@ -4,25 +4,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>UI UX Design Course in Rajkot | Figma Training | Codeksha</title>
-    <meta name="description" content="UI/UX design course in Rajkot (3 months): learn Figma and Claude Design at Codeksha." />
+    <title>UI/UX Design Course in Rajkot: Figma &amp; Claude Design | Codeksha</title>
+    <meta name="description" content="UI/UX design course in Rajkot: UX basics, user research, user flows, wireframes, Figma prototyping and design systems, Claude Design and a portfolio." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/course/ui-ux-design/" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Codeksha" />
-    <meta property="og:title" content="UI UX Design Course in Rajkot | Figma Training | Codeksha" />
-    <meta property="og:description" content="UI/UX design course in Rajkot (3 months): learn Figma and Claude Design at Codeksha." />
+    <meta property="og:title" content="UI/UX Design Course in Rajkot: Figma &amp; Claude Design | Codeksha" />
+    <meta property="og:description" content="UI/UX design course in Rajkot: UX basics, user research, user flows, wireframes, Figma prototyping and design systems, Claude Design and a portfolio." />
     <meta property="og:url" content="https://codeksha.com/course/ui-ux-design/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="UI UX Design Course in Rajkot | Figma Training | Codeksha" />
-    <meta name="twitter:description" content="UI/UX design course in Rajkot (3 months): learn Figma and Claude Design at Codeksha." />
+    <meta name="twitter:title" content="UI/UX Design Course in Rajkot: Figma &amp; Claude Design | Codeksha" />
+    <meta name="twitter:description" content="UI/UX design course in Rajkot: UX basics, user research, user flows, wireframes, Figma prototyping and design systems, Claude Design and a portfolio." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
-
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -39,7 +38,7 @@
       "@context": "https://schema.org",
       "@type": "Course",
       "name": "UI/UX Design",
-      "description": "The UI/UX Design course at Codeksha is a 3-month classroom program in Rajkot where you learn Figma to design and prototype websites and mobile apps, and Claude Design to explore and iterate on design ideas faster with AI.",
+      "description": "The UI/UX Design course at Codeksha is a classroom program in Rajkot for beginners. You learn UX basics (user research, user flows, wireframes), Figma (components, auto layout, prototyping, design systems) and Claude Design for AI-assisted mockups and quick design options, and finish with a portfolio on Behance or Dribbble.",
       "url": "https://codeksha.com/course/ui-ux-design/",
       "provider": {
         "@type": "EducationalOrganization",
@@ -50,22 +49,39 @@
       "educationalLevel": "Beginner",
       "inLanguage": "en",
       "timeRequired": "P3M",
+      "educationalCredentialAwarded": "Codeksha course certificate",
       "teaches": [
+        "UX basics",
         "Figma",
-        "Claude Design"
+        "Claude Design",
+        "Final portfolio"
       ],
       "syllabusSections": [
         {
           "@type": "Syllabus",
+          "name": "UX basics",
+          "description": "User research; User flows; Wireframes"
+        },
+        {
+          "@type": "Syllabus",
           "name": "Figma",
-          "description": "Frames, auto layout and components, Wireframes to high-fidelity screens, Prototyping and interactions, Design systems and developer handoff"
+          "description": "Components; Auto layout; Prototyping; Design systems"
         },
         {
           "@type": "Syllabus",
           "name": "Claude Design",
-          "description": "Generating layouts and UI ideas from prompts, Turning ideas into prototypes, Iterating on designs with AI feedback, Moving designs into Figma and code"
+          "description": "AI-assisted mockups; Quick design options"
+        },
+        {
+          "@type": "Syllabus",
+          "name": "Final portfolio",
+          "description": "Behance; Dribbble"
         }
       ],
+      "audience": {
+        "@type": "EducationalAudience",
+        "audienceType": "Beginners"
+      },
       "offers": {
         "@type": "Offer",
         "category": "Paid",
@@ -74,8 +90,19 @@
       "hasCourseInstance": {
         "@type": "CourseInstance",
         "courseMode": "Onsite",
-        "courseWorkload": "P3M",
         "inLanguage": "en",
+        "courseSchedule": {
+          "@type": "Schedule",
+          "duration": "PT2H",
+          "repeatFrequency": "P1D",
+          "byDay": [
+            "https://schema.org/Monday",
+            "https://schema.org/Tuesday",
+            "https://schema.org/Wednesday",
+            "https://schema.org/Thursday",
+            "https://schema.org/Friday"
+          ]
+        },
         "location": {
           "@type": "Place",
           "name": "Codeksha",
@@ -98,10 +125,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How long is the UI/UX design course at Codeksha?",
+          "name": "What will I learn in the UI/UX Design course?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It runs for 3 months of live classroom training at our Rajkot centre, in a Morning or an Evening batch."
+            "text": "UX basics (user research, user flows, wireframes), Figma (components, auto layout, prototyping, design systems) and Claude Design for AI-assisted mockups."
           }
         },
         {
@@ -109,44 +136,53 @@
           "name": "Which tools will I learn?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Figma for UI design and prototyping, and Claude Design for creating and refining design ideas with AI."
+            "text": "Figma and Claude Design, and you publish your portfolio on Behance or Dribbble."
           }
         },
         {
           "@type": "Question",
-          "name": "Do I need coding or drawing skills?",
+          "name": "Is the course for beginners?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. The course is beginner friendly and teaches the tools from scratch."
+            "text": "Yes. It is designed for beginners."
           }
         },
         {
           "@type": "Question",
-          "name": "What is the fee for the UI/UX course?",
+          "name": "What projects will I build?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The fee depends on the batch. Our counsellor shares the current fee and batch dates when you call or send your details, and you can attend a free demo class first."
+            "text": "A mobile app or website UI and a final portfolio on Behance or Dribbble."
           }
         },
         {
           "@type": "Question",
-          "name": "Can I join after 12th or during college?",
+          "name": "Can I learn graphic design too?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Batches run in the Morning or Evening, so you can join after 12th, during college or while working."
+            "text": "Yes. The Graphic Design & UI/UX course also covers design basics, Canva, Photoshop, Illustrator and branding."
           }
         },
         {
           "@type": "Question",
-          "name": "Do I get a certificate?",
+          "name": "What is included in the UI/UX Design course?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, you receive a certificate of completion from Codeksha."
+            "text": "Every Codeksha course includes live projects on real or real-style briefs, portfolio and resume support, a Codeksha course certificate, an internship opportunity for eligible students, and mock interviews with freelancing basics (Upwork, OnlineJobs.ph, LinkedIn)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the fee for the UI/UX Design course?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The fee depends on the batch you join. Our counsellor shares the current fee and batch dates when you call or send your details, and you can attend a free demo class first."
           }
         }
       ]
     }
     </script>
+    
     
     
   </head>
@@ -164,13 +200,13 @@
         <p class="breadcrumb"><a href="/">Home</a> / <a href="/courses/">Courses</a> / UI/UX Design</p>
         <span class="course-detail-cat">Design</span>
         <h1>UI/UX Design Course in Rajkot</h1>
-        <p class="lede">Learn UI/UX design in 3 months at Codeksha, Rajkot with Figma and Claude Design.</p>
+        <p class="lede">Learn UI/UX design in Rajkot: UX basics (user research, user flows, wireframes), Figma, Claude Design for AI-assisted mockups, and a Behance / Dribbble portfolio.</p>
         <div class="course-quick-meta">
-          <span><i class="fa-solid fa-signal"></i> Beginner friendly</span>
+          <span><i class="fa-solid fa-signal"></i> Beginner</span>
           <span><i class="fa-regular fa-clock"></i> 3 months</span>
-          <span><i class="fa-solid fa-book"></i> 24 lessons</span>
+          <span><i class="fa-solid fa-calendar-week"></i> 2 hrs/day, 5 days/week</span>
           <span><i class="fa-solid fa-chalkboard-user"></i> Live classroom</span>
-          <span><i class="fa-solid fa-folder-open"></i> Portfolio projects</span>
+          <span><i class="fa-solid fa-certificate"></i> Certificate</span>
         </div>
         <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-top:24px;">
           <a href="#enquire" class="hero-enroll-btn" data-open-lead>
@@ -191,64 +227,65 @@
             <div class="course-answer">
               <span class="course-answer-tag"><i class="fa-solid fa-bolt"></i> Quick answer</span>
               <h2>What is the UI/UX Design course at Codeksha?</h2>
-              <p>The UI/UX Design course at Codeksha is a 3-month classroom program in Rajkot where you learn Figma to design and prototype websites and mobile apps, and Claude Design to explore and iterate on design ideas faster with AI.</p>
+              <p>The UI/UX Design course at Codeksha is a classroom program in Rajkot for beginners. You learn UX basics (user research, user flows, wireframes), Figma (components, auto layout, prototyping, design systems) and Claude Design for AI-assisted mockups and quick design options, and finish with a portfolio on Behance or Dribbble.</p>
               <dl class="glance-grid">
                 <div><dt><i class="fa-regular fa-clock"></i> Duration</dt><dd>3 months</dd></div>
+                <div><dt><i class="fa-solid fa-calendar-week"></i> Schedule</dt><dd>About 2 hours a day, 5 days a week</dd></div>
+                <div><dt><i class="fa-solid fa-user-graduate"></i> Who it&#x27;s for</dt><dd>Beginners</dd></div>
+                <div><dt><i class="fa-solid fa-briefcase"></i> Job role after</dt><dd>UI-UX Designer</dd></div>
                 <div><dt><i class="fa-solid fa-chalkboard-user"></i> Mode</dt><dd>Live classroom, Rajkot</dd></div>
-                <div><dt><i class="fa-solid fa-signal"></i> Level</dt><dd>Beginner</dd></div>
-                <div><dt><i class="fa-solid fa-sun"></i> Batches</dt><dd>Morning or Evening</dd></div>
-                <div><dt><i class="fa-solid fa-certificate"></i> Certificate</dt><dd>Yes, on completion</dd></div>
-                <div><dt><i class="fa-solid fa-indian-rupee-sign"></i> Fees</dt><dd>Shared by our counsellor</dd></div>
+                <div><dt><i class="fa-solid fa-certificate"></i> Certificate</dt><dd>Codeksha course certificate</dd></div>
               </dl>
             </div>
 
-            <h2>Why Students Choose This Course</h2>
-            <div class="info-card-grid cols-4">
+            <h2>What's Included in Every Codeksha Course</h2>
+            <div class="info-card-grid cols-3 included-grid">
             <div class="info-card">
-              <div class="info-card-icon"><i class="fa-solid fa-calendar-check"></i></div>
-              <h3>3-month program</h3>
-              <p>A focused course you can finish in one term, without losing a year.</p>
+              <div class="info-card-icon"><i class="fa-solid fa-diagram-project"></i></div>
+              <h3>Live projects</h3>
+              <p>Work on real or real-style briefs.</p>
             </div>
             <div class="info-card">
-              <div class="info-card-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
-              <h3>Learn from practising designers</h3>
-              <p>Your trainers use these skills on real client work every day.</p>
-            </div>
-            <div class="info-card">
-              <div class="info-card-icon"><i class="fa-solid fa-laptop-code"></i></div>
-              <h3>Hands-on in every class</h3>
-              <p>Short explanations, then practice on real tasks you can show.</p>
+              <div class="info-card-icon"><i class="fa-solid fa-id-card"></i></div>
+              <h3>Portfolio and resume support</h3>
+              <p>Get help building your portfolio and resume.</p>
             </div>
             <div class="info-card">
               <div class="info-card-icon"><i class="fa-solid fa-certificate"></i></div>
-              <h3>Certificate included</h3>
-              <p>Finish with a Codeksha certificate of completion.</p>
+              <h3>Codeksha course certificate</h3>
+              <p>Receive a Codeksha certificate when you finish.</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-briefcase"></i></div>
+              <h3>Internship opportunity</h3>
+              <p>Available for eligible students.</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-comments"></i></div>
+              <h3>Mock interviews and freelancing basics</h3>
+              <p>Practise interviews and learn Upwork, OnlineJobs.ph and LinkedIn.</p>
             </div>
             </div>
 
-            <h2>What You'll Be Able to Do After This Course</h2>
-            <div class="learn-card">
-            <ul class="learn-checklist">
-              <li><i class="fa-solid fa-circle-check"></i> Design website and mobile app screens in Figma</li>
-              <li><i class="fa-solid fa-circle-check"></i> Use auto layout, components and design systems</li>
-              <li><i class="fa-solid fa-circle-check"></i> Build clickable prototypes</li>
-              <li><i class="fa-solid fa-circle-check"></i> Generate and refine design ideas with Claude Design</li>
-              <li><i class="fa-solid fa-circle-check"></i> Hand designs over to developers cleanly</li>
-              <li><i class="fa-solid fa-circle-check"></i> Present your work in a portfolio</li>
-            </ul>
-            </div>
-
-            <h2>UI/UX Design Course Curriculum: 2 Modules in 3 Months</h2>
-            <p class="section-intro">Each module mixes a short explanation with hands-on practice in class, so you learn by doing.</p>
+            <h2>UI/UX Design Curriculum: 4 Modules in 3 months</h2>
+            <p class="section-intro">The course runs about 2 hours a day, 5 days a week. Here is what you cover, module by module.</p>
             <div class="module-groups">
               <div class="module-grid">
                 <div class="module-card">
-                  <div class="module-head"><span class="module-num">01</span><div><h4>Figma</h4><p>The industry-standard tool for UI design.</p></div></div>
-                  <ul class="module-topics"><li>Frames, auto layout and components</li><li>Wireframes to high-fidelity screens</li><li>Prototyping and interactions</li><li>Design systems and developer handoff</li></ul>
+                  <div class="module-head"><span class="module-num">01</span><div><h4>UX basics</h4></div></div>
+                  <ul class="module-topics"><li>User research</li><li>User flows</li><li>Wireframes</li></ul>
                 </div>
                 <div class="module-card">
-                  <div class="module-head"><span class="module-num">02</span><div><h4>Claude Design</h4><p>Design faster with AI.</p></div></div>
-                  <ul class="module-topics"><li>Generating layouts and UI ideas from prompts</li><li>Turning ideas into prototypes</li><li>Iterating on designs with AI feedback</li><li>Moving designs into Figma and code</li></ul>
+                  <div class="module-head"><span class="module-num">02</span><div><h4>Figma</h4></div></div>
+                  <ul class="module-topics"><li>Components</li><li>Auto layout</li><li>Prototyping</li><li>Design systems</li></ul>
+                </div>
+                <div class="module-card">
+                  <div class="module-head"><span class="module-num">03</span><div><h4>Claude Design</h4></div></div>
+                  <ul class="module-topics"><li>AI-assisted mockups</li><li>Quick design options</li></ul>
+                </div>
+                <div class="module-card">
+                  <div class="module-head"><span class="module-num">04</span><div><h4>Final portfolio</h4></div></div>
+                  <ul class="module-topics"><li>Behance</li><li>Dribbble</li></ul>
                 </div>
               </div>
             </div>
@@ -257,28 +294,33 @@
               <button type="button" class="inline-cta-btn" data-open-lead><i class="fa-solid fa-paper-plane"></i> Get Course Details</button>
             </div>
 
+            <h2>Projects You'll Build</h2>
+            <div class="info-card-grid cols-3 project-grid">
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-diagram-project"></i></div>
+              <h3>Mobile app or website UI</h3>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-diagram-project"></i></div>
+              <h3>Final portfolio on Behance / Dribbble</h3>
+            </div>
+            </div>
+
             <h2>Tools &amp; Technologies You'll Use</h2>
-            <ul class="tool-chips"><li><i class="fa-solid fa-screwdriver-wrench"></i> Figma</li><li><i class="fa-solid fa-screwdriver-wrench"></i> Claude Design</li></ul>
+            <ul class="tool-chips"><li><i class="fa-solid fa-screwdriver-wrench"></i> Figma</li><li><i class="fa-solid fa-screwdriver-wrench"></i> Claude Design</li><li><i class="fa-solid fa-screwdriver-wrench"></i> Behance</li><li><i class="fa-solid fa-screwdriver-wrench"></i> Dribbble</li></ul>
 
-            <h2>Career Paths After the UI/UX Design Course</h2>
-            <ul class="tool-chips"><li><i class="fa-solid fa-briefcase"></i> UI Designer</li><li><i class="fa-solid fa-briefcase"></i> UX Designer</li><li><i class="fa-solid fa-briefcase"></i> Product Designer</li><li><i class="fa-solid fa-briefcase"></i> Web Designer</li><li><i class="fa-solid fa-briefcase"></i> App Designer</li><li><i class="fa-solid fa-briefcase"></i> Freelance UI/UX Designer</li></ul>
-
-            <h2>Who This Course Is For &amp; What You'll Need</h2>
+            <h2>Who Is This Course For, and What Job Comes Next?</h2>
             <div class="two-list-grid">
               <div>
-                <h3>Who This Course Is For</h3>
+                <h3>Who It's For</h3>
                 <ul>
-                <li><i class="fa-solid fa-user-check"></i> Beginners who want to start a career in UI/UX design</li>
-                <li><i class="fa-solid fa-user-check"></i> Graphic designers who want to move into product design</li>
-                <li><i class="fa-solid fa-user-check"></i> Developers who want to design better interfaces</li>
+                <li><i class="fa-solid fa-user-check"></i> Beginners</li>
                 </ul>
               </div>
               <div>
-                <h3>Requirements</h3>
+                <h3>Job Role After the Course</h3>
                 <ul>
-                <li><i class="fa-solid fa-circle-check"></i> Basic computer and internet skills</li>
-                <li><i class="fa-solid fa-circle-check"></i> No coding or drawing background needed</li>
-                <li><i class="fa-solid fa-circle-check"></i> Curiosity about how people use apps and websites</li>
+                <li><i class="fa-solid fa-briefcase"></i> UI-UX Designer</li>
                 </ul>
               </div>
             </div>
@@ -293,55 +335,59 @@
             <div class="info-card">
               <div class="info-card-step">2</div>
               <h3>Attend a free demo</h3>
-              <p>Sit in on a real class, meet the trainer and see how the course is taught before you decide.</p>
+              <p>Sit in on a real class and meet the trainer before you decide.</p>
             </div>
             <div class="info-card">
               <div class="info-card-step">3</div>
               <h3>Choose your batch</h3>
-              <p>Pick a Morning or Evening batch that fits around college or work.</p>
+              <p>Pick the batch timing that fits around college or work.</p>
             </div>
             <div class="info-card">
               <div class="info-card-step">4</div>
               <h3>Start learning</h3>
-              <p>Begin with the basics and practise on real tasks from your first week.</p>
+              <p>Begin the course and work on live projects.</p>
             </div>
             </div>
 
             <h2>UI/UX Design Course Fees, Duration &amp; Batches</h2>
-            <p>The UI/UX design course runs for <strong>3 months</strong> of live classroom training at our Rajkot centre, with hands-on practice in every class. You can join a <strong>Morning</strong> or an <strong>Evening</strong> batch, so it fits around college or work.</p>
+            <p>The UI/UX Design course runs for <strong>3 months</strong> of live classroom training at our Rajkot centre, about <strong>2 hours a day, 5 days a week</strong>. Weekend and fast-track batches can be scaled from the same plan.</p>
             <p>Fees depend on the batch, so our counsellor shares the current fee, batch dates and full syllabus directly. Tap <button type="button" class="link-btn" data-open-lead>Get Course Details</button> or call <a href="tel:+916355559016">+91 63555 59016</a>, with no obligation.</p>
-            <p class="related-read"><i class="fa-solid fa-book-open"></i> Keep reading: <a href="/blog/the-role-of-ui-ux-design-in-modern-web-development/">The Role of UI/UX Design in Modern Web Development</a></p>
+            <p class="related-read"><i class="fa-solid fa-book-open"></i> Keep reading: <a href="/course/graphic-design-ui-ux/">Complete course: Graphic Design &amp; UI/UX</a></p>
 
             <h2>Frequently Asked Questions</h2>
             <div class="faq-list">
             <div class="faq-item active">
-              <button class="faq-question"><span>How long is the UI/UX design course at Codeksha?</span><i class="fa-solid fa-minus icon"></i></button>
-              <div class="faq-answer"><p>It runs for 3 months of live classroom training at our Rajkot centre, in a Morning or an Evening batch.</p></div>
+              <button class="faq-question"><span>What will I learn in the UI/UX Design course?</span><i class="fa-solid fa-minus icon"></i></button>
+              <div class="faq-answer"><p>UX basics (user research, user flows, wireframes), Figma (components, auto layout, prototyping, design systems) and Claude Design for AI-assisted mockups.</p></div>
             </div>
             <div class="faq-item">
               <button class="faq-question"><span>Which tools will I learn?</span><i class="fa-solid fa-plus icon"></i></button>
-              <div class="faq-answer"><p>Figma for UI design and prototyping, and Claude Design for creating and refining design ideas with AI.</p></div>
+              <div class="faq-answer"><p>Figma and Claude Design, and you publish your portfolio on Behance or Dribbble.</p></div>
             </div>
             <div class="faq-item">
-              <button class="faq-question"><span>Do I need coding or drawing skills?</span><i class="fa-solid fa-plus icon"></i></button>
-              <div class="faq-answer"><p>No. The course is beginner friendly and teaches the tools from scratch.</p></div>
+              <button class="faq-question"><span>Is the course for beginners?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>Yes. It is designed for beginners.</p></div>
             </div>
             <div class="faq-item">
-              <button class="faq-question"><span>What is the fee for the UI/UX course?</span><i class="fa-solid fa-plus icon"></i></button>
-              <div class="faq-answer"><p>The fee depends on the batch. Our counsellor shares the current fee and batch dates when you call or send your details, and you can attend a free demo class first.</p></div>
+              <button class="faq-question"><span>What projects will I build?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>A mobile app or website UI and a final portfolio on Behance or Dribbble.</p></div>
             </div>
             <div class="faq-item">
-              <button class="faq-question"><span>Can I join after 12th or during college?</span><i class="fa-solid fa-plus icon"></i></button>
-              <div class="faq-answer"><p>Yes. Batches run in the Morning or Evening, so you can join after 12th, during college or while working.</p></div>
+              <button class="faq-question"><span>Can I learn graphic design too?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>Yes. The Graphic Design &amp; UI/UX course also covers design basics, Canva, Photoshop, Illustrator and branding.</p></div>
             </div>
             <div class="faq-item">
-              <button class="faq-question"><span>Do I get a certificate?</span><i class="fa-solid fa-plus icon"></i></button>
-              <div class="faq-answer"><p>Yes, you receive a certificate of completion from Codeksha.</p></div>
+              <button class="faq-question"><span>What is included in the UI/UX Design course?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>Every Codeksha course includes live projects on real or real-style briefs, portfolio and resume support, a Codeksha course certificate, an internship opportunity for eligible students, and mock interviews with freelancing basics (Upwork, OnlineJobs.ph, LinkedIn).</p></div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question"><span>What is the fee for the UI/UX Design course?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>The fee depends on the batch you join. Our counsellor shares the current fee and batch dates when you call or send your details, and you can attend a free demo class first.</p></div>
             </div>
             </div>
 
             <div class="course-cta-band">
-              <h2>Ready to Start Your UI/UX Design Journey in Rajkot?</h2>
+              <h2>Ready to Start the UI/UX Design Course in Rajkot?</h2>
               <p>Get the syllabus, fees and batch timings on a quick call, or book a free demo class first. No cost, no commitment.</p>
               <div class="cta-row">
                 <button type="button" class="cta-btn" data-open-lead><i class="fa-solid fa-paper-plane"></i> Get Course Details</button>
@@ -356,9 +402,9 @@
               <div class="course-sidebar-body">
                 <ul class="course-meta-list">
                 <li>Delivery <strong>Live classroom</strong></li>
-                <li>Level <strong>Beginner</strong></li>
                 <li>Duration <strong>3 months</strong></li>
-                <li>Batches <strong>Morning / Evening</strong></li>
+                <li>Schedule <strong>2 hrs/day, 5 days/week</strong></li>
+                <li>Level <strong>Beginner</strong></li>
                 <li>Certificate <strong>Yes</strong></li>
                 <li>Language <strong>English</strong></li>
               </ul>
@@ -385,9 +431,8 @@
             <h3>Graphic Design</h3>
             <div class="course-tile-meta">
               <span><i class="fa-regular fa-clock"></i> 3 months</span>
-              <span><i class="fa-solid fa-book"></i> 24 lessons</span>
             </div>
-            <p>Canva, Photoshop and Adobe Illustrator with real branding projects.</p>
+            <p>Design basics, Canva, Photoshop, Illustrator and a brand identity kit.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/graphic-design/" class="course-tile-link">View course &rarr;</a>
@@ -396,12 +441,11 @@
           <div class="course-tile">
             <div class="course-tile-icon"><i class="fa-solid fa-palette"></i></div>
             <span class="course-tile-cat">Web Development</span>
-            <h3>Frontend Development</h3>
+            <h3>Frontend Development with CMS</h3>
             <div class="course-tile-meta">
               <span><i class="fa-regular fa-clock"></i> 3 months</span>
-              <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
-            <p>Learn HTML, CSS, JavaScript and Bootstrap, plus one CMS of your choice.</p>
+            <p>HTML, CSS, Bootstrap, JavaScript, GitHub and one CMS: WordPress, Shopify, Webflow or Wix.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/frontend-development/" class="course-tile-link">View course &rarr;</a>
@@ -413,9 +457,8 @@
             <h3>WordPress Development</h3>
             <div class="course-tile-meta">
               <span><i class="fa-regular fa-clock"></i> 3 months</span>
-              <span><i class="fa-solid fa-book"></i> 30 lessons</span>
             </div>
-            <p>Build professional websites using WordPress and modern development.</p>
+            <p>Theme setup, page builders, plugins, forms, speed and on-page SEO, and site launch.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/wordpress-development/" class="course-tile-link">View course &rarr;</a>
