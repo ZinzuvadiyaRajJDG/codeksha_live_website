@@ -1,0 +1,84 @@
+/* ===== Codeksha mascot walker (home hero)
+   markup: inc/partials/mascot-walker.php · motion: assets/mascot.js (poses every limb per frame) ===== */
+.ck-mascot-strip {
+  position: relative;
+  z-index: 2;
+  height: 150px;
+  margin: 18px 0 -56px;
+  overflow-x: clip;          /* no sideways scroll while it walks off-screen */
+  overflow-y: visible;       /* room for jumps and the speech bubble */
+  pointer-events: none;
+}
+.ck-mascot-strip::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: 4px;
+  border-bottom: 2px dotted #bfdbfe;
+}
+.ck-mascot-walker {
+  position: absolute;
+  right: 6%;                 /* no-JS fallback: stands still on the right */
+  bottom: 3px;
+  width: 180px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  pointer-events: auto;
+  border-radius: 14px;
+  -webkit-tap-highlight-color: transparent;
+}
+.ck-mascot-strip.is-ready .ck-mascot-walker { left: 0; right: auto; will-change: transform; }
+.ck-mascot-walker:focus { outline: none; }
+.ck-mascot-walker:focus-visible { outline: 3px solid #93c5fd; outline-offset: 4px; }
+.ck-mascot { display: block; width: 100%; height: auto; overflow: visible; }
+
+.ck-mascot-bubble {
+  --tail-x: 50%;
+  position: absolute;
+  left: 0;
+  bottom: 70px;
+  max-width: 210px;
+  width: max-content;
+  padding: 9px 13px;
+  background: #fff;
+  color: #1e293b;
+  border: 2px solid #2563eb;
+  border-radius: 14px;
+  box-shadow: 0 8px 22px rgba(37, 99, 235, .16);
+  font-family: inherit;          /* matches whichever page it sits on */
+  font-size: 13.5px;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: left;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity .2s ease, visibility 0s linear .2s;
+}
+.ck-mascot-bubble.is-on {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transition: opacity .2s ease;
+}
+.ck-mascot-bubble b { color: #2563eb; }
+.ck-mascot-bubble a { color: #2563eb; font-weight: 800; text-decoration: underline; text-underline-offset: 2px; white-space: nowrap; }
+.ck-mascot-bubble::after {
+  content: "";
+  position: absolute;
+  width: 10px; height: 10px;
+  background: #fff;
+  border: 2px solid #2563eb;
+  border-width: 0 2px 2px 0;
+}
+.ck-mascot-bubble[data-side="left"]::after  { right: -7px; top: 50%; margin-top: -5px; transform: rotate(-45deg); }
+.ck-mascot-bubble[data-side="right"]::after { left: -7px; top: 50%; margin-top: -5px; transform: rotate(135deg); }
+.ck-mascot-bubble[data-side="top"]::after   { left: var(--tail-x); bottom: -7px; margin-left: -5px; transform: rotate(45deg); }
+
+@media (max-width: 768px) {
+  .ck-mascot-strip { height: 116px; margin: 10px 0 -40px; }
+  .ck-mascot-walker { width: 136px; }
+  .ck-mascot-bubble { max-width: 180px; font-size: 12.5px; }
+}

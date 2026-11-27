@@ -135,7 +135,7 @@
     <section class="about-stat-band">
       <div class="container">
         <div class="about-stat-grid" id="aboutStats">
-          <div class="about-stat"><span class="num" data-count="10000" data-suffix="+">0</span><span class="label">Learners trained</span></div>
+          <div class="about-stat"><span class="num" data-count="15" data-suffix="+">0</span><span class="label"><mark class="ck-hl">Real Developers</mark> will teach you</span></div>
           <div class="about-stat"><span class="num" data-count="10" data-suffix="+">0</span><span class="label">Years of training</span></div>
           <div class="about-stat"><span class="num" data-count="4.85" data-decimals="2">0</span><span class="label">Average rating (100+ reviews)</span></div>
           <div class="about-stat"><span class="num" data-count="6">0</span><span class="label">Career-focused tracks</span></div>

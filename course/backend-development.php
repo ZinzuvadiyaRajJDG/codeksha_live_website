@@ -14,12 +14,12 @@
     <meta property="og:title" content="Backend Development Course in Rajkot (4 Months) | Codeksha" />
     <meta property="og:description" content="4-month backend course in Rajkot: PHP, MySQL, Laravel, CodeIgniter or Node.js, REST APIs, Ajax, jQuery, security, CI/CD and Docker basics." />
     <meta property="og:url" content="https://codeksha.com/course/backend-development/" />
-    <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta property="og:image" content="https://codeksha.com/Images/courses/backend-development.jpg" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Backend Development Course in Rajkot (4 Months) | Codeksha" />
     <meta name="twitter:description" content="4-month backend course in Rajkot: PHP, MySQL, Laravel, CodeIgniter or Node.js, REST APIs, Ajax, jQuery, security, CI/CD and Docker basics." />
-    <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta name="twitter:image" content="https://codeksha.com/Images/courses/backend-development.jpg" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
     <script type="application/ld+json">
@@ -40,6 +40,7 @@
       "name": "Backend Development",
       "description": "The Backend Development course at Codeksha is a 4-month classroom program in Rajkot. You learn PHP and MySQL, one framework of your choice (Laravel, CodeIgniter or Node.js), REST APIs, Ajax, jQuery and web security, then deploy an API-based capstone app with Linux, CI/CD and Docker basics. Basic HTML/JS knowledge helps.",
       "url": "https://codeksha.com/course/backend-development/",
+      "image": "https://codeksha.com/Images/courses/backend-development.jpg",
       "provider": {
         "@type": "EducationalOrganization",
         "name": "Codeksha",

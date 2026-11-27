@@ -14,12 +14,12 @@
     <meta property="og:title" content="Full Stack Web Development Course in Rajkot (5 Months) | Codeksha" />
     <meta property="og:description" content="5-month full stack course in Rajkot: HTML, CSS, Bootstrap, JavaScript, PHP, MySQL, Laravel, CodeIgniter or Node.js, DevOps and a live capstone project." />
     <meta property="og:url" content="https://codeksha.com/course/full-stack-web-development/" />
-    <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta property="og:image" content="https://codeksha.com/Images/courses/full-stack-web-development.jpg" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Full Stack Web Development Course in Rajkot (5 Months) | Codeksha" />
     <meta name="twitter:description" content="5-month full stack course in Rajkot: HTML, CSS, Bootstrap, JavaScript, PHP, MySQL, Laravel, CodeIgniter or Node.js, DevOps and a live capstone project." />
-    <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta name="twitter:image" content="https://codeksha.com/Images/courses/full-stack-web-development.jpg" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
     <script type="application/ld+json">
@@ -40,6 +40,7 @@
       "name": "Full Stack Web Development",
       "description": "The Full Stack Web Development course at Codeksha is a 5-month classroom program in Rajkot for beginners. You learn HTML5, CSS3, Bootstrap 5 and JavaScript, then PHP and MySQL, one framework of your choice (Laravel, CodeIgniter or Node.js), and DevOps with a CI/CD pipeline, finishing with a live capstone app deployed on a server.",
       "url": "https://codeksha.com/course/full-stack-web-development/",
+      "image": "https://codeksha.com/Images/courses/full-stack-web-development.jpg",
       "provider": {
         "@type": "EducationalOrganization",
         "name": "Codeksha",

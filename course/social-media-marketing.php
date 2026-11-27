@@ -14,12 +14,12 @@
     <meta property="og:title" content="Social Media Marketing Course in Rajkot: Meta Ads | Codeksha" />
     <meta property="og:description" content="Social media marketing course in Rajkot: ad creatives in Canva and AI, Meta Ads Business Manager, Pixel, objectives, audiences, retargeting and reporting." />
     <meta property="og:url" content="https://codeksha.com/course/social-media-marketing/" />
-    <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta property="og:image" content="https://codeksha.com/Images/courses/social-media-marketing.jpg" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Social Media Marketing Course in Rajkot: Meta Ads | Codeksha" />
     <meta name="twitter:description" content="Social media marketing course in Rajkot: ad creatives in Canva and AI, Meta Ads Business Manager, Pixel, objectives, audiences, retargeting and reporting." />
-    <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta name="twitter:image" content="https://codeksha.com/Images/courses/social-media-marketing.jpg" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
     <script type="application/ld+json">
@@ -41,6 +41,7 @@
       "name": "Social Media Marketing",
       "description": "The Social Media Marketing course at Codeksha is a classroom program in Rajkot based on the ad creatives and Meta Ads part of our Digital Marketing Pro course. You learn ad creatives in Canva and with AI tools (images, copy, short video), Meta Ads (Business Manager, Pixel, campaign objectives, audiences, retargeting), budgeting, A/B testing and client reporting.",
       "url": "https://codeksha.com/course/social-media-marketing/",
+      "image": "https://codeksha.com/Images/courses/social-media-marketing.jpg",
       "provider": {
         "@type": "EducationalOrganization",
         "name": "Codeksha",

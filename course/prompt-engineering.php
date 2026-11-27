@@ -14,12 +14,12 @@
     <meta property="og:title" content="Prompt Engineering Course in Rajkot | Codeksha" />
     <meta property="og:description" content="Prompt engineering course in Rajkot: ChatGPT, Claude and Gemini, prompt engineering, Markdown, AI instructions and context files, custom AI skills and MCP." />
     <meta property="og:url" content="https://codeksha.com/course/prompt-engineering/" />
-    <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta property="og:image" content="https://codeksha.com/Images/courses/prompt-engineering.jpg" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Prompt Engineering Course in Rajkot | Codeksha" />
     <meta name="twitter:description" content="Prompt engineering course in Rajkot: ChatGPT, Claude and Gemini, prompt engineering, Markdown, AI instructions and context files, custom AI skills and MCP." />
-    <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta name="twitter:image" content="https://codeksha.com/Images/courses/prompt-engineering.jpg" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
     <script type="application/ld+json">
@@ -41,6 +41,7 @@
       "name": "Prompt Engineering",
       "description": "The Prompt Engineering course at Codeksha is a classroom program in Rajkot based on the AI tools part of our AI Automation & AI Agents course. You learn to use ChatGPT, Claude and Gemini professionally, prompt engineering, Markdown files, AI instructions and context files, custom AI skills and integrations (APIs, MCP), and AI agents for real-world tasks.",
       "url": "https://codeksha.com/course/prompt-engineering/",
+      "image": "https://codeksha.com/Images/courses/prompt-engineering.jpg",
       "provider": {
         "@type": "EducationalOrganization",
         "name": "Codeksha",

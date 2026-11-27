@@ -14,12 +14,12 @@
     <meta property="og:title" content="Digital Marketing Pro Course in Rajkot (SEO + Paid Ads, 4 Months) | Codeksha" />
     <meta property="og:description" content="4-month digital marketing course in Rajkot: basic and advanced SEO, AI SEO, GEO and AEO, Canva and AI ad creatives, Meta Ads, Google Ads and ChatGPT Ads." />
     <meta property="og:url" content="https://codeksha.com/course/digital-marketing-seo/" />
-    <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta property="og:image" content="https://codeksha.com/Images/courses/digital-marketing-seo.jpg" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Digital Marketing Pro Course in Rajkot (SEO + Paid Ads, 4 Months) | Codeksha" />
     <meta name="twitter:description" content="4-month digital marketing course in Rajkot: basic and advanced SEO, AI SEO, GEO and AEO, Canva and AI ad creatives, Meta Ads, Google Ads and ChatGPT Ads." />
-    <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta name="twitter:image" content="https://codeksha.com/Images/courses/digital-marketing-seo.jpg" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
     <script type="application/ld+json">
@@ -40,6 +40,7 @@
       "name": "Digital Marketing Pro (SEO + Paid Ads)",
       "description": "The Digital Marketing Pro (SEO + Paid Ads) course at Codeksha is a 4-month classroom program in Rajkot for beginners. It covers basic and advanced SEO including AI SEO, GEO and AEO, ad creatives in Canva and with AI tools, Meta Ads, Google Ads (Search, Display, Performance Max, YouTube) and ChatGPT Ads, ending with a live small-budget campaign and results report.",
       "url": "https://codeksha.com/course/digital-marketing-seo/",
+      "image": "https://codeksha.com/Images/courses/digital-marketing-seo.jpg",
       "provider": {
         "@type": "EducationalOrganization",
         "name": "Codeksha",

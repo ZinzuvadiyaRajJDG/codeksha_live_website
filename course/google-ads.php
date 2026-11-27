@@ -14,12 +14,12 @@
     <meta property="og:title" content="Google Ads Course in Rajkot | PPC Training | Codeksha" />
     <meta property="og:description" content="Google Ads course in Rajkot: Search, Display, Performance Max and YouTube campaigns, conversion tracking, budgeting, A/B testing and client reporting." />
     <meta property="og:url" content="https://codeksha.com/course/google-ads/" />
-    <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta property="og:image" content="https://codeksha.com/Images/courses/google-ads.jpg" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Google Ads Course in Rajkot | PPC Training | Codeksha" />
     <meta name="twitter:description" content="Google Ads course in Rajkot: Search, Display, Performance Max and YouTube campaigns, conversion tracking, budgeting, A/B testing and client reporting." />
-    <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta name="twitter:image" content="https://codeksha.com/Images/courses/google-ads.jpg" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
     <script type="application/ld+json">
@@ -41,6 +41,7 @@
       "name": "Google Ads",
       "description": "The Google Ads course at Codeksha is a classroom program in Rajkot based on the paid ads part of our Digital Marketing Pro course. You learn Google Ads Search, Display, Performance Max and YouTube campaigns, conversion tracking, ad creatives in Canva and with AI tools, budgeting, A/B testing and client reporting, with a live small-budget campaign.",
       "url": "https://codeksha.com/course/google-ads/",
+      "image": "https://codeksha.com/Images/courses/google-ads.jpg",
       "provider": {
         "@type": "EducationalOrganization",
         "name": "Codeksha",

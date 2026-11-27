@@ -14,12 +14,12 @@
     <meta property="og:title" content="JavaScript Course in Rajkot: ES6+, DOM, Ajax &amp; jQuery | Codeksha" />
     <meta property="og:description" content="JavaScript course in Rajkot: ES6+ variables, functions, arrays, objects, DOM and events, Fetch API, JSON, form validation, jQuery, Ajax and GitHub." />
     <meta property="og:url" content="https://codeksha.com/course/javascript/" />
-    <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta property="og:image" content="https://codeksha.com/Images/courses/javascript.jpg" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="JavaScript Course in Rajkot: ES6+, DOM, Ajax &amp; jQuery | Codeksha" />
     <meta name="twitter:description" content="JavaScript course in Rajkot: ES6+ variables, functions, arrays, objects, DOM and events, Fetch API, JSON, form validation, jQuery, Ajax and GitHub." />
-    <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta name="twitter:image" content="https://codeksha.com/Images/courses/javascript.jpg" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
     <script type="application/ld+json">
@@ -41,6 +41,7 @@
       "name": "JavaScript",
       "description": "The JavaScript course at Codeksha is a classroom program in Rajkot covering the JavaScript taught in our web development courses: ES6+ variables, functions, arrays and objects, the DOM and events, the Fetch API and JSON, form validation, sliders, tabs and modals, jQuery and Ajax, and Git and GitHub.",
       "url": "https://codeksha.com/course/javascript/",
+      "image": "https://codeksha.com/Images/courses/javascript.jpg",
       "provider": {
         "@type": "EducationalOrganization",
         "name": "Codeksha",

@@ -14,12 +14,12 @@
     <meta property="og:title" content="SEO Foundation (Basic) Course in Rajkot (3 Months) | Codeksha" />
     <meta property="og:description" content="3-month basic SEO course in Rajkot: keyword research, on-page, technical, off-page and local SEO, Search Console, GA4, Ahrefs/Semrush and a live-site audit." />
     <meta property="og:url" content="https://codeksha.com/course/seo/" />
-    <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta property="og:image" content="https://codeksha.com/Images/courses/seo.jpg" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="SEO Foundation (Basic) Course in Rajkot (3 Months) | Codeksha" />
     <meta name="twitter:description" content="3-month basic SEO course in Rajkot: keyword research, on-page, technical, off-page and local SEO, Search Console, GA4, Ahrefs/Semrush and a live-site audit." />
-    <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta name="twitter:image" content="https://codeksha.com/Images/courses/seo.jpg" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
     <script type="application/ld+json">
@@ -41,6 +41,7 @@
       "name": "SEO Foundation (Basic)",
       "description": "The SEO Foundation (Basic) course at Codeksha is a 3-month classroom program in Rajkot for beginners. It covers how search engines crawl, index and rank, keyword research, on-page, basic technical, off-page and local SEO, and SEO tools (Search Console, GA4, Ahrefs/Semrush, Looker Studio), ending with an audit and a 30-day SEO plan for a live site.",
       "url": "https://codeksha.com/course/seo/",
+      "image": "https://codeksha.com/Images/courses/seo.jpg",
       "provider": {
         "@type": "EducationalOrganization",
         "name": "Codeksha",

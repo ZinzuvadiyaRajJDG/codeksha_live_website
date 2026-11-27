@@ -14,12 +14,12 @@
     <meta property="og:title" content="Graphic Design Course in Rajkot: Canva, Photoshop &amp; Illustrator | Codeksha" />
     <meta property="og:description" content="Graphic design course in Rajkot: design basics, Canva, Photoshop and Illustrator, logos, icons and a brand identity kit, with live projects." />
     <meta property="og:url" content="https://codeksha.com/course/graphic-design/" />
-    <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta property="og:image" content="https://codeksha.com/Images/courses/graphic-design.jpg" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Graphic Design Course in Rajkot: Canva, Photoshop &amp; Illustrator | Codeksha" />
     <meta name="twitter:description" content="Graphic design course in Rajkot: design basics, Canva, Photoshop and Illustrator, logos, icons and a brand identity kit, with live projects." />
-    <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta name="twitter:image" content="https://codeksha.com/Images/courses/graphic-design.jpg" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
     <script type="application/ld+json">
@@ -40,6 +40,7 @@
       "name": "Graphic Design",
       "description": "The Graphic Design course at Codeksha is a classroom program in Rajkot for beginners. You learn design basics (colour, typography, layout, hierarchy), Canva for social posts, ads, brochures and presentations, Photoshop for photo editing, retouching, banners and manipulation, and Illustrator for vector design, logos, icons and a full brand identity kit.",
       "url": "https://codeksha.com/course/graphic-design/",
+      "image": "https://codeksha.com/Images/courses/graphic-design.jpg",
       "provider": {
         "@type": "EducationalOrganization",
         "name": "Codeksha",

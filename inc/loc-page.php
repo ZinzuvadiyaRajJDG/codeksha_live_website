@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=JetBrains+Mono:wght@500;700&display=swap">
-<link rel="stylesheet" href="/assets/loc/styles.css?v=1">
+<link rel="stylesheet" href="/assets/loc/styles.css?v=<?= (int) @filemtime(__DIR__ . '/../assets/loc/styles.css') ?>">
 
 <?php foreach ($ldBlocks as $ld): ?>
 <script type="application/ld+json"><?= json_encode($ld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?></script>
@@ -78,7 +78,7 @@
         <div class="stars" aria-label="Rated 4.85 out of 5">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.9 7.5.7-5.7 5 1.7 7.4L12 18.3 5.5 22l1.7-7.4L1.5 9.6 9 8.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.9 7.5.7-5.7 5 1.7 7.4L12 18.3 5.5 22l1.7-7.4L1.5 9.6 9 8.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.9 7.5.7-5.7 5 1.7 7.4L12 18.3 5.5 22l1.7-7.4L1.5 9.6 9 8.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.9 7.5.7-5.7 5 1.7 7.4L12 18.3 5.5 22l1.7-7.4L1.5 9.6 9 8.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.9 7.5.7-5.7 5 1.7 7.4L12 18.3 5.5 22l1.7-7.4L1.5 9.6 9 8.9z"/></svg>
         </div>
-        <p class="proof-txt"><b>4.85</b> rating · <b>10,000+</b> students trained</p>
+        <p class="proof-txt"><b>4.85</b> rating · <mark class="hl">15+ Real Developers</mark> will teach you</p>
       </div>
       <div class="chips" aria-label="What you'll learn">
         <span class="chip">HTML/CSS</span><span class="chip">JavaScript</span><span class="chip">PHP</span><span class="chip">Laravel</span><span class="chip">WordPress</span><span class="chip">APIs</span><span class="chip">SEO</span><span class="chip">AI tools</span>
@@ -126,7 +126,7 @@
     </div>
     <div class="stats reveal">
       <div class="stat"><span class="mono">// since day one</span><div class="stat-num"><span data-count="10">10</span><sup>+</sup></div><p class="stat-lab">Years of experience training developers</p></div>
-      <div class="stat"><span class="mono">// and counting</span><div class="stat-num"><span data-count="10000" data-fmt="k">10,000</span><sup>+</sup></div><p class="stat-lab">Students trained at Codeksha</p></div>
+      <div class="stat"><span class="mono">// your teachers</span><div class="stat-num"><span data-count="15">15</span><sup>+</sup></div><p class="stat-lab"><mark class="hl">Real Developers</mark> will teach you at Codeksha</p></div>
       <div class="stat"><span class="mono">// out of 5</span><div class="stat-num"><span data-count="4.85" data-dec="2">4.85</span><sup>★</sup></div><p class="stat-lab">Average rating from our learners</p></div>
       <div class="stat certified"><span class="mono">// on completion</span>
         <div class="seal" aria-hidden="true"><svg viewBox="0 0 100 100"><defs><path id="circ" d="M50,50 m-38,0 a38,38 0 1,1 76,0 a38,38 0 1,1 -76,0"/></defs><g class="ring"><text font-family="JetBrains Mono, monospace" font-size="9.5" font-weight="700" fill="#7fa9ff" letter-spacing="2.2"><textPath href="#circ">CODEKSHA · SKILL · CERTIFIED · </textPath></text></g><circle cx="50" cy="50" r="24" fill="#1766FF"/><path d="M39 50l7 7 15-15" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
@@ -208,9 +208,9 @@
   <div class="rail-shell">
     <div class="rail" id="courseRail" tabindex="0" aria-label="All Codeksha courses, scroll horizontally">
       <article class="course" data-cat="web">
-        <figure class="c-media"><img src="/assets/loc/img/track-fullstack.jpg" alt="Codeksha Full Stack Development 3D avatar" width="666" height="450" loading="eager" decoding="async"><span class="c-flag">Flagship</span></figure>
+        <figure class="c-media"><img src="/Images/courses/full-stack-web-development.webp" alt="Codeksha Full Stack Web Development course" width="723" height="508" loading="eager" decoding="async"></figure>
         <div class="c-body">
-          <div class="c-row"><span class="c-cat">Web Development</span><span class="c-num">01/15</span></div>
+          <div class="c-row"><span class="c-cat">Web Development</span><span class="c-flag">Flagship</span><span class="c-num">01/15</span></div>
           <h3>Full Stack Web Development</h3>
           <p class="c-desc">HTML, CSS, Bootstrap, JavaScript, PHP, MySQL, a framework of your choice, DevOps and a live capstone.</p>
           <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>5 months</span><span class="lvl">Beginner · Live class</span></div>
@@ -218,9 +218,9 @@
         </div>
       </article>
       <article class="course" data-cat="web">
-        <figure class="c-media"><img src="/assets/loc/img/track-frontend.jpg" alt="Codeksha Frontend Design 3D avatar" width="666" height="450" loading="eager" decoding="async"><span class="c-flag">Flagship</span></figure>
+        <figure class="c-media"><img src="/Images/courses/frontend-development.webp" alt="Codeksha Frontend Development with CMS course" width="723" height="508" loading="eager" decoding="async"></figure>
         <div class="c-body">
-          <div class="c-row"><span class="c-cat">Web Development</span><span class="c-num">02/15</span></div>
+          <div class="c-row"><span class="c-cat">Web Development</span><span class="c-flag">Flagship</span><span class="c-num">02/15</span></div>
           <h3>Frontend Development with CMS</h3>
           <p class="c-desc">HTML, CSS, Bootstrap, JavaScript, GitHub and one CMS: WordPress, Shopify, Webflow or Wix.</p>
           <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>3 months</span><span class="lvl">Beginner · Live class</span></div>
@@ -228,7 +228,7 @@
         </div>
       </article>
       <article class="course" data-cat="web">
-        <figure class="c-media"><img src="/assets/loc/img/track-frontend.jpg" alt="Codeksha Frontend Design 3D avatar" width="666" height="450" loading="eager" decoding="async"></figure>
+        <figure class="c-media"><img src="/Images/courses/javascript.webp" alt="Codeksha JavaScript course" width="723" height="508" loading="eager" decoding="async"></figure>
         <div class="c-body">
           <div class="c-row"><span class="c-cat">Web Development</span><span class="c-num">03/15</span></div>
           <h3>JavaScript</h3>
@@ -238,9 +238,9 @@
         </div>
       </article>
       <article class="course" data-cat="web">
-        <figure class="c-media"><img src="/assets/loc/img/track-backend.jpg" alt="Codeksha Backend Development 3D avatar" width="666" height="450" loading="eager" decoding="async"><span class="c-flag">Flagship</span></figure>
+        <figure class="c-media"><img src="/Images/courses/backend-development.webp" alt="Codeksha Backend Development course" width="723" height="508" loading="eager" decoding="async"></figure>
         <div class="c-body">
-          <div class="c-row"><span class="c-cat">Web Development</span><span class="c-num">04/15</span></div>
+          <div class="c-row"><span class="c-cat">Web Development</span><span class="c-flag">Flagship</span><span class="c-num">04/15</span></div>
           <h3>Backend Development</h3>
           <p class="c-desc">PHP, MySQL, Laravel, CodeIgniter or Node.js, REST APIs, security, CI/CD and Docker basics.</p>
           <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>4 months</span><span class="lvl">Beginner · Live class</span></div>
@@ -248,7 +248,7 @@
         </div>
       </article>
       <article class="course" data-cat="web">
-        <figure class="c-media"><img src="/assets/loc/img/track-backend.jpg" alt="Codeksha Backend Development 3D avatar" width="666" height="450" loading="lazy" decoding="async"></figure>
+        <figure class="c-media"><img src="/Images/courses/mongodb.webp" alt="Codeksha MongoDB course" width="723" height="508" loading="lazy" decoding="async"></figure>
         <div class="c-body">
           <div class="c-row"><span class="c-cat">Web Development</span><span class="c-num">05/15</span></div>
           <h3>MongoDB</h3>
@@ -258,9 +258,9 @@
         </div>
       </article>
       <article class="course" data-cat="dm">
-        <figure class="c-media"><img src="/assets/loc/img/track-marketing.jpg" alt="Codeksha Digital Marketing 3D avatar" width="666" height="450" loading="lazy" decoding="async"><span class="c-flag">Flagship</span></figure>
+        <figure class="c-media"><img src="/Images/courses/digital-marketing-seo.webp" alt="Codeksha Digital Marketing Pro (SEO + Paid Ads) course" width="723" height="508" loading="lazy" decoding="async"></figure>
         <div class="c-body">
-          <div class="c-row"><span class="c-cat">Digital Marketing</span><span class="c-num">06/15</span></div>
+          <div class="c-row"><span class="c-cat">Digital Marketing</span><span class="c-flag">Flagship</span><span class="c-num">06/15</span></div>
           <h3>Digital Marketing Pro (SEO + Paid Ads)</h3>
           <p class="c-desc">Basic and advanced SEO, Canva and AI ad creatives, Meta Ads, Google Ads and ChatGPT Ads.</p>
           <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>4 months</span><span class="lvl">Beginner · Live class</span></div>
@@ -268,7 +268,7 @@
         </div>
       </article>
       <article class="course" data-cat="dm">
-        <figure class="c-media"><img src="/assets/loc/img/track-marketing.jpg" alt="Codeksha Digital Marketing 3D avatar" width="666" height="450" loading="lazy" decoding="async"></figure>
+        <figure class="c-media"><img src="/Images/courses/google-ads.webp" alt="Codeksha Google Ads course" width="723" height="508" loading="lazy" decoding="async"></figure>
         <div class="c-body">
           <div class="c-row"><span class="c-cat">Digital Marketing</span><span class="c-num">07/15</span></div>
           <h3>Google Ads</h3>
@@ -278,7 +278,7 @@
         </div>
       </article>
       <article class="course" data-cat="dm">
-        <figure class="c-media"><img src="/assets/loc/img/track-marketing.jpg" alt="Codeksha Digital Marketing 3D avatar" width="666" height="450" loading="lazy" decoding="async"></figure>
+        <figure class="c-media"><img src="/Images/courses/seo.webp" alt="Codeksha SEO Foundation (Basic) course" width="723" height="508" loading="lazy" decoding="async"></figure>
         <div class="c-body">
           <div class="c-row"><span class="c-cat">Digital Marketing</span><span class="c-num">08/15</span></div>
           <h3>SEO Foundation (Basic)</h3>
@@ -288,7 +288,7 @@
         </div>
       </article>
       <article class="course" data-cat="dm">
-        <figure class="c-media"><img src="/assets/loc/img/track-marketing.jpg" alt="Codeksha Digital Marketing 3D avatar" width="666" height="450" loading="lazy" decoding="async"></figure>
+        <figure class="c-media"><img src="/Images/courses/social-media-marketing.webp" alt="Codeksha Social Media Marketing course" width="723" height="508" loading="lazy" decoding="async"></figure>
         <div class="c-body">
           <div class="c-row"><span class="c-cat">Digital Marketing</span><span class="c-num">09/15</span></div>
           <h3>Social Media Marketing</h3>
@@ -298,9 +298,9 @@
         </div>
       </article>
       <article class="course" data-cat="cms">
-        <figure class="c-media"><img src="/assets/loc/img/track-wordpress.jpg" alt="Codeksha WordPress & CMS Tools 3D avatar" width="666" height="450" loading="lazy" decoding="async"><span class="c-flag">Flagship</span></figure>
+        <figure class="c-media"><img src="/Images/courses/wordpress-development.webp" alt="Codeksha WordPress Development course" width="723" height="508" loading="lazy" decoding="async"></figure>
         <div class="c-body">
-          <div class="c-row"><span class="c-cat">CMS &amp; Builders</span><span class="c-num">10/15</span></div>
+          <div class="c-row"><span class="c-cat">CMS &amp; Builders</span><span class="c-flag">Flagship</span><span class="c-num">10/15</span></div>
           <h3>WordPress Development</h3>
           <p class="c-desc">Theme setup, page builders, plugins, forms, speed and on-page SEO, and site launch.</p>
           <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>3 months</span><span class="lvl">Beginner · Live class</span></div>
@@ -308,9 +308,9 @@
         </div>
       </article>
       <article class="course" data-cat="ai">
-        <figure class="c-media"><img src="/assets/loc/img/track-ai.webp" alt="Codeksha AI & Automation 3D avatar" width="1526" height="1030" loading="lazy" decoding="async"><span class="c-flag">Flagship</span></figure>
+        <figure class="c-media"><img src="/Images/courses/ai-automation.webp" alt="Codeksha AI Automation &amp; AI Agents course" width="723" height="508" loading="lazy" decoding="async"></figure>
         <div class="c-body">
-          <div class="c-row"><span class="c-cat">AI &amp; Automation</span><span class="c-num">11/15</span></div>
+          <div class="c-row"><span class="c-cat">AI &amp; Automation</span><span class="c-flag">Flagship</span><span class="c-num">11/15</span></div>
           <h3>AI Automation &amp; AI Agents</h3>
           <p class="c-desc">AI tools, prompt engineering, n8n, Zapier and Make.com workflows, AI agents and business automation.</p>
           <div class="c-meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M8 13h5"/></svg>3 months</span><span class="lvl">Beginner · Live class</span></div>
@@ -318,7 +318,7 @@
         </div>
       </article>
       <article class="course" data-cat="ai">
-        <figure class="c-media"><img src="/assets/loc/img/track-ai.webp" alt="Codeksha AI & Automation 3D avatar" width="1526" height="1030" loading="lazy" decoding="async"></figure>
+        <figure class="c-media"><img src="/Images/courses/prompt-engineering.webp" alt="Codeksha Prompt Engineering course" width="723" height="508" loading="lazy" decoding="async"></figure>
         <div class="c-body">
           <div class="c-row"><span class="c-cat">AI &amp; Automation</span><span class="c-num">12/15</span></div>
           <h3>Prompt Engineering</h3>
@@ -328,7 +328,7 @@
         </div>
       </article>
       <article class="course" data-cat="ai">
-        <figure class="c-media"><img src="/assets/loc/img/track-ai.webp" alt="Codeksha AI & Automation 3D avatar" width="1526" height="1030" loading="lazy" decoding="async"></figure>
+        <figure class="c-media"><img src="/Images/courses/n8n-automation.webp" alt="Codeksha n8n Automation course" width="723" height="508" loading="lazy" decoding="async"></figure>
         <div class="c-body">
           <div class="c-row"><span class="c-cat">AI &amp; Automation</span><span class="c-num">13/15</span></div>
           <h3>n8n Automation</h3>
@@ -338,7 +338,7 @@
         </div>
       </article>
       <article class="course" data-cat="design">
-        <figure class="c-media"><img src="/assets/loc/img/track-frontend.jpg" alt="Codeksha Frontend Design 3D avatar" width="666" height="450" loading="lazy" decoding="async"></figure>
+        <figure class="c-media"><img src="/Images/courses/ui-ux-design.webp" alt="Codeksha UI/UX Design course" width="723" height="508" loading="lazy" decoding="async"></figure>
         <div class="c-body">
           <div class="c-row"><span class="c-cat">Design</span><span class="c-num">14/15</span></div>
           <h3>UI/UX Design</h3>
@@ -348,7 +348,7 @@
         </div>
       </article>
       <article class="course" data-cat="design">
-        <figure class="c-media"><img src="/assets/loc/img/track-frontend.jpg" alt="Codeksha Frontend Design 3D avatar" width="666" height="450" loading="lazy" decoding="async"></figure>
+        <figure class="c-media"><img src="/Images/courses/graphic-design.webp" alt="Codeksha Graphic Design course" width="723" height="508" loading="lazy" decoding="async"></figure>
         <div class="c-body">
           <div class="c-row"><span class="c-cat">Design</span><span class="c-num">15/15</span></div>
           <h3>Graphic Design</h3>
@@ -544,7 +544,7 @@
         <div>
           <div class="stars" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.9 7.5.7-5.7 5 1.7 7.4L12 18.3 5.5 22l1.7-7.4L1.5 9.6 9 8.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.9 7.5.7-5.7 5 1.7 7.4L12 18.3 5.5 22l1.7-7.4L1.5 9.6 9 8.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.9 7.5.7-5.7 5 1.7 7.4L12 18.3 5.5 22l1.7-7.4L1.5 9.6 9 8.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.9 7.5.7-5.7 5 1.7 7.4L12 18.3 5.5 22l1.7-7.4L1.5 9.6 9 8.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.9 7.5.7-5.7 5 1.7 7.4L12 18.3 5.5 22l1.7-7.4L1.5 9.6 9 8.9z"/></svg></div>
           <div class="n" style="margin-top:14px">4.85</div>
-          <p>Overall rating from 10,000+ students trained.</p>
+          <p>Overall student rating. <mark class="hl hl-dark">15+ Real Developers</mark> will teach you.</p>
         </div>
         <div class="faces"><img src="/assets/loc/img/harmi.webp" alt="" width="60" height="60"><img src="/assets/loc/img/mathan.webp" alt="" width="60" height="60"><img src="/assets/loc/img/nensi.webp" alt="" width="60" height="60"><img src="/assets/loc/img/shivraj.webp" alt="" width="60" height="60"><img src="/assets/loc/img/foram.webp" alt="" width="60" height="60"></div>
       </aside>

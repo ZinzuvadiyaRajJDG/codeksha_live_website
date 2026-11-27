@@ -14,12 +14,12 @@
     <meta property="og:title" content="Graphic Design &amp; UI/UX Course in Rajkot (3 Months) | Codeksha" />
     <meta property="og:description" content="3-month Graphic Design &amp; UI/UX course in Rajkot: design basics, Canva, Photoshop, Illustrator, branding, Figma and Claude Design, with a Behance portfolio." />
     <meta property="og:url" content="https://codeksha.com/course/graphic-design-ui-ux/" />
-    <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta property="og:image" content="https://codeksha.com/Images/courses/graphic-design-ui-ux.jpg" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Graphic Design &amp; UI/UX Course in Rajkot (3 Months) | Codeksha" />
     <meta name="twitter:description" content="3-month Graphic Design &amp; UI/UX course in Rajkot: design basics, Canva, Photoshop, Illustrator, branding, Figma and Claude Design, with a Behance portfolio." />
-    <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta name="twitter:image" content="https://codeksha.com/Images/courses/graphic-design-ui-ux.jpg" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
     <script type="application/ld+json">
@@ -40,6 +40,7 @@
       "name": "Graphic Design & UI/UX",
       "description": "The Graphic Design & UI/UX course at Codeksha is a 3-month classroom program in Rajkot for beginners. You learn design basics, Canva, Photoshop and Illustrator with brand identity work, then UX basics, Figma and Claude Design, and finish with a portfolio on Behance or Dribbble.",
       "url": "https://codeksha.com/course/graphic-design-ui-ux/",
+      "image": "https://codeksha.com/Images/courses/graphic-design-ui-ux.jpg",
       "provider": {
         "@type": "EducationalOrganization",
         "name": "Codeksha",

@@ -294,7 +294,7 @@
         </div>
         <div class="trust-banner">
           <span class="trust-badge">Trust</span>
-          <span class="trust-text">More than 10,000 students trust and study at Codeksha</span>
+          <span class="trust-text"><mark class="ck-hl">15+ Real Developers</mark> will teach you at Codeksha</span>
         </div>
       </div>
     </section>

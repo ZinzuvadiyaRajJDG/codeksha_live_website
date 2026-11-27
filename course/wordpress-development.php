@@ -14,12 +14,12 @@
     <meta property="og:title" content="WordPress Development Course in Rajkot | Codeksha" />
     <meta property="og:description" content="WordPress course in Rajkot: theme setup, page builders, custom sections, plugins, forms, basic speed and on-page SEO, auto-deploy and site launch." />
     <meta property="og:url" content="https://codeksha.com/course/wordpress-development/" />
-    <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta property="og:image" content="https://codeksha.com/Images/courses/wordpress-development.jpg" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="WordPress Development Course in Rajkot | Codeksha" />
     <meta name="twitter:description" content="WordPress course in Rajkot: theme setup, page builders, custom sections, plugins, forms, basic speed and on-page SEO, auto-deploy and site launch." />
-    <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta name="twitter:image" content="https://codeksha.com/Images/courses/wordpress-development.jpg" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
     <script type="application/ld+json">
@@ -40,6 +40,7 @@
       "name": "WordPress Development",
       "description": "The WordPress Development course at Codeksha is a classroom program in Rajkot for beginners, based on the CMS track of our Frontend Development with CMS course. You learn theme setup, page builders and custom sections, plugins, forms, basic speed and on-page SEO, deployment, and the client handover and site launch checklist.",
       "url": "https://codeksha.com/course/wordpress-development/",
+      "image": "https://codeksha.com/Images/courses/wordpress-development.jpg",
       "provider": {
         "@type": "EducationalOrganization",
         "name": "Codeksha",

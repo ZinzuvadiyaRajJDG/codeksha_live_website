@@ -2,3 +2,5 @@
 inc/config.php
 db/GeoLite2-City.mmdb
 *.log
+# Print booklet source + PDF: kept local, never deployed to the live site
+booklet/

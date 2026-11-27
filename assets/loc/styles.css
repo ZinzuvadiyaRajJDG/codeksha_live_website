@@ -488,3 +488,12 @@ footer{background:var(--ink);color:var(--paper);margin-top:clamp(72px,10vw,128px
 .foot-towns ul{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 28px}
 @media (max-width:900px){.foot-towns ul{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:560px){.foot-towns ul{grid-template-columns:1fr}}
+
+/* ============ "15+ Real Developers" highlight + new course images ============ */
+mark.hl{background:var(--blue);color:var(--paper);padding:.02em .28em;border-radius:.22em;font-weight:700;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+mark.hl-dark,.stat:hover mark.hl{background:var(--ink);color:var(--paper)}
+.h-sec mark.hl{font-weight:inherit}
+/* course images carry their own background and rounded corners */
+.c-media{aspect-ratio:723/508;background:transparent}
+/* "Flagship" sits beside the course number, not over the image's printed category */
+.c-row .c-flag{position:static;margin-left:auto}

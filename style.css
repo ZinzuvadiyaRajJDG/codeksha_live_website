@@ -5104,84 +5104,21 @@ button.hero-enroll-btn, button.cta-btn { border: 0; cursor: pointer; font: inher
 .glance-table td:nth-child(2) { font-weight: 700; color: #2563eb; white-space: nowrap; }
 .glance-note { margin-top: 14px; color: #475569; font-size: 14.5px; }
 
-/* ===== Codeksha mascot walker (home hero)
-   markup: inc/partials/mascot-walker.php · motion: assets/mascot.js (poses every limb per frame) ===== */
-.ck-mascot-strip {
-  position: relative;
-  z-index: 2;
-  height: 150px;
-  margin: 18px 0 -56px;
-  overflow-x: clip;          /* no sideways scroll while it walks off-screen */
-  overflow-y: visible;       /* room for jumps and the speech bubble */
-  pointer-events: none;
+/* "15+ Real Developers" highlight (replaces the old student-count claim) */
+mark.ck-hl {
+  background: #2563eb;
+  color: #fff;
+  padding: 1px 7px;
+  border-radius: 6px;
+  font-weight: 800;
+  white-space: nowrap;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
-.ck-mascot-strip::after {
-  content: "";
-  position: absolute;
-  left: 0; right: 0; bottom: 4px;
-  border-bottom: 2px dotted #bfdbfe;
-}
-.ck-mascot-walker {
-  position: absolute;
-  right: 6%;                 /* no-JS fallback: stands still on the right */
-  bottom: 3px;
-  width: 180px;
-  padding: 0;
-  margin: 0;
-  border: 0;
-  background: none;
-  cursor: pointer;
-  pointer-events: auto;
-  border-radius: 14px;
-  -webkit-tap-highlight-color: transparent;
-}
-.ck-mascot-strip.is-ready .ck-mascot-walker { left: 0; right: auto; will-change: transform; }
-.ck-mascot-walker:focus { outline: none; }
-.ck-mascot-walker:focus-visible { outline: 3px solid #93c5fd; outline-offset: 4px; }
-.ck-mascot { display: block; width: 100%; height: auto; overflow: visible; }
+.about-stat mark.ck-hl { background: #fff; color: #1d4ed8; }   /* on the blue stat band */
 
-.ck-mascot-bubble {
-  --tail-x: 50%;
-  position: absolute;
-  left: 0;
-  bottom: 70px;
-  max-width: 210px;
-  width: max-content;
-  padding: 9px 13px;
-  background: #fff;
-  color: #1e293b;
-  border: 2px solid #2563eb;
-  border-radius: 14px;
-  box-shadow: 0 8px 22px rgba(37, 99, 235, .16);
-  font: 600 13.5px/1.35 "Urbanist", system-ui, sans-serif;
-  text-align: left;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  transition: opacity .2s ease, visibility 0s linear .2s;
-}
-.ck-mascot-bubble.is-on {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-  transition: opacity .2s ease;
-}
-.ck-mascot-bubble b { color: #2563eb; }
-.ck-mascot-bubble a { color: #2563eb; font-weight: 800; text-decoration: underline; text-underline-offset: 2px; white-space: nowrap; }
-.ck-mascot-bubble::after {
-  content: "";
-  position: absolute;
-  width: 10px; height: 10px;
-  background: #fff;
-  border: 2px solid #2563eb;
-  border-width: 0 2px 2px 0;
-}
-.ck-mascot-bubble[data-side="left"]::after  { right: -7px; top: 50%; margin-top: -5px; transform: rotate(-45deg); }
-.ck-mascot-bubble[data-side="right"]::after { left: -7px; top: 50%; margin-top: -5px; transform: rotate(135deg); }
-.ck-mascot-bubble[data-side="top"]::after   { left: var(--tail-x); bottom: -7px; margin-left: -5px; transform: rotate(45deg); }
-
-@media (max-width: 768px) {
-  .ck-mascot-strip { height: 116px; margin: 10px 0 -40px; }
-  .ck-mascot-walker { width: 136px; }
-  .ck-mascot-bubble { max-width: 180px; font-size: 12.5px; }
-}
+/* New course images (Images/courses/*.webp, 723x508 with the title printed on them): show them whole */
+.card-banner { height: auto; aspect-ratio: 723 / 508; flex-shrink: 0; background: #f5f5f2; }
+.card-banner-img { object-fit: contain; }
+.card-banner .category-tag { display: none; }   /* the category is printed on the image */
+.course-card { height: auto; }                    /* fits the full image at every card width; the row keeps cards equal height */

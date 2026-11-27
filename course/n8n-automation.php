@@ -14,12 +14,12 @@
     <meta property="og:title" content="n8n Course in Rajkot: Workflow Automation | Codeksha" />
     <meta property="og:description" content="n8n course in Rajkot: workflows in n8n, Zapier and Make.com, JSON, APIs and webhooks, business automations and self-hosting n8n on a VPS." />
     <meta property="og:url" content="https://codeksha.com/course/n8n-automation/" />
-    <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta property="og:image" content="https://codeksha.com/Images/courses/n8n-automation.jpg" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="n8n Course in Rajkot: Workflow Automation | Codeksha" />
     <meta name="twitter:description" content="n8n course in Rajkot: workflows in n8n, Zapier and Make.com, JSON, APIs and webhooks, business automations and self-hosting n8n on a VPS." />
-    <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta name="twitter:image" content="https://codeksha.com/Images/courses/n8n-automation.jpg" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
     <script type="application/ld+json">
@@ -41,6 +41,7 @@
       "name": "n8n Automation",
       "description": "The n8n Automation course at Codeksha is a classroom program in Rajkot based on the workflow part of our AI Automation & AI Agents course. You learn workflows in n8n, Zapier and Make.com, the coding fundamentals behind them (JavaScript basics, JSON, APIs, webhooks), business automations, and deploying self-hosted n8n on a VPS with error handling and monitoring.",
       "url": "https://codeksha.com/course/n8n-automation/",
+      "image": "https://codeksha.com/Images/courses/n8n-automation.jpg",
       "provider": {
         "@type": "EducationalOrganization",
         "name": "Codeksha",

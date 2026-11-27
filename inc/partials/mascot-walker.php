@@ -5,11 +5,13 @@
  * wave -> star jump -> dance -> "book a demo" sign shake, then carries on walking.
  *
  * Markup only. Motion is driven by /assets/mascot.js (every limb is posed per frame,
- * so feet stay planted while walking). Styles: `.ck-mascot-*` in /style.css.
+ * so feet stay planted while walking). Styles: /assets/mascot.css (linked below, so the partial works on any page design).
  * Usage: <?php require __DIR__ . '/inc/partials/mascot-walker.php'; ?>
  */
-$ck_mascot_js_v = (int) @filemtime(__DIR__ . '/../../assets/mascot.js');
+$ck_mascot_js_v  = (int) @filemtime(__DIR__ . '/../../assets/mascot.js');
+$ck_mascot_css_v = (int) @filemtime(__DIR__ . '/../../assets/mascot.css');
 ?>
+<link rel="stylesheet" href="/assets/mascot.css?v=<?= $ck_mascot_css_v ?>">
 <div class="ck-mascot-strip" data-ck-mascot>
   <div class="ck-mascot-bubble" role="status" aria-live="polite"></div>
   <button type="button" class="ck-mascot-walker" aria-label="Codeksha mascot: click to say hi">

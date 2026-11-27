@@ -14,12 +14,12 @@
     <meta property="og:title" content="UI/UX Design Course in Rajkot: Figma &amp; Claude Design | Codeksha" />
     <meta property="og:description" content="UI/UX design course in Rajkot: UX basics, user research, user flows, wireframes, Figma prototyping and design systems, Claude Design and a portfolio." />
     <meta property="og:url" content="https://codeksha.com/course/ui-ux-design/" />
-    <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta property="og:image" content="https://codeksha.com/Images/courses/ui-ux-design.jpg" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="UI/UX Design Course in Rajkot: Figma &amp; Claude Design | Codeksha" />
     <meta name="twitter:description" content="UI/UX design course in Rajkot: UX basics, user research, user flows, wireframes, Figma prototyping and design systems, Claude Design and a portfolio." />
-    <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta name="twitter:image" content="https://codeksha.com/Images/courses/ui-ux-design.jpg" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
     <script type="application/ld+json">
@@ -40,6 +40,7 @@
       "name": "UI/UX Design",
       "description": "The UI/UX Design course at Codeksha is a classroom program in Rajkot for beginners. You learn UX basics (user research, user flows, wireframes), Figma (components, auto layout, prototyping, design systems) and Claude Design for AI-assisted mockups and quick design options, and finish with a portfolio on Behance or Dribbble.",
       "url": "https://codeksha.com/course/ui-ux-design/",
+      "image": "https://codeksha.com/Images/courses/ui-ux-design.jpg",
       "provider": {
         "@type": "EducationalOrganization",
         "name": "Codeksha",

@@ -45,7 +45,7 @@ Options -Indexes
   RewriteRule ^ https://codeksha.com%{REQUEST_URI} [R=301,L]
 
   # Never expose the include / db folders over HTTP
-  RewriteRule ^(inc|db)(/|$) - [F]
+  RewriteRule ^(inc|db|booklet)(/|$) - [F]
   # Never expose git metadata or deploy files (matters when the repo lives in public_html)
   RewriteRule (^|/)\.(git|cpanel\.yml|gitignore)(/|$) - [F]
 

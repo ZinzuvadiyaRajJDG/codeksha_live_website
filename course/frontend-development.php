@@ -14,12 +14,12 @@
     <meta property="og:title" content="Frontend Development with CMS Course in Rajkot (3 Months) | Codeksha" />
     <meta property="og:description" content="3-month frontend course in Rajkot: HTML5, CSS3, Bootstrap 5, JavaScript, GitHub and one CMS (WordPress, Shopify, Webflow or Wix) with auto-deploy." />
     <meta property="og:url" content="https://codeksha.com/course/frontend-development/" />
-    <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta property="og:image" content="https://codeksha.com/Images/courses/frontend-development.jpg" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Frontend Development with CMS Course in Rajkot (3 Months) | Codeksha" />
     <meta name="twitter:description" content="3-month frontend course in Rajkot: HTML5, CSS3, Bootstrap 5, JavaScript, GitHub and one CMS (WordPress, Shopify, Webflow or Wix) with auto-deploy." />
-    <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta name="twitter:image" content="https://codeksha.com/Images/courses/frontend-development.jpg" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
     <script type="application/ld+json">
@@ -40,6 +40,7 @@
       "name": "Frontend Development with CMS",
       "description": "The Frontend Development with CMS course at Codeksha is a 3-month classroom program in Rajkot for beginners. You learn HTML5, CSS3, Bootstrap 5 and JavaScript with GitHub, then build and launch a full site on one CMS of your choice (WordPress, Shopify, Webflow or Wix) and auto-deploy with CI/CD.",
       "url": "https://codeksha.com/course/frontend-development/",
+      "image": "https://codeksha.com/Images/courses/frontend-development.jpg",
       "provider": {
         "@type": "EducationalOrganization",
         "name": "Codeksha",

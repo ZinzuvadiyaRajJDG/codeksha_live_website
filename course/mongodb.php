@@ -14,12 +14,12 @@
     <meta property="og:title" content="MongoDB Course in Rajkot | NoSQL Training | Codeksha" />
     <meta property="og:description" content="Join our MongoDB course in Rajkot. Learn NoSQL database design, CRUD, aggregation pipelines and how to connect MongoDB to backend apps." />
     <meta property="og:url" content="https://codeksha.com/course/mongodb/" />
-    <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta property="og:image" content="https://codeksha.com/Images/courses/mongodb.jpg" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="MongoDB Course in Rajkot | NoSQL Training | Codeksha" />
     <meta name="twitter:description" content="Join our MongoDB course in Rajkot. Learn NoSQL database design, CRUD, aggregation pipelines and how to connect MongoDB to backend apps." />
-    <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta name="twitter:image" content="https://codeksha.com/Images/courses/mongodb.jpg" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
 
@@ -41,6 +41,7 @@
       "@type": "Course",
       "name": "MongoDB",
       "description": "A focused, hands-on course on MongoDB - NoSQL database design, CRUD operations, schema modeling, indexing and aggregation pipelines, connected to a real backend application.",
+      "image": "https://codeksha.com/Images/courses/mongodb.jpg",
       "provider": {
         "@type": "EducationalOrganization",
         "name": "Codeksha",

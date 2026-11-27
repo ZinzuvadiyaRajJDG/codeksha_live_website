@@ -14,12 +14,12 @@
     <meta property="og:title" content="Advanced SEO &amp; AI Search Course in Rajkot (GEO, AEO) | Codeksha" />
     <meta property="og:description" content="3-month advanced SEO course in Rajkot: content, technical, schema and ecommerce SEO, audits, AI SEO, GEO and AEO for ChatGPT, Gemini and Perplexity." />
     <meta property="og:url" content="https://codeksha.com/course/advanced-seo-ai-search/" />
-    <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta property="og:image" content="https://codeksha.com/Images/courses/advanced-seo-ai-search.jpg" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Advanced SEO &amp; AI Search Course in Rajkot (GEO, AEO) | Codeksha" />
     <meta name="twitter:description" content="3-month advanced SEO course in Rajkot: content, technical, schema and ecommerce SEO, audits, AI SEO, GEO and AEO for ChatGPT, Gemini and Perplexity." />
-    <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta name="twitter:image" content="https://codeksha.com/Images/courses/advanced-seo-ai-search.jpg" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
     <script type="application/ld+json">
@@ -41,6 +41,7 @@
       "name": "Advanced SEO & AI Search",
       "description": "The Advanced SEO & AI Search course at Codeksha is a 3-month classroom program in Rajkot for people who have finished Basic SEO or have 6+ months of SEO work. It covers SEO content writing, advanced technical SEO, schema, ecommerce SEO, end-to-end audits, AI SEO, GEO and AEO (ranking in ChatGPT, Gemini, Perplexity and AI Overviews) and SEO automation.",
       "url": "https://codeksha.com/course/advanced-seo-ai-search/",
+      "image": "https://codeksha.com/Images/courses/advanced-seo-ai-search.jpg",
       "provider": {
         "@type": "EducationalOrganization",
         "name": "Codeksha",

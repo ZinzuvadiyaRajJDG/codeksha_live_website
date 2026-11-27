@@ -217,7 +217,7 @@
                     <i class="fa-solid fa-star"></i>
                   </div>
                 </div>
-                <span class="student-count">10,000+ Students</span>
+                <span class="student-count"><mark class="ck-hl">15+ Real Developers</mark> will teach you</span>
               </div>
             </div>
           </div>
@@ -423,7 +423,7 @@
           <div class="card-inner">
             <div class="card-banner">
               <span class="category-tag">Web Development</span>
-              <img src="/Images/Full-Stack-Development.jpg" alt="Full Stack Web Development" class="card-banner-img" loading="lazy" width="666" height="450">
+              <img src="/Images/courses/full-stack-web-development.webp" alt="Full Stack Web Development" class="card-banner-img" loading="lazy" width="723" height="508">
             </div>
             <div class="card-body">
               <div class="tags">
@@ -456,7 +456,7 @@
           <div class="card-inner">
             <div class="card-banner">
               <span class="category-tag">Web Development</span>
-              <img src="/Images/Frontend-Design.jpg" alt="Frontend Development" class="card-banner-img" loading="lazy" width="666" height="450">
+              <img src="/Images/courses/frontend-development.webp" alt="Frontend Development" class="card-banner-img" loading="lazy" width="723" height="508">
             </div>
             <div class="card-body">
               <div class="tags">
@@ -489,7 +489,7 @@
           <div class="card-inner">
             <div class="card-banner">
               <span class="category-tag">Web Development</span>
-              <img src="/Images/Backend-Development.jpg" alt="Backend Development" class="card-banner-img" loading="lazy" width="666" height="450">
+              <img src="/Images/courses/backend-development.webp" alt="Backend Development" class="card-banner-img" loading="lazy" width="723" height="508">
             </div>
             <div class="card-body">
               <div class="tags">
@@ -522,7 +522,7 @@
           <div class="card-inner">
             <div class="card-banner">
               <span class="category-tag">Digital Marketing</span>
-              <img src="/Images/Digital-Marketing-Course.jpg" alt="Digital Marketing &amp; SEO" class="card-banner-img" loading="lazy" width="666" height="450">
+              <img src="/Images/courses/digital-marketing-seo.webp" alt="Digital Marketing &amp; SEO" class="card-banner-img" loading="lazy" width="723" height="508">
             </div>
             <div class="card-body">
               <div class="tags">
@@ -555,7 +555,7 @@
           <div class="card-inner">
             <div class="card-banner">
               <span class="category-tag">CMS &amp; Builders</span>
-              <img src="/Images/Wordpress-CMS-Tools.jpg" alt="WordPress Development" class="card-banner-img" loading="lazy" width="666" height="450">
+              <img src="/Images/courses/wordpress-development.webp" alt="WordPress Development" class="card-banner-img" loading="lazy" width="723" height="508">
             </div>
             <div class="card-body">
               <div class="tags">
@@ -588,7 +588,7 @@
           <div class="card-inner">
             <div class="card-banner">
               <span class="category-tag">AI &amp; Automation</span>
-              <img src="/Images/ai_automation.webp" alt="AI &amp; Automation" class="card-banner-img" loading="lazy" width="666" height="450">
+              <img src="/Images/courses/ai-automation.webp" alt="AI &amp; Automation" class="card-banner-img" loading="lazy" width="723" height="508">
             </div>
             <div class="card-body">
               <div class="tags">
@@ -885,7 +885,7 @@
         <!-- Trust Footer Banner -->
         <div class="trust-banner">
           <span class="trust-badge">Trust</span>
-          <span class="trust-text">More than 10,000 students trust and study at Codeksha</span>
+          <span class="trust-text"><mark class="ck-hl">15+ Real Developers</mark> will teach you at Codeksha</span>
         </div>
       </div>
     </section>

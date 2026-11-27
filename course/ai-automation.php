@@ -14,12 +14,12 @@
     <meta property="og:title" content="AI Automation &amp; AI Agents Course in Rajkot (3 Months) | Codeksha" />
     <meta property="og:description" content="3-month AI automation course in Rajkot: ChatGPT, Claude, Gemini, prompt engineering, MCP, n8n, Zapier, Make.com, AI agents and business automations." />
     <meta property="og:url" content="https://codeksha.com/course/ai-automation/" />
-    <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta property="og:image" content="https://codeksha.com/Images/courses/ai-automation.jpg" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="AI Automation &amp; AI Agents Course in Rajkot (3 Months) | Codeksha" />
     <meta name="twitter:description" content="3-month AI automation course in Rajkot: ChatGPT, Claude, Gemini, prompt engineering, MCP, n8n, Zapier, Make.com, AI agents and business automations." />
-    <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
+    <meta name="twitter:image" content="https://codeksha.com/Images/courses/ai-automation.jpg" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
     <script type="application/ld+json">
@@ -40,6 +40,7 @@
       "name": "AI Automation & AI Agents",
       "description": "The AI Automation & AI Agents course at Codeksha is a 3-month classroom program in Rajkot for beginners, with no coding needed to start. You learn AI tools (ChatGPT, Claude, Gemini), prompt engineering and coding fundamentals, build workflows in n8n, Zapier and Make.com, create AI agents and business automations, and deploy them on a VPS.",
       "url": "https://codeksha.com/course/ai-automation/",
+      "image": "https://codeksha.com/Images/courses/ai-automation.jpg",
       "provider": {
         "@type": "EducationalOrganization",
         "name": "Codeksha",
