@@ -36,6 +36,143 @@
       ]
     }
     </script>
+    <script type="application/ld+json" id="ck-course-list">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Codeksha courses in Rajkot",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Course",
+            "name": "Full Stack Web Development",
+            "description": "The Full Stack Web Development course at Codeksha is a 5-month classroom program in Rajkot for beginners. You learn HTML5, CSS3, Bootstrap 5 and JavaScript, then PHP and MySQL, one framework of your choice (Laravel, CodeIgniter or Node.js), and DevOps with a CI/CD pipeline, finishing with a live capstone app deployed on a server.",
+            "url": "https://codeksha.com/course/full-stack-web-development/",
+            "timeRequired": "P5M",
+            "provider": {
+              "@type": "EducationalOrganization",
+              "name": "Codeksha",
+              "url": "https://codeksha.com/"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Course",
+            "name": "Frontend Development with CMS",
+            "description": "The Frontend Development with CMS course at Codeksha is a 3-month classroom program in Rajkot for beginners. You learn HTML5, CSS3, Bootstrap 5 and JavaScript with GitHub, then build and launch a full site on one CMS of your choice (WordPress, Shopify, Webflow or Wix) and auto-deploy with CI/CD.",
+            "url": "https://codeksha.com/course/frontend-development/",
+            "timeRequired": "P3M",
+            "provider": {
+              "@type": "EducationalOrganization",
+              "name": "Codeksha",
+              "url": "https://codeksha.com/"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Course",
+            "name": "Backend Development",
+            "description": "The Backend Development course at Codeksha is a 4-month classroom program in Rajkot. You learn PHP and MySQL, one framework of your choice (Laravel, CodeIgniter or Node.js), REST APIs, Ajax, jQuery and web security, then deploy an API-based capstone app with Linux, CI/CD and Docker basics. Basic HTML/JS knowledge helps.",
+            "url": "https://codeksha.com/course/backend-development/",
+            "timeRequired": "P4M",
+            "provider": {
+              "@type": "EducationalOrganization",
+              "name": "Codeksha",
+              "url": "https://codeksha.com/"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Course",
+            "name": "SEO Foundation (Basic)",
+            "description": "The SEO Foundation (Basic) course at Codeksha is a 3-month classroom program in Rajkot for beginners. It covers how search engines crawl, index and rank, keyword research, on-page, basic technical, off-page and local SEO, and SEO tools (Search Console, GA4, Ahrefs/Semrush, Looker Studio), ending with an audit and a 30-day SEO plan for a live site.",
+            "url": "https://codeksha.com/course/seo/",
+            "timeRequired": "P3M",
+            "provider": {
+              "@type": "EducationalOrganization",
+              "name": "Codeksha",
+              "url": "https://codeksha.com/"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "Course",
+            "name": "Advanced SEO & AI Search",
+            "description": "The Advanced SEO & AI Search course at Codeksha is a 3-month classroom program in Rajkot for people who have finished Basic SEO or have 6+ months of SEO work. It covers SEO content writing, advanced technical SEO, schema, ecommerce SEO, end-to-end audits, AI SEO, GEO and AEO (ranking in ChatGPT, Gemini, Perplexity and AI Overviews) and SEO automation.",
+            "url": "https://codeksha.com/course/advanced-seo-ai-search/",
+            "timeRequired": "P3M",
+            "provider": {
+              "@type": "EducationalOrganization",
+              "name": "Codeksha",
+              "url": "https://codeksha.com/"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "Course",
+            "name": "Digital Marketing Pro (SEO + Paid Ads)",
+            "description": "The Digital Marketing Pro (SEO + Paid Ads) course at Codeksha is a 4-month classroom program in Rajkot for beginners. It covers basic and advanced SEO including AI SEO, GEO and AEO, ad creatives in Canva and with AI tools, Meta Ads, Google Ads (Search, Display, Performance Max, YouTube) and ChatGPT Ads, ending with a live small-budget campaign and results report.",
+            "url": "https://codeksha.com/course/digital-marketing-seo/",
+            "timeRequired": "P4M",
+            "provider": {
+              "@type": "EducationalOrganization",
+              "name": "Codeksha",
+              "url": "https://codeksha.com/"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "Course",
+            "name": "AI Automation & AI Agents",
+            "description": "The AI Automation & AI Agents course at Codeksha is a 3-month classroom program in Rajkot for beginners, with no coding needed to start. You learn AI tools (ChatGPT, Claude, Gemini), prompt engineering and coding fundamentals, build workflows in n8n, Zapier and Make.com, create AI agents and business automations, and deploy them on a VPS.",
+            "url": "https://codeksha.com/course/ai-automation/",
+            "timeRequired": "P3M",
+            "provider": {
+              "@type": "EducationalOrganization",
+              "name": "Codeksha",
+              "url": "https://codeksha.com/"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "Course",
+            "name": "Graphic Design & UI/UX",
+            "description": "The Graphic Design & UI/UX course at Codeksha is a 3-month classroom program in Rajkot for beginners. You learn design basics, Canva, Photoshop and Illustrator with brand identity work, then UX basics, Figma and Claude Design, and finish with a portfolio on Behance or Dribbble.",
+            "url": "https://codeksha.com/course/graphic-design-ui-ux/",
+            "timeRequired": "P3M",
+            "provider": {
+              "@type": "EducationalOrganization",
+              "name": "Codeksha",
+              "url": "https://codeksha.com/"
+            }
+          }
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
 <?php require __DIR__ . "/inc/partials/gtm-body.php"; ?>
@@ -73,9 +210,9 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>Full Stack Web Development</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 30 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 5 months</span>
             </div>
-            <p>Learn HTML, CSS, JavaScript and Bootstrap, then a backend with PHP, Laravel, CodeIgniter or Node, plus GitHub, CI/CD and DevOps.</p>
+            <p>HTML, CSS, Bootstrap, JavaScript, PHP, MySQL, a framework of your choice, DevOps and a live capstone.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/full-stack-web-development/" class="course-tile-link">View course &rarr;</a>
@@ -85,11 +222,11 @@
           <div class="course-tile" data-category="Web Development">
             <div class="course-tile-icon"><i class="fa-solid fa-palette"></i></div>
             <span class="course-tile-cat">Web Development</span>
-            <h3>Frontend Development</h3>
+            <h3>Frontend Development with CMS</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 30 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
             </div>
-            <p>Learn HTML, CSS, JavaScript and Bootstrap, plus one CMS of your choice, GitHub and a CI/CD pipeline.</p>
+            <p>HTML, CSS, Bootstrap, JavaScript, GitHub and one CMS: WordPress, Shopify, Webflow or Wix.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/frontend-development/" class="course-tile-link">View course &rarr;</a>
@@ -101,9 +238,9 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>JavaScript</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 16 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
             </div>
-            <p>Core JavaScript, DOM manipulation, async programming and working with APIs.</p>
+            <p>ES6+, DOM and events, Fetch API and JSON, form validation, jQuery, Ajax and GitHub.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/javascript/" class="course-tile-link">View course &rarr;</a>
@@ -115,9 +252,9 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>Backend Development</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 30 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 4 months</span>
             </div>
-            <p>Learn PHP, Laravel, CodeIgniter or Node (choose one), plus Ajax, jQuery, GitHub, CI/CD and DevOps.</p>
+            <p>PHP, MySQL, Laravel, CodeIgniter or Node.js, REST APIs, security, CI/CD and Docker basics.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/backend-development/" class="course-tile-link">View course &rarr;</a>
@@ -141,11 +278,11 @@
           <div class="course-tile" data-category="Digital Marketing Course">
             <div class="course-tile-icon"><i class="fa-solid fa-bullhorn"></i></div>
             <span class="course-tile-cat">Digital Marketing</span>
-            <h3>Digital Marketing &amp; SEO</h3>
+            <h3>Digital Marketing Pro (SEO + Paid Ads)</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 30 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 4 months</span>
             </div>
-            <p>Learn Basic and Advance SEO, Paid Ads, Google Ads, Meta Ads and ChatGPT Ads.</p>
+            <p>Basic and advanced SEO, Canva and AI ad creatives, Meta Ads, Google Ads and ChatGPT Ads.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/digital-marketing-seo/" class="course-tile-link">View course &rarr;</a>
@@ -157,9 +294,9 @@
             <span class="course-tile-cat">Digital Marketing</span>
             <h3>Google Ads</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 12 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
             </div>
-            <p>Plan, launch and optimize Search, Display and Performance Max campaigns.</p>
+            <p>Search, Display, Performance Max and YouTube campaigns, tracking, testing and reporting.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/google-ads/" class="course-tile-link">View course &rarr;</a>
@@ -169,14 +306,28 @@
           <div class="course-tile" data-category="Digital Marketing Course">
             <div class="course-tile-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
             <span class="course-tile-cat">Digital Marketing</span>
-            <h3>SEO</h3>
+            <h3>SEO Foundation (Basic)</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 12 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
             </div>
-            <p>Learn Basic SEO and Advance SEO, including AI SEO, GEO and AEO.</p>
+            <p>Keyword research, on-page, technical, off-page and local SEO, SEO tools and a live-site audit.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/seo/" class="course-tile-link">View course &rarr;</a>
+            </div>
+          </div>
+
+          <div class="course-tile" data-category="Digital Marketing Course">
+            <div class="course-tile-icon"><i class="fa-solid fa-robot"></i></div>
+            <span class="course-tile-cat">Digital Marketing</span>
+            <h3>Advanced SEO &amp; AI Search</h3>
+            <div class="course-tile-meta">
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
+            </div>
+            <p>Content, technical, schema and ecommerce SEO, audits, AI SEO, GEO, AEO and SEO automation.</p>
+            <div class="course-tile-footer">
+              <span class="course-tile-tag">Intermediate</span>
+              <a href="/course/advanced-seo-ai-search/" class="course-tile-link">View course &rarr;</a>
             </div>
           </div>
 
@@ -185,9 +336,9 @@
             <span class="course-tile-cat">Digital Marketing</span>
             <h3>Social Media Marketing</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 12 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
             </div>
-            <p>Plan, create and run paid and organic campaigns across social platforms.</p>
+            <p>Canva and AI ad creatives, Meta Ads, audiences, retargeting and reporting.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/social-media-marketing/" class="course-tile-link">View course &rarr;</a>
@@ -199,9 +350,9 @@
             <span class="course-tile-cat">CMS &amp; Builders</span>
             <h3>WordPress Development</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 30 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
             </div>
-            <p>Learn to build professional websites using WordPress and modern development.</p>
+            <p>Theme setup, page builders, plugins, forms, speed and on-page SEO, and site launch.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/wordpress-development/" class="course-tile-link">View course &rarr;</a>
@@ -211,11 +362,11 @@
           <div class="course-tile" data-category="AI & Automation">
             <div class="course-tile-icon"><i class="fa-solid fa-robot"></i></div>
             <span class="course-tile-cat">AI &amp; Automation</span>
-            <h3>AI &amp; Automation</h3>
+            <h3>AI Automation &amp; AI Agents</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 30 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
             </div>
-            <p>Learn AI tools, prompt engineering, n8n, Zapier and Make.com workflows, AI agents and business automation.</p>
+            <p>AI tools, prompt engineering, n8n, Zapier and Make.com workflows, AI agents and business automation.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/ai-automation/" class="course-tile-link">View course &rarr;</a>
@@ -227,9 +378,9 @@
             <span class="course-tile-cat">AI &amp; Automation</span>
             <h3>Prompt Engineering</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 12 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
             </div>
-            <p>Write effective prompts for ChatGPT, Claude and Gemini and apply them to real tasks.</p>
+            <p>ChatGPT, Claude and Gemini, prompt engineering, context files, custom AI skills and MCP.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/prompt-engineering/" class="course-tile-link">View course &rarr;</a>
@@ -241,9 +392,9 @@
             <span class="course-tile-cat">AI &amp; Automation</span>
             <h3>n8n Automation</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 12 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
             </div>
-            <p>Build no-code automation workflows that connect your apps and save hours of manual work.</p>
+            <p>n8n, Zapier and Make.com workflows, APIs and webhooks, business automations, self-hosting.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/n8n-automation/" class="course-tile-link">View course &rarr;</a>
@@ -256,9 +407,8 @@
             <h3>UI/UX Design</h3>
             <div class="course-tile-meta">
               <span><i class="fa-regular fa-clock"></i> 3 months</span>
-              <span><i class="fa-solid fa-book"></i> 24 lessons</span>
             </div>
-            <p>Learn Figma and Claude Design for UI/UX design.</p>
+            <p>UX basics, Figma prototyping and design systems, Claude Design and a portfolio.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/ui-ux-design/" class="course-tile-link">View course &rarr;</a>
@@ -271,9 +421,8 @@
             <h3>Graphic Design</h3>
             <div class="course-tile-meta">
               <span><i class="fa-regular fa-clock"></i> 3 months</span>
-              <span><i class="fa-solid fa-book"></i> 24 lessons</span>
             </div>
-            <p>Learn Canva, Photoshop and Adobe Illustrator for graphic design.</p>
+            <p>Design basics, Canva, Photoshop, Illustrator and a brand identity kit.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/graphic-design/" class="course-tile-link">View course &rarr;</a>
@@ -283,11 +432,11 @@
           <div class="course-tile" data-category="Design">
             <div class="course-tile-icon"><i class="fa-solid fa-pen-ruler"></i></div>
             <span class="course-tile-cat">Design</span>
-            <h3>Graphic Design + UI/UX Design</h3>
+            <h3>Graphic Design &amp; UI/UX</h3>
             <div class="course-tile-meta">
               <span><i class="fa-regular fa-clock"></i> 3 months</span>
             </div>
-            <p>Both design skills in one course: Canva, Photoshop, Illustrator, Figma and Claude Design.</p>
+            <p>Design basics, Canva, Photoshop, Illustrator, branding, Figma and Claude Design.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/graphic-design-ui-ux/" class="course-tile-link">View course &rarr;</a>

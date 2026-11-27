@@ -5091,3 +5091,15 @@ button.hero-enroll-btn, button.cta-btn { border: 0; cursor: pointer; font: inher
   .ck-lead-dialog { max-width: none; }
   .ck-lead-dialog .lead-card { border-radius: 20px 20px 0 0; }
 }
+
+/* ---------- Courses page: "at a glance" comparison table ---------- */
+.courses-glance-section { padding: 60px 0 10px; }
+.glance-table-wrap { overflow-x: auto; border: 1px solid #e2e8f0; border-radius: 16px; background: #fff; }
+.glance-table { width: 100%; border-collapse: collapse; font-size: 14.5px; min-width: 640px; }
+.glance-table th, .glance-table td { padding: 14px 16px; text-align: left; border-bottom: 1px solid #eef2f7; vertical-align: top; }
+.glance-table thead th { background: #f8fafc; font-size: 12.5px; text-transform: uppercase; letter-spacing: .05em; color: #64748b; }
+.glance-table tbody tr:last-child th, .glance-table tbody tr:last-child td { border-bottom: 0; }
+.glance-table tbody th a { color: #0f172a; font-weight: 700; text-decoration: none; }
+.glance-table tbody th a:hover { color: #2563eb; }
+.glance-table td:nth-child(2) { font-weight: 700; color: #2563eb; white-space: nowrap; }
+.glance-note { margin-top: 14px; color: #475569; font-size: 14.5px; }

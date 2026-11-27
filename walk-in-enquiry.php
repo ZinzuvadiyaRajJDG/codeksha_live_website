@@ -3,10 +3,10 @@
 // Walk-in inquiry form: students fill this when they visit the Rajkot office.
 // Saved as form_type "walkin" via /submit (see inc/form-handler.php) and listed in /admin/submissions.php.
 $courses = [
-    'Web Development' => ['Full Stack Web Development', 'Frontend Development', 'Backend Development', 'JavaScript', 'MongoDB', 'WordPress Development'],
-    'Digital Marketing' => ['Digital Marketing & SEO', 'SEO', 'Google Ads', 'Social Media Marketing'],
-    'Design' => ['UI/UX Design', 'Graphic Design', 'Graphic Design + UI/UX Design'],
-    'AI & Automation' => ['AI & Automation', 'n8n Automation', 'Prompt Engineering'],
+    'Web Development' => ['Full Stack Web Development', 'Frontend Development with CMS', 'Backend Development', 'JavaScript', 'MongoDB', 'WordPress Development'],
+    'Digital Marketing' => ['Digital Marketing Pro (SEO + Paid Ads)', 'SEO Foundation (Basic)', 'Advanced SEO & AI Search', 'Google Ads', 'Social Media Marketing'],
+    'Design' => ['Graphic Design & UI/UX', 'UI/UX Design', 'Graphic Design'],
+    'AI & Automation' => ['AI Automation & AI Agents', 'n8n Automation', 'Prompt Engineering'],
 ];
 $interests = ['Web Development', 'Digital Marketing', 'Design (UI/UX & Graphic)', 'AI & Automation', 'Not sure yet'];
 $statuses  = ['School student', 'College student', 'Graduate', 'Working professional', 'Business owner', 'Other'];

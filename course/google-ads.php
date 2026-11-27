@@ -5,24 +5,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google Ads Course in Rajkot | PPC Training | Codeksha</title>
-    <meta name="description" content="Join our Google Ads course in Rajkot. Learn Search, Display and Performance Max campaigns, bidding and conversion tracking." />
+    <meta name="description" content="Google Ads course in Rajkot: Search, Display, Performance Max and YouTube campaigns, conversion tracking, budgeting, A/B testing and client reporting." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/course/google-ads/" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Codeksha" />
     <meta property="og:title" content="Google Ads Course in Rajkot | PPC Training | Codeksha" />
-    <meta property="og:description" content="Join our Google Ads course in Rajkot. Learn Search, Display and Performance Max campaigns, bidding and conversion tracking." />
+    <meta property="og:description" content="Google Ads course in Rajkot: Search, Display, Performance Max and YouTube campaigns, conversion tracking, budgeting, A/B testing and client reporting." />
     <meta property="og:url" content="https://codeksha.com/course/google-ads/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Google Ads Course in Rajkot | PPC Training | Codeksha" />
-    <meta name="twitter:description" content="Join our Google Ads course in Rajkot. Learn Search, Display and Performance Max campaigns, bidding and conversion tracking." />
+    <meta name="twitter:description" content="Google Ads course in Rajkot: Search, Display, Performance Max and YouTube campaigns, conversion tracking, budgeting, A/B testing and client reporting." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
-
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -30,7 +29,7 @@
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://codeksha.com/" },
         { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://codeksha.com/courses/" },
-        { "@type": "ListItem", "position": 3, "name": "Digital Marketing & SEO", "item": "https://codeksha.com/course/digital-marketing-seo/" },
+        { "@type": "ListItem", "position": 3, "name": "Digital Marketing Pro (SEO + Paid Ads)", "item": "https://codeksha.com/course/digital-marketing-seo/" },
         { "@type": "ListItem", "position": 4, "name": "Google Ads", "item": "https://codeksha.com/course/google-ads/" }
       ]
     }
@@ -40,18 +39,89 @@
       "@context": "https://schema.org",
       "@type": "Course",
       "name": "Google Ads",
-      "description": "A focused, hands-on course on running Google Ads campaigns - Search, Display and Performance Max, keyword and bidding strategy, conversion tracking and budget optimization.",
+      "description": "The Google Ads course at Codeksha is a classroom program in Rajkot based on the paid ads part of our Digital Marketing Pro course. You learn Google Ads Search, Display, Performance Max and YouTube campaigns, conversion tracking, ad creatives in Canva and with AI tools, budgeting, A/B testing and client reporting, with a live small-budget campaign.",
+      "url": "https://codeksha.com/course/google-ads/",
       "provider": {
         "@type": "EducationalOrganization",
         "name": "Codeksha",
         "url": "https://codeksha.com/",
         "sameAs": "https://codeksha.com/it-training-rajkot/"
       },
+      "educationalLevel": "Beginner",
+      "inLanguage": "en",
+      "timeRequired": "P3M",
+      "educationalCredentialAwarded": "Codeksha course certificate",
+      "teaches": [
+        "Google Ads campaigns",
+        "Conversion tracking",
+        "Ad creatives",
+        "Budgeting, testing and reporting",
+        "Capstone"
+      ],
+      "syllabusSections": [
+        {
+          "@type": "Syllabus",
+          "name": "Google Ads campaigns",
+          "description": "Search; Display; Performance Max; YouTube"
+        },
+        {
+          "@type": "Syllabus",
+          "name": "Conversion tracking",
+          "description": "Conversion tracking"
+        },
+        {
+          "@type": "Syllabus",
+          "name": "Ad creatives",
+          "description": "Canva; AI tools: images, copy, short video"
+        },
+        {
+          "@type": "Syllabus",
+          "name": "Budgeting, testing and reporting",
+          "description": "Budgeting; A/B testing; Client reporting"
+        },
+        {
+          "@type": "Syllabus",
+          "name": "Capstone",
+          "description": "Live small-budget campaign with results report"
+        }
+      ],
+      "audience": {
+        "@type": "EducationalAudience",
+        "audienceType": "Beginners"
+      },
+      "offers": {
+        "@type": "Offer",
+        "category": "Paid",
+        "url": "https://codeksha.com/course/google-ads/"
+      },
       "hasCourseInstance": {
         "@type": "CourseInstance",
         "courseMode": "Onsite",
-        "courseWorkload": "P3M",
-        "inLanguage": "en"
+        "inLanguage": "en",
+        "courseSchedule": {
+          "@type": "Schedule",
+          "duration": "PT2H",
+          "repeatFrequency": "P1D",
+          "byDay": [
+            "https://schema.org/Monday",
+            "https://schema.org/Tuesday",
+            "https://schema.org/Wednesday",
+            "https://schema.org/Thursday",
+            "https://schema.org/Friday"
+          ]
+        },
+        "location": {
+          "@type": "Place",
+          "name": "Codeksha",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "A-1110, RK Iconic, Near Sheetal Park, 150 Feet Ring Rd",
+            "addressLocality": "Rajkot",
+            "addressRegion": "Gujarat",
+            "postalCode": "360006",
+            "addressCountry": "IN"
+          }
+        }
       }
     }
     </script>
@@ -60,14 +130,66 @@
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "What will I be able to do after this Google Ads course?", "acceptedAnswer": { "@type": "Answer", "text": "You'll be able to plan, launch and optimize Search, Display and Performance Max campaigns, set up conversion tracking, and manage a real advertising budget with confidence." } },
-        { "@type": "Question", "name": "Do I need a Digital Marketing background first?", "acceptedAnswer": { "@type": "Answer", "text": "No. This is a standalone, beginner-friendly Google Ads course. If you already know marketing basics from our Digital Marketing & SEO course, you'll move faster, but it isn't required." } },
-        { "@type": "Question", "name": "Will I get hands-on practice, not just theory?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. You'll set up and run real campaigns in a live Google Ads account, work with actual keyword and bidding data, and finish with a campaign you can show in a portfolio or job interview." } },
-        { "@type": "Question", "name": "Who are the trainers?", "acceptedAnswer": { "@type": "Answer", "text": "Working developers and marketers, not traditional lecturers. Codeksha's instructors are active practitioners at Creatiz and Just Digital Gurus who manage real ad accounts and budgets." } },
-        { "@type": "Question", "name": "Can I join while working or studying in college?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Class timings are flexible and student-friendly, so you can fit this short course around a job or college schedule." } }
+        {
+          "@type": "Question",
+          "name": "What will I learn in the Google Ads course?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Search, Display, Performance Max and YouTube campaigns, conversion tracking, ad creatives in Canva and with AI tools, budgeting, A/B testing and client reporting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the course for beginners?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. It is designed for beginners."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will I run a real campaign?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The capstone is a live small-budget campaign with a results report."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Codeksha teach Meta Ads and ChatGPT Ads too?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Digital Marketing Pro covers Google Ads, Meta Ads and ChatGPT Ads together with SEO."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will I learn to make ad creatives?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes: ad creatives in Canva and with AI tools (images, copy, short video)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is included in the Google Ads course?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every Codeksha course includes live projects on real or real-style briefs, portfolio and resume support, a Codeksha course certificate, an internship opportunity for eligible students, and mock interviews with freelancing basics (Upwork, OnlineJobs.ph, LinkedIn)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the fee for the Google Ads course?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The fee depends on the batch you join. Our counsellor shares the current fee and batch dates when you call or send your details, and you can attend a free demo class first."
+          }
+        }
       ]
     }
     </script>
+    
   </head>
   <body>
 <?php require __DIR__ . "/../inc/partials/gtm-body.php"; ?>
@@ -80,15 +202,16 @@
     <!-- COURSE DETAIL HERO -->
     <section class="course-detail-hero">
       <div class="container">
-        <p class="breadcrumb"><a href="/">Home</a> / <a href="/courses/">Courses</a> / <a href="/course/digital-marketing-seo/">Digital Marketing &amp; SEO</a> / Google Ads</p>
-        <span class="course-detail-cat">Digital Marketing &amp; SEO</span>
+        <p class="breadcrumb"><a href="/">Home</a> / <a href="/courses/">Courses</a> / <a href="/course/digital-marketing-seo/">Digital Marketing Pro (SEO + Paid Ads)</a> / Google Ads</p>
+        <span class="course-detail-cat">Digital Marketing</span>
         <h1>Google Ads Course in Rajkot</h1>
-        <p class="lede">Learn to plan, launch and optimize Google Ads campaigns - Search, Display and Performance Max, keyword and bidding strategy, conversion tracking and budget optimization, with hands-on campaign practice.</p>
+        <p class="lede">Learn Google Ads in Rajkot: Search, Display, Performance Max and YouTube campaigns, conversion tracking, ad creatives with Canva and AI, budgeting, A/B testing and client reporting.</p>
         <div class="course-quick-meta">
           <span><i class="fa-solid fa-signal"></i> Beginner</span>
           <span><i class="fa-regular fa-clock"></i> 3 months</span>
-          <span><i class="fa-solid fa-book"></i> 12 lessons</span>
-          <span><i class="fa-solid fa-language"></i> English</span>
+          <span><i class="fa-solid fa-calendar-week"></i> 2 hrs/day, 5 days/week</span>
+          <span><i class="fa-solid fa-chalkboard-user"></i> Live classroom</span>
+          <span><i class="fa-solid fa-certificate"></i> Certificate</span>
         </div>
       </div>
     </section>
@@ -99,116 +222,192 @@
         <div class="course-detail-layout">
 
           <div class="course-main">
-            <h2>What You'll Learn</h2>
-            <div class="learn-card">
-            <ul class="learn-checklist">
-              <li><i class="fa-solid fa-circle-check"></i> Google Ads account structure: campaigns, ad groups and ads</li>
-              <li><i class="fa-solid fa-circle-check"></i> Keyword research and match types for Search campaigns</li>
-              <li><i class="fa-solid fa-circle-check"></i> Writing high-converting Search ad copy and extensions</li>
-              <li><i class="fa-solid fa-circle-check"></i> Display and Performance Max campaigns</li>
-              <li><i class="fa-solid fa-circle-check"></i> Bidding strategies and daily budget management</li>
-              <li><i class="fa-solid fa-circle-check"></i> Conversion tracking with Google Tag and Google Analytics</li>
-              <li><i class="fa-solid fa-circle-check"></i> Reading campaign reports and optimizing for ROAS</li>
-              <li><i class="fa-solid fa-circle-check"></i> Google Ads certification prep and best practices</li>
-            </ul>
+            <div class="course-answer">
+              <span class="course-answer-tag"><i class="fa-solid fa-bolt"></i> Quick answer</span>
+              <h2>What is the Google Ads course at Codeksha?</h2>
+              <p>The Google Ads course at Codeksha is a classroom program in Rajkot based on the paid ads part of our Digital Marketing Pro course. You learn Google Ads Search, Display, Performance Max and YouTube campaigns, conversion tracking, ad creatives in Canva and with AI tools, budgeting, A/B testing and client reporting, with a live small-budget campaign.</p>
+              <dl class="glance-grid">
+                <div><dt><i class="fa-regular fa-clock"></i> Duration</dt><dd>3 months</dd></div>
+                <div><dt><i class="fa-solid fa-calendar-week"></i> Schedule</dt><dd>About 2 hours a day, 5 days a week</dd></div>
+                <div><dt><i class="fa-solid fa-user-graduate"></i> Who it&#x27;s for</dt><dd>Beginners</dd></div>
+                <div><dt><i class="fa-solid fa-layer-group"></i> Part of</dt><dd>Digital Marketing Pro (SEO + Paid Ads) course</dd></div>
+                <div><dt><i class="fa-solid fa-chalkboard-user"></i> Mode</dt><dd>Live classroom, Rajkot</dd></div>
+                <div><dt><i class="fa-solid fa-certificate"></i> Certificate</dt><dd>Codeksha course certificate</dd></div>
+              </dl>
             </div>
 
-            <h2>Course Curriculum</h2>
-            <div class="curriculum-list">
-              <div class="curriculum-month">
-                <span class="month-num">1</span>
-                <p><strong>Part 1.</strong> Google Ads fundamentals, account setup and campaign structure</p>
-              </div>
-              <div class="curriculum-month">
-                <span class="month-num">2</span>
-                <p><strong>Part 2.</strong> Search campaigns: keywords, match types and ad copywriting</p>
-              </div>
-              <div class="curriculum-month">
-                <span class="month-num">3</span>
-                <p><strong>Part 3.</strong> Display and Performance Max campaigns</p>
-              </div>
-              <div class="curriculum-month">
-                <span class="month-num">4</span>
-                <p><strong>Part 4.</strong> Bidding strategies, budgets and conversion tracking</p>
-              </div>
-              <div class="curriculum-month">
-                <span class="month-num">5</span>
-                <p><strong>Part 5.</strong> Capstone: launch and optimize a live campaign</p>
-              </div>
+            <h2>What's Included in Every Codeksha Course</h2>
+            <div class="info-card-grid cols-3 included-grid">
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-diagram-project"></i></div>
+              <h3>Live projects</h3>
+              <p>Work on real or real-style briefs.</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-id-card"></i></div>
+              <h3>Portfolio and resume support</h3>
+              <p>Get help building your portfolio and resume.</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-certificate"></i></div>
+              <h3>Codeksha course certificate</h3>
+              <p>Receive a Codeksha certificate when you finish.</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-briefcase"></i></div>
+              <h3>Internship opportunity</h3>
+              <p>Available for eligible students.</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-comments"></i></div>
+              <h3>Mock interviews and freelancing basics</h3>
+              <p>Practise interviews and learn Upwork, OnlineJobs.ph and LinkedIn.</p>
+            </div>
             </div>
 
-            <h2>Who This Course Is For &amp; What You'll Need</h2>
+            <h2>Google Ads Curriculum: 5 Modules in 3 months</h2>
+            <p class="section-intro">The course runs about 2 hours a day, 5 days a week. Here is what you cover, module by module.</p>
+            <div class="module-groups">
+              <div class="module-grid">
+                <div class="module-card">
+                  <div class="module-head"><span class="module-num">01</span><div><h4>Google Ads campaigns</h4></div></div>
+                  <ul class="module-topics"><li>Search</li><li>Display</li><li>Performance Max</li><li>YouTube</li></ul>
+                </div>
+                <div class="module-card">
+                  <div class="module-head"><span class="module-num">02</span><div><h4>Conversion tracking</h4></div></div>
+                  <ul class="module-topics"><li>Conversion tracking</li></ul>
+                </div>
+                <div class="module-card">
+                  <div class="module-head"><span class="module-num">03</span><div><h4>Ad creatives</h4></div></div>
+                  <ul class="module-topics"><li>Canva</li><li>AI tools: images, copy, short video</li></ul>
+                </div>
+                <div class="module-card">
+                  <div class="module-head"><span class="module-num">04</span><div><h4>Budgeting, testing and reporting</h4></div></div>
+                  <ul class="module-topics"><li>Budgeting</li><li>A/B testing</li><li>Client reporting</li></ul>
+                </div>
+                <div class="module-card">
+                  <div class="module-head"><span class="module-num">05</span><div><h4>Capstone</h4></div></div>
+                  <ul class="module-topics"><li>Live small-budget campaign with results report</li></ul>
+                </div>
+              </div>
+            </div>
+            <div class="inline-cta">
+              <div><strong>Want the full syllabus, fees and batch timings?</strong><span>Share your number and our counsellor will call you back.</span></div>
+              <button type="button" class="inline-cta-btn" data-open-lead><i class="fa-solid fa-paper-plane"></i> Get Course Details</button>
+            </div>
+
+            <h2>Projects You'll Build</h2>
+            <div class="info-card-grid cols-3 project-grid">
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-diagram-project"></i></div>
+              <h3>Live small-budget campaign with results report</h3>
+            </div>
+            </div>
+
+            <h2>Tools &amp; Technologies You'll Use</h2>
+            <ul class="tool-chips"><li><i class="fa-solid fa-screwdriver-wrench"></i> Google Ads</li><li><i class="fa-solid fa-screwdriver-wrench"></i> YouTube Ads</li><li><i class="fa-solid fa-screwdriver-wrench"></i> Canva</li><li><i class="fa-solid fa-screwdriver-wrench"></i> AI tools</li></ul>
+
+            <h2>Who Is This Course For, and What Job Comes Next?</h2>
             <div class="two-list-grid">
               <div>
-                <h3>Who This Course Is For</h3>
+                <h3>Who It's For</h3>
                 <ul>
-                <li><i class="fa-solid fa-user-check"></i> Business owners who want to run their own paid ad campaigns</li>
-                <li><i class="fa-solid fa-user-check"></i> Marketers and freshers moving into PPC/paid search roles</li>
-                <li><i class="fa-solid fa-user-check"></i> Freelancers who want to offer Google Ads management to clients</li>
+                <li><i class="fa-solid fa-user-check"></i> Beginners</li>
                 </ul>
               </div>
               <div>
-                <h3>Requirements</h3>
+                <h3>Want the Complete Course?</h3>
                 <ul>
-                <li><i class="fa-solid fa-circle-check"></i> Basic computer and internet literacy</li>
-                <li><i class="fa-solid fa-circle-check"></i> No prior advertising experience required</li>
-                <li><i class="fa-solid fa-circle-check"></i> A Google account (we'll help you set up a Google Ads account)</li>
+                <li><i class="fa-solid fa-layer-group"></i> This topic is part of the <a href="/course/digital-marketing-seo/">Digital Marketing Pro (SEO + Paid Ads)</a> course.</li>
                 </ul>
               </div>
             </div>
+
+            <h2>How to Get Started</h2>
+            <div class="info-card-grid cols-4">
+            <div class="info-card">
+              <div class="info-card-step">1</div>
+              <h3>Call or visit us</h3>
+              <p>Talk to our counsellor on +91 63555 59016 or walk into our Rajkot centre at RK Iconic, Near Sheetal Park, 150 Feet Ring Road.</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card-step">2</div>
+              <h3>Attend a free demo</h3>
+              <p>Sit in on a real class and meet the trainer before you decide.</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card-step">3</div>
+              <h3>Choose your batch</h3>
+              <p>Pick the batch timing that fits around college or work.</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card-step">4</div>
+              <h3>Start learning</h3>
+              <p>Begin the course and work on live projects.</p>
+            </div>
+            </div>
+
+            <h2>Google Ads Course Fees, Duration &amp; Batches</h2>
+            <p>The Google Ads course runs for <strong>3 months</strong> of live classroom training at our Rajkot centre, about <strong>2 hours a day, 5 days a week</strong>. Weekend and fast-track batches can be scaled from the same plan.</p>
+            <p>Fees depend on the batch, so our counsellor shares the current fee, batch dates and full syllabus directly. Tap <button type="button" class="link-btn" data-open-lead>Get Course Details</button> or call <a href="tel:+916355559016">+91 63555 59016</a>, with no obligation.</p>
+            <p class="related-read"><i class="fa-solid fa-book-open"></i> Keep reading: <a href="/course/digital-marketing-seo/">Complete course: Digital Marketing Pro (SEO + Paid Ads)</a></p>
 
             <h2>Frequently Asked Questions</h2>
             <div class="faq-list">
-          <div class="faq-item active">
-            <button class="faq-question"><span>What will I be able to do after this Google Ads course?</span><i class="fa-solid fa-minus icon"></i></button>
-            <div class="faq-answer"><p>You'll be able to plan, launch and optimize Search, Display and Performance Max campaigns, set up conversion tracking, and manage a real advertising budget with confidence.</p></div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question"><span>Do I need a Digital Marketing background first?</span><i class="fa-solid fa-plus icon"></i></button>
-            <div class="faq-answer"><p>No. This is a standalone, beginner-friendly Google Ads course. If you already know marketing basics from our Digital Marketing & SEO course, you'll move faster, but it isn't required.</p></div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question"><span>Will I get hands-on practice, not just theory?</span><i class="fa-solid fa-plus icon"></i></button>
-            <div class="faq-answer"><p>Yes. You'll set up and run real campaigns in a live Google Ads account, work with actual keyword and bidding data, and finish with a campaign you can show in a portfolio or job interview.</p></div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question"><span>Who are the trainers?</span><i class="fa-solid fa-plus icon"></i></button>
-            <div class="faq-answer"><p>Working developers and marketers, not traditional lecturers. Codeksha's instructors are active practitioners at Creatiz and Just Digital Gurus who manage real ad accounts and budgets.</p></div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question"><span>Can I join while working or studying in college?</span><i class="fa-solid fa-plus icon"></i></button>
-            <div class="faq-answer"><p>Yes. Class timings are flexible and student-friendly, so you can fit this short course around a job or college schedule.</p></div>
-          </div>
+            <div class="faq-item active">
+              <button class="faq-question"><span>What will I learn in the Google Ads course?</span><i class="fa-solid fa-minus icon"></i></button>
+              <div class="faq-answer"><p>Search, Display, Performance Max and YouTube campaigns, conversion tracking, ad creatives in Canva and with AI tools, budgeting, A/B testing and client reporting.</p></div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question"><span>Is the course for beginners?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>Yes. It is designed for beginners.</p></div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question"><span>Will I run a real campaign?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>Yes. The capstone is a live small-budget campaign with a results report.</p></div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question"><span>Does Codeksha teach Meta Ads and ChatGPT Ads too?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>Yes. Digital Marketing Pro covers Google Ads, Meta Ads and ChatGPT Ads together with SEO.</p></div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question"><span>Will I learn to make ad creatives?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>Yes: ad creatives in Canva and with AI tools (images, copy, short video).</p></div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question"><span>What is included in the Google Ads course?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>Every Codeksha course includes live projects on real or real-style briefs, portfolio and resume support, a Codeksha course certificate, an internship opportunity for eligible students, and mock interviews with freelancing basics (Upwork, OnlineJobs.ph, LinkedIn).</p></div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question"><span>What is the fee for the Google Ads course?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>The fee depends on the batch you join. Our counsellor shares the current fee and batch dates when you call or send your details, and you can attend a free demo class first.</p></div>
+            </div>
+            </div>
+
+            <div class="course-cta-band">
+              <h2>Ready to Start the Google Ads Course in Rajkot?</h2>
+              <p>Get the syllabus, fees and batch timings on a quick call, or book a free demo class first. No cost, no commitment.</p>
+              <div class="cta-row">
+                <button type="button" class="cta-btn" data-open-lead><i class="fa-solid fa-paper-plane"></i> Get Course Details</button>
+                <a href="/book-demo/#course=google-ads" class="cta-btn alt"><i class="fa-solid fa-chalkboard-user"></i> Book a Free Demo Class</a>
+              </div>
             </div>
           </div>
 
-          <aside class="course-sidebar">
-            <div class="course-sidebar-card">
-              <div class="course-sidebar-head">
-                <span class="course-sidebar-badge"><i class="fa-solid fa-graduation-cap"></i> Codeksha, Rajkot</span>
-                <h3>Classroom Training</h3>
-                <p>Live, instructor-led sessions at our Rajkot centre</p>
-              </div>
+          <aside class="course-sidebar" id="enquire">
+            <?php $lf_course = 'Google Ads'; $lf_id = 'leadgoogleads'; $lf_title = 'Get Google Ads Course Details'; $lf_sub = 'Syllabus, fees and batch timings on a quick call. No spam, no pressure.'; require __DIR__ . '/../inc/partials/lead-form.php'; ?>
+            <div class="course-sidebar-card course-facts-card">
               <div class="course-sidebar-body">
-                <ul class="course-included-list">
-                  <li><i class="fa-solid fa-circle-check"></i> Live, instructor-led classroom sessions</li>
-                  <li><i class="fa-solid fa-circle-check"></i> Hands-on, project-based coursework</li>
-                  <li><i class="fa-solid fa-circle-check"></i> Certificate of completion</li>
-                  <li><i class="fa-solid fa-circle-check"></i> Flexible, student-friendly batch timings</li>
-                </ul>
                 <ul class="course-meta-list">
-                <li>Delivery <strong>Live class</strong></li>
-                <li>Level <strong>Beginner</strong></li>
+                <li>Delivery <strong>Live classroom</strong></li>
                 <li>Duration <strong>3 months</strong></li>
-                <li>Lessons <strong>12</strong></li>
+                <li>Schedule <strong>2 hrs/day, 5 days/week</strong></li>
+                <li>Level <strong>Beginner</strong></li>
+                <li>Certificate <strong>Yes</strong></li>
                 <li>Language <strong>English</strong></li>
               </ul>
-              <a href="/contact/" class="hero-enroll-btn">
-                <span>Enroll Now</span>
-                <div class="arrow-btn-circle"><i data-lucide="arrow-right"></i></div>
-              </a>
-              <a href="/book-demo/#course=digital-marketing-seo" class="course-sidebar-secondary-btn">Book a Free Demo Class</a>
-                </div>
+              <a href="/book-demo/#course=google-ads" class="course-sidebar-secondary-btn">Book a Free Demo Class</a>
+              </div>
             </div>
           </aside>
 
@@ -227,11 +426,11 @@
           <div class="course-tile">
             <div class="course-tile-icon"><i class="fa-solid fa-bullhorn"></i></div>
             <span class="course-tile-cat">Digital Marketing &amp; SEO</span>
-            <h3>Digital Marketing &amp; SEO</h3>
+            <h3>Digital Marketing Pro (SEO + Paid Ads)</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 30 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 4 months</span>
             </div>
-            <p>Plan and run digital marketing campaigns that drive traffic and grow a business.</p>
+            <p>Basic and advanced SEO, Canva and AI ad creatives, Meta Ads, Google Ads and ChatGPT Ads.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/digital-marketing-seo/" class="course-tile-link">View course &rarr;</a>
@@ -240,11 +439,11 @@
           <div class="course-tile">
             <div class="course-tile-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
             <span class="course-tile-cat">Digital Marketing &amp; SEO</span>
-            <h3>SEO</h3>
+            <h3>SEO Foundation (Basic)</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 12 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
             </div>
-            <p>Learn Basic SEO and Advance SEO, including AI SEO, GEO and AEO.</p>
+            <p>Keyword research, on-page, technical, off-page and local SEO, SEO tools and a live-site audit.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/seo/" class="course-tile-link">View course &rarr;</a>
@@ -255,9 +454,9 @@
             <span class="course-tile-cat">Digital Marketing &amp; SEO</span>
             <h3>Social Media Marketing</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 12 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
             </div>
-            <p>Plan, create and run paid and organic campaigns across social platforms.</p>
+            <p>Canva and AI ad creatives, Meta Ads, audiences, retargeting and reporting.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/social-media-marketing/" class="course-tile-link">View course &rarr;</a>
@@ -268,6 +467,29 @@
     </section>
 
     <!-- FOOTER -->
+    <!-- QUICK ENQUIRY POPUP -->
+    <div class="ck-lead-modal" id="ckLeadModal" hidden>
+      <div class="ck-lead-dialog" role="dialog" aria-modal="true" aria-label="Get course details">
+        <button class="ck-lead-close" type="button" aria-label="Close">&times;</button>
+        <?php $lf_course = 'Google Ads'; $lf_id = 'leadpopup'; $lf_title = 'Get Google Ads Course Details'; $lf_sub = 'Leave your name and number. Our counsellor will call you with the syllabus, fees and batch timings.'; require __DIR__ . '/../inc/partials/lead-form.php'; ?>
+      </div>
+    </div>
+    <button class="ck-sticky-cta" type="button" data-open-lead><i class="fa-solid fa-paper-plane"></i> Get Course Details</button>
+    <script>
+      (function () {
+        var m = document.getElementById('ckLeadModal'); if (!m) return; var last = null;
+        function open(ev) { if (ev) ev.preventDefault(); last = document.activeElement; m.hidden = false; document.body.style.overflow = 'hidden';
+          var i = m.querySelector('input[name=name]'); setTimeout(function () { if (i) i.focus(); }, 60); }
+        function close() { m.hidden = true; document.body.style.overflow = ''; if (last && last.focus) last.focus(); }
+        [].forEach.call(document.querySelectorAll('[data-open-lead]'), function (b) { b.addEventListener('click', open); });
+        m.querySelector('.ck-lead-close').addEventListener('click', close);
+        m.addEventListener('click', function (ev) { if (ev.target === m) close(); });
+        document.addEventListener('keydown', function (ev) { if (ev.key === 'Escape' && !m.hidden) close(); });
+        var s = document.querySelector('.ck-sticky-cta');
+        if (s) { var f = function () { s.classList.toggle('show', window.scrollY > 520); }; window.addEventListener('scroll', f, { passive: true }); f(); }
+      })();
+    </script>
+
     <?php require __DIR__ . '/../inc/partials/site-footer.php'; ?>
 
     <script>

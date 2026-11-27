@@ -54,7 +54,7 @@ $CK_FOCUS = [
         'course' => 'wordpress-development', 'tab' => 'cms', 'h1' => 'WordPress Development Course', 'teacher' => 'real developers',
         'primary' => 'WordPress course for students from {T}',
         'sec' => ['WordPress development course for students from {T}', 'website development course for students from {T}', 'coding classes for students from {T}'],
-        'chips' => ['WordPress', 'Themes', 'Plugins', 'WooCommerce', 'Customization'], 'curr_h2' => 'WordPress development <em>training</em>.',
+        'chips' => ['WordPress', 'Theme setup', 'Page builders', 'Plugins', 'On-page SEO'], 'curr_h2' => 'WordPress development <em>training</em>.',
     ],
     'ai' => [
         'course' => 'ai-automation', 'tab' => 'ai', 'h1' => 'AI and Automation Course', 'teacher' => 'real developers',

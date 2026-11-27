@@ -431,7 +431,7 @@
               </div>
               <h3 class="course-title">Full Stack Web Development</h3>
               <div class="meta-info">
-                <span><i data-lucide="book-open"></i> 30 lessons</span>
+                <span><i data-lucide="clock"></i> 5 months</span>
               </div>
             </div>
             <div class="card-hover-overlay">
@@ -441,9 +441,9 @@
               </div>
               <h3 class="course-title">Full Stack Web Development</h3>
               <div class="meta-info">
-                <span><i data-lucide="book-open"></i> 30 lessons</span>
+                <span><i data-lucide="clock"></i> 5 months</span>
               </div>
-              <p class="hover-description">Learn HTML, CSS, JavaScript and Bootstrap, then a backend with PHP, Laravel, CodeIgniter or Node, plus GitHub, CI/CD and DevOps.</p>
+              <p class="hover-description">HTML, CSS, Bootstrap, JavaScript, PHP, MySQL, a framework of your choice, DevOps and a live capstone.</p>
               <div class="btn-wrapper">
                 <a href="/course/full-stack-web-development/" class="view-detail-btn">View Detail</a>
               </div>
@@ -462,9 +462,9 @@
                 <span class="tag live-tag">Live class</span>
                 <span class="tag level-tag">Beginner</span>
               </div>
-              <h3 class="course-title">Frontend Development</h3>
+              <h3 class="course-title">Frontend Development with CMS</h3>
               <div class="meta-info">
-                <span><i data-lucide="book-open"></i> 30 lessons</span>
+                <span><i data-lucide="clock"></i> 3 months</span>
               </div>
             </div>
             <div class="card-hover-overlay">
@@ -472,11 +472,11 @@
                 <span class="tag live-tag">Live class</span>
                 <span class="tag level-tag">Beginner</span>
               </div>
-              <h3 class="course-title">Frontend Development</h3>
+              <h3 class="course-title">Frontend Development with CMS</h3>
               <div class="meta-info">
-                <span><i data-lucide="book-open"></i> 30 lessons</span>
+                <span><i data-lucide="clock"></i> 3 months</span>
               </div>
-              <p class="hover-description">Learn HTML, CSS, JavaScript and Bootstrap, plus one CMS of your choice, GitHub and a CI/CD pipeline.</p>
+              <p class="hover-description">HTML, CSS, Bootstrap, JavaScript, GitHub and one CMS: WordPress, Shopify, Webflow or Wix.</p>
               <div class="btn-wrapper">
                 <a href="/course/frontend-development/" class="view-detail-btn">View Detail</a>
               </div>
@@ -497,7 +497,7 @@
               </div>
               <h3 class="course-title">Backend Development</h3>
               <div class="meta-info">
-                <span><i data-lucide="book-open"></i> 30 lessons</span>
+                <span><i data-lucide="clock"></i> 4 months</span>
               </div>
             </div>
             <div class="card-hover-overlay">
@@ -507,9 +507,9 @@
               </div>
               <h3 class="course-title">Backend Development</h3>
               <div class="meta-info">
-                <span><i data-lucide="book-open"></i> 30 lessons</span>
+                <span><i data-lucide="clock"></i> 4 months</span>
               </div>
-              <p class="hover-description">Learn PHP, Laravel, CodeIgniter or Node (choose one), plus Ajax, jQuery, GitHub, CI/CD and DevOps.</p>
+              <p class="hover-description">PHP, MySQL, Laravel, CodeIgniter or Node.js, REST APIs, security, CI/CD and Docker basics.</p>
               <div class="btn-wrapper">
                 <a href="/course/backend-development/" class="view-detail-btn">View Detail</a>
               </div>
@@ -528,9 +528,9 @@
                 <span class="tag live-tag">Live class</span>
                 <span class="tag level-tag">Beginner</span>
               </div>
-              <h3 class="course-title">Digital Marketing &amp; SEO</h3>
+              <h3 class="course-title">Digital Marketing Pro (SEO + Paid Ads)</h3>
               <div class="meta-info">
-                <span><i data-lucide="book-open"></i> 30 lessons</span>
+                <span><i data-lucide="clock"></i> 4 months</span>
               </div>
             </div>
             <div class="card-hover-overlay">
@@ -538,11 +538,11 @@
                 <span class="tag live-tag">Live class</span>
                 <span class="tag level-tag">Beginner</span>
               </div>
-              <h3 class="course-title">Digital Marketing &amp; SEO</h3>
+              <h3 class="course-title">Digital Marketing Pro (SEO + Paid Ads)</h3>
               <div class="meta-info">
-                <span><i data-lucide="book-open"></i> 30 lessons</span>
+                <span><i data-lucide="clock"></i> 4 months</span>
               </div>
-              <p class="hover-description">Learn Basic and Advance SEO, Paid Ads, Google Ads, Meta Ads and ChatGPT Ads.</p>
+              <p class="hover-description">Basic and advanced SEO, Canva and AI ad creatives, Meta Ads, Google Ads and ChatGPT Ads.</p>
               <div class="btn-wrapper">
                 <a href="/course/digital-marketing-seo/" class="view-detail-btn">View Detail</a>
               </div>
@@ -563,7 +563,7 @@
               </div>
               <h3 class="course-title">WordPress Development</h3>
               <div class="meta-info">
-                <span><i data-lucide="book-open"></i> 30 lessons</span>
+                <span><i data-lucide="clock"></i> 3 months</span>
               </div>
             </div>
             <div class="card-hover-overlay">
@@ -573,9 +573,9 @@
               </div>
               <h3 class="course-title">WordPress Development</h3>
               <div class="meta-info">
-                <span><i data-lucide="book-open"></i> 30 lessons</span>
+                <span><i data-lucide="clock"></i> 3 months</span>
               </div>
-              <p class="hover-description">Learn to build professional websites using WordPress and modern development.</p>
+              <p class="hover-description">Theme setup, page builders, plugins, forms, speed and on-page SEO, and site launch.</p>
               <div class="btn-wrapper">
                 <a href="/course/wordpress-development/" class="view-detail-btn">View Detail</a>
               </div>
@@ -594,9 +594,9 @@
                 <span class="tag live-tag">Live class</span>
                 <span class="tag level-tag">Beginner</span>
               </div>
-              <h3 class="course-title">AI &amp; Automation</h3>
+              <h3 class="course-title">AI Automation &amp; AI Agents</h3>
               <div class="meta-info">
-                <span><i data-lucide="book-open"></i> 30 lessons</span>
+                <span><i data-lucide="clock"></i> 3 months</span>
               </div>
             </div>
             <div class="card-hover-overlay">
@@ -604,11 +604,11 @@
                 <span class="tag live-tag">Live class</span>
                 <span class="tag level-tag">Beginner</span>
               </div>
-              <h3 class="course-title">AI &amp; Automation</h3>
+              <h3 class="course-title">AI Automation &amp; AI Agents</h3>
               <div class="meta-info">
-                <span><i data-lucide="book-open"></i> 30 lessons</span>
+                <span><i data-lucide="clock"></i> 3 months</span>
               </div>
-              <p class="hover-description">Learn AI tools, prompt engineering, n8n, Zapier and Make.com workflows, AI agents and business automation.</p>
+              <p class="hover-description">AI tools, prompt engineering, n8n, Zapier and Make.com workflows, AI agents and business automation.</p>
               <div class="btn-wrapper">
                 <a href="/course/ai-automation/" class="view-detail-btn">View Detail</a>
               </div>

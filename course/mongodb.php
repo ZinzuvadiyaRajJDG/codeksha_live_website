@@ -229,9 +229,9 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>Backend Development</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 30 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 4 months</span>
             </div>
-            <p>Learn PHP, Laravel, MySQL and REST APIs to build robust backend systems.</p>
+            <p>PHP, MySQL, Laravel, CodeIgniter or Node.js, REST APIs, security, CI/CD and Docker basics.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/backend-development/" class="course-tile-link">View course &rarr;</a>
@@ -242,9 +242,9 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>Full Stack Web Development</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 30 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 5 months</span>
             </div>
-            <p>Learn HTML, CSS, JavaScript and Bootstrap, then a backend with PHP, Laravel, CodeIgniter or Node, plus GitHub, CI/CD and DevOps.</p>
+            <p>HTML, CSS, Bootstrap, JavaScript, PHP, MySQL, a framework of your choice, DevOps and a live capstone.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/full-stack-web-development/" class="course-tile-link">View course &rarr;</a>
@@ -255,9 +255,9 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>JavaScript</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 16 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
             </div>
-            <p>Core JavaScript, DOM manipulation, async programming and working with APIs.</p>
+            <p>ES6+, DOM and events, Fetch API and JSON, form validation, jQuery, Ajax and GitHub.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/javascript/" class="course-tile-link">View course &rarr;</a>

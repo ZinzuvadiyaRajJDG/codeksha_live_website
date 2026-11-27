@@ -5,24 +5,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>n8n Course in Rajkot: Workflow Automation | Codeksha</title>
-    <meta name="description" content="Join the n8n course in Rajkot at Codeksha. Build no-code workflow automations, connect apps and APIs, and automate real processes." />
+    <meta name="description" content="n8n course in Rajkot: workflows in n8n, Zapier and Make.com, JSON, APIs and webhooks, business automations and self-hosting n8n on a VPS." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/course/n8n-automation/" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Codeksha" />
     <meta property="og:title" content="n8n Course in Rajkot: Workflow Automation | Codeksha" />
-    <meta property="og:description" content="Join the n8n course in Rajkot at Codeksha. Build no-code workflow automations, connect apps and APIs, and automate real processes." />
+    <meta property="og:description" content="n8n course in Rajkot: workflows in n8n, Zapier and Make.com, JSON, APIs and webhooks, business automations and self-hosting n8n on a VPS." />
     <meta property="og:url" content="https://codeksha.com/course/n8n-automation/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="n8n Course in Rajkot: Workflow Automation | Codeksha" />
-    <meta name="twitter:description" content="Join the n8n course in Rajkot at Codeksha. Build no-code workflow automations, connect apps and APIs, and automate real processes." />
+    <meta name="twitter:description" content="n8n course in Rajkot: workflows in n8n, Zapier and Make.com, JSON, APIs and webhooks, business automations and self-hosting n8n on a VPS." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
-
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -30,7 +29,7 @@
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://codeksha.com/" },
         { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://codeksha.com/courses/" },
-        { "@type": "ListItem", "position": 3, "name": "AI & Automation", "item": "https://codeksha.com/course/ai-automation/" },
+        { "@type": "ListItem", "position": 3, "name": "AI Automation & AI Agents", "item": "https://codeksha.com/course/ai-automation/" },
         { "@type": "ListItem", "position": 4, "name": "n8n Automation", "item": "https://codeksha.com/course/n8n-automation/" }
       ]
     }
@@ -40,18 +39,83 @@
       "@context": "https://schema.org",
       "@type": "Course",
       "name": "n8n Automation",
-      "description": "A hands-on course on building no-code workflow automations with n8n - connecting apps, APIs and AI tools to automate real business processes, with Zapier and Make covered as alternatives.",
+      "description": "The n8n Automation course at Codeksha is a classroom program in Rajkot based on the workflow part of our AI Automation & AI Agents course. You learn workflows in n8n, Zapier and Make.com, the coding fundamentals behind them (JavaScript basics, JSON, APIs, webhooks), business automations, and deploying self-hosted n8n on a VPS with error handling and monitoring.",
+      "url": "https://codeksha.com/course/n8n-automation/",
       "provider": {
         "@type": "EducationalOrganization",
         "name": "Codeksha",
         "url": "https://codeksha.com/",
         "sameAs": "https://codeksha.com/it-training-rajkot/"
       },
+      "educationalLevel": "Beginner",
+      "inLanguage": "en",
+      "timeRequired": "P3M",
+      "educationalCredentialAwarded": "Codeksha course certificate",
+      "teaches": [
+        "Coding fundamentals for automation",
+        "Workflows",
+        "Business automations",
+        "Deploying and maintaining"
+      ],
+      "syllabusSections": [
+        {
+          "@type": "Syllabus",
+          "name": "Coding fundamentals for automation",
+          "description": "JavaScript basics; JSON; APIs; Webhooks"
+        },
+        {
+          "@type": "Syllabus",
+          "name": "Workflows",
+          "description": "n8n; Zapier; Make.com"
+        },
+        {
+          "@type": "Syllabus",
+          "name": "Business automations",
+          "description": "Lead generation; CRM; Email/WhatsApp follow-ups; Reports"
+        },
+        {
+          "@type": "Syllabus",
+          "name": "Deploying and maintaining",
+          "description": "Self-hosted n8n on a VPS; Error handling; Monitoring"
+        }
+      ],
+      "audience": {
+        "@type": "EducationalAudience",
+        "audienceType": "Beginners, no coding needed to start"
+      },
+      "offers": {
+        "@type": "Offer",
+        "category": "Paid",
+        "url": "https://codeksha.com/course/n8n-automation/"
+      },
       "hasCourseInstance": {
         "@type": "CourseInstance",
         "courseMode": "Onsite",
-        "courseWorkload": "P3M",
-        "inLanguage": "en"
+        "inLanguage": "en",
+        "courseSchedule": {
+          "@type": "Schedule",
+          "duration": "PT2H",
+          "repeatFrequency": "P1D",
+          "byDay": [
+            "https://schema.org/Monday",
+            "https://schema.org/Tuesday",
+            "https://schema.org/Wednesday",
+            "https://schema.org/Thursday",
+            "https://schema.org/Friday"
+          ]
+        },
+        "location": {
+          "@type": "Place",
+          "name": "Codeksha",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "A-1110, RK Iconic, Near Sheetal Park, 150 Feet Ring Rd",
+            "addressLocality": "Rajkot",
+            "addressRegion": "Gujarat",
+            "postalCode": "360006",
+            "addressCountry": "IN"
+          }
+        }
       }
     }
     </script>
@@ -60,14 +124,66 @@
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "What is n8n and why learn it?", "acceptedAnswer": { "@type": "Answer", "text": "n8n is a workflow automation tool that connects your apps, forms, spreadsheets and AI tools so repetitive tasks run on their own. It's a valuable skill because businesses of every size want fewer manual, repetitive processes." } },
-        { "@type": "Question", "name": "Do I need to know how to code?", "acceptedAnswer": { "@type": "Answer", "text": "No. n8n is a visual, node-based automation tool, so this course is built for non-developers. Basic computer literacy is all you need to get started." } },
-        { "@type": "Question", "name": "Will this course also cover Zapier and Make?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. n8n is our main focus since it is free to self-host and highly flexible, but you'll also see how the same automation concepts apply in Zapier and Make so you can work with whichever tool a client or employer already uses." } },
-        { "@type": "Question", "name": "Who are the trainers?", "acceptedAnswer": { "@type": "Answer", "text": "Working developers, not traditional lecturers. Codeksha's instructors are active developers at Creatiz and Just Digital Gurus who build real automation workflows for client projects." } },
-        { "@type": "Question", "name": "Can I join while working or studying in college?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Class timings are flexible and student-friendly, so you can fit this short course around a job or college schedule." } }
+        {
+          "@type": "Question",
+          "name": "What will I learn in the n8n course?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Workflows in n8n, Zapier and Make.com, JavaScript basics, JSON, APIs and webhooks, business automations, and self-hosting n8n on a VPS."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need coding knowledge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No coding is needed to start; the course covers the coding fundamentals for automation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will I learn to self-host n8n?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes: self-hosted n8n on a VPS, with error handling and monitoring."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What will I build?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A business automation for a real client, such as lead generation, CRM updates, email/WhatsApp follow-ups or reports."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Codeksha teach AI agents too?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. AI Automation & AI Agents covers AI tools, prompt engineering, custom AI skills and AI agents as well as workflows."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is included in the n8n Automation course?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every Codeksha course includes live projects on real or real-style briefs, portfolio and resume support, a Codeksha course certificate, an internship opportunity for eligible students, and mock interviews with freelancing basics (Upwork, OnlineJobs.ph, LinkedIn)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the fee for the n8n Automation course?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The fee depends on the batch you join. Our counsellor shares the current fee and batch dates when you call or send your details, and you can attend a free demo class first."
+          }
+        }
       ]
     }
     </script>
+    
   </head>
   <body>
 <?php require __DIR__ . "/../inc/partials/gtm-body.php"; ?>
@@ -80,15 +196,16 @@
     <!-- COURSE DETAIL HERO -->
     <section class="course-detail-hero">
       <div class="container">
-        <p class="breadcrumb"><a href="/">Home</a> / <a href="/courses/">Courses</a> / <a href="/course/ai-automation/">AI &amp; Automation</a> / n8n Automation</p>
+        <p class="breadcrumb"><a href="/">Home</a> / <a href="/courses/">Courses</a> / <a href="/course/ai-automation/">AI Automation &amp; AI Agents</a> / n8n Automation</p>
         <span class="course-detail-cat">AI &amp; Automation</span>
         <h1>n8n Automation Course in Rajkot</h1>
-        <p class="lede">Build no-code workflow automations with n8n - connect your apps and APIs, automate repetitive business tasks, and add AI steps to your workflows, with Zapier and Make covered as alternatives.</p>
+        <p class="lede">Learn workflow automation in Rajkot: n8n, Zapier and Make.com, JSON, APIs and webhooks, business automations (lead generation, CRM, email/WhatsApp follow-ups, reports) and self-hosted n8n.</p>
         <div class="course-quick-meta">
           <span><i class="fa-solid fa-signal"></i> Beginner</span>
           <span><i class="fa-regular fa-clock"></i> 3 months</span>
-          <span><i class="fa-solid fa-book"></i> 12 lessons</span>
-          <span><i class="fa-solid fa-language"></i> English</span>
+          <span><i class="fa-solid fa-calendar-week"></i> 2 hrs/day, 5 days/week</span>
+          <span><i class="fa-solid fa-chalkboard-user"></i> Live classroom</span>
+          <span><i class="fa-solid fa-certificate"></i> Certificate</span>
         </div>
       </div>
     </section>
@@ -99,118 +216,188 @@
         <div class="course-detail-layout">
 
           <div class="course-main">
-            <h2>What You'll Learn</h2>
-            <div class="learn-card">
-            <ul class="learn-checklist">
-              <li><i class="fa-solid fa-circle-check"></i> n8n fundamentals: nodes, triggers, and workflow logic</li>
-              <li><i class="fa-solid fa-circle-check"></i> Connecting apps and services with n8n's built-in integrations</li>
-              <li><i class="fa-solid fa-circle-check"></i> Working with REST APIs and webhooks inside n8n</li>
-              <li><i class="fa-solid fa-circle-check"></i> No-code automation with n8n, Zapier and Make</li>
-              <li><i class="fa-solid fa-circle-check"></i> Adding conditional logic, loops and error handling to workflows</li>
-              <li><i class="fa-solid fa-circle-check"></i> Connecting AI tools like ChatGPT into an n8n automation</li>
-              <li><i class="fa-solid fa-circle-check"></i> Automating common business tasks: lead capture, notifications, data sync</li>
-              <li><i class="fa-solid fa-circle-check"></i> Testing, debugging and maintaining production workflows</li>
-            </ul>
+            <div class="course-answer">
+              <span class="course-answer-tag"><i class="fa-solid fa-bolt"></i> Quick answer</span>
+              <h2>What is the n8n Automation course at Codeksha?</h2>
+              <p>The n8n Automation course at Codeksha is a classroom program in Rajkot based on the workflow part of our AI Automation &amp; AI Agents course. You learn workflows in n8n, Zapier and Make.com, the coding fundamentals behind them (JavaScript basics, JSON, APIs, webhooks), business automations, and deploying self-hosted n8n on a VPS with error handling and monitoring.</p>
+              <dl class="glance-grid">
+                <div><dt><i class="fa-regular fa-clock"></i> Duration</dt><dd>3 months</dd></div>
+                <div><dt><i class="fa-solid fa-calendar-week"></i> Schedule</dt><dd>About 2 hours a day, 5 days a week</dd></div>
+                <div><dt><i class="fa-solid fa-user-graduate"></i> Who it&#x27;s for</dt><dd>Beginners, no coding needed to start</dd></div>
+                <div><dt><i class="fa-solid fa-layer-group"></i> Part of</dt><dd>AI Automation &amp; AI Agents course</dd></div>
+                <div><dt><i class="fa-solid fa-chalkboard-user"></i> Mode</dt><dd>Live classroom, Rajkot</dd></div>
+                <div><dt><i class="fa-solid fa-certificate"></i> Certificate</dt><dd>Codeksha course certificate</dd></div>
+              </dl>
             </div>
 
-            <h2>Course Curriculum</h2>
-            <div class="curriculum-list">
-              <div class="curriculum-month">
-                <span class="month-num">1</span>
-                <p><strong>Part 1.</strong> n8n basics: nodes, triggers, connections and your first workflow</p>
-              </div>
-              <div class="curriculum-month">
-                <span class="month-num">2</span>
-                <p><strong>Part 2.</strong> APIs, webhooks and working with real-world data</p>
-              </div>
-              <div class="curriculum-month">
-                <span class="month-num">3</span>
-                <p><strong>Part 3.</strong> Conditional logic, loops, error handling and scheduling</p>
-              </div>
-              <div class="curriculum-month">
-                <span class="month-num">4</span>
-                <p><strong>Part 4.</strong> Adding AI steps to workflows, plus a look at Zapier and Make</p>
-              </div>
-              <div class="curriculum-month">
-                <span class="month-num">5</span>
-                <p><strong>Part 5.</strong> Capstone: automate a real, multi-step business process</p>
-              </div>
+            <h2>What's Included in Every Codeksha Course</h2>
+            <div class="info-card-grid cols-3 included-grid">
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-diagram-project"></i></div>
+              <h3>Live projects</h3>
+              <p>Work on real or real-style briefs.</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-id-card"></i></div>
+              <h3>Portfolio and resume support</h3>
+              <p>Get help building your portfolio and resume.</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-certificate"></i></div>
+              <h3>Codeksha course certificate</h3>
+              <p>Receive a Codeksha certificate when you finish.</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-briefcase"></i></div>
+              <h3>Internship opportunity</h3>
+              <p>Available for eligible students.</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-comments"></i></div>
+              <h3>Mock interviews and freelancing basics</h3>
+              <p>Practise interviews and learn Upwork, OnlineJobs.ph and LinkedIn.</p>
+            </div>
             </div>
 
-            <p>Still deciding between automation tools? Read <a href="/blog/n8n-vs-zapier/">n8n vs Zapier: Which Automation Tool Should You Learn?</a> before you pick.</p>
+            <h2>n8n Automation Curriculum: 4 Modules in 3 months</h2>
+            <p class="section-intro">The course runs about 2 hours a day, 5 days a week. Here is what you cover, module by module.</p>
+            <div class="module-groups">
+              <div class="module-grid">
+                <div class="module-card">
+                  <div class="module-head"><span class="module-num">01</span><div><h4>Coding fundamentals for automation</h4></div></div>
+                  <ul class="module-topics"><li>JavaScript basics</li><li>JSON</li><li>APIs</li><li>Webhooks</li></ul>
+                </div>
+                <div class="module-card">
+                  <div class="module-head"><span class="module-num">02</span><div><h4>Workflows</h4></div></div>
+                  <ul class="module-topics"><li>n8n</li><li>Zapier</li><li>Make.com</li></ul>
+                </div>
+                <div class="module-card">
+                  <div class="module-head"><span class="module-num">03</span><div><h4>Business automations</h4></div></div>
+                  <ul class="module-topics"><li>Lead generation</li><li>CRM</li><li>Email/WhatsApp follow-ups</li><li>Reports</li></ul>
+                </div>
+                <div class="module-card">
+                  <div class="module-head"><span class="module-num">04</span><div><h4>Deploying and maintaining</h4></div></div>
+                  <ul class="module-topics"><li>Self-hosted n8n on a VPS</li><li>Error handling</li><li>Monitoring</li></ul>
+                </div>
+              </div>
+            </div>
+            <div class="inline-cta">
+              <div><strong>Want the full syllabus, fees and batch timings?</strong><span>Share your number and our counsellor will call you back.</span></div>
+              <button type="button" class="inline-cta-btn" data-open-lead><i class="fa-solid fa-paper-plane"></i> Get Course Details</button>
+            </div>
 
-            <h2>Who This Course Is For &amp; What You'll Need</h2>
+            <h2>Projects You'll Build</h2>
+            <div class="info-card-grid cols-3 project-grid">
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-diagram-project"></i></div>
+              <h3>One business automation for a real client</h3>
+            </div>
+            </div>
+
+            <h2>Tools &amp; Technologies You'll Use</h2>
+            <ul class="tool-chips"><li><i class="fa-solid fa-screwdriver-wrench"></i> n8n</li><li><i class="fa-solid fa-screwdriver-wrench"></i> Zapier</li><li><i class="fa-solid fa-screwdriver-wrench"></i> Make.com</li><li><i class="fa-solid fa-screwdriver-wrench"></i> JSON</li><li><i class="fa-solid fa-screwdriver-wrench"></i> APIs &amp; webhooks</li></ul>
+
+            <h2>Who Is This Course For, and What Job Comes Next?</h2>
             <div class="two-list-grid">
               <div>
-                <h3>Who This Course Is For</h3>
+                <h3>Who It's For</h3>
                 <ul>
-                <li><i class="fa-solid fa-user-check"></i> Business owners who want to automate repetitive admin work</li>
-                <li><i class="fa-solid fa-user-check"></i> Marketers and operations staff tired of manual data entry</li>
-                <li><i class="fa-solid fa-user-check"></i> Freelancers who want to offer automation services to clients</li>
+                <li><i class="fa-solid fa-user-check"></i> Beginners, no coding needed to start</li>
                 </ul>
               </div>
               <div>
-                <h3>Requirements</h3>
+                <h3>Want the Complete Course?</h3>
                 <ul>
-                <li><i class="fa-solid fa-circle-check"></i> Basic computer and internet literacy</li>
-                <li><i class="fa-solid fa-circle-check"></i> No coding experience required</li>
-                <li><i class="fa-solid fa-circle-check"></i> Comfort using everyday apps (email, spreadsheets, forms) is a plus</li>
+                <li><i class="fa-solid fa-layer-group"></i> This topic is part of the <a href="/course/ai-automation/">AI Automation &amp; AI Agents</a> course.</li>
                 </ul>
               </div>
             </div>
+
+            <h2>How to Get Started</h2>
+            <div class="info-card-grid cols-4">
+            <div class="info-card">
+              <div class="info-card-step">1</div>
+              <h3>Call or visit us</h3>
+              <p>Talk to our counsellor on +91 63555 59016 or walk into our Rajkot centre at RK Iconic, Near Sheetal Park, 150 Feet Ring Road.</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card-step">2</div>
+              <h3>Attend a free demo</h3>
+              <p>Sit in on a real class and meet the trainer before you decide.</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card-step">3</div>
+              <h3>Choose your batch</h3>
+              <p>Pick the batch timing that fits around college or work.</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card-step">4</div>
+              <h3>Start learning</h3>
+              <p>Begin the course and work on live projects.</p>
+            </div>
+            </div>
+
+            <h2>n8n Automation Course Fees, Duration &amp; Batches</h2>
+            <p>The n8n Automation course runs for <strong>3 months</strong> of live classroom training at our Rajkot centre, about <strong>2 hours a day, 5 days a week</strong>. Weekend and fast-track batches can be scaled from the same plan.</p>
+            <p>Fees depend on the batch, so our counsellor shares the current fee, batch dates and full syllabus directly. Tap <button type="button" class="link-btn" data-open-lead>Get Course Details</button> or call <a href="tel:+916355559016">+91 63555 59016</a>, with no obligation.</p>
+            <p class="related-read"><i class="fa-solid fa-book-open"></i> Keep reading: <a href="/course/ai-automation/">Complete course: AI Automation &amp; AI Agents</a></p>
 
             <h2>Frequently Asked Questions</h2>
             <div class="faq-list">
-          <div class="faq-item active">
-            <button class="faq-question"><span>What is n8n and why learn it?</span><i class="fa-solid fa-minus icon"></i></button>
-            <div class="faq-answer"><p>n8n is a workflow automation tool that connects your apps, forms, spreadsheets and AI tools so repetitive tasks run on their own. It's a valuable skill because businesses of every size want fewer manual, repetitive processes.</p></div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question"><span>Do I need to know how to code?</span><i class="fa-solid fa-plus icon"></i></button>
-            <div class="faq-answer"><p>No. n8n is a visual, node-based automation tool, so this course is built for non-developers. Basic computer literacy is all you need to get started.</p></div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question"><span>Will this course also cover Zapier and Make?</span><i class="fa-solid fa-plus icon"></i></button>
-            <div class="faq-answer"><p>Yes. n8n is our main focus since it is free to self-host and highly flexible, but you'll also see how the same automation concepts apply in Zapier and Make so you can work with whichever tool a client or employer already uses.</p></div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question"><span>Who are the trainers?</span><i class="fa-solid fa-plus icon"></i></button>
-            <div class="faq-answer"><p>Working developers, not traditional lecturers. Codeksha's instructors are active developers at Creatiz and Just Digital Gurus who build real automation workflows for client projects.</p></div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question"><span>Can I join while working or studying in college?</span><i class="fa-solid fa-plus icon"></i></button>
-            <div class="faq-answer"><p>Yes. Class timings are flexible and student-friendly, so you can fit this short course around a job or college schedule.</p></div>
-          </div>
+            <div class="faq-item active">
+              <button class="faq-question"><span>What will I learn in the n8n course?</span><i class="fa-solid fa-minus icon"></i></button>
+              <div class="faq-answer"><p>Workflows in n8n, Zapier and Make.com, JavaScript basics, JSON, APIs and webhooks, business automations, and self-hosting n8n on a VPS.</p></div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question"><span>Do I need coding knowledge?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>No coding is needed to start; the course covers the coding fundamentals for automation.</p></div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question"><span>Will I learn to self-host n8n?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>Yes: self-hosted n8n on a VPS, with error handling and monitoring.</p></div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question"><span>What will I build?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>A business automation for a real client, such as lead generation, CRM updates, email/WhatsApp follow-ups or reports.</p></div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question"><span>Does Codeksha teach AI agents too?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>Yes. AI Automation &amp; AI Agents covers AI tools, prompt engineering, custom AI skills and AI agents as well as workflows.</p></div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question"><span>What is included in the n8n Automation course?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>Every Codeksha course includes live projects on real or real-style briefs, portfolio and resume support, a Codeksha course certificate, an internship opportunity for eligible students, and mock interviews with freelancing basics (Upwork, OnlineJobs.ph, LinkedIn).</p></div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question"><span>What is the fee for the n8n Automation course?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>The fee depends on the batch you join. Our counsellor shares the current fee and batch dates when you call or send your details, and you can attend a free demo class first.</p></div>
+            </div>
+            </div>
+
+            <div class="course-cta-band">
+              <h2>Ready to Start the n8n Automation Course in Rajkot?</h2>
+              <p>Get the syllabus, fees and batch timings on a quick call, or book a free demo class first. No cost, no commitment.</p>
+              <div class="cta-row">
+                <button type="button" class="cta-btn" data-open-lead><i class="fa-solid fa-paper-plane"></i> Get Course Details</button>
+                <a href="/book-demo/#course=n8n-automation" class="cta-btn alt"><i class="fa-solid fa-chalkboard-user"></i> Book a Free Demo Class</a>
+              </div>
             </div>
           </div>
 
-          <aside class="course-sidebar">
-            <div class="course-sidebar-card">
-              <div class="course-sidebar-head">
-                <span class="course-sidebar-badge"><i class="fa-solid fa-graduation-cap"></i> Codeksha, Rajkot</span>
-                <h3>Classroom Training</h3>
-                <p>Live, instructor-led sessions at our Rajkot centre</p>
-              </div>
+          <aside class="course-sidebar" id="enquire">
+            <?php $lf_course = 'n8n Automation'; $lf_id = 'leadnnautomation'; $lf_title = 'Get n8n Automation Course Details'; $lf_sub = 'Syllabus, fees and batch timings on a quick call. No spam, no pressure.'; require __DIR__ . '/../inc/partials/lead-form.php'; ?>
+            <div class="course-sidebar-card course-facts-card">
               <div class="course-sidebar-body">
-                <ul class="course-included-list">
-                  <li><i class="fa-solid fa-circle-check"></i> Live, instructor-led classroom sessions</li>
-                  <li><i class="fa-solid fa-circle-check"></i> Hands-on, project-based coursework</li>
-                  <li><i class="fa-solid fa-circle-check"></i> Certificate of completion</li>
-                  <li><i class="fa-solid fa-circle-check"></i> Flexible, student-friendly batch timings</li>
-                </ul>
                 <ul class="course-meta-list">
-                <li>Delivery <strong>Live class</strong></li>
-                <li>Level <strong>Beginner</strong></li>
+                <li>Delivery <strong>Live classroom</strong></li>
                 <li>Duration <strong>3 months</strong></li>
-                <li>Lessons <strong>12</strong></li>
+                <li>Schedule <strong>2 hrs/day, 5 days/week</strong></li>
+                <li>Level <strong>Beginner</strong></li>
+                <li>Certificate <strong>Yes</strong></li>
                 <li>Language <strong>English</strong></li>
               </ul>
-              <a href="/contact/" class="hero-enroll-btn">
-                <span>Enroll Now</span>
-                <div class="arrow-btn-circle"><i data-lucide="arrow-right"></i></div>
-              </a>
-              <a href="/book-demo/#course=ai-automation" class="course-sidebar-secondary-btn">Book a Free Demo Class</a>
-                </div>
+              <a href="/book-demo/#course=n8n-automation" class="course-sidebar-secondary-btn">Book a Free Demo Class</a>
+              </div>
             </div>
           </aside>
 
@@ -229,11 +416,11 @@
           <div class="course-tile">
             <div class="course-tile-icon"><i class="fa-solid fa-robot"></i></div>
             <span class="course-tile-cat">AI &amp; Automation</span>
-            <h3>AI &amp; Automation</h3>
+            <h3>AI Automation &amp; AI Agents</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 30 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
             </div>
-            <p>Learn AI tools, prompt engineering, n8n, Zapier and Make.com workflows, AI agents and business automation.</p>
+            <p>AI tools, prompt engineering, n8n, Zapier and Make.com workflows, AI agents and business automation.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/ai-automation/" class="course-tile-link">View course &rarr;</a>
@@ -244,9 +431,9 @@
             <span class="course-tile-cat">AI &amp; Automation</span>
             <h3>Prompt Engineering</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 12 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
             </div>
-            <p>Write effective prompts for ChatGPT, Claude and Gemini and apply them to real tasks.</p>
+            <p>ChatGPT, Claude and Gemini, prompt engineering, context files, custom AI skills and MCP.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/prompt-engineering/" class="course-tile-link">View course &rarr;</a>
@@ -257,9 +444,9 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>Full Stack Web Development</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 30 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 5 months</span>
             </div>
-            <p>Learn HTML, CSS, JavaScript and Bootstrap, then a backend with PHP, Laravel, CodeIgniter or Node, plus GitHub, CI/CD and DevOps.</p>
+            <p>HTML, CSS, Bootstrap, JavaScript, PHP, MySQL, a framework of your choice, DevOps and a live capstone.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/full-stack-web-development/" class="course-tile-link">View course &rarr;</a>
@@ -270,6 +457,29 @@
     </section>
 
     <!-- FOOTER -->
+    <!-- QUICK ENQUIRY POPUP -->
+    <div class="ck-lead-modal" id="ckLeadModal" hidden>
+      <div class="ck-lead-dialog" role="dialog" aria-modal="true" aria-label="Get course details">
+        <button class="ck-lead-close" type="button" aria-label="Close">&times;</button>
+        <?php $lf_course = 'n8n Automation'; $lf_id = 'leadpopup'; $lf_title = 'Get n8n Automation Course Details'; $lf_sub = 'Leave your name and number. Our counsellor will call you with the syllabus, fees and batch timings.'; require __DIR__ . '/../inc/partials/lead-form.php'; ?>
+      </div>
+    </div>
+    <button class="ck-sticky-cta" type="button" data-open-lead><i class="fa-solid fa-paper-plane"></i> Get Course Details</button>
+    <script>
+      (function () {
+        var m = document.getElementById('ckLeadModal'); if (!m) return; var last = null;
+        function open(ev) { if (ev) ev.preventDefault(); last = document.activeElement; m.hidden = false; document.body.style.overflow = 'hidden';
+          var i = m.querySelector('input[name=name]'); setTimeout(function () { if (i) i.focus(); }, 60); }
+        function close() { m.hidden = true; document.body.style.overflow = ''; if (last && last.focus) last.focus(); }
+        [].forEach.call(document.querySelectorAll('[data-open-lead]'), function (b) { b.addEventListener('click', open); });
+        m.querySelector('.ck-lead-close').addEventListener('click', close);
+        m.addEventListener('click', function (ev) { if (ev.target === m) close(); });
+        document.addEventListener('keydown', function (ev) { if (ev.key === 'Escape' && !m.hidden) close(); });
+        var s = document.querySelector('.ck-sticky-cta');
+        if (s) { var f = function () { s.classList.toggle('show', window.scrollY > 520); }; window.addEventListener('scroll', f, { passive: true }); f(); }
+      })();
+    </script>
+
     <?php require __DIR__ . '/../inc/partials/site-footer.php'; ?>
 
     <script>

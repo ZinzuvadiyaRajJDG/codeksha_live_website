@@ -4,25 +4,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Backend Development Course in Rajkot | Codeksha</title>
-    <meta name="description" content="Backend development course in Rajkot (3 months): PHP, Laravel, CodeIgniter or Node (choose one), Ajax, jQuery, GitHub, CI/CD pipeline and DevOps." />
+    <title>Backend Development Course in Rajkot (4 Months) | Codeksha</title>
+    <meta name="description" content="4-month backend course in Rajkot: PHP, MySQL, Laravel, CodeIgniter or Node.js, REST APIs, Ajax, jQuery, security, CI/CD and Docker basics." />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://codeksha.com/course/backend-development/" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Codeksha" />
-    <meta property="og:title" content="Backend Development Course in Rajkot | Codeksha" />
-    <meta property="og:description" content="Backend development course in Rajkot (3 months): PHP, Laravel, CodeIgniter or Node (choose one), Ajax, jQuery, GitHub, CI/CD pipeline and DevOps." />
+    <meta property="og:title" content="Backend Development Course in Rajkot (4 Months) | Codeksha" />
+    <meta property="og:description" content="4-month backend course in Rajkot: PHP, MySQL, Laravel, CodeIgniter or Node.js, REST APIs, Ajax, jQuery, security, CI/CD and Docker basics." />
     <meta property="og:url" content="https://codeksha.com/course/backend-development/" />
     <meta property="og:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Backend Development Course in Rajkot | Codeksha" />
-    <meta name="twitter:description" content="Backend development course in Rajkot (3 months): PHP, Laravel, CodeIgniter or Node (choose one), Ajax, jQuery, GitHub, CI/CD pipeline and DevOps." />
+    <meta name="twitter:title" content="Backend Development Course in Rajkot (4 Months) | Codeksha" />
+    <meta name="twitter:description" content="4-month backend course in Rajkot: PHP, MySQL, Laravel, CodeIgniter or Node.js, REST APIs, Ajax, jQuery, security, CI/CD and Docker basics." />
     <meta name="twitter:image" content="https://codeksha.com/Images/Codeksha-Logo.png" />
 
     <?php require __DIR__ . '/../inc/partials/head.php'; ?>
-
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -39,7 +38,7 @@
       "@context": "https://schema.org",
       "@type": "Course",
       "name": "Backend Development",
-      "description": "The Backend Development course at Codeksha is a 3-month classroom program in Rajkot where you learn one backend language of your choice (PHP, Laravel, CodeIgniter or Node), work with Ajax and jQuery, and use GitHub, a CI/CD pipeline and DevOps to deploy and run your applications.",
+      "description": "The Backend Development course at Codeksha is a 4-month classroom program in Rajkot. You learn PHP and MySQL, one framework of your choice (Laravel, CodeIgniter or Node.js), REST APIs, Ajax, jQuery and web security, then deploy an API-based capstone app with Linux, CI/CD and Docker basics. Basic HTML/JS knowledge helps.",
       "url": "https://codeksha.com/course/backend-development/",
       "provider": {
         "@type": "EducationalOrganization",
@@ -47,49 +46,42 @@
         "url": "https://codeksha.com/",
         "sameAs": "https://codeksha.com/it-training-rajkot/"
       },
-      "educationalLevel": "Beginner",
+      "educationalLevel": "Beginner to intermediate",
       "inLanguage": "en",
-      "timeRequired": "P3M",
+      "timeRequired": "P4M",
+      "educationalCredentialAwarded": "Codeksha course certificate",
       "teaches": [
-        "Backend language: PHP, Laravel, CodeIgniter or Node (pick one)",
-        "Ajax",
-        "jQuery",
-        "GitHub",
-        "CI-CD Pipeline",
-        "DevOps"
+        "PHP and MySQL",
+        "Framework track: Laravel, CodeIgniter or Node.js (pick one)",
+        "APIs, Ajax and jQuery",
+        "DevOps and capstone"
       ],
       "syllabusSections": [
         {
           "@type": "Syllabus",
-          "name": "Backend language: PHP, Laravel, CodeIgniter or Node (pick one)",
-          "description": "Language fundamentals and project setup, Routing and MVC structure, Working with a database (CRUD), Forms, validation and sessions, Authentication and building APIs"
+          "name": "Month 1: PHP and MySQL",
+          "description": "PHP core, OOP, sessions, file handling; MySQL design, joins, CRUD"
         },
         {
           "@type": "Syllabus",
-          "name": "Ajax",
-          "description": "How asynchronous requests work, Sending and receiving JSON, Loading data without a page refresh, Submitting forms with Ajax"
+          "name": "Month 2: Framework track: Laravel, CodeIgniter or Node.js (pick one)",
+          "description": "MVC, routing, ORM, migrations; Authentication, roles, validation"
         },
         {
           "@type": "Syllabus",
-          "name": "jQuery",
-          "description": "Selectors and DOM manipulation, Events and effects, jQuery Ajax methods, Using jQuery plugins"
+          "name": "Month 3: APIs, Ajax and jQuery",
+          "description": "REST API build and testing (Postman); Ajax and jQuery for dynamic pages; Security: SQL injection, XSS, CSRF; Git and GitHub team workflow"
         },
         {
           "@type": "Syllabus",
-          "name": "GitHub",
-          "description": "Git basics: init, add, commit, Branches and merging, Pushing to GitHub and pull requests, Collaborating on a team project"
-        },
-        {
-          "@type": "Syllabus",
-          "name": "CI-CD Pipeline",
-          "description": "What CI/CD is and why teams use it, Automated builds and checks, GitHub Actions workflows, Auto-deploying to a live server"
-        },
-        {
-          "@type": "Syllabus",
-          "name": "DevOps",
-          "description": "DevOps culture and workflow, Linux and server basics, Hosting, domains and SSL, Deploying and monitoring an app"
+          "name": "Month 4: DevOps and capstone",
+          "description": "Linux, VPS, Nginx/Apache setup; CI/CD pipeline with GitHub Actions; Docker basics, logs, backups; Capstone: API-based app deployed live"
         }
       ],
+      "audience": {
+        "@type": "EducationalAudience",
+        "audienceType": "Basic HTML/JS helps"
+      },
       "offers": {
         "@type": "Offer",
         "category": "Paid",
@@ -98,8 +90,19 @@
       "hasCourseInstance": {
         "@type": "CourseInstance",
         "courseMode": "Onsite",
-        "courseWorkload": "P3M",
         "inLanguage": "en",
+        "courseSchedule": {
+          "@type": "Schedule",
+          "duration": "PT2H",
+          "repeatFrequency": "P1D",
+          "byDay": [
+            "https://schema.org/Monday",
+            "https://schema.org/Tuesday",
+            "https://schema.org/Wednesday",
+            "https://schema.org/Thursday",
+            "https://schema.org/Friday"
+          ]
+        },
         "location": {
           "@type": "Place",
           "name": "Codeksha",
@@ -122,55 +125,64 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How long is the backend development course?",
+          "name": "How long is the Backend Development course?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It runs for 3 months of live classroom training at our Rajkot centre, in a Morning or an Evening batch."
+            "text": "It runs for 4 months of live classroom training in Rajkot, about 2 hours a day, 5 days a week. Weekend and fast-track batches can be scaled from the same plan."
           }
         },
         {
           "@type": "Question",
-          "name": "Which language should I choose: PHP, Laravel, CodeIgniter or Node?",
+          "name": "Do I need any prior knowledge?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You pick one. Our trainers help you decide based on your goals and the kind of projects you want to build."
+            "text": "Basic HTML and JavaScript knowledge helps before you join."
           }
         },
         {
           "@type": "Question",
-          "name": "What is the fee for the backend course?",
+          "name": "Which framework will I learn?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The fee depends on the batch. Our counsellor shares the current fee and batch dates when you call or send your details, and you can attend a free demo class first."
+            "text": "You pick one of Laravel, CodeIgniter or Node.js, and learn MVC, routing, ORM, migrations, authentication, roles and validation."
           }
         },
         {
           "@type": "Question",
-          "name": "Will I learn deployment and DevOps?",
+          "name": "What projects will I build?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. You learn GitHub, a CI/CD pipeline and DevOps basics such as Linux servers, hosting, domains and SSL."
+            "text": "A REST API, an admin panel and a capstone API-based app deployed live."
           }
         },
         {
           "@type": "Question",
-          "name": "Can a beginner join the backend course?",
+          "name": "What job can I apply for after the course?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Basic HTML helps, but the course explains backend concepts from the start."
+            "text": "Backend, PHP or Laravel Developer roles."
           }
         },
         {
           "@type": "Question",
-          "name": "Do I get a certificate?",
+          "name": "What is included in the Backend Development course?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, you receive a certificate of completion from Codeksha."
+            "text": "Every Codeksha course includes live projects on real or real-style briefs, portfolio and resume support, a Codeksha course certificate, an internship opportunity for eligible students, and mock interviews with freelancing basics (Upwork, OnlineJobs.ph, LinkedIn)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the fee for the Backend Development course?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The fee depends on the batch you join. Our counsellor shares the current fee and batch dates when you call or send your details, and you can attend a free demo class first."
           }
         }
       ]
     }
     </script>
+    
     
     
   </head>
@@ -188,12 +200,13 @@
         <p class="breadcrumb"><a href="/">Home</a> / <a href="/courses/">Courses</a> / Backend Development</p>
         <span class="course-detail-cat">Web Development</span>
         <h1>Backend Development Course in Rajkot</h1>
-        <p class="lede">Learn backend development in 3 months at Codeksha, Rajkot: choose one of PHP, Laravel, CodeIgniter or Node, then learn Ajax, jQuery, GitHub, a CI/CD pipeline and DevOps.</p>
+        <p class="lede">A 4-month backend program in Rajkot: PHP and MySQL, one framework of your choice (Laravel, CodeIgniter or Node.js), REST APIs, Ajax and jQuery, security, and DevOps with a deployed capstone app.</p>
         <div class="course-quick-meta">
-          <span><i class="fa-solid fa-signal"></i> Beginner</span>
-          <span><i class="fa-regular fa-clock"></i> 3 months</span>
-          <span><i class="fa-solid fa-book"></i> 30 lessons</span>
-          <span><i class="fa-solid fa-language"></i> English</span>
+          <span><i class="fa-solid fa-signal"></i> Beginner to intermediate</span>
+          <span><i class="fa-regular fa-clock"></i> 4 months</span>
+          <span><i class="fa-solid fa-calendar-week"></i> 2 hrs/day, 5 days/week</span>
+          <span><i class="fa-solid fa-chalkboard-user"></i> Live classroom</span>
+          <span><i class="fa-solid fa-certificate"></i> Certificate</span>
         </div>
         <div class="hero-cta-row">
           <button type="button" class="hero-enroll-btn" data-open-lead><span>Get Course Details</span><div class="arrow-btn-circle"><i data-lucide="arrow-right"></i></div></button>
@@ -211,80 +224,66 @@
             <div class="course-answer">
               <span class="course-answer-tag"><i class="fa-solid fa-bolt"></i> Quick answer</span>
               <h2>What is the Backend Development course at Codeksha?</h2>
-              <p>The Backend Development course at Codeksha is a 3-month classroom program in Rajkot where you learn one backend language of your choice (PHP, Laravel, CodeIgniter or Node), work with Ajax and jQuery, and use GitHub, a CI/CD pipeline and DevOps to deploy and run your applications.</p>
+              <p>The Backend Development course at Codeksha is a 4-month classroom program in Rajkot. You learn PHP and MySQL, one framework of your choice (Laravel, CodeIgniter or Node.js), REST APIs, Ajax, jQuery and web security, then deploy an API-based capstone app with Linux, CI/CD and Docker basics. Basic HTML/JS knowledge helps.</p>
               <dl class="glance-grid">
-                <div><dt><i class="fa-regular fa-clock"></i> Duration</dt><dd>3 months</dd></div>
+                <div><dt><i class="fa-regular fa-clock"></i> Duration</dt><dd>4 months</dd></div>
+                <div><dt><i class="fa-solid fa-calendar-week"></i> Schedule</dt><dd>About 2 hours a day, 5 days a week</dd></div>
+                <div><dt><i class="fa-solid fa-user-graduate"></i> Who it&#x27;s for</dt><dd>Basic HTML/JS helps</dd></div>
+                <div><dt><i class="fa-solid fa-briefcase"></i> Job role after</dt><dd>Backend / PHP / Laravel Developer</dd></div>
+                <div><dt><i class="fa-solid fa-code-branch"></i> Framework</dt><dd>Laravel, CodeIgniter or Node.js (pick one)</dd></div>
                 <div><dt><i class="fa-solid fa-chalkboard-user"></i> Mode</dt><dd>Live classroom, Rajkot</dd></div>
-                <div><dt><i class="fa-solid fa-signal"></i> Level</dt><dd>Beginner</dd></div>
-                <div><dt><i class="fa-solid fa-sun"></i> Batches</dt><dd>Morning or Evening</dd></div>
-                <div><dt><i class="fa-solid fa-certificate"></i> Certificate</dt><dd>Yes, on completion</dd></div>
-                <div><dt><i class="fa-solid fa-indian-rupee-sign"></i> Fees</dt><dd>Shared by our counsellor</dd></div>
+                <div><dt><i class="fa-solid fa-certificate"></i> Certificate</dt><dd>Codeksha course certificate</dd></div>
               </dl>
             </div>
 
-            <h2>Why Students Choose This Course</h2>
-            <div class="info-card-grid cols-4">
+            <h2>What's Included in Every Codeksha Course</h2>
+            <div class="info-card-grid cols-3 included-grid">
             <div class="info-card">
-              <div class="info-card-icon"><i class="fa-solid fa-calendar-check"></i></div>
-              <h3>3-month program</h3>
-              <p>A focused course you can finish in one term, without losing a year.</p>
+              <div class="info-card-icon"><i class="fa-solid fa-diagram-project"></i></div>
+              <h3>Live projects</h3>
+              <p>Work on real or real-style briefs.</p>
             </div>
             <div class="info-card">
-              <div class="info-card-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
-              <h3>Learn from working developers</h3>
-              <p>Your trainers use these skills on real client work every day.</p>
-            </div>
-            <div class="info-card">
-              <div class="info-card-icon"><i class="fa-solid fa-laptop-code"></i></div>
-              <h3>Hands-on in every class</h3>
-              <p>Short explanations, then practice on real tasks you can show.</p>
+              <div class="info-card-icon"><i class="fa-solid fa-id-card"></i></div>
+              <h3>Portfolio and resume support</h3>
+              <p>Get help building your portfolio and resume.</p>
             </div>
             <div class="info-card">
               <div class="info-card-icon"><i class="fa-solid fa-certificate"></i></div>
-              <h3>Certificate included</h3>
-              <p>Finish with a Codeksha certificate of completion.</p>
+              <h3>Codeksha course certificate</h3>
+              <p>Receive a Codeksha certificate when you finish.</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-briefcase"></i></div>
+              <h3>Internship opportunity</h3>
+              <p>Available for eligible students.</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-comments"></i></div>
+              <h3>Mock interviews and freelancing basics</h3>
+              <p>Practise interviews and learn Upwork, OnlineJobs.ph and LinkedIn.</p>
             </div>
             </div>
 
-            <h2>What You'll Be Able to Do After This Course</h2>
-            <div class="learn-card">
-            <ul class="learn-checklist">
-              <li><i class="fa-solid fa-circle-check"></i> Write server-side code in PHP, Laravel, CodeIgniter or Node</li>
-              <li><i class="fa-solid fa-circle-check"></i> Store and manage data with a database</li>
-              <li><i class="fa-solid fa-circle-check"></i> Build APIs and connect them to the frontend with Ajax and jQuery</li>
-              <li><i class="fa-solid fa-circle-check"></i> Work with Git and GitHub in a team workflow</li>
-              <li><i class="fa-solid fa-circle-check"></i> Automate builds and deployments with a CI/CD pipeline</li>
-              <li><i class="fa-solid fa-circle-check"></i> Deploy and look after an app with DevOps basics</li>
-            </ul>
-            </div>
-
-            <h2>Backend Development Course Curriculum: 6 Modules in 3 Months</h2>
-            <p class="section-intro">Each module mixes a short explanation with hands-on practice in class, so you learn by doing.</p>
+            <h2>Backend Development Curriculum: Month-by-Month Plan (4 months)</h2>
+            <p class="section-intro">The course runs about 2 hours a day, 5 days a week. Here is what you cover, month by month.</p>
             <div class="module-groups">
               <div class="module-grid">
                 <div class="module-card">
-                  <div class="module-head"><span class="module-num">01</span><div><h4>Backend language: PHP, Laravel, CodeIgniter or Node (pick one)</h4><p>Write the server-side logic behind your app.</p></div></div>
-                  <ul class="module-topics"><li>Language fundamentals and project setup</li><li>Routing and MVC structure</li><li>Working with a database (CRUD)</li><li>Forms, validation and sessions</li><li>Authentication and building APIs</li></ul>
+                  <div class="module-head"><span class="module-num">01</span><div><h4>PHP and MySQL</h4><p>Month 1</p></div></div>
+                  <ul class="module-topics"><li>PHP core, OOP, sessions, file handling</li><li>MySQL design, joins, CRUD</li></ul>
                 </div>
                 <div class="module-card">
-                  <div class="module-head"><span class="module-num">02</span><div><h4>Ajax</h4><p>Update pages without reloading them.</p></div></div>
-                  <ul class="module-topics"><li>How asynchronous requests work</li><li>Sending and receiving JSON</li><li>Loading data without a page refresh</li><li>Submitting forms with Ajax</li></ul>
+                  <div class="module-head"><span class="module-num">02</span><div><h4>Framework track: Laravel, CodeIgniter or Node.js (pick one)</h4><p>Month 2</p></div></div>
+                  <ul class="module-topics"><li>MVC, routing, ORM, migrations</li><li>Authentication, roles, validation</li></ul>
                 </div>
                 <div class="module-card">
-                  <div class="module-head"><span class="module-num">03</span><div><h4>jQuery</h4><p>Write less code for common front-end tasks.</p></div></div>
-                  <ul class="module-topics"><li>Selectors and DOM manipulation</li><li>Events and effects</li><li>jQuery Ajax methods</li><li>Using jQuery plugins</li></ul>
+                  <div class="module-head"><span class="module-num">03</span><div><h4>APIs, Ajax and jQuery</h4><p>Month 3</p></div></div>
+                  <ul class="module-topics"><li>REST API build and testing (Postman)</li><li>Ajax and jQuery for dynamic pages</li><li>Security: SQL injection, XSS, CSRF</li><li>Git and GitHub team workflow</li></ul>
                 </div>
                 <div class="module-card">
-                  <div class="module-head"><span class="module-num">04</span><div><h4>GitHub</h4><p>Version control the way real teams work.</p></div></div>
-                  <ul class="module-topics"><li>Git basics: init, add, commit</li><li>Branches and merging</li><li>Pushing to GitHub and pull requests</li><li>Collaborating on a team project</li></ul>
-                </div>
-                <div class="module-card">
-                  <div class="module-head"><span class="module-num">05</span><div><h4>CI-CD Pipeline</h4><p>Ship code automatically and safely.</p></div></div>
-                  <ul class="module-topics"><li>What CI/CD is and why teams use it</li><li>Automated builds and checks</li><li>GitHub Actions workflows</li><li>Auto-deploying to a live server</li></ul>
-                </div>
-                <div class="module-card">
-                  <div class="module-head"><span class="module-num">06</span><div><h4>DevOps</h4><p>Run and look after your app in production.</p></div></div>
-                  <ul class="module-topics"><li>DevOps culture and workflow</li><li>Linux and server basics</li><li>Hosting, domains and SSL</li><li>Deploying and monitoring an app</li></ul>
+                  <div class="module-head"><span class="module-num">04</span><div><h4>DevOps and capstone</h4><p>Month 4</p></div></div>
+                  <ul class="module-topics"><li>Linux, VPS, Nginx/Apache setup</li><li>CI/CD pipeline with GitHub Actions</li><li>Docker basics, logs, backups</li><li>Capstone: API-based app deployed live</li></ul>
                 </div>
               </div>
             </div>
@@ -293,28 +292,39 @@
               <button type="button" class="inline-cta-btn" data-open-lead><i class="fa-solid fa-paper-plane"></i> Get Course Details</button>
             </div>
 
+            <h2>Projects You'll Build</h2>
+            <div class="info-card-grid cols-3 project-grid">
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-diagram-project"></i></div>
+              <h3>REST API</h3>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-diagram-project"></i></div>
+              <h3>Admin panel</h3>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-diagram-project"></i></div>
+              <h3>Deployed capstone app</h3>
+            </div>
+            </div>
+
             <h2>Tools &amp; Technologies You'll Use</h2>
-            <ul class="tool-chips"><li><i class="fa-solid fa-screwdriver-wrench"></i> PHP</li><li><i class="fa-solid fa-screwdriver-wrench"></i> Laravel</li><li><i class="fa-solid fa-screwdriver-wrench"></i> CodeIgniter</li><li><i class="fa-solid fa-screwdriver-wrench"></i> Node</li><li><i class="fa-solid fa-screwdriver-wrench"></i> jQuery</li><li><i class="fa-solid fa-screwdriver-wrench"></i> Git &amp; GitHub</li><li><i class="fa-solid fa-screwdriver-wrench"></i> GitHub Actions</li><li><i class="fa-solid fa-screwdriver-wrench"></i> Linux server</li></ul>
+            <ul class="tool-chips"><li><i class="fa-solid fa-screwdriver-wrench"></i> PHP</li><li><i class="fa-solid fa-screwdriver-wrench"></i> MySQL</li><li><i class="fa-solid fa-screwdriver-wrench"></i> Laravel</li><li><i class="fa-solid fa-screwdriver-wrench"></i> CodeIgniter</li><li><i class="fa-solid fa-screwdriver-wrench"></i> Node.js</li><li><i class="fa-solid fa-screwdriver-wrench"></i> Postman</li><li><i class="fa-solid fa-screwdriver-wrench"></i> Ajax</li><li><i class="fa-solid fa-screwdriver-wrench"></i> jQuery</li><li><i class="fa-solid fa-screwdriver-wrench"></i> Git &amp; GitHub</li><li><i class="fa-solid fa-screwdriver-wrench"></i> Linux</li><li><i class="fa-solid fa-screwdriver-wrench"></i> Nginx / Apache</li><li><i class="fa-solid fa-screwdriver-wrench"></i> GitHub Actions</li><li><i class="fa-solid fa-screwdriver-wrench"></i> Docker</li></ul>
 
-            <h2>Career Paths After the Backend Development Course</h2>
-            <ul class="tool-chips"><li><i class="fa-solid fa-briefcase"></i> Backend Developer</li><li><i class="fa-solid fa-briefcase"></i> PHP / Laravel Developer</li><li><i class="fa-solid fa-briefcase"></i> Node.js Developer</li><li><i class="fa-solid fa-briefcase"></i> API Developer</li><li><i class="fa-solid fa-briefcase"></i> DevOps Trainee</li><li><i class="fa-solid fa-briefcase"></i> Freelance Developer</li></ul>
-
-            <h2>Who This Course Is For &amp; What You'll Need</h2>
+            <h2>Who Is This Course For, and What Job Comes Next?</h2>
             <div class="two-list-grid">
               <div>
-                <h3>Who This Course Is For</h3>
+                <h3>Who It's For</h3>
                 <ul>
-                <li><i class="fa-solid fa-user-check"></i> Students who want to understand how websites work behind the scenes</li>
-                <li><i class="fa-solid fa-user-check"></i> Frontend developers who want to add backend skills</li>
-                <li><i class="fa-solid fa-user-check"></i> Anyone planning to build APIs and data-driven applications</li>
+                <li><i class="fa-solid fa-user-check"></i> Basic HTML/JS helps</li>
                 </ul>
               </div>
               <div>
-                <h3>Requirements</h3>
+                <h3>Job Role After the Course</h3>
                 <ul>
-                <li><i class="fa-solid fa-circle-check"></i> Basic computer skills and logical thinking</li>
-                <li><i class="fa-solid fa-circle-check"></i> Basic HTML is helpful but not required</li>
-                <li><i class="fa-solid fa-circle-check"></i> A laptop for hands-on practice</li>
+                <li><i class="fa-solid fa-briefcase"></i> Backend Developer</li>
+                <li><i class="fa-solid fa-briefcase"></i> PHP Developer</li>
+                <li><i class="fa-solid fa-briefcase"></i> Laravel Developer</li>
                 </ul>
               </div>
             </div>
@@ -329,55 +339,59 @@
             <div class="info-card">
               <div class="info-card-step">2</div>
               <h3>Attend a free demo</h3>
-              <p>Sit in on a real class, meet the trainer and see how the course is taught before you decide.</p>
+              <p>Sit in on a real class and meet the trainer before you decide.</p>
             </div>
             <div class="info-card">
               <div class="info-card-step">3</div>
               <h3>Choose your batch</h3>
-              <p>Pick a Morning or Evening batch that fits around college or work.</p>
+              <p>Pick the batch timing that fits around college or work.</p>
             </div>
             <div class="info-card">
               <div class="info-card-step">4</div>
               <h3>Start learning</h3>
-              <p>Begin with the basics and practise on real tasks from your first week.</p>
+              <p>Begin the course and work on live projects.</p>
             </div>
             </div>
 
             <h2>Backend Development Course Fees, Duration &amp; Batches</h2>
-            <p>The backend course runs for <strong>3 months</strong> of live classroom training at our Rajkot centre, with hands-on practice in every class. You can join a <strong>Morning</strong> or an <strong>Evening</strong> batch, so it fits around college or work.</p>
+            <p>The Backend Development course runs for <strong>4 months</strong> of live classroom training at our Rajkot centre, about <strong>2 hours a day, 5 days a week</strong>. Weekend and fast-track batches can be scaled from the same plan.</p>
             <p>Fees depend on the batch, so our counsellor shares the current fee, batch dates and full syllabus directly. Tap <button type="button" class="link-btn" data-open-lead>Get Course Details</button> or call <a href="tel:+916355559016">+91 63555 59016</a>, with no obligation.</p>
             <p class="related-read"><i class="fa-solid fa-book-open"></i> Keep reading: <a href="/blog/php-backend-training-rajkot/">PHP Backend Training in Rajkot</a></p>
 
             <h2>Frequently Asked Questions</h2>
             <div class="faq-list">
             <div class="faq-item active">
-              <button class="faq-question"><span>How long is the backend development course?</span><i class="fa-solid fa-minus icon"></i></button>
-              <div class="faq-answer"><p>It runs for 3 months of live classroom training at our Rajkot centre, in a Morning or an Evening batch.</p></div>
+              <button class="faq-question"><span>How long is the Backend Development course?</span><i class="fa-solid fa-minus icon"></i></button>
+              <div class="faq-answer"><p>It runs for 4 months of live classroom training in Rajkot, about 2 hours a day, 5 days a week. Weekend and fast-track batches can be scaled from the same plan.</p></div>
             </div>
             <div class="faq-item">
-              <button class="faq-question"><span>Which language should I choose: PHP, Laravel, CodeIgniter or Node?</span><i class="fa-solid fa-plus icon"></i></button>
-              <div class="faq-answer"><p>You pick one. Our trainers help you decide based on your goals and the kind of projects you want to build.</p></div>
+              <button class="faq-question"><span>Do I need any prior knowledge?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>Basic HTML and JavaScript knowledge helps before you join.</p></div>
             </div>
             <div class="faq-item">
-              <button class="faq-question"><span>What is the fee for the backend course?</span><i class="fa-solid fa-plus icon"></i></button>
-              <div class="faq-answer"><p>The fee depends on the batch. Our counsellor shares the current fee and batch dates when you call or send your details, and you can attend a free demo class first.</p></div>
+              <button class="faq-question"><span>Which framework will I learn?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>You pick one of Laravel, CodeIgniter or Node.js, and learn MVC, routing, ORM, migrations, authentication, roles and validation.</p></div>
             </div>
             <div class="faq-item">
-              <button class="faq-question"><span>Will I learn deployment and DevOps?</span><i class="fa-solid fa-plus icon"></i></button>
-              <div class="faq-answer"><p>Yes. You learn GitHub, a CI/CD pipeline and DevOps basics such as Linux servers, hosting, domains and SSL.</p></div>
+              <button class="faq-question"><span>What projects will I build?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>A REST API, an admin panel and a capstone API-based app deployed live.</p></div>
             </div>
             <div class="faq-item">
-              <button class="faq-question"><span>Can a beginner join the backend course?</span><i class="fa-solid fa-plus icon"></i></button>
-              <div class="faq-answer"><p>Yes. Basic HTML helps, but the course explains backend concepts from the start.</p></div>
+              <button class="faq-question"><span>What job can I apply for after the course?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>Backend, PHP or Laravel Developer roles.</p></div>
             </div>
             <div class="faq-item">
-              <button class="faq-question"><span>Do I get a certificate?</span><i class="fa-solid fa-plus icon"></i></button>
-              <div class="faq-answer"><p>Yes, you receive a certificate of completion from Codeksha.</p></div>
+              <button class="faq-question"><span>What is included in the Backend Development course?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>Every Codeksha course includes live projects on real or real-style briefs, portfolio and resume support, a Codeksha course certificate, an internship opportunity for eligible students, and mock interviews with freelancing basics (Upwork, OnlineJobs.ph, LinkedIn).</p></div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question"><span>What is the fee for the Backend Development course?</span><i class="fa-solid fa-plus icon"></i></button>
+              <div class="faq-answer"><p>The fee depends on the batch you join. Our counsellor shares the current fee and batch dates when you call or send your details, and you can attend a free demo class first.</p></div>
             </div>
             </div>
 
             <div class="course-cta-band">
-              <h2>Ready to Start Your Backend Development Journey in Rajkot?</h2>
+              <h2>Ready to Start the Backend Development Course in Rajkot?</h2>
               <p>Get the syllabus, fees and batch timings on a quick call, or book a free demo class first. No cost, no commitment.</p>
               <div class="cta-row">
                 <button type="button" class="cta-btn" data-open-lead><i class="fa-solid fa-paper-plane"></i> Get Course Details</button>
@@ -392,9 +406,9 @@
               <div class="course-sidebar-body">
                 <ul class="course-meta-list">
                 <li>Delivery <strong>Live classroom</strong></li>
-                <li>Level <strong>Beginner</strong></li>
-                <li>Duration <strong>3 months</strong></li>
-                <li>Batches <strong>Morning / Evening</strong></li>
+                <li>Duration <strong>4 months</strong></li>
+                <li>Schedule <strong>2 hrs/day, 5 days/week</strong></li>
+                <li>Level <strong>Beginner to intermediate</strong></li>
                 <li>Certificate <strong>Yes</strong></li>
                 <li>Language <strong>English</strong></li>
               </ul>
@@ -433,9 +447,9 @@
             <span class="course-tile-cat">Web Development</span>
             <h3>Full Stack Web Development</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 30 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 5 months</span>
             </div>
-            <p>Learn HTML, CSS, JavaScript and Bootstrap, then a backend with PHP, Laravel, CodeIgniter or Node, plus GitHub, CI/CD and DevOps.</p>
+            <p>HTML, CSS, Bootstrap, JavaScript, PHP, MySQL, a framework of your choice, DevOps and a live capstone.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/full-stack-web-development/" class="course-tile-link">View course &rarr;</a>
@@ -444,11 +458,11 @@
           <div class="course-tile">
             <div class="course-tile-icon"><i class="fa-solid fa-palette"></i></div>
             <span class="course-tile-cat">Web Development</span>
-            <h3>Frontend Development</h3>
+            <h3>Frontend Development with CMS</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 30 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
             </div>
-            <p>Learn HTML, CSS, JavaScript and Bootstrap, plus one CMS of your choice, GitHub and a CI/CD pipeline.</p>
+            <p>HTML, CSS, Bootstrap, JavaScript, GitHub and one CMS: WordPress, Shopify, Webflow or Wix.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/frontend-development/" class="course-tile-link">View course &rarr;</a>
@@ -457,11 +471,11 @@
           <div class="course-tile">
             <div class="course-tile-icon"><i class="fa-solid fa-robot"></i></div>
             <span class="course-tile-cat">AI &amp; Automation</span>
-            <h3>AI &amp; Automation</h3>
+            <h3>AI Automation &amp; AI Agents</h3>
             <div class="course-tile-meta">
-              <span><i class="fa-solid fa-book"></i> 30 lessons</span>
+              <span><i class="fa-regular fa-clock"></i> 3 months</span>
             </div>
-            <p>Learn AI tools, prompt engineering, n8n, Zapier and Make.com workflows, AI agents and business automation.</p>
+            <p>AI tools, prompt engineering, n8n, Zapier and Make.com workflows, AI agents and business automation.</p>
             <div class="course-tile-footer">
               <span class="course-tile-tag">Beginner</span>
               <a href="/course/ai-automation/" class="course-tile-link">View course &rarr;</a>
